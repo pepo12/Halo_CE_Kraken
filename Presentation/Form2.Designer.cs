@@ -146,117 +146,141 @@
             PnlFontOver = new Panel();
             LbFontOverDesc = new Label();
             LbFontOver = new Label();
-            checkBox2 = new CheckBox();
-            label2 = new Label();
+            CbFontOverEnabled = new CheckBox();
+            LbFontOverEnabled = new Label();
+            LbSystemFW = new Label();
+            LbSystemFF = new Label();
+            TbxSystemFW = new TextBox();
+            CbSystemFO = new CheckBox();
+            TbxSystemFF = new TextBox();
+            LbSystemFO = new Label();
+            LbSystemFS = new Label();
+            TbxSystemFS = new TextBox();
+            LbSystemXY = new Label();
+            TbxSystemXO = new TextBox();
+            TbxSystemSh = new Label();
+            TbxSystemSX = new TextBox();
+            TbxSystemSY = new TextBox();
+            TbxSystemYO = new TextBox();
+            TbxLargeSY = new TextBox();
+            TbxLargeYO = new TextBox();
+            LbLargeSh = new Label();
+            TbxLargeSX = new TextBox();
+            LbLargeXY = new Label();
+            TbxLargeXO = new TextBox();
+            LbLargeFS = new Label();
+            TbxLargeFS = new TextBox();
+            LbLargeFW = new Label();
+            LbLargeFF = new Label();
+            TbxLargeFW = new TextBox();
+            CbLargeFO = new CheckBox();
+            TbxLargeFF = new TextBox();
+            LbLargeFO = new Label();
+            TbxSmallSY = new TextBox();
+            TbxSmallYO = new TextBox();
+            LbSmallSh = new Label();
+            TbxSmallSX = new TextBox();
+            label15 = new Label();
+            TbxSmallXO = new TextBox();
+            LbSmallFS = new Label();
+            TbxSmallFS = new TextBox();
+            LbSmallFW = new Label();
+            LbSmallFF = new Label();
+            TbxSmallFW = new TextBox();
+            CbSmallFO = new CheckBox();
+            TbxSmallFF = new TextBox();
+            LbSmallFO = new Label();
+            TbxSmallerSY = new TextBox();
+            TbxSmallerYO = new TextBox();
+            LbSmallerSh = new Label();
+            TbxSmallerSX = new TextBox();
+            LbSmallerXY = new Label();
+            TbxSmallerXO = new TextBox();
+            LbSmallerFS = new Label();
+            TbxSmallerFS = new TextBox();
+            LbSmallerFW = new Label();
+            LbSmallerFF = new Label();
+            TbxSmallerFW = new TextBox();
+            CbSmallerFO = new CheckBox();
+            TbxSmallerFF = new TextBox();
+            LbSmallerFO = new Label();
+            TbxTickerSY = new TextBox();
+            TbxTickerYO = new TextBox();
+            LbTickerSh = new Label();
+            TbxTickerSX = new TextBox();
+            LbTickerXY = new Label();
+            TbxTickerXO = new TextBox();
+            LbTickerFS = new Label();
+            TbxTickerFS = new TextBox();
+            LbTickerFW = new Label();
+            LbTickerFF = new Label();
+            TbxTickerFW = new TextBox();
+            CbTickerFO = new CheckBox();
+            TbxTickerFF = new TextBox();
+            LbTickerFO = new Label();
+            TbxConsoleSY = new TextBox();
+            TbxConsoleYO = new TextBox();
+            LbConsoleSh = new Label();
+            TbxConsoleSX = new TextBox();
+            TbxConsoleXY = new Label();
+            TbxConsoleXO = new TextBox();
+            LbConsoleFS = new Label();
+            TbxConsoleFS = new TextBox();
+            LbConsoleFW = new Label();
+            LbConsoleFF = new Label();
+            TbxConsoleFW = new TextBox();
+            CbConsoleFO = new CheckBox();
+            TbxConsoleFF = new TextBox();
+            LbConsoleFO = new Label();
+            CbControllerEnabled = new CheckBox();
+            LbControllerEnabled = new Label();
+            PnlController = new Panel();
+            LbControllerDesc = new Label();
+            LbController = new Label();
+            CbCustomCEnabled = new CheckBox();
+            LbCustomCEnabled = new Label();
+            PnlCustomC = new Panel();
+            LbCustomCDesc = new Label();
+            LbCustomC = new Label();
+            TbxControllerConfig = new TextBox();
+            CbScrollback = new CheckBox();
+            LbScrollback = new Label();
+            TbxConsoleBuffer = new TextBox();
+            LbConsoleBuffer = new Label();
+            TbxConsoleSoft = new TextBox();
+            LbConsoleSoft = new Label();
+            TbxLineHeight = new TextBox();
+            LbLineHeight = new Label();
+            TbxXMargin = new TextBox();
+            LbXMargin = new Label();
+            TbxCFadeStart = new TextBox();
+            LbCFadeStart = new Label();
+            TbxCFadeTime = new TextBox();
+            LbCFadeTime = new Label();
+            panel1 = new Panel();
             label1 = new Label();
-            label3 = new Label();
-            textBox1 = new TextBox();
+            label2 = new Label();
             checkBox1 = new CheckBox();
-            textBox2 = new TextBox();
+            label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            textBox3 = new TextBox();
             label6 = new Label();
-            textBox4 = new TextBox();
             label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            label16 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
             textBox5 = new TextBox();
             textBox6 = new TextBox();
             textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            label8 = new Label();
-            textBox10 = new TextBox();
-            label9 = new Label();
-            textBox11 = new TextBox();
-            label10 = new Label();
-            textBox12 = new TextBox();
-            label11 = new Label();
-            label12 = new Label();
-            textBox13 = new TextBox();
-            checkBox3 = new CheckBox();
-            textBox14 = new TextBox();
-            label13 = new Label();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            label14 = new Label();
-            textBox17 = new TextBox();
-            label15 = new Label();
-            textBox18 = new TextBox();
-            label16 = new Label();
-            textBox19 = new TextBox();
-            label17 = new Label();
-            label18 = new Label();
-            textBox20 = new TextBox();
-            checkBox4 = new CheckBox();
-            textBox21 = new TextBox();
-            label19 = new Label();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            label20 = new Label();
-            textBox24 = new TextBox();
-            label21 = new Label();
-            textBox25 = new TextBox();
-            label22 = new Label();
-            textBox26 = new TextBox();
-            label23 = new Label();
-            label24 = new Label();
-            textBox27 = new TextBox();
-            checkBox5 = new CheckBox();
-            textBox28 = new TextBox();
-            label25 = new Label();
-            textBox29 = new TextBox();
-            textBox30 = new TextBox();
-            label26 = new Label();
-            textBox31 = new TextBox();
-            label27 = new Label();
-            textBox32 = new TextBox();
-            label28 = new Label();
-            textBox33 = new TextBox();
-            label29 = new Label();
-            label30 = new Label();
-            textBox34 = new TextBox();
-            checkBox6 = new CheckBox();
-            textBox35 = new TextBox();
-            label31 = new Label();
-            textBox36 = new TextBox();
-            textBox37 = new TextBox();
-            label32 = new Label();
-            textBox38 = new TextBox();
-            label33 = new Label();
-            textBox39 = new TextBox();
-            label34 = new Label();
-            textBox40 = new TextBox();
-            label35 = new Label();
-            label36 = new Label();
-            textBox41 = new TextBox();
-            checkBox7 = new CheckBox();
-            textBox42 = new TextBox();
-            label37 = new Label();
-            checkBox8 = new CheckBox();
-            label38 = new Label();
-            panel1 = new Panel();
-            label39 = new Label();
-            label40 = new Label();
-            checkBox9 = new CheckBox();
-            label41 = new Label();
-            panel3 = new Panel();
-            label42 = new Label();
-            label43 = new Label();
-            textBox43 = new TextBox();
-            checkBox10 = new CheckBox();
-            label44 = new Label();
-            textBox44 = new TextBox();
-            label45 = new Label();
-            textBox45 = new TextBox();
-            label46 = new Label();
-            textBox46 = new TextBox();
-            label47 = new Label();
-            textBox47 = new TextBox();
-            label48 = new Label();
-            textBox48 = new TextBox();
-            label49 = new Label();
-            textBox49 = new TextBox();
-            label50 = new Label();
             PnlHalo.SuspendLayout();
             PnlErrorHand.SuspendLayout();
             PnlVideoMode.SuspendLayout();
@@ -265,8 +289,9 @@
             PnlServerList.SuspendLayout();
             PnlMemory.SuspendLayout();
             PnlFontOver.SuspendLayout();
+            PnlController.SuspendLayout();
+            PnlCustomC.SuspendLayout();
             panel1.SuspendLayout();
-            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // PnlHalo
@@ -304,7 +329,7 @@
             VSBEditor.Dock = DockStyle.Right;
             VSBEditor.Location = new Point(604, 0);
             VSBEditor.Name = "VSBEditor";
-            VSBEditor.Size = new Size(17, 4063);
+            VSBEditor.Size = new Size(17, 4294);
             VSBEditor.TabIndex = 1;
             // 
             // LbPath
@@ -751,7 +776,7 @@
             // 
             panel2.BackColor = SystemColors.ControlLight;
             panel2.BorderStyle = BorderStyle.Fixed3D;
-            panel2.Location = new Point(36, 4000);
+            panel2.Location = new Point(36, 4231);
             panel2.Margin = new Padding(3, 38, 3, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(543, 63);
@@ -1389,308 +1414,308 @@
             LbFontOver.TabIndex = 0;
             LbFontOver.Text = "font override";
             // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(180, 1809);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(15, 14);
-            checkBox2.TabIndex = 120;
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(14, 1807);
-            label2.Margin = new Padding(8, 8, 8, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(49, 15);
-            label2.TabIndex = 119;
-            label2.Text = "enabled";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(333, 1861);
-            label1.Margin = new Padding(4, 12, 8, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(68, 15);
-            label1.TabIndex = 126;
-            label1.Text = "font weight";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(333, 1834);
-            label3.Margin = new Padding(4, 12, 8, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(65, 15);
-            label3.TabIndex = 125;
-            label3.Text = "font family";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(201, 1858);
-            textBox1.Margin = new Padding(3, 3, 10, 3);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(118, 23);
-            textBox1.TabIndex = 124;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(180, 1836);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(15, 14);
-            checkBox1.TabIndex = 123;
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(201, 1831);
-            textBox2.Margin = new Padding(3, 3, 10, 3);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(118, 23);
-            textBox2.TabIndex = 122;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(14, 1834);
-            label4.Margin = new Padding(8, 12, 8, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(115, 15);
-            label4.TabIndex = 121;
-            label4.Text = "system font override";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(333, 1888);
-            label5.Margin = new Padding(4, 12, 8, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(51, 15);
-            label5.TabIndex = 128;
-            label5.Text = "font size";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(201, 1885);
-            textBox3.Margin = new Padding(3, 3, 10, 3);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(118, 23);
-            textBox3.TabIndex = 127;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(333, 1915);
-            label6.Margin = new Padding(4, 12, 8, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(57, 15);
-            label6.TabIndex = 130;
-            label6.Text = "xy offsets";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(201, 1912);
-            textBox4.Margin = new Padding(3, 3, 10, 3);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(50, 23);
-            textBox4.TabIndex = 129;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(333, 1942);
-            label7.Margin = new Padding(4, 12, 8, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(81, 15);
-            label7.TabIndex = 132;
-            label7.Text = "shadow offset";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(201, 1939);
-            textBox5.Margin = new Padding(3, 3, 10, 3);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(50, 23);
-            textBox5.TabIndex = 131;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(269, 1939);
-            textBox6.Margin = new Padding(3, 3, 10, 3);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(50, 23);
-            textBox6.TabIndex = 134;
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(269, 1912);
-            textBox7.Margin = new Padding(3, 3, 10, 3);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(50, 23);
-            textBox7.TabIndex = 133;
-            // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(269, 2074);
-            textBox8.Margin = new Padding(3, 3, 10, 3);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(50, 23);
-            textBox8.TabIndex = 148;
-            // 
-            // textBox9
-            // 
-            textBox9.Location = new Point(269, 2047);
-            textBox9.Margin = new Padding(3, 3, 10, 3);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(50, 23);
-            textBox9.TabIndex = 147;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(333, 2077);
-            label8.Margin = new Padding(4, 12, 8, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(81, 15);
-            label8.TabIndex = 146;
-            label8.Text = "shadow offset";
-            // 
-            // textBox10
-            // 
-            textBox10.Location = new Point(201, 2074);
-            textBox10.Margin = new Padding(3, 3, 10, 3);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(50, 23);
-            textBox10.TabIndex = 145;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(333, 2050);
-            label9.Margin = new Padding(4, 12, 8, 0);
-            label9.Name = "label9";
-            label9.Size = new Size(57, 15);
-            label9.TabIndex = 144;
-            label9.Text = "xy offsets";
-            // 
-            // textBox11
-            // 
-            textBox11.Location = new Point(201, 2047);
-            textBox11.Margin = new Padding(3, 3, 10, 3);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(50, 23);
-            textBox11.TabIndex = 143;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(333, 2023);
-            label10.Margin = new Padding(4, 12, 8, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(51, 15);
-            label10.TabIndex = 142;
-            label10.Text = "font size";
-            // 
-            // textBox12
-            // 
-            textBox12.Location = new Point(201, 2020);
-            textBox12.Margin = new Padding(3, 3, 10, 3);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(118, 23);
-            textBox12.TabIndex = 141;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(333, 1996);
-            label11.Margin = new Padding(4, 12, 8, 0);
-            label11.Name = "label11";
-            label11.Size = new Size(68, 15);
-            label11.TabIndex = 140;
-            label11.Text = "font weight";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(333, 1969);
-            label12.Margin = new Padding(4, 12, 8, 0);
-            label12.Name = "label12";
-            label12.Size = new Size(65, 15);
-            label12.TabIndex = 139;
-            label12.Text = "font family";
-            // 
-            // textBox13
-            // 
-            textBox13.Location = new Point(201, 1993);
-            textBox13.Margin = new Padding(3, 3, 10, 3);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(118, 23);
-            textBox13.TabIndex = 138;
-            // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(180, 1971);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(15, 14);
-            checkBox3.TabIndex = 137;
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // textBox14
-            // 
-            textBox14.Location = new Point(201, 1966);
-            textBox14.Margin = new Padding(3, 3, 10, 3);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(118, 23);
-            textBox14.TabIndex = 136;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(14, 1969);
-            label13.Margin = new Padding(8, 12, 8, 0);
-            label13.Name = "label13";
-            label13.Size = new Size(104, 15);
-            label13.TabIndex = 135;
-            label13.Text = "large font override";
-            // 
-            // textBox15
-            // 
-            textBox15.Location = new Point(269, 2209);
-            textBox15.Margin = new Padding(3, 3, 10, 3);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(50, 23);
-            textBox15.TabIndex = 162;
-            // 
-            // textBox16
-            // 
-            textBox16.Location = new Point(269, 2182);
-            textBox16.Margin = new Padding(3, 3, 10, 3);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(50, 23);
-            textBox16.TabIndex = 161;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(333, 2212);
-            label14.Margin = new Padding(4, 12, 8, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(81, 15);
-            label14.TabIndex = 160;
-            label14.Text = "shadow offset";
-            // 
-            // textBox17
-            // 
-            textBox17.Location = new Point(201, 2209);
-            textBox17.Margin = new Padding(3, 3, 10, 3);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(50, 23);
-            textBox17.TabIndex = 159;
+            // CbFontOverEnabled
+            // 
+            CbFontOverEnabled.AutoSize = true;
+            CbFontOverEnabled.Location = new Point(180, 1809);
+            CbFontOverEnabled.Name = "CbFontOverEnabled";
+            CbFontOverEnabled.Size = new Size(15, 14);
+            CbFontOverEnabled.TabIndex = 120;
+            CbFontOverEnabled.UseVisualStyleBackColor = true;
+            // 
+            // LbFontOverEnabled
+            // 
+            LbFontOverEnabled.AutoSize = true;
+            LbFontOverEnabled.Location = new Point(14, 1807);
+            LbFontOverEnabled.Margin = new Padding(8, 8, 8, 0);
+            LbFontOverEnabled.Name = "LbFontOverEnabled";
+            LbFontOverEnabled.Size = new Size(49, 15);
+            LbFontOverEnabled.TabIndex = 119;
+            LbFontOverEnabled.Text = "enabled";
+            // 
+            // LbSystemFW
+            // 
+            LbSystemFW.AutoSize = true;
+            LbSystemFW.Location = new Point(333, 1861);
+            LbSystemFW.Margin = new Padding(4, 12, 8, 0);
+            LbSystemFW.Name = "LbSystemFW";
+            LbSystemFW.Size = new Size(68, 15);
+            LbSystemFW.TabIndex = 126;
+            LbSystemFW.Text = "font weight";
+            // 
+            // LbSystemFF
+            // 
+            LbSystemFF.AutoSize = true;
+            LbSystemFF.Location = new Point(333, 1834);
+            LbSystemFF.Margin = new Padding(4, 12, 8, 0);
+            LbSystemFF.Name = "LbSystemFF";
+            LbSystemFF.Size = new Size(65, 15);
+            LbSystemFF.TabIndex = 125;
+            LbSystemFF.Text = "font family";
+            // 
+            // TbxSystemFW
+            // 
+            TbxSystemFW.Location = new Point(201, 1858);
+            TbxSystemFW.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemFW.Name = "TbxSystemFW";
+            TbxSystemFW.Size = new Size(118, 23);
+            TbxSystemFW.TabIndex = 124;
+            // 
+            // CbSystemFO
+            // 
+            CbSystemFO.AutoSize = true;
+            CbSystemFO.Location = new Point(180, 1836);
+            CbSystemFO.Name = "CbSystemFO";
+            CbSystemFO.Size = new Size(15, 14);
+            CbSystemFO.TabIndex = 123;
+            CbSystemFO.UseVisualStyleBackColor = true;
+            // 
+            // TbxSystemFF
+            // 
+            TbxSystemFF.Location = new Point(201, 1831);
+            TbxSystemFF.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemFF.Name = "TbxSystemFF";
+            TbxSystemFF.Size = new Size(118, 23);
+            TbxSystemFF.TabIndex = 122;
+            // 
+            // LbSystemFO
+            // 
+            LbSystemFO.AutoSize = true;
+            LbSystemFO.Location = new Point(14, 1834);
+            LbSystemFO.Margin = new Padding(8, 12, 8, 0);
+            LbSystemFO.Name = "LbSystemFO";
+            LbSystemFO.Size = new Size(115, 15);
+            LbSystemFO.TabIndex = 121;
+            LbSystemFO.Text = "system font override";
+            // 
+            // LbSystemFS
+            // 
+            LbSystemFS.AutoSize = true;
+            LbSystemFS.Location = new Point(333, 1888);
+            LbSystemFS.Margin = new Padding(4, 12, 8, 0);
+            LbSystemFS.Name = "LbSystemFS";
+            LbSystemFS.Size = new Size(51, 15);
+            LbSystemFS.TabIndex = 128;
+            LbSystemFS.Text = "font size";
+            // 
+            // TbxSystemFS
+            // 
+            TbxSystemFS.Location = new Point(201, 1885);
+            TbxSystemFS.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemFS.Name = "TbxSystemFS";
+            TbxSystemFS.Size = new Size(118, 23);
+            TbxSystemFS.TabIndex = 127;
+            // 
+            // LbSystemXY
+            // 
+            LbSystemXY.AutoSize = true;
+            LbSystemXY.Location = new Point(333, 1915);
+            LbSystemXY.Margin = new Padding(4, 12, 8, 0);
+            LbSystemXY.Name = "LbSystemXY";
+            LbSystemXY.Size = new Size(57, 15);
+            LbSystemXY.TabIndex = 130;
+            LbSystemXY.Text = "xy offsets";
+            // 
+            // TbxSystemXO
+            // 
+            TbxSystemXO.Location = new Point(201, 1912);
+            TbxSystemXO.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemXO.Name = "TbxSystemXO";
+            TbxSystemXO.Size = new Size(50, 23);
+            TbxSystemXO.TabIndex = 129;
+            // 
+            // TbxSystemSh
+            // 
+            TbxSystemSh.AutoSize = true;
+            TbxSystemSh.Location = new Point(333, 1942);
+            TbxSystemSh.Margin = new Padding(4, 12, 8, 0);
+            TbxSystemSh.Name = "TbxSystemSh";
+            TbxSystemSh.Size = new Size(81, 15);
+            TbxSystemSh.TabIndex = 132;
+            TbxSystemSh.Text = "shadow offset";
+            // 
+            // TbxSystemSX
+            // 
+            TbxSystemSX.Location = new Point(201, 1939);
+            TbxSystemSX.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemSX.Name = "TbxSystemSX";
+            TbxSystemSX.Size = new Size(50, 23);
+            TbxSystemSX.TabIndex = 131;
+            // 
+            // TbxSystemSY
+            // 
+            TbxSystemSY.Location = new Point(269, 1939);
+            TbxSystemSY.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemSY.Name = "TbxSystemSY";
+            TbxSystemSY.Size = new Size(50, 23);
+            TbxSystemSY.TabIndex = 134;
+            // 
+            // TbxSystemYO
+            // 
+            TbxSystemYO.Location = new Point(269, 1912);
+            TbxSystemYO.Margin = new Padding(3, 3, 10, 3);
+            TbxSystemYO.Name = "TbxSystemYO";
+            TbxSystemYO.Size = new Size(50, 23);
+            TbxSystemYO.TabIndex = 133;
+            // 
+            // TbxLargeSY
+            // 
+            TbxLargeSY.Location = new Point(269, 2074);
+            TbxLargeSY.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeSY.Name = "TbxLargeSY";
+            TbxLargeSY.Size = new Size(50, 23);
+            TbxLargeSY.TabIndex = 148;
+            // 
+            // TbxLargeYO
+            // 
+            TbxLargeYO.Location = new Point(269, 2047);
+            TbxLargeYO.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeYO.Name = "TbxLargeYO";
+            TbxLargeYO.Size = new Size(50, 23);
+            TbxLargeYO.TabIndex = 147;
+            // 
+            // LbLargeSh
+            // 
+            LbLargeSh.AutoSize = true;
+            LbLargeSh.Location = new Point(333, 2077);
+            LbLargeSh.Margin = new Padding(4, 12, 8, 0);
+            LbLargeSh.Name = "LbLargeSh";
+            LbLargeSh.Size = new Size(81, 15);
+            LbLargeSh.TabIndex = 146;
+            LbLargeSh.Text = "shadow offset";
+            // 
+            // TbxLargeSX
+            // 
+            TbxLargeSX.Location = new Point(201, 2074);
+            TbxLargeSX.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeSX.Name = "TbxLargeSX";
+            TbxLargeSX.Size = new Size(50, 23);
+            TbxLargeSX.TabIndex = 145;
+            // 
+            // LbLargeXY
+            // 
+            LbLargeXY.AutoSize = true;
+            LbLargeXY.Location = new Point(333, 2050);
+            LbLargeXY.Margin = new Padding(4, 12, 8, 0);
+            LbLargeXY.Name = "LbLargeXY";
+            LbLargeXY.Size = new Size(57, 15);
+            LbLargeXY.TabIndex = 144;
+            LbLargeXY.Text = "xy offsets";
+            // 
+            // TbxLargeXO
+            // 
+            TbxLargeXO.Location = new Point(201, 2047);
+            TbxLargeXO.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeXO.Name = "TbxLargeXO";
+            TbxLargeXO.Size = new Size(50, 23);
+            TbxLargeXO.TabIndex = 143;
+            // 
+            // LbLargeFS
+            // 
+            LbLargeFS.AutoSize = true;
+            LbLargeFS.Location = new Point(333, 2023);
+            LbLargeFS.Margin = new Padding(4, 12, 8, 0);
+            LbLargeFS.Name = "LbLargeFS";
+            LbLargeFS.Size = new Size(51, 15);
+            LbLargeFS.TabIndex = 142;
+            LbLargeFS.Text = "font size";
+            // 
+            // TbxLargeFS
+            // 
+            TbxLargeFS.Location = new Point(201, 2020);
+            TbxLargeFS.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeFS.Name = "TbxLargeFS";
+            TbxLargeFS.Size = new Size(118, 23);
+            TbxLargeFS.TabIndex = 141;
+            // 
+            // LbLargeFW
+            // 
+            LbLargeFW.AutoSize = true;
+            LbLargeFW.Location = new Point(333, 1996);
+            LbLargeFW.Margin = new Padding(4, 12, 8, 0);
+            LbLargeFW.Name = "LbLargeFW";
+            LbLargeFW.Size = new Size(68, 15);
+            LbLargeFW.TabIndex = 140;
+            LbLargeFW.Text = "font weight";
+            // 
+            // LbLargeFF
+            // 
+            LbLargeFF.AutoSize = true;
+            LbLargeFF.Location = new Point(333, 1969);
+            LbLargeFF.Margin = new Padding(4, 12, 8, 0);
+            LbLargeFF.Name = "LbLargeFF";
+            LbLargeFF.Size = new Size(65, 15);
+            LbLargeFF.TabIndex = 139;
+            LbLargeFF.Text = "font family";
+            // 
+            // TbxLargeFW
+            // 
+            TbxLargeFW.Location = new Point(201, 1993);
+            TbxLargeFW.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeFW.Name = "TbxLargeFW";
+            TbxLargeFW.Size = new Size(118, 23);
+            TbxLargeFW.TabIndex = 138;
+            // 
+            // CbLargeFO
+            // 
+            CbLargeFO.AutoSize = true;
+            CbLargeFO.Location = new Point(180, 1971);
+            CbLargeFO.Name = "CbLargeFO";
+            CbLargeFO.Size = new Size(15, 14);
+            CbLargeFO.TabIndex = 137;
+            CbLargeFO.UseVisualStyleBackColor = true;
+            // 
+            // TbxLargeFF
+            // 
+            TbxLargeFF.Location = new Point(201, 1966);
+            TbxLargeFF.Margin = new Padding(3, 3, 10, 3);
+            TbxLargeFF.Name = "TbxLargeFF";
+            TbxLargeFF.Size = new Size(118, 23);
+            TbxLargeFF.TabIndex = 136;
+            // 
+            // LbLargeFO
+            // 
+            LbLargeFO.AutoSize = true;
+            LbLargeFO.Location = new Point(14, 1969);
+            LbLargeFO.Margin = new Padding(8, 12, 8, 0);
+            LbLargeFO.Name = "LbLargeFO";
+            LbLargeFO.Size = new Size(104, 15);
+            LbLargeFO.TabIndex = 135;
+            LbLargeFO.Text = "large font override";
+            // 
+            // TbxSmallSY
+            // 
+            TbxSmallSY.Location = new Point(269, 2209);
+            TbxSmallSY.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallSY.Name = "TbxSmallSY";
+            TbxSmallSY.Size = new Size(50, 23);
+            TbxSmallSY.TabIndex = 162;
+            // 
+            // TbxSmallYO
+            // 
+            TbxSmallYO.Location = new Point(269, 2182);
+            TbxSmallYO.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallYO.Name = "TbxSmallYO";
+            TbxSmallYO.Size = new Size(50, 23);
+            TbxSmallYO.TabIndex = 161;
+            // 
+            // LbSmallSh
+            // 
+            LbSmallSh.AutoSize = true;
+            LbSmallSh.Location = new Point(333, 2212);
+            LbSmallSh.Margin = new Padding(4, 12, 8, 0);
+            LbSmallSh.Name = "LbSmallSh";
+            LbSmallSh.Size = new Size(81, 15);
+            LbSmallSh.TabIndex = 160;
+            LbSmallSh.Text = "shadow offset";
+            // 
+            // TbxSmallSX
+            // 
+            TbxSmallSX.Location = new Point(201, 2209);
+            TbxSmallSX.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallSX.Name = "TbxSmallSX";
+            TbxSmallSX.Size = new Size(50, 23);
+            TbxSmallSX.TabIndex = 159;
             // 
             // label15
             // 
@@ -1702,695 +1727,921 @@
             label15.TabIndex = 158;
             label15.Text = "xy offsets";
             // 
-            // textBox18
-            // 
-            textBox18.Location = new Point(201, 2182);
-            textBox18.Margin = new Padding(3, 3, 10, 3);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(50, 23);
-            textBox18.TabIndex = 157;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(333, 2158);
-            label16.Margin = new Padding(4, 12, 8, 0);
-            label16.Name = "label16";
-            label16.Size = new Size(51, 15);
-            label16.TabIndex = 156;
-            label16.Text = "font size";
-            // 
-            // textBox19
-            // 
-            textBox19.Location = new Point(201, 2155);
-            textBox19.Margin = new Padding(3, 3, 10, 3);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(118, 23);
-            textBox19.TabIndex = 155;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(333, 2131);
-            label17.Margin = new Padding(4, 12, 8, 0);
-            label17.Name = "label17";
-            label17.Size = new Size(68, 15);
-            label17.TabIndex = 154;
-            label17.Text = "font weight";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(333, 2104);
-            label18.Margin = new Padding(4, 12, 8, 0);
-            label18.Name = "label18";
-            label18.Size = new Size(65, 15);
-            label18.TabIndex = 153;
-            label18.Text = "font family";
-            // 
-            // textBox20
-            // 
-            textBox20.Location = new Point(201, 2128);
-            textBox20.Margin = new Padding(3, 3, 10, 3);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(118, 23);
-            textBox20.TabIndex = 152;
-            // 
-            // checkBox4
-            // 
-            checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(180, 2106);
-            checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(15, 14);
-            checkBox4.TabIndex = 151;
-            checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // textBox21
-            // 
-            textBox21.Location = new Point(201, 2101);
-            textBox21.Margin = new Padding(3, 3, 10, 3);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(118, 23);
-            textBox21.TabIndex = 150;
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(14, 2104);
-            label19.Margin = new Padding(8, 12, 8, 0);
-            label19.Name = "label19";
-            label19.Size = new Size(106, 15);
-            label19.TabIndex = 149;
-            label19.Text = "small font override";
-            // 
-            // textBox22
-            // 
-            textBox22.Location = new Point(269, 2344);
-            textBox22.Margin = new Padding(3, 3, 10, 3);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(50, 23);
-            textBox22.TabIndex = 176;
-            // 
-            // textBox23
-            // 
-            textBox23.Location = new Point(269, 2317);
-            textBox23.Margin = new Padding(3, 3, 10, 3);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(50, 23);
-            textBox23.TabIndex = 175;
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Location = new Point(333, 2347);
-            label20.Margin = new Padding(4, 12, 8, 0);
-            label20.Name = "label20";
-            label20.Size = new Size(81, 15);
-            label20.TabIndex = 174;
-            label20.Text = "shadow offset";
-            // 
-            // textBox24
-            // 
-            textBox24.Location = new Point(201, 2344);
-            textBox24.Margin = new Padding(3, 3, 10, 3);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(50, 23);
-            textBox24.TabIndex = 173;
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(333, 2320);
-            label21.Margin = new Padding(4, 12, 8, 0);
-            label21.Name = "label21";
-            label21.Size = new Size(57, 15);
-            label21.TabIndex = 172;
-            label21.Text = "xy offsets";
-            // 
-            // textBox25
-            // 
-            textBox25.Location = new Point(201, 2317);
-            textBox25.Margin = new Padding(3, 3, 10, 3);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(50, 23);
-            textBox25.TabIndex = 171;
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(333, 2293);
-            label22.Margin = new Padding(4, 12, 8, 0);
-            label22.Name = "label22";
-            label22.Size = new Size(51, 15);
-            label22.TabIndex = 170;
-            label22.Text = "font size";
-            // 
-            // textBox26
-            // 
-            textBox26.Location = new Point(201, 2290);
-            textBox26.Margin = new Padding(3, 3, 10, 3);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(118, 23);
-            textBox26.TabIndex = 169;
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(333, 2266);
-            label23.Margin = new Padding(4, 12, 8, 0);
-            label23.Name = "label23";
-            label23.Size = new Size(68, 15);
-            label23.TabIndex = 168;
-            label23.Text = "font weight";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Location = new Point(333, 2239);
-            label24.Margin = new Padding(4, 12, 8, 0);
-            label24.Name = "label24";
-            label24.Size = new Size(65, 15);
-            label24.TabIndex = 167;
-            label24.Text = "font family";
-            // 
-            // textBox27
-            // 
-            textBox27.Location = new Point(201, 2263);
-            textBox27.Margin = new Padding(3, 3, 10, 3);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(118, 23);
-            textBox27.TabIndex = 166;
-            // 
-            // checkBox5
-            // 
-            checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(180, 2241);
-            checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(15, 14);
-            checkBox5.TabIndex = 165;
-            checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // textBox28
-            // 
-            textBox28.Location = new Point(201, 2236);
-            textBox28.Margin = new Padding(3, 3, 10, 3);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(118, 23);
-            textBox28.TabIndex = 164;
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Location = new Point(14, 2239);
-            label25.Margin = new Padding(8, 12, 8, 0);
-            label25.Name = "label25";
-            label25.Size = new Size(116, 15);
-            label25.TabIndex = 163;
-            label25.Text = "smaller font override";
-            // 
-            // textBox29
-            // 
-            textBox29.Location = new Point(269, 2479);
-            textBox29.Margin = new Padding(3, 3, 10, 3);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(50, 23);
-            textBox29.TabIndex = 190;
-            // 
-            // textBox30
-            // 
-            textBox30.Location = new Point(269, 2452);
-            textBox30.Margin = new Padding(3, 3, 10, 3);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(50, 23);
-            textBox30.TabIndex = 189;
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(333, 2482);
-            label26.Margin = new Padding(4, 12, 8, 0);
-            label26.Name = "label26";
-            label26.Size = new Size(81, 15);
-            label26.TabIndex = 188;
-            label26.Text = "shadow offset";
-            // 
-            // textBox31
-            // 
-            textBox31.Location = new Point(201, 2479);
-            textBox31.Margin = new Padding(3, 3, 10, 3);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(50, 23);
-            textBox31.TabIndex = 187;
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(333, 2455);
-            label27.Margin = new Padding(4, 12, 8, 0);
-            label27.Name = "label27";
-            label27.Size = new Size(57, 15);
-            label27.TabIndex = 186;
-            label27.Text = "xy offsets";
-            // 
-            // textBox32
-            // 
-            textBox32.Location = new Point(201, 2452);
-            textBox32.Margin = new Padding(3, 3, 10, 3);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(50, 23);
-            textBox32.TabIndex = 185;
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(333, 2428);
-            label28.Margin = new Padding(4, 12, 8, 0);
-            label28.Name = "label28";
-            label28.Size = new Size(51, 15);
-            label28.TabIndex = 184;
-            label28.Text = "font size";
-            // 
-            // textBox33
-            // 
-            textBox33.Location = new Point(201, 2425);
-            textBox33.Margin = new Padding(3, 3, 10, 3);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(118, 23);
-            textBox33.TabIndex = 183;
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Location = new Point(333, 2401);
-            label29.Margin = new Padding(4, 12, 8, 0);
-            label29.Name = "label29";
-            label29.Size = new Size(68, 15);
-            label29.TabIndex = 182;
-            label29.Text = "font weight";
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Location = new Point(333, 2374);
-            label30.Margin = new Padding(4, 12, 8, 0);
-            label30.Name = "label30";
-            label30.Size = new Size(65, 15);
-            label30.TabIndex = 181;
-            label30.Text = "font family";
-            // 
-            // textBox34
-            // 
-            textBox34.Location = new Point(201, 2398);
-            textBox34.Margin = new Padding(3, 3, 10, 3);
-            textBox34.Name = "textBox34";
-            textBox34.Size = new Size(118, 23);
-            textBox34.TabIndex = 180;
-            // 
-            // checkBox6
-            // 
-            checkBox6.AutoSize = true;
-            checkBox6.Location = new Point(180, 2376);
-            checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(15, 14);
-            checkBox6.TabIndex = 179;
-            checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // textBox35
-            // 
-            textBox35.Location = new Point(201, 2371);
-            textBox35.Margin = new Padding(3, 3, 10, 3);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(118, 23);
-            textBox35.TabIndex = 178;
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Location = new Point(14, 2374);
-            label31.Margin = new Padding(8, 12, 8, 0);
-            label31.Name = "label31";
-            label31.Size = new Size(107, 15);
-            label31.TabIndex = 177;
-            label31.Text = "ticker font override";
-            // 
-            // textBox36
-            // 
-            textBox36.Location = new Point(269, 2614);
-            textBox36.Margin = new Padding(3, 3, 10, 3);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(50, 23);
-            textBox36.TabIndex = 204;
-            // 
-            // textBox37
-            // 
-            textBox37.Location = new Point(269, 2587);
-            textBox37.Margin = new Padding(3, 3, 10, 3);
-            textBox37.Name = "textBox37";
-            textBox37.Size = new Size(50, 23);
-            textBox37.TabIndex = 203;
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(333, 2617);
-            label32.Margin = new Padding(4, 12, 8, 0);
-            label32.Name = "label32";
-            label32.Size = new Size(81, 15);
-            label32.TabIndex = 202;
-            label32.Text = "shadow offset";
-            // 
-            // textBox38
-            // 
-            textBox38.Location = new Point(201, 2614);
-            textBox38.Margin = new Padding(3, 3, 10, 3);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(50, 23);
-            textBox38.TabIndex = 201;
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Location = new Point(333, 2590);
-            label33.Margin = new Padding(4, 12, 8, 0);
-            label33.Name = "label33";
-            label33.Size = new Size(57, 15);
-            label33.TabIndex = 200;
-            label33.Text = "xy offsets";
-            // 
-            // textBox39
-            // 
-            textBox39.Location = new Point(201, 2587);
-            textBox39.Margin = new Padding(3, 3, 10, 3);
-            textBox39.Name = "textBox39";
-            textBox39.Size = new Size(50, 23);
-            textBox39.TabIndex = 199;
-            // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Location = new Point(333, 2563);
-            label34.Margin = new Padding(4, 12, 8, 0);
-            label34.Name = "label34";
-            label34.Size = new Size(51, 15);
-            label34.TabIndex = 198;
-            label34.Text = "font size";
-            // 
-            // textBox40
-            // 
-            textBox40.Location = new Point(201, 2560);
-            textBox40.Margin = new Padding(3, 3, 10, 3);
-            textBox40.Name = "textBox40";
-            textBox40.Size = new Size(118, 23);
-            textBox40.TabIndex = 197;
-            // 
-            // label35
-            // 
-            label35.AutoSize = true;
-            label35.Location = new Point(333, 2536);
-            label35.Margin = new Padding(4, 12, 8, 0);
-            label35.Name = "label35";
-            label35.Size = new Size(68, 15);
-            label35.TabIndex = 196;
-            label35.Text = "font weight";
-            // 
-            // label36
-            // 
-            label36.AutoSize = true;
-            label36.Location = new Point(333, 2509);
-            label36.Margin = new Padding(4, 12, 8, 0);
-            label36.Name = "label36";
-            label36.Size = new Size(65, 15);
-            label36.TabIndex = 195;
-            label36.Text = "font family";
-            // 
-            // textBox41
-            // 
-            textBox41.Location = new Point(201, 2533);
-            textBox41.Margin = new Padding(3, 3, 10, 3);
-            textBox41.Name = "textBox41";
-            textBox41.Size = new Size(118, 23);
-            textBox41.TabIndex = 194;
-            // 
-            // checkBox7
-            // 
-            checkBox7.AutoSize = true;
-            checkBox7.Location = new Point(180, 2511);
-            checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(15, 14);
-            checkBox7.TabIndex = 193;
-            checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // textBox42
-            // 
-            textBox42.Location = new Point(201, 2506);
-            textBox42.Margin = new Padding(3, 3, 10, 3);
-            textBox42.Name = "textBox42";
-            textBox42.Size = new Size(118, 23);
-            textBox42.TabIndex = 192;
-            // 
-            // label37
-            // 
-            label37.AutoSize = true;
-            label37.Location = new Point(14, 2509);
-            label37.Margin = new Padding(8, 12, 8, 0);
-            label37.Name = "label37";
-            label37.Size = new Size(119, 15);
-            label37.TabIndex = 191;
-            label37.Text = "console font override";
-            // 
-            // checkBox8
-            // 
-            checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(180, 2746);
-            checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(15, 14);
-            checkBox8.TabIndex = 207;
-            checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // label38
-            // 
-            label38.AutoSize = true;
-            label38.Location = new Point(14, 2744);
-            label38.Margin = new Padding(8, 8, 8, 0);
-            label38.Name = "label38";
-            label38.Size = new Size(49, 15);
-            label38.TabIndex = 206;
-            label38.Text = "enabled";
+            // TbxSmallXO
+            // 
+            TbxSmallXO.Location = new Point(201, 2182);
+            TbxSmallXO.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallXO.Name = "TbxSmallXO";
+            TbxSmallXO.Size = new Size(50, 23);
+            TbxSmallXO.TabIndex = 157;
+            // 
+            // LbSmallFS
+            // 
+            LbSmallFS.AutoSize = true;
+            LbSmallFS.Location = new Point(333, 2158);
+            LbSmallFS.Margin = new Padding(4, 12, 8, 0);
+            LbSmallFS.Name = "LbSmallFS";
+            LbSmallFS.Size = new Size(51, 15);
+            LbSmallFS.TabIndex = 156;
+            LbSmallFS.Text = "font size";
+            // 
+            // TbxSmallFS
+            // 
+            TbxSmallFS.Location = new Point(201, 2155);
+            TbxSmallFS.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallFS.Name = "TbxSmallFS";
+            TbxSmallFS.Size = new Size(118, 23);
+            TbxSmallFS.TabIndex = 155;
+            // 
+            // LbSmallFW
+            // 
+            LbSmallFW.AutoSize = true;
+            LbSmallFW.Location = new Point(333, 2131);
+            LbSmallFW.Margin = new Padding(4, 12, 8, 0);
+            LbSmallFW.Name = "LbSmallFW";
+            LbSmallFW.Size = new Size(68, 15);
+            LbSmallFW.TabIndex = 154;
+            LbSmallFW.Text = "font weight";
+            // 
+            // LbSmallFF
+            // 
+            LbSmallFF.AutoSize = true;
+            LbSmallFF.Location = new Point(333, 2104);
+            LbSmallFF.Margin = new Padding(4, 12, 8, 0);
+            LbSmallFF.Name = "LbSmallFF";
+            LbSmallFF.Size = new Size(65, 15);
+            LbSmallFF.TabIndex = 153;
+            LbSmallFF.Text = "font family";
+            // 
+            // TbxSmallFW
+            // 
+            TbxSmallFW.Location = new Point(201, 2128);
+            TbxSmallFW.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallFW.Name = "TbxSmallFW";
+            TbxSmallFW.Size = new Size(118, 23);
+            TbxSmallFW.TabIndex = 152;
+            // 
+            // CbSmallFO
+            // 
+            CbSmallFO.AutoSize = true;
+            CbSmallFO.Location = new Point(180, 2106);
+            CbSmallFO.Name = "CbSmallFO";
+            CbSmallFO.Size = new Size(15, 14);
+            CbSmallFO.TabIndex = 151;
+            CbSmallFO.UseVisualStyleBackColor = true;
+            // 
+            // TbxSmallFF
+            // 
+            TbxSmallFF.Location = new Point(201, 2101);
+            TbxSmallFF.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallFF.Name = "TbxSmallFF";
+            TbxSmallFF.Size = new Size(118, 23);
+            TbxSmallFF.TabIndex = 150;
+            // 
+            // LbSmallFO
+            // 
+            LbSmallFO.AutoSize = true;
+            LbSmallFO.Location = new Point(14, 2104);
+            LbSmallFO.Margin = new Padding(8, 12, 8, 0);
+            LbSmallFO.Name = "LbSmallFO";
+            LbSmallFO.Size = new Size(106, 15);
+            LbSmallFO.TabIndex = 149;
+            LbSmallFO.Text = "small font override";
+            // 
+            // TbxSmallerSY
+            // 
+            TbxSmallerSY.Location = new Point(269, 2344);
+            TbxSmallerSY.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerSY.Name = "TbxSmallerSY";
+            TbxSmallerSY.Size = new Size(50, 23);
+            TbxSmallerSY.TabIndex = 176;
+            // 
+            // TbxSmallerYO
+            // 
+            TbxSmallerYO.Location = new Point(269, 2317);
+            TbxSmallerYO.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerYO.Name = "TbxSmallerYO";
+            TbxSmallerYO.Size = new Size(50, 23);
+            TbxSmallerYO.TabIndex = 175;
+            // 
+            // LbSmallerSh
+            // 
+            LbSmallerSh.AutoSize = true;
+            LbSmallerSh.Location = new Point(333, 2347);
+            LbSmallerSh.Margin = new Padding(4, 12, 8, 0);
+            LbSmallerSh.Name = "LbSmallerSh";
+            LbSmallerSh.Size = new Size(81, 15);
+            LbSmallerSh.TabIndex = 174;
+            LbSmallerSh.Text = "shadow offset";
+            // 
+            // TbxSmallerSX
+            // 
+            TbxSmallerSX.Location = new Point(201, 2344);
+            TbxSmallerSX.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerSX.Name = "TbxSmallerSX";
+            TbxSmallerSX.Size = new Size(50, 23);
+            TbxSmallerSX.TabIndex = 173;
+            // 
+            // LbSmallerXY
+            // 
+            LbSmallerXY.AutoSize = true;
+            LbSmallerXY.Location = new Point(333, 2320);
+            LbSmallerXY.Margin = new Padding(4, 12, 8, 0);
+            LbSmallerXY.Name = "LbSmallerXY";
+            LbSmallerXY.Size = new Size(57, 15);
+            LbSmallerXY.TabIndex = 172;
+            LbSmallerXY.Text = "xy offsets";
+            // 
+            // TbxSmallerXO
+            // 
+            TbxSmallerXO.Location = new Point(201, 2317);
+            TbxSmallerXO.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerXO.Name = "TbxSmallerXO";
+            TbxSmallerXO.Size = new Size(50, 23);
+            TbxSmallerXO.TabIndex = 171;
+            // 
+            // LbSmallerFS
+            // 
+            LbSmallerFS.AutoSize = true;
+            LbSmallerFS.Location = new Point(333, 2293);
+            LbSmallerFS.Margin = new Padding(4, 12, 8, 0);
+            LbSmallerFS.Name = "LbSmallerFS";
+            LbSmallerFS.Size = new Size(51, 15);
+            LbSmallerFS.TabIndex = 170;
+            LbSmallerFS.Text = "font size";
+            // 
+            // TbxSmallerFS
+            // 
+            TbxSmallerFS.Location = new Point(201, 2290);
+            TbxSmallerFS.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerFS.Name = "TbxSmallerFS";
+            TbxSmallerFS.Size = new Size(118, 23);
+            TbxSmallerFS.TabIndex = 169;
+            // 
+            // LbSmallerFW
+            // 
+            LbSmallerFW.AutoSize = true;
+            LbSmallerFW.Location = new Point(333, 2266);
+            LbSmallerFW.Margin = new Padding(4, 12, 8, 0);
+            LbSmallerFW.Name = "LbSmallerFW";
+            LbSmallerFW.Size = new Size(68, 15);
+            LbSmallerFW.TabIndex = 168;
+            LbSmallerFW.Text = "font weight";
+            // 
+            // LbSmallerFF
+            // 
+            LbSmallerFF.AutoSize = true;
+            LbSmallerFF.Location = new Point(333, 2239);
+            LbSmallerFF.Margin = new Padding(4, 12, 8, 0);
+            LbSmallerFF.Name = "LbSmallerFF";
+            LbSmallerFF.Size = new Size(65, 15);
+            LbSmallerFF.TabIndex = 167;
+            LbSmallerFF.Text = "font family";
+            // 
+            // TbxSmallerFW
+            // 
+            TbxSmallerFW.Location = new Point(201, 2263);
+            TbxSmallerFW.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerFW.Name = "TbxSmallerFW";
+            TbxSmallerFW.Size = new Size(118, 23);
+            TbxSmallerFW.TabIndex = 166;
+            // 
+            // CbSmallerFO
+            // 
+            CbSmallerFO.AutoSize = true;
+            CbSmallerFO.Location = new Point(180, 2241);
+            CbSmallerFO.Name = "CbSmallerFO";
+            CbSmallerFO.Size = new Size(15, 14);
+            CbSmallerFO.TabIndex = 165;
+            CbSmallerFO.UseVisualStyleBackColor = true;
+            // 
+            // TbxSmallerFF
+            // 
+            TbxSmallerFF.Location = new Point(201, 2236);
+            TbxSmallerFF.Margin = new Padding(3, 3, 10, 3);
+            TbxSmallerFF.Name = "TbxSmallerFF";
+            TbxSmallerFF.Size = new Size(118, 23);
+            TbxSmallerFF.TabIndex = 164;
+            // 
+            // LbSmallerFO
+            // 
+            LbSmallerFO.AutoSize = true;
+            LbSmallerFO.Location = new Point(14, 2239);
+            LbSmallerFO.Margin = new Padding(8, 12, 8, 0);
+            LbSmallerFO.Name = "LbSmallerFO";
+            LbSmallerFO.Size = new Size(116, 15);
+            LbSmallerFO.TabIndex = 163;
+            LbSmallerFO.Text = "smaller font override";
+            // 
+            // TbxTickerSY
+            // 
+            TbxTickerSY.Location = new Point(269, 2479);
+            TbxTickerSY.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerSY.Name = "TbxTickerSY";
+            TbxTickerSY.Size = new Size(50, 23);
+            TbxTickerSY.TabIndex = 190;
+            // 
+            // TbxTickerYO
+            // 
+            TbxTickerYO.Location = new Point(269, 2452);
+            TbxTickerYO.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerYO.Name = "TbxTickerYO";
+            TbxTickerYO.Size = new Size(50, 23);
+            TbxTickerYO.TabIndex = 189;
+            // 
+            // LbTickerSh
+            // 
+            LbTickerSh.AutoSize = true;
+            LbTickerSh.Location = new Point(333, 2482);
+            LbTickerSh.Margin = new Padding(4, 12, 8, 0);
+            LbTickerSh.Name = "LbTickerSh";
+            LbTickerSh.Size = new Size(81, 15);
+            LbTickerSh.TabIndex = 188;
+            LbTickerSh.Text = "shadow offset";
+            // 
+            // TbxTickerSX
+            // 
+            TbxTickerSX.Location = new Point(201, 2479);
+            TbxTickerSX.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerSX.Name = "TbxTickerSX";
+            TbxTickerSX.Size = new Size(50, 23);
+            TbxTickerSX.TabIndex = 187;
+            // 
+            // LbTickerXY
+            // 
+            LbTickerXY.AutoSize = true;
+            LbTickerXY.Location = new Point(333, 2455);
+            LbTickerXY.Margin = new Padding(4, 12, 8, 0);
+            LbTickerXY.Name = "LbTickerXY";
+            LbTickerXY.Size = new Size(57, 15);
+            LbTickerXY.TabIndex = 186;
+            LbTickerXY.Text = "xy offsets";
+            // 
+            // TbxTickerXO
+            // 
+            TbxTickerXO.Location = new Point(201, 2452);
+            TbxTickerXO.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerXO.Name = "TbxTickerXO";
+            TbxTickerXO.Size = new Size(50, 23);
+            TbxTickerXO.TabIndex = 185;
+            // 
+            // LbTickerFS
+            // 
+            LbTickerFS.AutoSize = true;
+            LbTickerFS.Location = new Point(333, 2428);
+            LbTickerFS.Margin = new Padding(4, 12, 8, 0);
+            LbTickerFS.Name = "LbTickerFS";
+            LbTickerFS.Size = new Size(51, 15);
+            LbTickerFS.TabIndex = 184;
+            LbTickerFS.Text = "font size";
+            // 
+            // TbxTickerFS
+            // 
+            TbxTickerFS.Location = new Point(201, 2425);
+            TbxTickerFS.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerFS.Name = "TbxTickerFS";
+            TbxTickerFS.Size = new Size(118, 23);
+            TbxTickerFS.TabIndex = 183;
+            // 
+            // LbTickerFW
+            // 
+            LbTickerFW.AutoSize = true;
+            LbTickerFW.Location = new Point(333, 2401);
+            LbTickerFW.Margin = new Padding(4, 12, 8, 0);
+            LbTickerFW.Name = "LbTickerFW";
+            LbTickerFW.Size = new Size(68, 15);
+            LbTickerFW.TabIndex = 182;
+            LbTickerFW.Text = "font weight";
+            // 
+            // LbTickerFF
+            // 
+            LbTickerFF.AutoSize = true;
+            LbTickerFF.Location = new Point(333, 2374);
+            LbTickerFF.Margin = new Padding(4, 12, 8, 0);
+            LbTickerFF.Name = "LbTickerFF";
+            LbTickerFF.Size = new Size(65, 15);
+            LbTickerFF.TabIndex = 181;
+            LbTickerFF.Text = "font family";
+            // 
+            // TbxTickerFW
+            // 
+            TbxTickerFW.Location = new Point(201, 2398);
+            TbxTickerFW.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerFW.Name = "TbxTickerFW";
+            TbxTickerFW.Size = new Size(118, 23);
+            TbxTickerFW.TabIndex = 180;
+            // 
+            // CbTickerFO
+            // 
+            CbTickerFO.AutoSize = true;
+            CbTickerFO.Location = new Point(180, 2376);
+            CbTickerFO.Name = "CbTickerFO";
+            CbTickerFO.Size = new Size(15, 14);
+            CbTickerFO.TabIndex = 179;
+            CbTickerFO.UseVisualStyleBackColor = true;
+            // 
+            // TbxTickerFF
+            // 
+            TbxTickerFF.Location = new Point(201, 2371);
+            TbxTickerFF.Margin = new Padding(3, 3, 10, 3);
+            TbxTickerFF.Name = "TbxTickerFF";
+            TbxTickerFF.Size = new Size(118, 23);
+            TbxTickerFF.TabIndex = 178;
+            // 
+            // LbTickerFO
+            // 
+            LbTickerFO.AutoSize = true;
+            LbTickerFO.Location = new Point(14, 2374);
+            LbTickerFO.Margin = new Padding(8, 12, 8, 0);
+            LbTickerFO.Name = "LbTickerFO";
+            LbTickerFO.Size = new Size(107, 15);
+            LbTickerFO.TabIndex = 177;
+            LbTickerFO.Text = "ticker font override";
+            // 
+            // TbxConsoleSY
+            // 
+            TbxConsoleSY.Location = new Point(269, 2614);
+            TbxConsoleSY.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleSY.Name = "TbxConsoleSY";
+            TbxConsoleSY.Size = new Size(50, 23);
+            TbxConsoleSY.TabIndex = 204;
+            // 
+            // TbxConsoleYO
+            // 
+            TbxConsoleYO.Location = new Point(269, 2587);
+            TbxConsoleYO.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleYO.Name = "TbxConsoleYO";
+            TbxConsoleYO.Size = new Size(50, 23);
+            TbxConsoleYO.TabIndex = 203;
+            // 
+            // LbConsoleSh
+            // 
+            LbConsoleSh.AutoSize = true;
+            LbConsoleSh.Location = new Point(333, 2617);
+            LbConsoleSh.Margin = new Padding(4, 12, 8, 0);
+            LbConsoleSh.Name = "LbConsoleSh";
+            LbConsoleSh.Size = new Size(81, 15);
+            LbConsoleSh.TabIndex = 202;
+            LbConsoleSh.Text = "shadow offset";
+            // 
+            // TbxConsoleSX
+            // 
+            TbxConsoleSX.Location = new Point(201, 2614);
+            TbxConsoleSX.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleSX.Name = "TbxConsoleSX";
+            TbxConsoleSX.Size = new Size(50, 23);
+            TbxConsoleSX.TabIndex = 201;
+            // 
+            // TbxConsoleXY
+            // 
+            TbxConsoleXY.AutoSize = true;
+            TbxConsoleXY.Location = new Point(333, 2590);
+            TbxConsoleXY.Margin = new Padding(4, 12, 8, 0);
+            TbxConsoleXY.Name = "TbxConsoleXY";
+            TbxConsoleXY.Size = new Size(57, 15);
+            TbxConsoleXY.TabIndex = 200;
+            TbxConsoleXY.Text = "xy offsets";
+            // 
+            // TbxConsoleXO
+            // 
+            TbxConsoleXO.Location = new Point(201, 2587);
+            TbxConsoleXO.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleXO.Name = "TbxConsoleXO";
+            TbxConsoleXO.Size = new Size(50, 23);
+            TbxConsoleXO.TabIndex = 199;
+            // 
+            // LbConsoleFS
+            // 
+            LbConsoleFS.AutoSize = true;
+            LbConsoleFS.Location = new Point(333, 2563);
+            LbConsoleFS.Margin = new Padding(4, 12, 8, 0);
+            LbConsoleFS.Name = "LbConsoleFS";
+            LbConsoleFS.Size = new Size(51, 15);
+            LbConsoleFS.TabIndex = 198;
+            LbConsoleFS.Text = "font size";
+            // 
+            // TbxConsoleFS
+            // 
+            TbxConsoleFS.Location = new Point(201, 2560);
+            TbxConsoleFS.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleFS.Name = "TbxConsoleFS";
+            TbxConsoleFS.Size = new Size(118, 23);
+            TbxConsoleFS.TabIndex = 197;
+            // 
+            // LbConsoleFW
+            // 
+            LbConsoleFW.AutoSize = true;
+            LbConsoleFW.Location = new Point(333, 2536);
+            LbConsoleFW.Margin = new Padding(4, 12, 8, 0);
+            LbConsoleFW.Name = "LbConsoleFW";
+            LbConsoleFW.Size = new Size(68, 15);
+            LbConsoleFW.TabIndex = 196;
+            LbConsoleFW.Text = "font weight";
+            // 
+            // LbConsoleFF
+            // 
+            LbConsoleFF.AutoSize = true;
+            LbConsoleFF.Location = new Point(333, 2509);
+            LbConsoleFF.Margin = new Padding(4, 12, 8, 0);
+            LbConsoleFF.Name = "LbConsoleFF";
+            LbConsoleFF.Size = new Size(65, 15);
+            LbConsoleFF.TabIndex = 195;
+            LbConsoleFF.Text = "font family";
+            // 
+            // TbxConsoleFW
+            // 
+            TbxConsoleFW.Location = new Point(201, 2533);
+            TbxConsoleFW.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleFW.Name = "TbxConsoleFW";
+            TbxConsoleFW.Size = new Size(118, 23);
+            TbxConsoleFW.TabIndex = 194;
+            // 
+            // CbConsoleFO
+            // 
+            CbConsoleFO.AutoSize = true;
+            CbConsoleFO.Location = new Point(180, 2511);
+            CbConsoleFO.Name = "CbConsoleFO";
+            CbConsoleFO.Size = new Size(15, 14);
+            CbConsoleFO.TabIndex = 193;
+            CbConsoleFO.UseVisualStyleBackColor = true;
+            // 
+            // TbxConsoleFF
+            // 
+            TbxConsoleFF.Location = new Point(201, 2506);
+            TbxConsoleFF.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleFF.Name = "TbxConsoleFF";
+            TbxConsoleFF.Size = new Size(118, 23);
+            TbxConsoleFF.TabIndex = 192;
+            // 
+            // LbConsoleFO
+            // 
+            LbConsoleFO.AutoSize = true;
+            LbConsoleFO.Location = new Point(14, 2509);
+            LbConsoleFO.Margin = new Padding(8, 12, 8, 0);
+            LbConsoleFO.Name = "LbConsoleFO";
+            LbConsoleFO.Size = new Size(119, 15);
+            LbConsoleFO.TabIndex = 191;
+            LbConsoleFO.Text = "console font override";
+            // 
+            // CbControllerEnabled
+            // 
+            CbControllerEnabled.AutoSize = true;
+            CbControllerEnabled.Location = new Point(180, 2746);
+            CbControllerEnabled.Name = "CbControllerEnabled";
+            CbControllerEnabled.Size = new Size(15, 14);
+            CbControllerEnabled.TabIndex = 207;
+            CbControllerEnabled.UseVisualStyleBackColor = true;
+            // 
+            // LbControllerEnabled
+            // 
+            LbControllerEnabled.AutoSize = true;
+            LbControllerEnabled.Location = new Point(14, 2744);
+            LbControllerEnabled.Margin = new Padding(8, 8, 8, 0);
+            LbControllerEnabled.Name = "LbControllerEnabled";
+            LbControllerEnabled.Size = new Size(49, 15);
+            LbControllerEnabled.TabIndex = 206;
+            LbControllerEnabled.Text = "enabled";
+            // 
+            // PnlController
+            // 
+            PnlController.BackColor = SystemColors.ControlLight;
+            PnlController.BorderStyle = BorderStyle.Fixed3D;
+            PnlController.Controls.Add(LbControllerDesc);
+            PnlController.Controls.Add(LbController);
+            PnlController.Location = new Point(8, 2670);
+            PnlController.Margin = new Padding(3, 38, 3, 3);
+            PnlController.Name = "PnlController";
+            PnlController.Size = new Size(543, 63);
+            PnlController.TabIndex = 205;
+            // 
+            // LbControllerDesc
+            // 
+            LbControllerDesc.AutoSize = true;
+            LbControllerDesc.Location = new Point(4, 24);
+            LbControllerDesc.Name = "LbControllerDesc";
+            LbControllerDesc.Size = new Size(194, 30);
+            LbControllerDesc.TabIndex = 1;
+            LbControllerDesc.Text = "controller settings.\r\nthis is used to configure gamepads.";
+            // 
+            // LbController
+            // 
+            LbController.AutoSize = true;
+            LbController.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            LbController.Location = new Point(4, 5);
+            LbController.Name = "LbController";
+            LbController.Size = new Size(70, 19);
+            LbController.TabIndex = 0;
+            LbController.Text = "controller";
+            // 
+            // CbCustomCEnabled
+            // 
+            CbCustomCEnabled.AutoSize = true;
+            CbCustomCEnabled.Location = new Point(180, 3171);
+            CbCustomCEnabled.Name = "CbCustomCEnabled";
+            CbCustomCEnabled.Size = new Size(15, 14);
+            CbCustomCEnabled.TabIndex = 211;
+            CbCustomCEnabled.UseVisualStyleBackColor = true;
+            // 
+            // LbCustomCEnabled
+            // 
+            LbCustomCEnabled.AutoSize = true;
+            LbCustomCEnabled.Location = new Point(14, 3169);
+            LbCustomCEnabled.Margin = new Padding(8, 8, 8, 0);
+            LbCustomCEnabled.Name = "LbCustomCEnabled";
+            LbCustomCEnabled.Size = new Size(49, 15);
+            LbCustomCEnabled.TabIndex = 210;
+            LbCustomCEnabled.Text = "enabled";
+            // 
+            // PnlCustomC
+            // 
+            PnlCustomC.BackColor = SystemColors.ControlLight;
+            PnlCustomC.BorderStyle = BorderStyle.Fixed3D;
+            PnlCustomC.Controls.Add(LbCustomCDesc);
+            PnlCustomC.Controls.Add(LbCustomC);
+            PnlCustomC.Location = new Point(8, 3095);
+            PnlCustomC.Margin = new Padding(3, 38, 3, 3);
+            PnlCustomC.Name = "PnlCustomC";
+            PnlCustomC.Size = new Size(543, 63);
+            PnlCustomC.TabIndex = 209;
+            // 
+            // LbCustomCDesc
+            // 
+            LbCustomCDesc.AutoSize = true;
+            LbCustomCDesc.Location = new Point(4, 24);
+            LbCustomCDesc.Name = "LbCustomCDesc";
+            LbCustomCDesc.Size = new Size(191, 30);
+            LbCustomCDesc.TabIndex = 1;
+            LbCustomCDesc.Text = "custom console configuration.\r\nthis is the custom console settings.";
+            // 
+            // LbCustomC
+            // 
+            LbCustomC.AutoSize = true;
+            LbCustomC.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            LbCustomC.Location = new Point(4, 5);
+            LbCustomC.Name = "LbCustomC";
+            LbCustomC.Size = new Size(107, 19);
+            LbCustomC.TabIndex = 0;
+            LbCustomC.Text = "custom console";
+            // 
+            // TbxControllerConfig
+            // 
+            TbxControllerConfig.Location = new Point(201, 2741);
+            TbxControllerConfig.Name = "TbxControllerConfig";
+            TbxControllerConfig.Size = new Size(313, 23);
+            TbxControllerConfig.TabIndex = 212;
+            // 
+            // CbScrollback
+            // 
+            CbScrollback.AutoSize = true;
+            CbScrollback.Location = new Point(180, 3194);
+            CbScrollback.Name = "CbScrollback";
+            CbScrollback.Size = new Size(15, 14);
+            CbScrollback.TabIndex = 214;
+            CbScrollback.UseVisualStyleBackColor = true;
+            // 
+            // LbScrollback
+            // 
+            LbScrollback.AutoSize = true;
+            LbScrollback.Location = new Point(14, 3192);
+            LbScrollback.Margin = new Padding(8, 8, 8, 0);
+            LbScrollback.Name = "LbScrollback";
+            LbScrollback.Size = new Size(98, 15);
+            LbScrollback.TabIndex = 213;
+            LbScrollback.Text = "enable scrollback";
+            // 
+            // TbxConsoleBuffer
+            // 
+            TbxConsoleBuffer.Location = new Point(201, 3216);
+            TbxConsoleBuffer.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleBuffer.Name = "TbxConsoleBuffer";
+            TbxConsoleBuffer.Size = new Size(118, 23);
+            TbxConsoleBuffer.TabIndex = 216;
+            // 
+            // LbConsoleBuffer
+            // 
+            LbConsoleBuffer.AutoSize = true;
+            LbConsoleBuffer.Location = new Point(14, 3219);
+            LbConsoleBuffer.Margin = new Padding(8, 12, 8, 0);
+            LbConsoleBuffer.Name = "LbConsoleBuffer";
+            LbConsoleBuffer.Size = new Size(61, 15);
+            LbConsoleBuffer.TabIndex = 215;
+            LbConsoleBuffer.Text = "buffer size";
+            // 
+            // TbxConsoleSoft
+            // 
+            TbxConsoleSoft.Location = new Point(201, 3243);
+            TbxConsoleSoft.Margin = new Padding(3, 3, 10, 3);
+            TbxConsoleSoft.Name = "TbxConsoleSoft";
+            TbxConsoleSoft.Size = new Size(118, 23);
+            TbxConsoleSoft.TabIndex = 218;
+            // 
+            // LbConsoleSoft
+            // 
+            LbConsoleSoft.AutoSize = true;
+            LbConsoleSoft.Location = new Point(14, 3246);
+            LbConsoleSoft.Margin = new Padding(8, 12, 8, 0);
+            LbConsoleSoft.Name = "LbConsoleSoft";
+            LbConsoleSoft.Size = new Size(84, 15);
+            LbConsoleSoft.TabIndex = 217;
+            LbConsoleSoft.Text = "buffer size soft";
+            // 
+            // TbxLineHeight
+            // 
+            TbxLineHeight.Location = new Point(201, 3270);
+            TbxLineHeight.Margin = new Padding(3, 3, 10, 3);
+            TbxLineHeight.Name = "TbxLineHeight";
+            TbxLineHeight.Size = new Size(118, 23);
+            TbxLineHeight.TabIndex = 220;
+            // 
+            // LbLineHeight
+            // 
+            LbLineHeight.AutoSize = true;
+            LbLineHeight.Location = new Point(14, 3273);
+            LbLineHeight.Margin = new Padding(8, 12, 8, 0);
+            LbLineHeight.Name = "LbLineHeight";
+            LbLineHeight.Size = new Size(63, 15);
+            LbLineHeight.TabIndex = 219;
+            LbLineHeight.Text = "line height";
+            // 
+            // TbxXMargin
+            // 
+            TbxXMargin.Location = new Point(201, 3297);
+            TbxXMargin.Margin = new Padding(3, 3, 10, 3);
+            TbxXMargin.Name = "TbxXMargin";
+            TbxXMargin.Size = new Size(118, 23);
+            TbxXMargin.TabIndex = 222;
+            // 
+            // LbXMargin
+            // 
+            LbXMargin.AutoSize = true;
+            LbXMargin.Location = new Point(14, 3300);
+            LbXMargin.Margin = new Padding(8, 12, 8, 0);
+            LbXMargin.Name = "LbXMargin";
+            LbXMargin.Size = new Size(54, 15);
+            LbXMargin.TabIndex = 221;
+            LbXMargin.Text = "x margin";
+            // 
+            // TbxCFadeStart
+            // 
+            TbxCFadeStart.Location = new Point(201, 3324);
+            TbxCFadeStart.Margin = new Padding(3, 3, 10, 3);
+            TbxCFadeStart.Name = "TbxCFadeStart";
+            TbxCFadeStart.Size = new Size(118, 23);
+            TbxCFadeStart.TabIndex = 224;
+            // 
+            // LbCFadeStart
+            // 
+            LbCFadeStart.AutoSize = true;
+            LbCFadeStart.Location = new Point(14, 3327);
+            LbCFadeStart.Margin = new Padding(8, 12, 8, 0);
+            LbCFadeStart.Name = "LbCFadeStart";
+            LbCFadeStart.Size = new Size(56, 15);
+            LbCFadeStart.TabIndex = 223;
+            LbCFadeStart.Text = "fade start";
+            // 
+            // TbxCFadeTime
+            // 
+            TbxCFadeTime.Location = new Point(201, 3351);
+            TbxCFadeTime.Margin = new Padding(3, 3, 10, 3);
+            TbxCFadeTime.Name = "TbxCFadeTime";
+            TbxCFadeTime.Size = new Size(118, 23);
+            TbxCFadeTime.TabIndex = 226;
+            // 
+            // LbCFadeTime
+            // 
+            LbCFadeTime.AutoSize = true;
+            LbCFadeTime.Location = new Point(14, 3354);
+            LbCFadeTime.Margin = new Padding(8, 12, 8, 0);
+            LbCFadeTime.Name = "LbCFadeTime";
+            LbCFadeTime.Size = new Size(57, 15);
+            LbCFadeTime.TabIndex = 225;
+            LbCFadeTime.Text = "fade time";
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlLight;
             panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.Controls.Add(label39);
-            panel1.Controls.Add(label40);
-            panel1.Location = new Point(8, 2670);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(label2);
+            panel1.Location = new Point(8, 3407);
             panel1.Margin = new Padding(3, 38, 3, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(543, 63);
-            panel1.TabIndex = 205;
+            panel1.TabIndex = 210;
             // 
-            // label39
+            // label1
             // 
-            label39.AutoSize = true;
-            label39.Location = new Point(4, 24);
-            label39.Name = "label39";
-            label39.Size = new Size(194, 30);
-            label39.TabIndex = 1;
-            label39.Text = "controller settings.\r\nthis is used to configure gamepads.";
+            label1.AutoSize = true;
+            label1.Location = new Point(4, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(212, 30);
+            label1.TabIndex = 1;
+            label1.Text = "custom chat configuration.\r\nthis is the custom chat and server chat.";
             // 
-            // label40
+            // label2
             // 
-            label40.AutoSize = true;
-            label40.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label40.Location = new Point(4, 5);
-            label40.Name = "label40";
-            label40.Size = new Size(70, 19);
-            label40.TabIndex = 0;
-            label40.Text = "controller";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(4, 5);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 19);
+            label2.TabIndex = 0;
+            label2.Text = "custom chat";
             // 
-            // checkBox9
+            // checkBox1
             // 
-            checkBox9.AutoSize = true;
-            checkBox9.Location = new Point(180, 3171);
-            checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(15, 14);
-            checkBox9.TabIndex = 211;
-            checkBox9.UseVisualStyleBackColor = true;
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(180, 3483);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(15, 14);
+            checkBox1.TabIndex = 228;
+            checkBox1.UseVisualStyleBackColor = true;
             // 
-            // label41
+            // label3
             // 
-            label41.AutoSize = true;
-            label41.Location = new Point(14, 3169);
-            label41.Margin = new Padding(8, 8, 8, 0);
-            label41.Name = "label41";
-            label41.Size = new Size(49, 15);
-            label41.TabIndex = 210;
-            label41.Text = "enabled";
+            label3.AutoSize = true;
+            label3.Location = new Point(14, 3481);
+            label3.Margin = new Padding(8, 8, 8, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(120, 15);
+            label3.TabIndex = 227;
+            label3.Text = "allow unsolicted rcon";
             // 
-            // panel3
+            // label4
             // 
-            panel3.BackColor = SystemColors.ControlLight;
-            panel3.BorderStyle = BorderStyle.Fixed3D;
-            panel3.Controls.Add(label42);
-            panel3.Controls.Add(label43);
-            panel3.Location = new Point(8, 3095);
-            panel3.Margin = new Padding(3, 38, 3, 3);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(543, 63);
-            panel3.TabIndex = 209;
+            label4.AutoSize = true;
+            label4.Location = new Point(14, 3527);
+            label4.Margin = new Padding(8, 8, 8, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(34, 15);
+            label4.TabIndex = 229;
+            label4.Text = "color";
             // 
-            // label42
+            // label5
             // 
-            label42.AutoSize = true;
-            label42.Location = new Point(4, 24);
-            label42.Name = "label42";
-            label42.Size = new Size(191, 30);
-            label42.TabIndex = 1;
-            label42.Text = "custom console configuration.\r\nthis is the custom console settings.";
+            label5.AutoSize = true;
+            label5.Location = new Point(14, 3550);
+            label5.Margin = new Padding(8, 8, 8, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(37, 15);
+            label5.TabIndex = 230;
+            label5.Text = "offset";
             // 
-            // label43
+            // label6
             // 
-            label43.AutoSize = true;
-            label43.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label43.Location = new Point(4, 5);
-            label43.Name = "label43";
-            label43.Size = new Size(107, 19);
-            label43.TabIndex = 0;
-            label43.Text = "custom console";
+            label6.AutoSize = true;
+            label6.Location = new Point(14, 3573);
+            label6.Margin = new Padding(8, 8, 8, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(68, 15);
+            label6.TabIndex = 231;
+            label6.Text = "dimensions";
             // 
-            // textBox43
+            // label7
             // 
-            textBox43.Location = new Point(201, 2741);
-            textBox43.Name = "textBox43";
-            textBox43.Size = new Size(313, 23);
-            textBox43.TabIndex = 212;
+            label7.AutoSize = true;
+            label7.Location = new Point(14, 3596);
+            label7.Margin = new Padding(8, 8, 8, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(97, 15);
+            label7.TabIndex = 232;
+            label7.Text = "open chat height\r\n";
             // 
-            // checkBox10
+            // label8
             // 
-            checkBox10.AutoSize = true;
-            checkBox10.Location = new Point(180, 3194);
-            checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(15, 14);
-            checkBox10.TabIndex = 214;
-            checkBox10.UseVisualStyleBackColor = true;
+            label8.AutoSize = true;
+            label8.Location = new Point(14, 3619);
+            label8.Margin = new Padding(8, 8, 8, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(44, 15);
+            label8.TabIndex = 233;
+            label8.Text = "anchor";
             // 
-            // label44
+            // label9
             // 
-            label44.AutoSize = true;
-            label44.Location = new Point(14, 3192);
-            label44.Margin = new Padding(8, 8, 8, 0);
-            label44.Name = "label44";
-            label44.Size = new Size(98, 15);
-            label44.TabIndex = 213;
-            label44.Text = "enable scrollback";
+            label9.AutoSize = true;
+            label9.Location = new Point(14, 3642);
+            label9.Margin = new Padding(8, 8, 8, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(74, 15);
+            label9.TabIndex = 234;
+            label9.Text = "console hide";
             // 
-            // textBox44
+            // label10
             // 
-            textBox44.Location = new Point(201, 3216);
-            textBox44.Margin = new Padding(3, 3, 10, 3);
-            textBox44.Name = "textBox44";
-            textBox44.Size = new Size(118, 23);
-            textBox44.TabIndex = 216;
+            label10.AutoSize = true;
+            label10.Location = new Point(14, 3665);
+            label10.Margin = new Padding(8, 8, 8, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(29, 15);
+            label10.TabIndex = 235;
+            label10.Text = "font";
             // 
-            // label45
+            // label11
             // 
-            label45.AutoSize = true;
-            label45.Location = new Point(14, 3219);
-            label45.Margin = new Padding(8, 12, 8, 0);
-            label45.Name = "label45";
-            label45.Size = new Size(61, 15);
-            label45.TabIndex = 215;
-            label45.Text = "buffer size";
+            label11.AutoSize = true;
+            label11.Location = new Point(14, 3688);
+            label11.Margin = new Padding(8, 8, 8, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(88, 15);
+            label11.TabIndex = 236;
+            label11.Text = "animation time";
             // 
-            // textBox45
+            // label12
             // 
-            textBox45.Location = new Point(201, 3243);
-            textBox45.Margin = new Padding(3, 3, 10, 3);
-            textBox45.Name = "textBox45";
-            textBox45.Size = new Size(118, 23);
-            textBox45.TabIndex = 218;
+            label12.AutoSize = true;
+            label12.Location = new Point(14, 3711);
+            label12.Margin = new Padding(8, 8, 8, 0);
+            label12.Name = "label12";
+            label12.Size = new Size(71, 15);
+            label12.TabIndex = 237;
+            label12.Text = "display time";
             // 
-            // label46
+            // label13
             // 
-            label46.AutoSize = true;
-            label46.Location = new Point(14, 3246);
-            label46.Margin = new Padding(8, 12, 8, 0);
-            label46.Name = "label46";
-            label46.Size = new Size(84, 15);
-            label46.TabIndex = 217;
-            label46.Text = "buffer size soft";
+            label13.AutoSize = true;
+            label13.Location = new Point(14, 3734);
+            label13.Margin = new Padding(8, 8, 8, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(78, 15);
+            label13.TabIndex = 238;
+            label13.Text = "fade out time";
             // 
-            // textBox46
+            // label14
             // 
-            textBox46.Location = new Point(201, 3270);
-            textBox46.Margin = new Padding(3, 3, 10, 3);
-            textBox46.Name = "textBox46";
-            textBox46.Size = new Size(118, 23);
-            textBox46.TabIndex = 220;
+            label14.AutoSize = true;
+            label14.Location = new Point(14, 3757);
+            label14.Margin = new Padding(8, 8, 8, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(63, 15);
+            label14.TabIndex = 239;
+            label14.Text = "line height";
             // 
-            // label47
+            // label16
             // 
-            label47.AutoSize = true;
-            label47.Location = new Point(14, 3273);
-            label47.Margin = new Padding(8, 12, 8, 0);
-            label47.Name = "label47";
-            label47.Size = new Size(63, 15);
-            label47.TabIndex = 219;
-            label47.Text = "line height";
+            label16.AutoSize = true;
+            label16.Location = new Point(14, 3504);
+            label16.Margin = new Padding(8, 8, 8, 0);
+            label16.Name = "label16";
+            label16.Size = new Size(92, 15);
+            label16.TabIndex = 240;
+            label16.Text = "server messages";
             // 
-            // textBox47
+            // textBox1
             // 
-            textBox47.Location = new Point(201, 3297);
-            textBox47.Margin = new Padding(3, 3, 10, 3);
-            textBox47.Name = "textBox47";
-            textBox47.Size = new Size(118, 23);
-            textBox47.TabIndex = 222;
+            textBox1.Location = new Point(201, 3682);
+            textBox1.Margin = new Padding(3, 3, 10, 3);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(118, 23);
+            textBox1.TabIndex = 247;
             // 
-            // label48
+            // textBox2
             // 
-            label48.AutoSize = true;
-            label48.Location = new Point(14, 3300);
-            label48.Margin = new Padding(8, 12, 8, 0);
-            label48.Name = "label48";
-            label48.Size = new Size(54, 15);
-            label48.TabIndex = 221;
-            label48.Text = "x margin";
+            textBox2.Location = new Point(201, 3655);
+            textBox2.Margin = new Padding(3, 3, 10, 3);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(118, 23);
+            textBox2.TabIndex = 246;
             // 
-            // textBox48
+            // textBox3
             // 
-            textBox48.Location = new Point(201, 3324);
-            textBox48.Margin = new Padding(3, 3, 10, 3);
-            textBox48.Name = "textBox48";
-            textBox48.Size = new Size(118, 23);
-            textBox48.TabIndex = 224;
+            textBox3.Location = new Point(201, 3628);
+            textBox3.Margin = new Padding(3, 3, 10, 3);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(118, 23);
+            textBox3.TabIndex = 245;
             // 
-            // label49
+            // textBox4
             // 
-            label49.AutoSize = true;
-            label49.Location = new Point(14, 3327);
-            label49.Margin = new Padding(8, 12, 8, 0);
-            label49.Name = "label49";
-            label49.Size = new Size(56, 15);
-            label49.TabIndex = 223;
-            label49.Text = "fade start";
+            textBox4.Location = new Point(201, 3601);
+            textBox4.Margin = new Padding(3, 3, 10, 3);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(118, 23);
+            textBox4.TabIndex = 244;
             // 
-            // textBox49
+            // textBox5
             // 
-            textBox49.Location = new Point(201, 3351);
-            textBox49.Margin = new Padding(3, 3, 10, 3);
-            textBox49.Name = "textBox49";
-            textBox49.Size = new Size(118, 23);
-            textBox49.TabIndex = 226;
+            textBox5.Location = new Point(201, 3574);
+            textBox5.Margin = new Padding(3, 3, 10, 3);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(118, 23);
+            textBox5.TabIndex = 243;
             // 
-            // label50
+            // textBox6
             // 
-            label50.AutoSize = true;
-            label50.Location = new Point(14, 3354);
-            label50.Margin = new Padding(8, 12, 8, 0);
-            label50.Name = "label50";
-            label50.Size = new Size(57, 15);
-            label50.TabIndex = 225;
-            label50.Text = "fade time";
+            textBox6.Location = new Point(201, 3547);
+            textBox6.Margin = new Padding(3, 3, 10, 3);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(59, 23);
+            textBox6.TabIndex = 242;
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(273, 3547);
+            textBox7.Margin = new Padding(3, 3, 10, 3);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(59, 23);
+            textBox7.TabIndex = 248;
             // 
             // Form2
             // 
@@ -2400,113 +2651,135 @@
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(638, 619);
-            Controls.Add(textBox49);
-            Controls.Add(label50);
-            Controls.Add(textBox48);
-            Controls.Add(label49);
-            Controls.Add(textBox47);
-            Controls.Add(label48);
-            Controls.Add(textBox46);
-            Controls.Add(label47);
-            Controls.Add(textBox45);
-            Controls.Add(label46);
-            Controls.Add(textBox44);
-            Controls.Add(label45);
-            Controls.Add(checkBox10);
-            Controls.Add(label44);
-            Controls.Add(textBox43);
-            Controls.Add(checkBox9);
-            Controls.Add(label41);
-            Controls.Add(panel3);
-            Controls.Add(checkBox8);
-            Controls.Add(label38);
-            Controls.Add(panel1);
-            Controls.Add(textBox36);
-            Controls.Add(textBox37);
-            Controls.Add(label32);
-            Controls.Add(textBox38);
-            Controls.Add(label33);
-            Controls.Add(textBox39);
-            Controls.Add(label34);
-            Controls.Add(textBox40);
-            Controls.Add(label35);
-            Controls.Add(label36);
-            Controls.Add(textBox41);
-            Controls.Add(checkBox7);
-            Controls.Add(textBox42);
-            Controls.Add(label37);
-            Controls.Add(textBox29);
-            Controls.Add(textBox30);
-            Controls.Add(label26);
-            Controls.Add(textBox31);
-            Controls.Add(label27);
-            Controls.Add(textBox32);
-            Controls.Add(label28);
-            Controls.Add(textBox33);
-            Controls.Add(label29);
-            Controls.Add(label30);
-            Controls.Add(textBox34);
-            Controls.Add(checkBox6);
-            Controls.Add(textBox35);
-            Controls.Add(label31);
-            Controls.Add(textBox22);
-            Controls.Add(textBox23);
-            Controls.Add(label20);
-            Controls.Add(textBox24);
-            Controls.Add(label21);
-            Controls.Add(textBox25);
-            Controls.Add(label22);
-            Controls.Add(textBox26);
-            Controls.Add(label23);
-            Controls.Add(label24);
-            Controls.Add(textBox27);
-            Controls.Add(checkBox5);
-            Controls.Add(textBox28);
-            Controls.Add(label25);
-            Controls.Add(textBox15);
-            Controls.Add(textBox16);
-            Controls.Add(label14);
-            Controls.Add(textBox17);
-            Controls.Add(label15);
-            Controls.Add(textBox18);
-            Controls.Add(label16);
-            Controls.Add(textBox19);
-            Controls.Add(label17);
-            Controls.Add(label18);
-            Controls.Add(textBox20);
-            Controls.Add(checkBox4);
-            Controls.Add(textBox21);
-            Controls.Add(label19);
-            Controls.Add(textBox8);
-            Controls.Add(textBox9);
-            Controls.Add(label8);
-            Controls.Add(textBox10);
-            Controls.Add(label9);
-            Controls.Add(textBox11);
-            Controls.Add(label10);
-            Controls.Add(textBox12);
-            Controls.Add(label11);
-            Controls.Add(label12);
-            Controls.Add(textBox13);
-            Controls.Add(checkBox3);
-            Controls.Add(textBox14);
-            Controls.Add(label13);
-            Controls.Add(textBox6);
             Controls.Add(textBox7);
-            Controls.Add(label7);
-            Controls.Add(textBox5);
-            Controls.Add(label6);
-            Controls.Add(textBox4);
-            Controls.Add(label5);
-            Controls.Add(textBox3);
-            Controls.Add(label1);
-            Controls.Add(label3);
             Controls.Add(textBox1);
-            Controls.Add(checkBox1);
             Controls.Add(textBox2);
+            Controls.Add(textBox3);
+            Controls.Add(textBox4);
+            Controls.Add(textBox5);
+            Controls.Add(textBox6);
+            Controls.Add(label16);
+            Controls.Add(label14);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(checkBox2);
-            Controls.Add(label2);
+            Controls.Add(checkBox1);
+            Controls.Add(label3);
+            Controls.Add(panel1);
+            Controls.Add(TbxCFadeTime);
+            Controls.Add(LbCFadeTime);
+            Controls.Add(TbxCFadeStart);
+            Controls.Add(LbCFadeStart);
+            Controls.Add(TbxXMargin);
+            Controls.Add(LbXMargin);
+            Controls.Add(TbxLineHeight);
+            Controls.Add(LbLineHeight);
+            Controls.Add(TbxConsoleSoft);
+            Controls.Add(LbConsoleSoft);
+            Controls.Add(TbxConsoleBuffer);
+            Controls.Add(LbConsoleBuffer);
+            Controls.Add(CbScrollback);
+            Controls.Add(LbScrollback);
+            Controls.Add(TbxControllerConfig);
+            Controls.Add(CbCustomCEnabled);
+            Controls.Add(LbCustomCEnabled);
+            Controls.Add(PnlCustomC);
+            Controls.Add(CbControllerEnabled);
+            Controls.Add(LbControllerEnabled);
+            Controls.Add(PnlController);
+            Controls.Add(TbxConsoleSY);
+            Controls.Add(TbxConsoleYO);
+            Controls.Add(LbConsoleSh);
+            Controls.Add(TbxConsoleSX);
+            Controls.Add(TbxConsoleXY);
+            Controls.Add(TbxConsoleXO);
+            Controls.Add(LbConsoleFS);
+            Controls.Add(TbxConsoleFS);
+            Controls.Add(LbConsoleFW);
+            Controls.Add(LbConsoleFF);
+            Controls.Add(TbxConsoleFW);
+            Controls.Add(CbConsoleFO);
+            Controls.Add(TbxConsoleFF);
+            Controls.Add(LbConsoleFO);
+            Controls.Add(TbxTickerSY);
+            Controls.Add(TbxTickerYO);
+            Controls.Add(LbTickerSh);
+            Controls.Add(TbxTickerSX);
+            Controls.Add(LbTickerXY);
+            Controls.Add(TbxTickerXO);
+            Controls.Add(LbTickerFS);
+            Controls.Add(TbxTickerFS);
+            Controls.Add(LbTickerFW);
+            Controls.Add(LbTickerFF);
+            Controls.Add(TbxTickerFW);
+            Controls.Add(CbTickerFO);
+            Controls.Add(TbxTickerFF);
+            Controls.Add(LbTickerFO);
+            Controls.Add(TbxSmallerSY);
+            Controls.Add(TbxSmallerYO);
+            Controls.Add(LbSmallerSh);
+            Controls.Add(TbxSmallerSX);
+            Controls.Add(LbSmallerXY);
+            Controls.Add(TbxSmallerXO);
+            Controls.Add(LbSmallerFS);
+            Controls.Add(TbxSmallerFS);
+            Controls.Add(LbSmallerFW);
+            Controls.Add(LbSmallerFF);
+            Controls.Add(TbxSmallerFW);
+            Controls.Add(CbSmallerFO);
+            Controls.Add(TbxSmallerFF);
+            Controls.Add(LbSmallerFO);
+            Controls.Add(TbxSmallSY);
+            Controls.Add(TbxSmallYO);
+            Controls.Add(LbSmallSh);
+            Controls.Add(TbxSmallSX);
+            Controls.Add(label15);
+            Controls.Add(TbxSmallXO);
+            Controls.Add(LbSmallFS);
+            Controls.Add(TbxSmallFS);
+            Controls.Add(LbSmallFW);
+            Controls.Add(LbSmallFF);
+            Controls.Add(TbxSmallFW);
+            Controls.Add(CbSmallFO);
+            Controls.Add(TbxSmallFF);
+            Controls.Add(LbSmallFO);
+            Controls.Add(TbxLargeSY);
+            Controls.Add(TbxLargeYO);
+            Controls.Add(LbLargeSh);
+            Controls.Add(TbxLargeSX);
+            Controls.Add(LbLargeXY);
+            Controls.Add(TbxLargeXO);
+            Controls.Add(LbLargeFS);
+            Controls.Add(TbxLargeFS);
+            Controls.Add(LbLargeFW);
+            Controls.Add(LbLargeFF);
+            Controls.Add(TbxLargeFW);
+            Controls.Add(CbLargeFO);
+            Controls.Add(TbxLargeFF);
+            Controls.Add(LbLargeFO);
+            Controls.Add(TbxSystemSY);
+            Controls.Add(TbxSystemYO);
+            Controls.Add(TbxSystemSh);
+            Controls.Add(TbxSystemSX);
+            Controls.Add(LbSystemXY);
+            Controls.Add(TbxSystemXO);
+            Controls.Add(LbSystemFS);
+            Controls.Add(TbxSystemFS);
+            Controls.Add(LbSystemFW);
+            Controls.Add(LbSystemFF);
+            Controls.Add(TbxSystemFW);
+            Controls.Add(CbSystemFO);
+            Controls.Add(TbxSystemFF);
+            Controls.Add(LbSystemFO);
+            Controls.Add(CbFontOverEnabled);
+            Controls.Add(LbFontOverEnabled);
             Controls.Add(PnlFontOver);
             Controls.Add(CbDownloadRetail);
             Controls.Add(LbDownloadRetail);
@@ -2629,10 +2902,12 @@
             PnlMemory.PerformLayout();
             PnlFontOver.ResumeLayout(false);
             PnlFontOver.PerformLayout();
+            PnlController.ResumeLayout(false);
+            PnlController.PerformLayout();
+            PnlCustomC.ResumeLayout(false);
+            PnlCustomC.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2757,116 +3032,140 @@
         private Panel PnlFontOver;
         private Label LbFontOverDesc;
         private Label LbFontOver;
-        private CheckBox checkBox2;
-        private Label label2;
+        private CheckBox CbFontOverEnabled;
+        private Label LbFontOverEnabled;
+        private Label LbSystemFW;
+        private Label LbSystemFF;
+        private TextBox TbxSystemFW;
+        private CheckBox CbSystemFO;
+        private TextBox TbxSystemFF;
+        private Label LbSystemFO;
+        private Label LbSystemFS;
+        private TextBox TbxSystemFS;
+        private Label LbSystemXY;
+        private TextBox TbxSystemXO;
+        private Label TbxSystemSh;
+        private TextBox TbxSystemSX;
+        private TextBox TbxSystemSY;
+        private TextBox TbxSystemYO;
+        private TextBox TbxLargeSY;
+        private TextBox TbxLargeYO;
+        private Label LbLargeSh;
+        private TextBox TbxLargeSX;
+        private Label LbLargeXY;
+        private TextBox TbxLargeXO;
+        private Label LbLargeFS;
+        private TextBox TbxLargeFS;
+        private Label LbLargeFW;
+        private Label LbLargeFF;
+        private TextBox TbxLargeFW;
+        private CheckBox CbLargeFO;
+        private TextBox TbxLargeFF;
+        private Label LbLargeFO;
+        private TextBox TbxSmallSY;
+        private TextBox TbxSmallYO;
+        private Label LbSmallSh;
+        private TextBox TbxSmallSX;
+        private Label label15;
+        private TextBox TbxSmallXO;
+        private Label LbSmallFS;
+        private TextBox TbxSmallFS;
+        private Label LbSmallFW;
+        private Label LbSmallFF;
+        private TextBox TbxSmallFW;
+        private CheckBox CbSmallFO;
+        private TextBox TbxSmallFF;
+        private Label LbSmallFO;
+        private TextBox TbxSmallerSY;
+        private TextBox TbxSmallerYO;
+        private Label LbSmallerSh;
+        private TextBox TbxSmallerSX;
+        private Label LbSmallerXY;
+        private TextBox TbxSmallerXO;
+        private Label LbSmallerFS;
+        private TextBox TbxSmallerFS;
+        private Label LbSmallerFW;
+        private Label LbSmallerFF;
+        private TextBox TbxSmallerFW;
+        private CheckBox CbSmallerFO;
+        private TextBox TbxSmallerFF;
+        private Label LbSmallerFO;
+        private TextBox TbxTickerSY;
+        private TextBox TbxTickerYO;
+        private Label LbTickerSh;
+        private TextBox TbxTickerSX;
+        private Label LbTickerXY;
+        private TextBox TbxTickerXO;
+        private Label LbTickerFS;
+        private TextBox TbxTickerFS;
+        private Label LbTickerFW;
+        private Label LbTickerFF;
+        private TextBox TbxTickerFW;
+        private CheckBox CbTickerFO;
+        private TextBox TbxTickerFF;
+        private Label LbTickerFO;
+        private TextBox TbxConsoleSY;
+        private TextBox TbxConsoleYO;
+        private Label LbConsoleSh;
+        private TextBox TbxConsoleSX;
+        private Label TbxConsoleXY;
+        private TextBox TbxConsoleXO;
+        private Label LbConsoleFS;
+        private TextBox TbxConsoleFS;
+        private Label LbConsoleFW;
+        private Label LbConsoleFF;
+        private TextBox TbxConsoleFW;
+        private CheckBox CbConsoleFO;
+        private TextBox TbxConsoleFF;
+        private Label LbConsoleFO;
+        private CheckBox CbControllerEnabled;
+        private Label LbControllerEnabled;
+        private Panel PnlController;
+        private Label LbControllerDesc;
+        private Label LbController;
+        private CheckBox CbCustomCEnabled;
+        private Label LbCustomCEnabled;
+        private Panel PnlCustomC;
+        private Label LbCustomCDesc;
+        private Label LbCustomC;
+        private TextBox TbxControllerConfig;
+        private CheckBox CbScrollback;
+        private Label LbScrollback;
+        private TextBox TbxConsoleBuffer;
+        private Label LbConsoleBuffer;
+        private TextBox TbxConsoleSoft;
+        private Label LbConsoleSoft;
+        private TextBox TbxLineHeight;
+        private Label LbLineHeight;
+        private TextBox TbxXMargin;
+        private Label LbXMargin;
+        private TextBox TbxCFadeStart;
+        private Label LbCFadeStart;
+        private TextBox TbxCFadeTime;
+        private Label LbCFadeTime;
+        private Panel panel1;
         private Label label1;
-        private Label label3;
-        private TextBox textBox1;
+        private Label label2;
         private CheckBox checkBox1;
-        private TextBox textBox2;
+        private Label label3;
         private Label label4;
         private Label label5;
-        private TextBox textBox3;
         private Label label6;
-        private TextBox textBox4;
         private Label label7;
+        private Label label8;
+        private Label label9;
+        private Label label10;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private Label label16;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
         private TextBox textBox5;
         private TextBox textBox6;
         private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private Label label8;
-        private TextBox textBox10;
-        private Label label9;
-        private TextBox textBox11;
-        private Label label10;
-        private TextBox textBox12;
-        private Label label11;
-        private Label label12;
-        private TextBox textBox13;
-        private CheckBox checkBox3;
-        private TextBox textBox14;
-        private Label label13;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private Label label14;
-        private TextBox textBox17;
-        private Label label15;
-        private TextBox textBox18;
-        private Label label16;
-        private TextBox textBox19;
-        private Label label17;
-        private Label label18;
-        private TextBox textBox20;
-        private CheckBox checkBox4;
-        private TextBox textBox21;
-        private Label label19;
-        private TextBox textBox22;
-        private TextBox textBox23;
-        private Label label20;
-        private TextBox textBox24;
-        private Label label21;
-        private TextBox textBox25;
-        private Label label22;
-        private TextBox textBox26;
-        private Label label23;
-        private Label label24;
-        private TextBox textBox27;
-        private CheckBox checkBox5;
-        private TextBox textBox28;
-        private Label label25;
-        private TextBox textBox29;
-        private TextBox textBox30;
-        private Label label26;
-        private TextBox textBox31;
-        private Label label27;
-        private TextBox textBox32;
-        private Label label28;
-        private TextBox textBox33;
-        private Label label29;
-        private Label label30;
-        private TextBox textBox34;
-        private CheckBox checkBox6;
-        private TextBox textBox35;
-        private Label label31;
-        private TextBox textBox36;
-        private TextBox textBox37;
-        private Label label32;
-        private TextBox textBox38;
-        private Label label33;
-        private TextBox textBox39;
-        private Label label34;
-        private TextBox textBox40;
-        private Label label35;
-        private Label label36;
-        private TextBox textBox41;
-        private CheckBox checkBox7;
-        private TextBox textBox42;
-        private Label label37;
-        private CheckBox checkBox8;
-        private Label label38;
-        private Panel panel1;
-        private Label label39;
-        private Label label40;
-        private CheckBox checkBox9;
-        private Label label41;
-        private Panel panel3;
-        private Label label42;
-        private Label label43;
-        private TextBox textBox43;
-        private CheckBox checkBox10;
-        private Label label44;
-        private TextBox textBox44;
-        private Label label45;
-        private TextBox textBox45;
-        private Label label46;
-        private TextBox textBox46;
-        private Label label47;
-        private TextBox textBox47;
-        private Label label48;
-        private TextBox textBox48;
-        private Label label49;
-        private TextBox textBox49;
-        private Label label50;
     }
 }
