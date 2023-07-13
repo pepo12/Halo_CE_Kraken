@@ -1,4 +1,7 @@
-﻿namespace chimera_editor.Presentation
+﻿using System.Drawing.Text;
+using System.Security.AccessControl;
+
+namespace chimera_editor.Presentation
 {
     partial class Form2
     {
@@ -256,31 +259,125 @@
             TbxCFadeStart = new TextBox();
             LbCFadeStart = new Label();
             TbxCFadeTime = new TextBox();
-            LbCFadeTime = new Label();
-            panel1 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            checkBox1 = new CheckBox();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label16 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
+            PnlCustomChat = new Panel();
+            LbCustomChatDesc = new Label();
+            LbCustomChat = new Label();
+            CbAllowRcon = new CheckBox();
+            LbAllowRcon = new Label();
+            LbSvMsgColor = new Label();
+            LbSvMsgOff = new Label();
+            LbSvMsgDim = new Label();
+            LbSvMsgOC = new Label();
+            LbSvMsgAnchor = new Label();
+            LbSvMsgCHide = new Label();
+            LbSvMsgFont = new Label();
+            LbSvMsgAniTime = new Label();
+            LbSvMsgDisTime = new Label();
+            LbSvMsgFadeTime = new Label();
+            LbSvMsgLineH = new Label();
+            LbSvMsg = new Label();
+            TbxSvMsgColorA = new TextBox();
+            TbxSvMsgColorR = new TextBox();
+            TbxSvMsgColorG = new TextBox();
+            LbSvMsgColorA = new Label();
+            LbSvMsgColorR = new Label();
+            LbSvMsgColorG = new Label();
+            TbxSvMsgOffX = new TextBox();
+            TbxSvMsgDimX = new TextBox();
+            TbxSvMsgOC = new TextBox();
+            TbxSvMsgAniTime = new TextBox();
+            TbxSvMsgDisTime = new TextBox();
+            TbxSvMsgFadeTime = new TextBox();
+            TbxSvMsgLineH = new TextBox();
+            PnlSvMsg = new Panel();
+            TbxSvMsgOffY = new TextBox();
+            TbxSvMsgDimY = new TextBox();
+            TbxChtMsgDimY = new TextBox();
+            TbxChtMsgOffY = new TextBox();
+            TbxChtMsgLineH = new TextBox();
+            TbxChtMsgFadeTime = new TextBox();
+            TbxChtMsgDisTime = new TextBox();
+            TbxChtMsgAniTime = new TextBox();
+            TbxChtMsgOC = new TextBox();
+            TbxChtMsgDimX = new TextBox();
+            TbxChtMsgOffX = new TextBox();
+            LbChtMsgFfaG = new Label();
+            LbChtMsgFfaR = new Label();
+            LbChtMsgFfaA = new Label();
+            TbxChtMsgFfa = new TextBox();
+            TbxChtMsgFfaR = new TextBox();
+            TbxChtMsgFfaA = new TextBox();
+            LbChtMsg = new Label();
+            LbChtMsgLineH = new Label();
+            LbChtMsgFadeTime = new Label();
+            LbChtMsgDisTime = new Label();
+            LbChtMsgAniTime = new Label();
+            LbChtMsgFont = new Label();
+            LbChtMsgCHide = new Label();
+            LbChtMsgAnchor = new Label();
+            LbChtMsgOC = new Label();
+            LbChtMsgDim = new Label();
+            LbChtMsgOff = new Label();
+            LbChtMsgFfa = new Label();
+            PnlChtMsg = new Panel();
+            LbChtMsgRedG = new Label();
+            LbChtMsgRedR = new Label();
+            LbChtMsgRedA = new Label();
+            TbxChtMsgRedG = new TextBox();
+            TbxChtMsgRedR = new TextBox();
+            TbxChtMsgRedA = new TextBox();
+            LbChtMsgBlueG = new Label();
+            LbChtMsgBlueR = new Label();
+            LbChtMsgBlueA = new Label();
+            TbxChtMsgBlueG = new TextBox();
+            TbxChtMsgBlueR = new TextBox();
+            TbxChtMsgBlueA = new TextBox();
+            LbSvMsgColorB = new Label();
+            TbxSvMsgColorB = new TextBox();
+            LbChtMsgBlueB = new Label();
+            TbxChtMsgBlueB = new TextBox();
+            LbChtMsgRedB = new Label();
+            TbxChtMsgRedB = new TextBox();
+            LbChtMsgFfaB = new Label();
+            TbxChtMsgFfaB = new TextBox();
+            LbChtMsgRed = new Label();
+            LbChtMsgBlue = new Label();
+            LbChtInColorB = new Label();
+            TbxChtInColorB = new TextBox();
+            TbxChtInOffY = new TextBox();
+            TbxChtInWidth = new TextBox();
+            TbxChtInOffX = new TextBox();
+            LbChtInColorG = new Label();
+            LbChtInColorR = new Label();
+            LbChtInColorA = new Label();
+            TbxChtInColorG = new TextBox();
+            TbxChtInColorR = new TextBox();
+            TbxChtInColorA = new TextBox();
+            LbChtIn = new Label();
+            LbChtInFont = new Label();
+            LbChtInAnchor = new Label();
+            LbChtInWidth = new Label();
+            LbChtInOff = new Label();
+            LbChtInColor = new Label();
+            PnlChtIn = new Panel();
+            LbSvMsgOffY = new Label();
+            LbSvMsgOffX = new Label();
+            LbSvMsgDimY = new Label();
+            LbSvMsgDimX = new Label();
+            LbChtMsgOffY = new Label();
+            LbChtMsgOffX = new Label();
+            LbChtMsgDimY = new Label();
+            LbChtMsgDimX = new Label();
+            ComBoxSvMsgAnchor = new ComboBox();
+            CbSvMsgCHide = new CheckBox();
+            ComBoxSvMsgFont = new ComboBox();
+            ComBoxChtMsgFont = new ComboBox();
+            CbChtMsgCHide = new CheckBox();
+            ComBoxChtMsgAnchor = new ComboBox();
+            ComBoxChtInFont = new ComboBox();
+            LbChtInOffY = new Label();
+            LbChtInOffX = new Label();
+            ComBoxChtInAnchor = new ComboBox();
             PnlHalo.SuspendLayout();
             PnlErrorHand.SuspendLayout();
             PnlVideoMode.SuspendLayout();
@@ -291,7 +388,8 @@
             PnlFontOver.SuspendLayout();
             PnlController.SuspendLayout();
             PnlCustomC.SuspendLayout();
-            panel1.SuspendLayout();
+            PnlCustomChat.SuspendLayout();
+            PnlChtMsg.SuspendLayout();
             SuspendLayout();
             // 
             // PnlHalo
@@ -329,7 +427,7 @@
             VSBEditor.Dock = DockStyle.Right;
             VSBEditor.Location = new Point(604, 0);
             VSBEditor.Name = "VSBEditor";
-            VSBEditor.Size = new Size(17, 4294);
+            VSBEditor.Size = new Size(17, 4840);
             VSBEditor.TabIndex = 1;
             // 
             // LbPath
@@ -776,7 +874,7 @@
             // 
             panel2.BackColor = SystemColors.ControlLight;
             panel2.BorderStyle = BorderStyle.Fixed3D;
-            panel2.Location = new Point(36, 4231);
+            panel2.Location = new Point(36, 4777);
             panel2.Margin = new Padding(3, 38, 3, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(543, 63);
@@ -2407,241 +2505,1218 @@
             TbxCFadeTime.Size = new Size(118, 23);
             TbxCFadeTime.TabIndex = 226;
             // 
-            // LbCFadeTime
+            // PnlCustomChat
             // 
-            LbCFadeTime.AutoSize = true;
-            LbCFadeTime.Location = new Point(14, 3354);
-            LbCFadeTime.Margin = new Padding(8, 12, 8, 0);
-            LbCFadeTime.Name = "LbCFadeTime";
-            LbCFadeTime.Size = new Size(57, 15);
-            LbCFadeTime.TabIndex = 225;
-            LbCFadeTime.Text = "fade time";
+            PnlCustomChat.BackColor = SystemColors.ControlLight;
+            PnlCustomChat.BorderStyle = BorderStyle.Fixed3D;
+            PnlCustomChat.Controls.Add(LbCustomChatDesc);
+            PnlCustomChat.Controls.Add(LbCustomChat);
+            PnlCustomChat.Location = new Point(8, 3407);
+            PnlCustomChat.Margin = new Padding(3, 38, 3, 3);
+            PnlCustomChat.Name = "PnlCustomChat";
+            PnlCustomChat.Size = new Size(543, 63);
+            PnlCustomChat.TabIndex = 210;
             // 
-            // panel1
+            // LbCustomChatDesc
             // 
-            panel1.BackColor = SystemColors.ControlLight;
-            panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(label2);
-            panel1.Location = new Point(8, 3407);
-            panel1.Margin = new Padding(3, 38, 3, 3);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(543, 63);
-            panel1.TabIndex = 210;
+            LbCustomChatDesc.AutoSize = true;
+            LbCustomChatDesc.Location = new Point(4, 24);
+            LbCustomChatDesc.Name = "LbCustomChatDesc";
+            LbCustomChatDesc.Size = new Size(212, 30);
+            LbCustomChatDesc.TabIndex = 1;
+            LbCustomChatDesc.Text = "custom chat configuration.\r\nthis is the custom chat and server chat.";
             // 
-            // label1
+            // LbCustomChat
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(4, 24);
-            label1.Name = "label1";
-            label1.Size = new Size(212, 30);
-            label1.TabIndex = 1;
-            label1.Text = "custom chat configuration.\r\nthis is the custom chat and server chat.";
+            LbCustomChat.AutoSize = true;
+            LbCustomChat.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            LbCustomChat.Location = new Point(4, 5);
+            LbCustomChat.Name = "LbCustomChat";
+            LbCustomChat.Size = new Size(86, 19);
+            LbCustomChat.TabIndex = 0;
+            LbCustomChat.Text = "custom chat";
             // 
-            // label2
+            // CbAllowRcon
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(4, 5);
-            label2.Name = "label2";
-            label2.Size = new Size(86, 19);
-            label2.TabIndex = 0;
-            label2.Text = "custom chat";
+            CbAllowRcon.AutoSize = true;
+            CbAllowRcon.Location = new Point(180, 3483);
+            CbAllowRcon.Name = "CbAllowRcon";
+            CbAllowRcon.Size = new Size(15, 14);
+            CbAllowRcon.TabIndex = 228;
+            CbAllowRcon.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // LbAllowRcon
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(180, 3483);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(15, 14);
-            checkBox1.TabIndex = 228;
-            checkBox1.UseVisualStyleBackColor = true;
+            LbAllowRcon.AutoSize = true;
+            LbAllowRcon.Location = new Point(14, 3481);
+            LbAllowRcon.Margin = new Padding(8, 12, 8, 0);
+            LbAllowRcon.Name = "LbAllowRcon";
+            LbAllowRcon.Size = new Size(120, 15);
+            LbAllowRcon.TabIndex = 227;
+            LbAllowRcon.Text = "allow unsolicted rcon";
             // 
-            // label3
+            // LbSvMsgColor
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(14, 3481);
-            label3.Margin = new Padding(8, 8, 8, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(120, 15);
-            label3.TabIndex = 227;
-            label3.Text = "allow unsolicted rcon";
+            LbSvMsgColor.AutoSize = true;
+            LbSvMsgColor.BackColor = SystemColors.ControlLight;
+            LbSvMsgColor.Location = new Point(34, 3535);
+            LbSvMsgColor.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgColor.Name = "LbSvMsgColor";
+            LbSvMsgColor.Size = new Size(34, 15);
+            LbSvMsgColor.TabIndex = 229;
+            LbSvMsgColor.Text = "color";
             // 
-            // label4
+            // LbSvMsgOff
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(14, 3527);
-            label4.Margin = new Padding(8, 8, 8, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(34, 15);
-            label4.TabIndex = 229;
-            label4.Text = "color";
+            LbSvMsgOff.AutoSize = true;
+            LbSvMsgOff.BackColor = SystemColors.ControlLight;
+            LbSvMsgOff.Location = new Point(34, 3562);
+            LbSvMsgOff.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgOff.Name = "LbSvMsgOff";
+            LbSvMsgOff.Size = new Size(37, 15);
+            LbSvMsgOff.TabIndex = 230;
+            LbSvMsgOff.Text = "offset";
             // 
-            // label5
+            // LbSvMsgDim
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(14, 3550);
-            label5.Margin = new Padding(8, 8, 8, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(37, 15);
-            label5.TabIndex = 230;
-            label5.Text = "offset";
+            LbSvMsgDim.AutoSize = true;
+            LbSvMsgDim.BackColor = SystemColors.ControlLight;
+            LbSvMsgDim.Location = new Point(34, 3589);
+            LbSvMsgDim.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgDim.Name = "LbSvMsgDim";
+            LbSvMsgDim.Size = new Size(68, 15);
+            LbSvMsgDim.TabIndex = 231;
+            LbSvMsgDim.Text = "dimensions";
             // 
-            // label6
+            // LbSvMsgOC
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(14, 3573);
-            label6.Margin = new Padding(8, 8, 8, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(68, 15);
-            label6.TabIndex = 231;
-            label6.Text = "dimensions";
+            LbSvMsgOC.AutoSize = true;
+            LbSvMsgOC.BackColor = SystemColors.ControlLight;
+            LbSvMsgOC.Location = new Point(34, 3616);
+            LbSvMsgOC.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgOC.Name = "LbSvMsgOC";
+            LbSvMsgOC.Size = new Size(97, 15);
+            LbSvMsgOC.TabIndex = 232;
+            LbSvMsgOC.Text = "open chat height\r\n";
             // 
-            // label7
+            // LbSvMsgAnchor
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(14, 3596);
-            label7.Margin = new Padding(8, 8, 8, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(97, 15);
-            label7.TabIndex = 232;
-            label7.Text = "open chat height\r\n";
+            LbSvMsgAnchor.AutoSize = true;
+            LbSvMsgAnchor.BackColor = SystemColors.ControlLight;
+            LbSvMsgAnchor.Location = new Point(34, 3643);
+            LbSvMsgAnchor.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgAnchor.Name = "LbSvMsgAnchor";
+            LbSvMsgAnchor.Size = new Size(44, 15);
+            LbSvMsgAnchor.TabIndex = 233;
+            LbSvMsgAnchor.Text = "anchor";
             // 
-            // label8
+            // LbSvMsgCHide
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(14, 3619);
-            label8.Margin = new Padding(8, 8, 8, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(44, 15);
-            label8.TabIndex = 233;
-            label8.Text = "anchor";
+            LbSvMsgCHide.AutoSize = true;
+            LbSvMsgCHide.BackColor = SystemColors.ControlLight;
+            LbSvMsgCHide.Location = new Point(34, 3670);
+            LbSvMsgCHide.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgCHide.Name = "LbSvMsgCHide";
+            LbSvMsgCHide.Size = new Size(74, 15);
+            LbSvMsgCHide.TabIndex = 234;
+            LbSvMsgCHide.Text = "console hide";
             // 
-            // label9
+            // LbSvMsgFont
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(14, 3642);
-            label9.Margin = new Padding(8, 8, 8, 0);
-            label9.Name = "label9";
-            label9.Size = new Size(74, 15);
-            label9.TabIndex = 234;
-            label9.Text = "console hide";
+            LbSvMsgFont.AutoSize = true;
+            LbSvMsgFont.BackColor = SystemColors.ControlLight;
+            LbSvMsgFont.Location = new Point(34, 3697);
+            LbSvMsgFont.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgFont.Name = "LbSvMsgFont";
+            LbSvMsgFont.Size = new Size(29, 15);
+            LbSvMsgFont.TabIndex = 235;
+            LbSvMsgFont.Text = "font";
             // 
-            // label10
+            // LbSvMsgAniTime
             // 
-            label10.AutoSize = true;
-            label10.Location = new Point(14, 3665);
-            label10.Margin = new Padding(8, 8, 8, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(29, 15);
-            label10.TabIndex = 235;
-            label10.Text = "font";
+            LbSvMsgAniTime.AutoSize = true;
+            LbSvMsgAniTime.BackColor = SystemColors.ControlLight;
+            LbSvMsgAniTime.Location = new Point(34, 3724);
+            LbSvMsgAniTime.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgAniTime.Name = "LbSvMsgAniTime";
+            LbSvMsgAniTime.Size = new Size(88, 15);
+            LbSvMsgAniTime.TabIndex = 236;
+            LbSvMsgAniTime.Text = "animation time";
             // 
-            // label11
+            // LbSvMsgDisTime
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(14, 3688);
-            label11.Margin = new Padding(8, 8, 8, 0);
-            label11.Name = "label11";
-            label11.Size = new Size(88, 15);
-            label11.TabIndex = 236;
-            label11.Text = "animation time";
+            LbSvMsgDisTime.AutoSize = true;
+            LbSvMsgDisTime.BackColor = SystemColors.ControlLight;
+            LbSvMsgDisTime.Location = new Point(34, 3751);
+            LbSvMsgDisTime.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgDisTime.Name = "LbSvMsgDisTime";
+            LbSvMsgDisTime.Size = new Size(71, 15);
+            LbSvMsgDisTime.TabIndex = 237;
+            LbSvMsgDisTime.Text = "display time";
             // 
-            // label12
+            // LbSvMsgFadeTime
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(14, 3711);
-            label12.Margin = new Padding(8, 8, 8, 0);
-            label12.Name = "label12";
-            label12.Size = new Size(71, 15);
-            label12.TabIndex = 237;
-            label12.Text = "display time";
+            LbSvMsgFadeTime.AutoSize = true;
+            LbSvMsgFadeTime.BackColor = SystemColors.ControlLight;
+            LbSvMsgFadeTime.Location = new Point(34, 3778);
+            LbSvMsgFadeTime.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgFadeTime.Name = "LbSvMsgFadeTime";
+            LbSvMsgFadeTime.Size = new Size(78, 15);
+            LbSvMsgFadeTime.TabIndex = 238;
+            LbSvMsgFadeTime.Text = "fade out time";
             // 
-            // label13
+            // LbSvMsgLineH
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(14, 3734);
-            label13.Margin = new Padding(8, 8, 8, 0);
-            label13.Name = "label13";
-            label13.Size = new Size(78, 15);
-            label13.TabIndex = 238;
-            label13.Text = "fade out time";
+            LbSvMsgLineH.AutoSize = true;
+            LbSvMsgLineH.BackColor = SystemColors.ControlLight;
+            LbSvMsgLineH.Location = new Point(34, 3805);
+            LbSvMsgLineH.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsgLineH.Name = "LbSvMsgLineH";
+            LbSvMsgLineH.Size = new Size(63, 15);
+            LbSvMsgLineH.TabIndex = 239;
+            LbSvMsgLineH.Text = "line height";
             // 
-            // label14
+            // LbSvMsg
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(14, 3757);
-            label14.Margin = new Padding(8, 8, 8, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(63, 15);
-            label14.TabIndex = 239;
-            label14.Text = "line height";
+            LbSvMsg.AutoSize = true;
+            LbSvMsg.Location = new Point(14, 3508);
+            LbSvMsg.Margin = new Padding(8, 12, 8, 0);
+            LbSvMsg.Name = "LbSvMsg";
+            LbSvMsg.Size = new Size(92, 15);
+            LbSvMsg.TabIndex = 240;
+            LbSvMsg.Text = "server messages";
             // 
-            // label16
+            // TbxSvMsgColorA
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(14, 3504);
-            label16.Margin = new Padding(8, 8, 8, 0);
-            label16.Name = "label16";
-            label16.Size = new Size(92, 15);
-            label16.TabIndex = 240;
-            label16.Text = "server messages";
+            TbxSvMsgColorA.Location = new Point(201, 3532);
+            TbxSvMsgColorA.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgColorA.Name = "TbxSvMsgColorA";
+            TbxSvMsgColorA.Size = new Size(72, 23);
+            TbxSvMsgColorA.TabIndex = 241;
             // 
-            // textBox1
+            // TbxSvMsgColorR
             // 
-            textBox1.Location = new Point(201, 3682);
-            textBox1.Margin = new Padding(3, 3, 10, 3);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(118, 23);
-            textBox1.TabIndex = 247;
+            TbxSvMsgColorR.Location = new Point(291, 3532);
+            TbxSvMsgColorR.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgColorR.Name = "TbxSvMsgColorR";
+            TbxSvMsgColorR.Size = new Size(72, 23);
+            TbxSvMsgColorR.TabIndex = 242;
             // 
-            // textBox2
+            // TbxSvMsgColorG
             // 
-            textBox2.Location = new Point(201, 3655);
-            textBox2.Margin = new Padding(3, 3, 10, 3);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(118, 23);
-            textBox2.TabIndex = 246;
+            TbxSvMsgColorG.Location = new Point(381, 3532);
+            TbxSvMsgColorG.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgColorG.Name = "TbxSvMsgColorG";
+            TbxSvMsgColorG.Size = new Size(72, 23);
+            TbxSvMsgColorG.TabIndex = 243;
             // 
-            // textBox3
+            // LbSvMsgColorA
             // 
-            textBox3.Location = new Point(201, 3628);
-            textBox3.Margin = new Padding(3, 3, 10, 3);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(118, 23);
-            textBox3.TabIndex = 245;
+            LbSvMsgColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgColorA.AutoSize = true;
+            LbSvMsgColorA.Location = new Point(188, 3535);
+            LbSvMsgColorA.Margin = new Padding(0);
+            LbSvMsgColorA.Name = "LbSvMsgColorA";
+            LbSvMsgColorA.Size = new Size(13, 15);
+            LbSvMsgColorA.TabIndex = 244;
+            LbSvMsgColorA.Text = "a";
+            LbSvMsgColorA.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox4
+            // LbSvMsgColorR
             // 
-            textBox4.Location = new Point(201, 3601);
-            textBox4.Margin = new Padding(3, 3, 10, 3);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(118, 23);
-            textBox4.TabIndex = 244;
+            LbSvMsgColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgColorR.AutoSize = true;
+            LbSvMsgColorR.Location = new Point(280, 3535);
+            LbSvMsgColorR.Margin = new Padding(0);
+            LbSvMsgColorR.Name = "LbSvMsgColorR";
+            LbSvMsgColorR.Size = new Size(11, 15);
+            LbSvMsgColorR.TabIndex = 245;
+            LbSvMsgColorR.Text = "r";
+            LbSvMsgColorR.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox5
+            // LbSvMsgColorG
             // 
-            textBox5.Location = new Point(201, 3574);
-            textBox5.Margin = new Padding(3, 3, 10, 3);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(118, 23);
-            textBox5.TabIndex = 243;
+            LbSvMsgColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgColorG.AutoSize = true;
+            LbSvMsgColorG.Location = new Point(367, 3535);
+            LbSvMsgColorG.Margin = new Padding(0);
+            LbSvMsgColorG.Name = "LbSvMsgColorG";
+            LbSvMsgColorG.Size = new Size(14, 15);
+            LbSvMsgColorG.TabIndex = 246;
+            LbSvMsgColorG.Text = "g";
+            LbSvMsgColorG.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox6
+            // TbxSvMsgOffX
             // 
-            textBox6.Location = new Point(201, 3547);
-            textBox6.Margin = new Padding(3, 3, 10, 3);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(59, 23);
-            textBox6.TabIndex = 242;
+            TbxSvMsgOffX.Location = new Point(201, 3559);
+            TbxSvMsgOffX.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgOffX.Name = "TbxSvMsgOffX";
+            TbxSvMsgOffX.Size = new Size(72, 23);
+            TbxSvMsgOffX.TabIndex = 247;
             // 
-            // textBox7
+            // TbxSvMsgDimX
             // 
-            textBox7.Location = new Point(273, 3547);
-            textBox7.Margin = new Padding(3, 3, 10, 3);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(59, 23);
-            textBox7.TabIndex = 248;
+            TbxSvMsgDimX.Location = new Point(201, 3586);
+            TbxSvMsgDimX.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgDimX.Name = "TbxSvMsgDimX";
+            TbxSvMsgDimX.Size = new Size(72, 23);
+            TbxSvMsgDimX.TabIndex = 248;
+            // 
+            // TbxSvMsgOC
+            // 
+            TbxSvMsgOC.Location = new Point(201, 3613);
+            TbxSvMsgOC.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgOC.Name = "TbxSvMsgOC";
+            TbxSvMsgOC.Size = new Size(72, 23);
+            TbxSvMsgOC.TabIndex = 249;
+            // 
+            // TbxSvMsgAniTime
+            // 
+            TbxSvMsgAniTime.Location = new Point(201, 3721);
+            TbxSvMsgAniTime.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgAniTime.Name = "TbxSvMsgAniTime";
+            TbxSvMsgAniTime.Size = new Size(72, 23);
+            TbxSvMsgAniTime.TabIndex = 253;
+            // 
+            // TbxSvMsgDisTime
+            // 
+            TbxSvMsgDisTime.Location = new Point(201, 3748);
+            TbxSvMsgDisTime.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgDisTime.Name = "TbxSvMsgDisTime";
+            TbxSvMsgDisTime.Size = new Size(72, 23);
+            TbxSvMsgDisTime.TabIndex = 254;
+            // 
+            // TbxSvMsgFadeTime
+            // 
+            TbxSvMsgFadeTime.Location = new Point(201, 3775);
+            TbxSvMsgFadeTime.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgFadeTime.Name = "TbxSvMsgFadeTime";
+            TbxSvMsgFadeTime.Size = new Size(72, 23);
+            TbxSvMsgFadeTime.TabIndex = 255;
+            // 
+            // TbxSvMsgLineH
+            // 
+            TbxSvMsgLineH.Location = new Point(201, 3802);
+            TbxSvMsgLineH.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgLineH.Name = "TbxSvMsgLineH";
+            TbxSvMsgLineH.Size = new Size(72, 23);
+            TbxSvMsgLineH.TabIndex = 256;
+            // 
+            // PnlSvMsg
+            // 
+            PnlSvMsg.BackColor = SystemColors.ControlLight;
+            PnlSvMsg.BorderStyle = BorderStyle.Fixed3D;
+            PnlSvMsg.Location = new Point(24, 3532);
+            PnlSvMsg.Margin = new Padding(3, 38, 3, 3);
+            PnlSvMsg.Name = "PnlSvMsg";
+            PnlSvMsg.Size = new Size(139, 293);
+            PnlSvMsg.TabIndex = 211;
+            // 
+            // TbxSvMsgOffY
+            // 
+            TbxSvMsgOffY.Location = new Point(291, 3559);
+            TbxSvMsgOffY.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgOffY.Name = "TbxSvMsgOffY";
+            TbxSvMsgOffY.Size = new Size(72, 23);
+            TbxSvMsgOffY.TabIndex = 257;
+            // 
+            // TbxSvMsgDimY
+            // 
+            TbxSvMsgDimY.Location = new Point(291, 3586);
+            TbxSvMsgDimY.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgDimY.Name = "TbxSvMsgDimY";
+            TbxSvMsgDimY.Size = new Size(72, 23);
+            TbxSvMsgDimY.TabIndex = 258;
+            // 
+            // TbxChtMsgDimY
+            // 
+            TbxChtMsgDimY.Location = new Point(291, 3972);
+            TbxChtMsgDimY.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgDimY.Name = "TbxChtMsgDimY";
+            TbxChtMsgDimY.Size = new Size(72, 23);
+            TbxChtMsgDimY.TabIndex = 289;
+            // 
+            // TbxChtMsgOffY
+            // 
+            TbxChtMsgOffY.Location = new Point(291, 3945);
+            TbxChtMsgOffY.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgOffY.Name = "TbxChtMsgOffY";
+            TbxChtMsgOffY.Size = new Size(72, 23);
+            TbxChtMsgOffY.TabIndex = 288;
+            // 
+            // TbxChtMsgLineH
+            // 
+            TbxChtMsgLineH.Location = new Point(201, 4188);
+            TbxChtMsgLineH.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgLineH.Name = "TbxChtMsgLineH";
+            TbxChtMsgLineH.Size = new Size(72, 23);
+            TbxChtMsgLineH.TabIndex = 287;
+            // 
+            // TbxChtMsgFadeTime
+            // 
+            TbxChtMsgFadeTime.Location = new Point(201, 4161);
+            TbxChtMsgFadeTime.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgFadeTime.Name = "TbxChtMsgFadeTime";
+            TbxChtMsgFadeTime.Size = new Size(72, 23);
+            TbxChtMsgFadeTime.TabIndex = 286;
+            // 
+            // TbxChtMsgDisTime
+            // 
+            TbxChtMsgDisTime.Location = new Point(201, 4134);
+            TbxChtMsgDisTime.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgDisTime.Name = "TbxChtMsgDisTime";
+            TbxChtMsgDisTime.Size = new Size(72, 23);
+            TbxChtMsgDisTime.TabIndex = 285;
+            // 
+            // TbxChtMsgAniTime
+            // 
+            TbxChtMsgAniTime.Location = new Point(201, 4107);
+            TbxChtMsgAniTime.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgAniTime.Name = "TbxChtMsgAniTime";
+            TbxChtMsgAniTime.Size = new Size(72, 23);
+            TbxChtMsgAniTime.TabIndex = 284;
+            // 
+            // TbxChtMsgOC
+            // 
+            TbxChtMsgOC.Location = new Point(201, 3999);
+            TbxChtMsgOC.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgOC.Name = "TbxChtMsgOC";
+            TbxChtMsgOC.Size = new Size(72, 23);
+            TbxChtMsgOC.TabIndex = 280;
+            // 
+            // TbxChtMsgDimX
+            // 
+            TbxChtMsgDimX.Location = new Point(201, 3972);
+            TbxChtMsgDimX.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgDimX.Name = "TbxChtMsgDimX";
+            TbxChtMsgDimX.Size = new Size(72, 23);
+            TbxChtMsgDimX.TabIndex = 279;
+            // 
+            // TbxChtMsgOffX
+            // 
+            TbxChtMsgOffX.Location = new Point(201, 3945);
+            TbxChtMsgOffX.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgOffX.Name = "TbxChtMsgOffX";
+            TbxChtMsgOffX.Size = new Size(72, 23);
+            TbxChtMsgOffX.TabIndex = 278;
+            // 
+            // LbChtMsgFfaG
+            // 
+            LbChtMsgFfaG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgFfaG.AutoSize = true;
+            LbChtMsgFfaG.Location = new Point(367, 3867);
+            LbChtMsgFfaG.Margin = new Padding(0);
+            LbChtMsgFfaG.Name = "LbChtMsgFfaG";
+            LbChtMsgFfaG.Size = new Size(14, 15);
+            LbChtMsgFfaG.TabIndex = 277;
+            LbChtMsgFfaG.Text = "g";
+            LbChtMsgFfaG.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgFfaR
+            // 
+            LbChtMsgFfaR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgFfaR.AutoSize = true;
+            LbChtMsgFfaR.Location = new Point(280, 3867);
+            LbChtMsgFfaR.Margin = new Padding(0);
+            LbChtMsgFfaR.Name = "LbChtMsgFfaR";
+            LbChtMsgFfaR.Size = new Size(11, 15);
+            LbChtMsgFfaR.TabIndex = 276;
+            LbChtMsgFfaR.Text = "r";
+            LbChtMsgFfaR.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgFfaA
+            // 
+            LbChtMsgFfaA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgFfaA.AutoSize = true;
+            LbChtMsgFfaA.Location = new Point(188, 3867);
+            LbChtMsgFfaA.Margin = new Padding(0);
+            LbChtMsgFfaA.Name = "LbChtMsgFfaA";
+            LbChtMsgFfaA.Size = new Size(13, 15);
+            LbChtMsgFfaA.TabIndex = 275;
+            LbChtMsgFfaA.Text = "a";
+            LbChtMsgFfaA.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtMsgFfa
+            // 
+            TbxChtMsgFfa.Location = new Point(381, 3864);
+            TbxChtMsgFfa.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgFfa.Name = "TbxChtMsgFfa";
+            TbxChtMsgFfa.Size = new Size(72, 23);
+            TbxChtMsgFfa.TabIndex = 274;
+            // 
+            // TbxChtMsgFfaR
+            // 
+            TbxChtMsgFfaR.Location = new Point(291, 3864);
+            TbxChtMsgFfaR.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgFfaR.Name = "TbxChtMsgFfaR";
+            TbxChtMsgFfaR.Size = new Size(72, 23);
+            TbxChtMsgFfaR.TabIndex = 273;
+            // 
+            // TbxChtMsgFfaA
+            // 
+            TbxChtMsgFfaA.Location = new Point(201, 3864);
+            TbxChtMsgFfaA.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgFfaA.Name = "TbxChtMsgFfaA";
+            TbxChtMsgFfaA.Size = new Size(72, 23);
+            TbxChtMsgFfaA.TabIndex = 272;
+            // 
+            // LbChtMsg
+            // 
+            LbChtMsg.AutoSize = true;
+            LbChtMsg.Location = new Point(14, 3840);
+            LbChtMsg.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsg.Name = "LbChtMsg";
+            LbChtMsg.Size = new Size(84, 15);
+            LbChtMsg.TabIndex = 271;
+            LbChtMsg.Text = "chat messages";
+            // 
+            // LbChtMsgLineH
+            // 
+            LbChtMsgLineH.AutoSize = true;
+            LbChtMsgLineH.BackColor = SystemColors.ControlLight;
+            LbChtMsgLineH.Location = new Point(8, 325);
+            LbChtMsgLineH.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgLineH.Name = "LbChtMsgLineH";
+            LbChtMsgLineH.Size = new Size(63, 15);
+            LbChtMsgLineH.TabIndex = 270;
+            LbChtMsgLineH.Text = "line height";
+            // 
+            // LbChtMsgFadeTime
+            // 
+            LbChtMsgFadeTime.AutoSize = true;
+            LbChtMsgFadeTime.BackColor = SystemColors.ControlLight;
+            LbChtMsgFadeTime.Location = new Point(8, 298);
+            LbChtMsgFadeTime.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgFadeTime.Name = "LbChtMsgFadeTime";
+            LbChtMsgFadeTime.Size = new Size(78, 15);
+            LbChtMsgFadeTime.TabIndex = 269;
+            LbChtMsgFadeTime.Text = "fade out time";
+            // 
+            // LbChtMsgDisTime
+            // 
+            LbChtMsgDisTime.AutoSize = true;
+            LbChtMsgDisTime.BackColor = SystemColors.ControlLight;
+            LbChtMsgDisTime.Location = new Point(8, 271);
+            LbChtMsgDisTime.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgDisTime.Name = "LbChtMsgDisTime";
+            LbChtMsgDisTime.Size = new Size(71, 15);
+            LbChtMsgDisTime.TabIndex = 268;
+            LbChtMsgDisTime.Text = "display time";
+            // 
+            // LbChtMsgAniTime
+            // 
+            LbChtMsgAniTime.AutoSize = true;
+            LbChtMsgAniTime.BackColor = SystemColors.ControlLight;
+            LbChtMsgAniTime.Location = new Point(8, 244);
+            LbChtMsgAniTime.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgAniTime.Name = "LbChtMsgAniTime";
+            LbChtMsgAniTime.Size = new Size(88, 15);
+            LbChtMsgAniTime.TabIndex = 267;
+            LbChtMsgAniTime.Text = "animation time";
+            // 
+            // LbChtMsgFont
+            // 
+            LbChtMsgFont.AutoSize = true;
+            LbChtMsgFont.BackColor = SystemColors.ControlLight;
+            LbChtMsgFont.Location = new Point(8, 217);
+            LbChtMsgFont.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgFont.Name = "LbChtMsgFont";
+            LbChtMsgFont.Size = new Size(29, 15);
+            LbChtMsgFont.TabIndex = 266;
+            LbChtMsgFont.Text = "font";
+            // 
+            // LbChtMsgCHide
+            // 
+            LbChtMsgCHide.AutoSize = true;
+            LbChtMsgCHide.BackColor = SystemColors.ControlLight;
+            LbChtMsgCHide.Location = new Point(8, 190);
+            LbChtMsgCHide.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgCHide.Name = "LbChtMsgCHide";
+            LbChtMsgCHide.Size = new Size(74, 15);
+            LbChtMsgCHide.TabIndex = 265;
+            LbChtMsgCHide.Text = "console hide";
+            // 
+            // LbChtMsgAnchor
+            // 
+            LbChtMsgAnchor.AutoSize = true;
+            LbChtMsgAnchor.BackColor = SystemColors.ControlLight;
+            LbChtMsgAnchor.Location = new Point(8, 163);
+            LbChtMsgAnchor.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgAnchor.Name = "LbChtMsgAnchor";
+            LbChtMsgAnchor.Size = new Size(44, 15);
+            LbChtMsgAnchor.TabIndex = 264;
+            LbChtMsgAnchor.Text = "anchor";
+            // 
+            // LbChtMsgOC
+            // 
+            LbChtMsgOC.AutoSize = true;
+            LbChtMsgOC.BackColor = SystemColors.ControlLight;
+            LbChtMsgOC.Location = new Point(8, 136);
+            LbChtMsgOC.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgOC.Name = "LbChtMsgOC";
+            LbChtMsgOC.Size = new Size(97, 15);
+            LbChtMsgOC.TabIndex = 263;
+            LbChtMsgOC.Text = "open chat height\r\n";
+            // 
+            // LbChtMsgDim
+            // 
+            LbChtMsgDim.AutoSize = true;
+            LbChtMsgDim.BackColor = SystemColors.ControlLight;
+            LbChtMsgDim.Location = new Point(8, 109);
+            LbChtMsgDim.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgDim.Name = "LbChtMsgDim";
+            LbChtMsgDim.Size = new Size(68, 15);
+            LbChtMsgDim.TabIndex = 262;
+            LbChtMsgDim.Text = "dimensions";
+            // 
+            // LbChtMsgOff
+            // 
+            LbChtMsgOff.AutoSize = true;
+            LbChtMsgOff.BackColor = SystemColors.ControlLight;
+            LbChtMsgOff.Location = new Point(8, 82);
+            LbChtMsgOff.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgOff.Name = "LbChtMsgOff";
+            LbChtMsgOff.Size = new Size(37, 15);
+            LbChtMsgOff.TabIndex = 261;
+            LbChtMsgOff.Text = "offset";
+            // 
+            // LbChtMsgFfa
+            // 
+            LbChtMsgFfa.AutoSize = true;
+            LbChtMsgFfa.BackColor = SystemColors.ControlLight;
+            LbChtMsgFfa.Location = new Point(34, 3867);
+            LbChtMsgFfa.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgFfa.Name = "LbChtMsgFfa";
+            LbChtMsgFfa.Size = new Size(51, 15);
+            LbChtMsgFfa.TabIndex = 260;
+            LbChtMsgFfa.Text = "color ffa";
+            // 
+            // PnlChtMsg
+            // 
+            PnlChtMsg.BackColor = SystemColors.ControlLight;
+            PnlChtMsg.BorderStyle = BorderStyle.Fixed3D;
+            PnlChtMsg.Controls.Add(this.LbChtMsgBlue);
+            PnlChtMsg.Controls.Add(this.LbChtMsgRed);
+            PnlChtMsg.Controls.Add(this.LbChtMsgOff);
+            PnlChtMsg.Controls.Add(LbChtMsgDim);
+            PnlChtMsg.Controls.Add(LbChtMsgOC);
+            PnlChtMsg.Controls.Add(LbChtMsgAnchor);
+            PnlChtMsg.Controls.Add(LbChtMsgCHide);
+            PnlChtMsg.Controls.Add(LbChtMsgFont);
+            PnlChtMsg.Controls.Add(LbChtMsgAniTime);
+            PnlChtMsg.Controls.Add(LbChtMsgDisTime);
+            PnlChtMsg.Controls.Add(LbChtMsgFadeTime);
+            PnlChtMsg.Controls.Add(LbChtMsgLineH);
+            PnlChtMsg.Location = new Point(24, 3864);
+            PnlChtMsg.Margin = new Padding(3, 38, 3, 3);
+            PnlChtMsg.Name = "PnlChtMsg";
+            PnlChtMsg.Size = new Size(139, 347);
+            PnlChtMsg.TabIndex = 259;
+            // 
+            // LbChtMsgRedG
+            // 
+            LbChtMsgRedG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgRedG.AutoSize = true;
+            LbChtMsgRedG.Location = new Point(367, 3894);
+            LbChtMsgRedG.Margin = new Padding(0);
+            LbChtMsgRedG.Name = "LbChtMsgRedG";
+            LbChtMsgRedG.Size = new Size(14, 15);
+            LbChtMsgRedG.TabIndex = 295;
+            LbChtMsgRedG.Text = "g";
+            LbChtMsgRedG.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgRedR
+            // 
+            LbChtMsgRedR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgRedR.AutoSize = true;
+            LbChtMsgRedR.Location = new Point(280, 3894);
+            LbChtMsgRedR.Margin = new Padding(0);
+            LbChtMsgRedR.Name = "LbChtMsgRedR";
+            LbChtMsgRedR.Size = new Size(11, 15);
+            LbChtMsgRedR.TabIndex = 294;
+            LbChtMsgRedR.Text = "r";
+            LbChtMsgRedR.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgRedA
+            // 
+            LbChtMsgRedA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgRedA.AutoSize = true;
+            LbChtMsgRedA.Location = new Point(188, 3894);
+            LbChtMsgRedA.Margin = new Padding(0);
+            LbChtMsgRedA.Name = "LbChtMsgRedA";
+            LbChtMsgRedA.Size = new Size(13, 15);
+            LbChtMsgRedA.TabIndex = 293;
+            LbChtMsgRedA.Text = "a";
+            LbChtMsgRedA.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtMsgRedG
+            // 
+            TbxChtMsgRedG.Location = new Point(381, 3891);
+            TbxChtMsgRedG.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgRedG.Name = "TbxChtMsgRedG";
+            TbxChtMsgRedG.Size = new Size(72, 23);
+            TbxChtMsgRedG.TabIndex = 292;
+            // 
+            // TbxChtMsgRedR
+            // 
+            TbxChtMsgRedR.Location = new Point(291, 3891);
+            TbxChtMsgRedR.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgRedR.Name = "TbxChtMsgRedR";
+            TbxChtMsgRedR.Size = new Size(72, 23);
+            TbxChtMsgRedR.TabIndex = 291;
+            // 
+            // TbxChtMsgRedA
+            // 
+            TbxChtMsgRedA.Location = new Point(201, 3891);
+            TbxChtMsgRedA.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgRedA.Name = "TbxChtMsgRedA";
+            TbxChtMsgRedA.Size = new Size(72, 23);
+            TbxChtMsgRedA.TabIndex = 290;
+            // 
+            // LbChtMsgBlueG
+            // 
+            LbChtMsgBlueG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgBlueG.AutoSize = true;
+            LbChtMsgBlueG.Location = new Point(367, 3921);
+            LbChtMsgBlueG.Margin = new Padding(0);
+            LbChtMsgBlueG.Name = "LbChtMsgBlueG";
+            LbChtMsgBlueG.Size = new Size(14, 15);
+            LbChtMsgBlueG.TabIndex = 301;
+            LbChtMsgBlueG.Text = "g";
+            LbChtMsgBlueG.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgBlueR
+            // 
+            LbChtMsgBlueR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgBlueR.AutoSize = true;
+            LbChtMsgBlueR.Location = new Point(280, 3921);
+            LbChtMsgBlueR.Margin = new Padding(0);
+            LbChtMsgBlueR.Name = "LbChtMsgBlueR";
+            LbChtMsgBlueR.Size = new Size(11, 15);
+            LbChtMsgBlueR.TabIndex = 300;
+            LbChtMsgBlueR.Text = "r";
+            LbChtMsgBlueR.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgBlueA
+            // 
+            LbChtMsgBlueA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgBlueA.AutoSize = true;
+            LbChtMsgBlueA.Location = new Point(188, 3921);
+            LbChtMsgBlueA.Margin = new Padding(0);
+            LbChtMsgBlueA.Name = "LbChtMsgBlueA";
+            LbChtMsgBlueA.Size = new Size(13, 15);
+            LbChtMsgBlueA.TabIndex = 299;
+            LbChtMsgBlueA.Text = "a";
+            LbChtMsgBlueA.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtMsgBlueG
+            // 
+            TbxChtMsgBlueG.Location = new Point(381, 3918);
+            TbxChtMsgBlueG.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgBlueG.Name = "TbxChtMsgBlueG";
+            TbxChtMsgBlueG.Size = new Size(72, 23);
+            TbxChtMsgBlueG.TabIndex = 298;
+            // 
+            // TbxChtMsgBlueR
+            // 
+            TbxChtMsgBlueR.Location = new Point(291, 3918);
+            TbxChtMsgBlueR.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgBlueR.Name = "TbxChtMsgBlueR";
+            TbxChtMsgBlueR.Size = new Size(72, 23);
+            TbxChtMsgBlueR.TabIndex = 297;
+            // 
+            // TbxChtMsgBlueA
+            // 
+            TbxChtMsgBlueA.Location = new Point(201, 3918);
+            TbxChtMsgBlueA.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgBlueA.Name = "TbxChtMsgBlueA";
+            TbxChtMsgBlueA.Size = new Size(72, 23);
+            TbxChtMsgBlueA.TabIndex = 296;
+            // 
+            // LbSvMsgColorB
+            // 
+            LbSvMsgColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgColorB.AutoSize = true;
+            LbSvMsgColorB.Location = new Point(457, 3535);
+            LbSvMsgColorB.Margin = new Padding(0);
+            LbSvMsgColorB.Name = "LbSvMsgColorB";
+            LbSvMsgColorB.Size = new Size(14, 15);
+            LbSvMsgColorB.TabIndex = 303;
+            LbSvMsgColorB.Text = "b";
+            LbSvMsgColorB.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxSvMsgColorB
+            // 
+            TbxSvMsgColorB.Location = new Point(471, 3532);
+            TbxSvMsgColorB.Margin = new Padding(0, 3, 0, 3);
+            TbxSvMsgColorB.Name = "TbxSvMsgColorB";
+            TbxSvMsgColorB.Size = new Size(72, 23);
+            TbxSvMsgColorB.TabIndex = 302;
+            // 
+            // LbChtMsgBlueB
+            // 
+            this.LbChtMsgBlueB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtMsgBlueB.AutoSize = true;
+            this.LbChtMsgBlueB.Location = new Point(457, 3921);
+            this.LbChtMsgBlueB.Margin = new Padding(0);
+            this.LbChtMsgBlueB.Name = "LbChtMsgBlueB";
+            this.LbChtMsgBlueB.Size = new Size(14, 15);
+            this.LbChtMsgBlueB.TabIndex = 309;
+            this.LbChtMsgBlueB.Text = "b";
+            this.LbChtMsgBlueB.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtMsgBlueB
+            // 
+            this.TbxChtMsgBlueB.Location = new Point(471, 3918);
+            this.TbxChtMsgBlueB.Margin = new Padding(0, 3, 0, 3);
+            this.TbxChtMsgBlueB.Name = "TbxChtMsgBlueB";
+            this.TbxChtMsgBlueB.Size = new Size(72, 23);
+            this.TbxChtMsgBlueB.TabIndex = 308;
+            // 
+            // LbChtMsgRedB
+            // 
+            this.LbChtMsgRedB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtMsgRedB.AutoSize = true;
+            this.LbChtMsgRedB.Location = new Point(457, 3894);
+            this.LbChtMsgRedB.Margin = new Padding(0);
+            this.LbChtMsgRedB.Name = "LbChtMsgRedB";
+            this.LbChtMsgRedB.Size = new Size(14, 15);
+            this.LbChtMsgRedB.TabIndex = 307;
+            this.LbChtMsgRedB.Text = "b";
+            this.LbChtMsgRedB.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtMsgRedB
+            // 
+            this.TbxChtMsgRedB.Location = new Point(471, 3891);
+            this.TbxChtMsgRedB.Margin = new Padding(0, 3, 0, 3);
+            this.TbxChtMsgRedB.Name = "TbxChtMsgRedB";
+            this.TbxChtMsgRedB.Size = new Size(72, 23);
+            this.TbxChtMsgRedB.TabIndex = 306;
+            // 
+            // LbChtMsgFfaB
+            // 
+            LbChtMsgFfaB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgFfaB.AutoSize = true;
+            LbChtMsgFfaB.Location = new Point(457, 3867);
+            LbChtMsgFfaB.Margin = new Padding(0);
+            LbChtMsgFfaB.Name = "LbChtMsgFfaB";
+            LbChtMsgFfaB.Size = new Size(14, 15);
+            LbChtMsgFfaB.TabIndex = 305;
+            LbChtMsgFfaB.Text = "b";
+            LbChtMsgFfaB.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtMsgFfaB
+            // 
+            this.TbxChtMsgFfaB.Location = new Point(471, 3864);
+            this.TbxChtMsgFfaB.Margin = new Padding(0, 3, 0, 3);
+            this.TbxChtMsgFfaB.Name = "TbxChtMsgFfaB";
+            this.TbxChtMsgFfaB.Size = new Size(72, 23);
+            this.TbxChtMsgFfaB.TabIndex = 304;
+            // 
+            // LbChtMsgRed
+            // 
+            this.LbChtMsgRed.AutoSize = true;
+            this.LbChtMsgRed.BackColor = SystemColors.ControlLight;
+            this.LbChtMsgRed.Location = new Point(8, 28);
+            this.LbChtMsgRed.Margin = new Padding(8, 12, 8, 0);
+            this.LbChtMsgRed.Name = "LbChtMsgRed";
+            this.LbChtMsgRed.Size = new Size(84, 15);
+            this.LbChtMsgRed.TabIndex = 310;
+            this.LbChtMsgRed.Text = "color red team";
+            // 
+            // LbChtMsgBlue
+            // 
+            this.LbChtMsgBlue.AutoSize = true;
+            this.LbChtMsgBlue.BackColor = SystemColors.ControlLight;
+            this.LbChtMsgBlue.Location = new Point(8, 55);
+            this.LbChtMsgBlue.Margin = new Padding(8, 12, 8, 0);
+            this.LbChtMsgBlue.Name = "LbChtMsgBlue";
+            this.LbChtMsgBlue.Size = new Size(90, 15);
+            this.LbChtMsgBlue.TabIndex = 311;
+            this.LbChtMsgBlue.Text = "color blue team";
+            // 
+            // LbChtInColorB
+            // 
+            this.LbChtInColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtInColorB.AutoSize = true;
+            this.LbChtInColorB.Location = new Point(457, 4253);
+            this.LbChtInColorB.Margin = new Padding(0);
+            this.LbChtInColorB.Name = "LbChtInColorB";
+            this.LbChtInColorB.Size = new Size(14, 15);
+            this.LbChtInColorB.TabIndex = 342;
+            this.LbChtInColorB.Text = "b";
+            this.LbChtInColorB.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtInColorB
+            // 
+            TbxChtInColorB.Location = new Point(471, 4250);
+            TbxChtInColorB.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInColorB.Name = "TbxChtInColorB";
+            TbxChtInColorB.Size = new Size(72, 23);
+            TbxChtInColorB.TabIndex = 341;
+            // 
+            // TbxChtInOffY
+            // 
+            TbxChtInOffY.Location = new Point(291, 4277);
+            TbxChtInOffY.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInOffY.Name = "TbxChtInOffY";
+            TbxChtInOffY.Size = new Size(72, 23);
+            TbxChtInOffY.TabIndex = 339;
+            // 
+            // TbxChtInWidth
+            // 
+            TbxChtInWidth.Location = new Point(201, 4304);
+            TbxChtInWidth.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInWidth.Name = "TbxChtInWidth";
+            TbxChtInWidth.Size = new Size(72, 23);
+            TbxChtInWidth.TabIndex = 330;
+            // 
+            // TbxChtInOffX
+            // 
+            TbxChtInOffX.Location = new Point(201, 4277);
+            TbxChtInOffX.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInOffX.Name = "TbxChtInOffX";
+            TbxChtInOffX.Size = new Size(72, 23);
+            TbxChtInOffX.TabIndex = 329;
+            // 
+            // LbChtInColorG
+            // 
+            this.LbChtInColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtInColorG.AutoSize = true;
+            this.LbChtInColorG.Location = new Point(367, 4253);
+            this.LbChtInColorG.Margin = new Padding(0);
+            this.LbChtInColorG.Name = "LbChtInColorG";
+            this.LbChtInColorG.Size = new Size(14, 15);
+            this.LbChtInColorG.TabIndex = 328;
+            this.LbChtInColorG.Text = "b";
+            this.LbChtInColorG.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtInColorR
+            // 
+            this.LbChtInColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtInColorR.AutoSize = true;
+            this.LbChtInColorR.Location = new Point(277, 4253);
+            this.LbChtInColorR.Margin = new Padding(0);
+            this.LbChtInColorR.Name = "LbChtInColorR";
+            this.LbChtInColorR.Size = new Size(14, 15);
+            this.LbChtInColorR.TabIndex = 327;
+            this.LbChtInColorR.Text = "g";
+            this.LbChtInColorR.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtInColorA
+            // 
+            this.LbChtInColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtInColorA.AutoSize = true;
+            this.LbChtInColorA.Location = new Point(190, 4253);
+            this.LbChtInColorA.Margin = new Padding(0);
+            this.LbChtInColorA.Name = "LbChtInColorA";
+            this.LbChtInColorA.Size = new Size(11, 15);
+            this.LbChtInColorA.TabIndex = 326;
+            this.LbChtInColorA.Text = "r";
+            this.LbChtInColorA.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // TbxChtInColorG
+            // 
+            this.TbxChtInColorG.Location = new Point(381, 4250);
+            this.TbxChtInColorG.Margin = new Padding(0, 3, 0, 3);
+            this.TbxChtInColorG.Name = "TbxChtInColorG";
+            this.TbxChtInColorG.Size = new Size(72, 23);
+            this.TbxChtInColorG.TabIndex = 325;
+            // 
+            // TbxChtInColorR
+            // 
+            this.TbxChtInColorR.Location = new Point(291, 4250);
+            this.TbxChtInColorR.Margin = new Padding(0, 3, 0, 3);
+            this.TbxChtInColorR.Name = "TbxChtInColorR";
+            this.TbxChtInColorR.Size = new Size(72, 23);
+            this.TbxChtInColorR.TabIndex = 324;
+            // 
+            // TbxChtInColorA
+            // 
+            this.TbxChtInColorA.Location = new Point(201, 4250);
+            this.TbxChtInColorA.Margin = new Padding(0, 3, 0, 3);
+            this.TbxChtInColorA.Name = "TbxChtInColorA";
+            this.TbxChtInColorA.Size = new Size(72, 23);
+            this.TbxChtInColorA.TabIndex = 323;
+            // 
+            // LbChtIn
+            // 
+            this.LbChtIn.AutoSize = true;
+            this.LbChtIn.Location = new Point(14, 4226);
+            this.LbChtIn.Margin = new Padding(8, 12, 8, 0);
+            this.LbChtIn.Name = "LbChtIn";
+            this.LbChtIn.Size = new Size(61, 15);
+            this.LbChtIn.TabIndex = 322;
+            this.LbChtIn.Text = "chat input";
+            // 
+            // LbChtInFont
+            // 
+            LbChtInFont.AutoSize = true;
+            LbChtInFont.BackColor = SystemColors.ControlLight;
+            LbChtInFont.Location = new Point(34, 4361);
+            LbChtInFont.Margin = new Padding(8, 12, 8, 0);
+            LbChtInFont.Name = "LbChtInFont";
+            LbChtInFont.Size = new Size(29, 15);
+            LbChtInFont.TabIndex = 315;
+            LbChtInFont.Text = "font";
+            // 
+            // LbChtInAnchor
+            // 
+            LbChtInAnchor.AutoSize = true;
+            LbChtInAnchor.BackColor = SystemColors.ControlLight;
+            LbChtInAnchor.Location = new Point(34, 4334);
+            LbChtInAnchor.Margin = new Padding(8, 12, 8, 0);
+            LbChtInAnchor.Name = "LbChtInAnchor";
+            LbChtInAnchor.Size = new Size(44, 15);
+            LbChtInAnchor.TabIndex = 314;
+            LbChtInAnchor.Text = "anchor";
+            // 
+            // LbChtInWidth
+            // 
+            LbChtInWidth.AutoSize = true;
+            LbChtInWidth.BackColor = SystemColors.ControlLight;
+            LbChtInWidth.Location = new Point(34, 4307);
+            LbChtInWidth.Margin = new Padding(8, 12, 8, 0);
+            LbChtInWidth.Name = "LbChtInWidth";
+            LbChtInWidth.Size = new Size(37, 15);
+            LbChtInWidth.TabIndex = 313;
+            LbChtInWidth.Text = "width";
+            // 
+            // LbChtInOff
+            // 
+            LbChtInOff.AutoSize = true;
+            LbChtInOff.BackColor = SystemColors.ControlLight;
+            LbChtInOff.Location = new Point(34, 4280);
+            LbChtInOff.Margin = new Padding(8, 12, 8, 0);
+            LbChtInOff.Name = "LbChtInOff";
+            LbChtInOff.Size = new Size(37, 15);
+            LbChtInOff.TabIndex = 312;
+            LbChtInOff.Text = "offset";
+            // 
+            // LbChtInColor
+            // 
+            this.LbChtInColor.AutoSize = true;
+            this.LbChtInColor.BackColor = SystemColors.ControlLight;
+            this.LbChtInColor.Location = new Point(34, 4253);
+            this.LbChtInColor.Margin = new Padding(8, 12, 8, 0);
+            this.LbChtInColor.Name = "LbChtInColor";
+            this.LbChtInColor.Size = new Size(34, 15);
+            this.LbChtInColor.TabIndex = 311;
+            this.LbChtInColor.Text = "color";
+            // 
+            // PnlChtIn
+            // 
+            PnlChtIn.BackColor = SystemColors.ControlLight;
+            PnlChtIn.BorderStyle = BorderStyle.Fixed3D;
+            PnlChtIn.Location = new Point(24, 4250);
+            PnlChtIn.Margin = new Padding(3, 38, 3, 3);
+            PnlChtIn.Name = "PnlChtIn";
+            PnlChtIn.Size = new Size(139, 131);
+            PnlChtIn.TabIndex = 310;
+            // 
+            // LbSvMsgOffY
+            // 
+            LbSvMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgOffY.AutoSize = true;
+            LbSvMsgOffY.Location = new Point(278, 3562);
+            LbSvMsgOffY.Margin = new Padding(0);
+            LbSvMsgOffY.Name = "LbSvMsgOffY";
+            LbSvMsgOffY.Size = new Size(13, 15);
+            LbSvMsgOffY.TabIndex = 344;
+            LbSvMsgOffY.Text = "y";
+            LbSvMsgOffY.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbSvMsgOffX
+            // 
+            LbSvMsgOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgOffX.AutoSize = true;
+            LbSvMsgOffX.Location = new Point(188, 3562);
+            LbSvMsgOffX.Margin = new Padding(0);
+            LbSvMsgOffX.Name = "LbSvMsgOffX";
+            LbSvMsgOffX.Size = new Size(13, 15);
+            LbSvMsgOffX.TabIndex = 343;
+            LbSvMsgOffX.Text = "x";
+            LbSvMsgOffX.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbSvMsgDimY
+            // 
+            LbSvMsgDimY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgDimY.AutoSize = true;
+            LbSvMsgDimY.Location = new Point(278, 3589);
+            LbSvMsgDimY.Margin = new Padding(0);
+            LbSvMsgDimY.Name = "LbSvMsgDimY";
+            LbSvMsgDimY.Size = new Size(13, 15);
+            LbSvMsgDimY.TabIndex = 346;
+            LbSvMsgDimY.Text = "y";
+            LbSvMsgDimY.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbSvMsgDimX
+            // 
+            LbSvMsgDimX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbSvMsgDimX.AutoSize = true;
+            LbSvMsgDimX.Location = new Point(188, 3589);
+            LbSvMsgDimX.Margin = new Padding(0);
+            LbSvMsgDimX.Name = "LbSvMsgDimX";
+            LbSvMsgDimX.Size = new Size(13, 15);
+            LbSvMsgDimX.TabIndex = 345;
+            LbSvMsgDimX.Text = "x";
+            LbSvMsgDimX.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgOffY
+            // 
+            this.LbChtMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            this.LbChtMsgOffY.AutoSize = true;
+            this.LbChtMsgOffY.Location = new Point(278, 3948);
+            this.LbChtMsgOffY.Margin = new Padding(0);
+            this.LbChtMsgOffY.Name = "LbChtMsgOffY";
+            this.LbChtMsgOffY.Size = new Size(13, 15);
+            this.LbChtMsgOffY.TabIndex = 348;
+            this.LbChtMsgOffY.Text = "y";
+            this.LbChtMsgOffY.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgOffX
+            // 
+            LbChtMsgOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgOffX.AutoSize = true;
+            LbChtMsgOffX.Location = new Point(188, 3948);
+            LbChtMsgOffX.Margin = new Padding(0);
+            LbChtMsgOffX.Name = "LbChtMsgOffX";
+            LbChtMsgOffX.Size = new Size(13, 15);
+            LbChtMsgOffX.TabIndex = 347;
+            LbChtMsgOffX.Text = "x";
+            LbChtMsgOffX.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgDimY
+            // 
+            LbChtMsgDimY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgDimY.AutoSize = true;
+            LbChtMsgDimY.Location = new Point(278, 3975);
+            LbChtMsgDimY.Margin = new Padding(0);
+            LbChtMsgDimY.Name = "LbChtMsgDimY";
+            LbChtMsgDimY.Size = new Size(13, 15);
+            LbChtMsgDimY.TabIndex = 350;
+            LbChtMsgDimY.Text = "y";
+            LbChtMsgDimY.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtMsgDimX
+            // 
+            LbChtMsgDimX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgDimX.AutoSize = true;
+            LbChtMsgDimX.Location = new Point(188, 3975);
+            LbChtMsgDimX.Margin = new Padding(0);
+            LbChtMsgDimX.Name = "LbChtMsgDimX";
+            LbChtMsgDimX.Size = new Size(13, 15);
+            LbChtMsgDimX.TabIndex = 349;
+            LbChtMsgDimX.Text = "x";
+            LbChtMsgDimX.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // ComBoxSvMsgAnchor
+            // 
+            ComBoxSvMsgAnchor.BackColor = SystemColors.ControlLight;
+            ComBoxSvMsgAnchor.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComBoxSvMsgAnchor.FormattingEnabled = true;
+            ComBoxSvMsgAnchor.Items.AddRange(new object[] { "top left", "top right", "center", "bottom left", "bottom right" });
+            ComBoxSvMsgAnchor.Location = new Point(201, 3640);
+            ComBoxSvMsgAnchor.Name = "ComBoxSvMsgAnchor";
+            ComBoxSvMsgAnchor.Size = new Size(162, 23);
+            ComBoxSvMsgAnchor.TabIndex = 351;
+            // 
+            // CbSvMsgCHide
+            // 
+            CbSvMsgCHide.AutoSize = true;
+            CbSvMsgCHide.Location = new Point(180, 3672);
+            CbSvMsgCHide.Name = "CbSvMsgCHide";
+            CbSvMsgCHide.Size = new Size(15, 14);
+            CbSvMsgCHide.TabIndex = 352;
+            CbSvMsgCHide.UseVisualStyleBackColor = true;
+            // 
+            // ComBoxSvMsgFont
+            // 
+            ComBoxSvMsgFont.BackColor = SystemColors.ControlLight;
+            ComBoxSvMsgFont.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComBoxSvMsgFont.FormattingEnabled = true;
+            ComBoxSvMsgFont.Items.AddRange(new object[] { "smaller", "small", "large", "console", "system" });
+            ComBoxSvMsgFont.Location = new Point(201, 3694);
+            ComBoxSvMsgFont.Name = "ComBoxSvMsgFont";
+            ComBoxSvMsgFont.Size = new Size(118, 23);
+            ComBoxSvMsgFont.TabIndex = 353;
+            // 
+            // ComBoxChtMsgFont
+            // 
+            ComBoxChtMsgFont.BackColor = SystemColors.ControlLight;
+            ComBoxChtMsgFont.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComBoxChtMsgFont.FormattingEnabled = true;
+            ComBoxChtMsgFont.Items.AddRange(new object[] { "smaller", "small", "large", "console", "system" });
+            ComBoxChtMsgFont.Location = new Point(201, 4080);
+            ComBoxChtMsgFont.Name = "ComBoxChtMsgFont";
+            ComBoxChtMsgFont.Size = new Size(118, 23);
+            ComBoxChtMsgFont.TabIndex = 356;
+            // 
+            // CbChtMsgCHide
+            // 
+            CbChtMsgCHide.AutoSize = true;
+            CbChtMsgCHide.Location = new Point(180, 4058);
+            CbChtMsgCHide.Name = "CbChtMsgCHide";
+            CbChtMsgCHide.Size = new Size(15, 14);
+            CbChtMsgCHide.TabIndex = 355;
+            CbChtMsgCHide.UseVisualStyleBackColor = true;
+            // 
+            // ComBoxChtMsgAnchor
+            // 
+            ComBoxChtMsgAnchor.BackColor = SystemColors.ControlLight;
+            ComBoxChtMsgAnchor.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComBoxChtMsgAnchor.FormattingEnabled = true;
+            ComBoxChtMsgAnchor.Items.AddRange(new object[] { "top left", "top right", "center", "bottom left", "bottom right" });
+            ComBoxChtMsgAnchor.Location = new Point(201, 4026);
+            ComBoxChtMsgAnchor.Name = "ComBoxChtMsgAnchor";
+            ComBoxChtMsgAnchor.Size = new Size(162, 23);
+            ComBoxChtMsgAnchor.TabIndex = 354;
+            // 
+            // ComBoxChtInFont
+            // 
+            ComBoxChtInFont.BackColor = SystemColors.ControlLight;
+            ComBoxChtInFont.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComBoxChtInFont.FormattingEnabled = true;
+            ComBoxChtInFont.Items.AddRange(new object[] { "smaller", "small", "large", "console", "system" });
+            ComBoxChtInFont.Location = new Point(201, 4358);
+            ComBoxChtInFont.Name = "ComBoxChtInFont";
+            ComBoxChtInFont.Size = new Size(118, 23);
+            ComBoxChtInFont.TabIndex = 357;
+            // 
+            // LbChtInOffY
+            // 
+            LbChtInOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtInOffY.AutoSize = true;
+            LbChtInOffY.Location = new Point(278, 4280);
+            LbChtInOffY.Margin = new Padding(0);
+            LbChtInOffY.Name = "LbChtInOffY";
+            LbChtInOffY.Size = new Size(13, 15);
+            LbChtInOffY.TabIndex = 359;
+            LbChtInOffY.Text = "y";
+            LbChtInOffY.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // LbChtInOffX
+            // 
+            LbChtInOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtInOffX.AutoSize = true;
+            LbChtInOffX.Location = new Point(188, 4280);
+            LbChtInOffX.Margin = new Padding(0);
+            LbChtInOffX.Name = "LbChtInOffX";
+            LbChtInOffX.Size = new Size(13, 15);
+            LbChtInOffX.TabIndex = 358;
+            LbChtInOffX.Text = "x";
+            LbChtInOffX.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // ComBoxChtInAnchor
+            // 
+            ComBoxChtInAnchor.BackColor = SystemColors.ControlLight;
+            ComBoxChtInAnchor.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComBoxChtInAnchor.FormattingEnabled = true;
+            ComBoxChtInAnchor.Items.AddRange(new object[] { "top left", "top right", "center", "bottom left", "bottom right" });
+            ComBoxChtInAnchor.Location = new Point(201, 4331);
+            ComBoxChtInAnchor.Name = "ComBoxChtInAnchor";
+            ComBoxChtInAnchor.Size = new Size(162, 23);
+            ComBoxChtInAnchor.TabIndex = 360;
             // 
             // Form2
             // 
@@ -2651,30 +3726,111 @@
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(638, 619);
-            Controls.Add(textBox7);
-            Controls.Add(textBox1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox3);
-            Controls.Add(textBox4);
-            Controls.Add(textBox5);
-            Controls.Add(textBox6);
-            Controls.Add(label16);
-            Controls.Add(label14);
-            Controls.Add(label13);
-            Controls.Add(label12);
-            Controls.Add(label11);
-            Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(checkBox1);
-            Controls.Add(label3);
-            Controls.Add(panel1);
+            Controls.Add(ComBoxChtInAnchor);
+            Controls.Add(LbChtInOffY);
+            Controls.Add(LbChtInOffX);
+            Controls.Add(ComBoxChtInFont);
+            Controls.Add(ComBoxChtMsgFont);
+            Controls.Add(CbChtMsgCHide);
+            Controls.Add(ComBoxChtMsgAnchor);
+            Controls.Add(ComBoxSvMsgFont);
+            Controls.Add(CbSvMsgCHide);
+            Controls.Add(ComBoxSvMsgAnchor);
+            Controls.Add(LbChtMsgDimY);
+            Controls.Add(LbChtMsgDimX);
+            Controls.Add(LbChtMsgOffY);
+            Controls.Add(LbChtMsgOffX);
+            Controls.Add(LbSvMsgDimY);
+            Controls.Add(LbSvMsgDimX);
+            Controls.Add(LbSvMsgOffY);
+            Controls.Add(LbSvMsgOffX);
+            Controls.Add(LbChtInColorB);
+            Controls.Add(TbxChtInColorB);
+            Controls.Add(TbxChtInOffY);
+            Controls.Add(TbxChtInWidth);
+            Controls.Add(TbxChtInOffX);
+            Controls.Add(LbChtInColorG);
+            Controls.Add(LbChtInColorR);
+            Controls.Add(LbChtInColorA);
+            Controls.Add(TbxChtInColorG);
+            Controls.Add(TbxChtInColorR);
+            Controls.Add(TbxChtInColorA);
+            Controls.Add(LbChtIn);
+            Controls.Add(LbChtInFont);
+            Controls.Add(LbChtInAnchor);
+            Controls.Add(LbChtInWidth);
+            Controls.Add(LbChtInOff);
+            Controls.Add(LbChtInColor);
+            Controls.Add(PnlChtIn);
+            Controls.Add(LbChtMsgBlueB);
+            Controls.Add(TbxChtMsgBlueB);
+            Controls.Add(LbChtMsgRedB);
+            Controls.Add(TbxChtMsgRedB);
+            Controls.Add(LbChtMsgFfaB);
+            Controls.Add(TbxChtMsgFfaB);
+            Controls.Add(LbSvMsgColorB);
+            Controls.Add(TbxSvMsgColorB);
+            Controls.Add(LbChtMsgBlueG);
+            Controls.Add(LbChtMsgBlueR);
+            Controls.Add(LbChtMsgBlueA);
+            Controls.Add(TbxChtMsgBlueG);
+            Controls.Add(TbxChtMsgBlueR);
+            Controls.Add(TbxChtMsgBlueA);
+            Controls.Add(LbChtMsgRedG);
+            Controls.Add(LbChtMsgRedR);
+            Controls.Add(LbChtMsgRedA);
+            Controls.Add(TbxChtMsgRedG);
+            Controls.Add(TbxChtMsgRedR);
+            Controls.Add(TbxChtMsgRedA);
+            Controls.Add(TbxChtMsgDimY);
+            Controls.Add(TbxChtMsgOffY);
+            Controls.Add(TbxChtMsgLineH);
+            Controls.Add(TbxChtMsgFadeTime);
+            Controls.Add(TbxChtMsgDisTime);
+            Controls.Add(TbxChtMsgAniTime);
+            Controls.Add(TbxChtMsgOC);
+            Controls.Add(TbxChtMsgDimX);
+            Controls.Add(TbxChtMsgOffX);
+            Controls.Add(LbChtMsgFfaG);
+            Controls.Add(LbChtMsgFfaR);
+            Controls.Add(LbChtMsgFfaA);
+            Controls.Add(TbxChtMsgFfa);
+            Controls.Add(TbxChtMsgFfaR);
+            Controls.Add(TbxChtMsgFfaA);
+            Controls.Add(LbChtMsg);
+            Controls.Add(LbChtMsgFfa);
+            Controls.Add(PnlChtMsg);
+            Controls.Add(TbxSvMsgDimY);
+            Controls.Add(TbxSvMsgOffY);
+            Controls.Add(TbxSvMsgLineH);
+            Controls.Add(TbxSvMsgFadeTime);
+            Controls.Add(TbxSvMsgDisTime);
+            Controls.Add(TbxSvMsgAniTime);
+            Controls.Add(TbxSvMsgOC);
+            Controls.Add(TbxSvMsgDimX);
+            Controls.Add(TbxSvMsgOffX);
+            Controls.Add(LbSvMsgColorG);
+            Controls.Add(LbSvMsgColorR);
+            Controls.Add(LbSvMsgColorA);
+            Controls.Add(TbxSvMsgColorG);
+            Controls.Add(TbxSvMsgColorR);
+            Controls.Add(TbxSvMsgColorA);
+            Controls.Add(LbSvMsg);
+            Controls.Add(LbSvMsgLineH);
+            Controls.Add(LbSvMsgFadeTime);
+            Controls.Add(LbSvMsgDisTime);
+            Controls.Add(LbSvMsgAniTime);
+            Controls.Add(LbSvMsgFont);
+            Controls.Add(LbSvMsgCHide);
+            Controls.Add(LbSvMsgAnchor);
+            Controls.Add(LbSvMsgOC);
+            Controls.Add(LbSvMsgDim);
+            Controls.Add(LbSvMsgOff);
+            Controls.Add(LbSvMsgColor);
+            Controls.Add(CbAllowRcon);
+            Controls.Add(LbAllowRcon);
+            Controls.Add(PnlCustomChat);
             Controls.Add(TbxCFadeTime);
-            Controls.Add(LbCFadeTime);
             Controls.Add(TbxCFadeStart);
             Controls.Add(LbCFadeStart);
             Controls.Add(TbxXMargin);
@@ -2882,10 +4038,12 @@
             Controls.Add(LbPath);
             Controls.Add(VSBEditor);
             Controls.Add(PnlHalo);
+            Controls.Add(PnlSvMsg);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             PnlHalo.ResumeLayout(false);
             PnlHalo.PerformLayout();
             PnlErrorHand.ResumeLayout(false);
@@ -2906,8 +4064,10 @@
             PnlController.PerformLayout();
             PnlCustomC.ResumeLayout(false);
             PnlCustomC.PerformLayout();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            PnlCustomChat.ResumeLayout(false);
+            PnlCustomChat.PerformLayout();
+            PnlChtMsg.ResumeLayout(false);
+            PnlChtMsg.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -3142,30 +4302,164 @@
         private TextBox TbxCFadeStart;
         private Label LbCFadeStart;
         private TextBox TbxCFadeTime;
-        private Label LbCFadeTime;
-        private Panel panel1;
-        private Label label1;
-        private Label label2;
-        private CheckBox checkBox1;
+        private Panel PnlCustomChat;
+        private Label LbCustomChatDesc;
+        private Label LbCustomChat;
+        private CheckBox CbAllowRcon;
+        private Label LbAllowRcon;
+        private Label LbSvMsgColor;
+        private Label LbSvMsgOff;
+        private Label LbSvMsgDim;
+        private Label LbSvMsgOC;
+        private Label LbSvMsgAnchor;
+        private Label LbSvMsgCHide;
+        private Label LbSvMsgFont;
+        private Label LbSvMsgAniTime;
+        private Label LbSvMsgDisTime;
+        private Label LbSvMsgFadeTime;
+        private Label LbSvMsgLineH;
+        private Label LbSvMsg;
+        private TextBox TbxSvMsgColorA;
+        private TextBox TbxSvMsgColorR;
+        private TextBox TbxSvMsgColorG;
+        private Label LbSvMsgColorA;
+        private Label LbSvMsgColorR;
+        private Label LbSvMsgColorG;
+        private TextBox TbxSvMsgOffX;
+        private TextBox TbxSvMsgDimX;
+        private TextBox TbxSvMsgOC;
+        private TextBox TbxSvMsgAniTime;
+        private TextBox TbxSvMsgDisTime;
+        private TextBox TbxSvMsgFadeTime;
+        private TextBox TbxSvMsgLineH;
+        private Panel PnlSvMsg;
+        private TextBox TbxSvMsgOffY;
+        private TextBox TbxSvMsgDimY;
+        private TextBox TbxChtMsgDimY;
+        private TextBox textBox17;
+        private TextBox TbxChtMsgLineH;
+        private TextBox TbxChtMsgFadeTime;
+        private TextBox TbxChtMsgDisTime;
+        private TextBox TbxChtMsgAniTime;
+        private TextBox textBox24;
+        private TextBox TbxChtMsgOC;
+        private TextBox TbxChtMsgDimX;
+        private TextBox textBox27;
+        private Label label20;
+        private Label label21;
+        private Label label22;
+        private TextBox TbxChtMsgFfa;
+        private TextBox textBox29;
+        private TextBox textBox30;
+        private Label LbChtMsg;
+        private Label LbChtMsgLineH;
+        private Label LbChtMsgFadeTime;
+        private Label LbChtMsgDisTime;
+        private Label LbChtMsgAniTime;
+        private Label LbChtMsgFont;
+        private Label LbChtMsgCHide;
+        private Label LbChtMsgAnchor;
+        private Label LbChtMsgOC;
+        private Label LbChtMsgDim;
+        private Label label33;
+        private Label LbChtMsgFfa;
+        private Panel PnlChtMsg;
+        private Label label36;
+        private Label label37;
+        private Label label38;
+        private TextBox textBox31;
+        private TextBox textBox32;
+        private TextBox textBox33;
+        private Label label39;
+        private Label label40;
+        private Label label41;
+        private TextBox textBox34;
+        private TextBox textBox35;
+        private TextBox textBox36;
+        private Label LbSvMsgColorB;
+        private TextBox TbxSvMsgColorB;
+        private Label label43;
+        private TextBox textBox38;
+        private Label label44;
+        private TextBox textBox39;
+        private Label LbChtMsgFfaB;
+        private TextBox textBox40;
+        private Label label47;
+        private Label label46;
+        private Label label35;
+        private TextBox TbxChtInColorB;
+        private TextBox textBox42;
+        private TextBox TbxChtInOffY;
+        private TextBox textBox50;
+        private TextBox TbxChtInWidth;
+        private TextBox TbxChtInOffX;
+        private Label label48;
+        private Label label49;
+        private Label label50;
+        private TextBox textBox54;
+        private TextBox textBox55;
+        private TextBox textBox56;
+        private Label label51;
+        private Label LbChtInFont;
+        private Label LbChtInAnchor;
+        private Label LbChtInWidth;
+        private Label LbChtInOff;
+        private Label label62;
+        private Panel PnlChtIn;
+        private Label LbSvMsgOffY;
+        private Label LbSvMsgOffX;
+        private Label LbSvMsgDimY;
+        private Label LbSvMsgDimX;
         private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Label label16;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
+        private Label LbChtMsgOffX;
+        private Label LbChtMsgDimY;
+        private Label LbChtMsgDimX;
+        private ComboBox ComBoxSvMsgAnchor;
+        private CheckBox CbSvMsgCHide;
+        private ComboBox ComBoxSvMsgFont;
+        private ComboBox ComBoxChtMsgFont;
+        private CheckBox CbChtMsgCHide;
+        private ComboBox ComBoxChtMsgAnchor;
+        private ComboBox ComBoxChtInFont;
+        private Label LbChtInOffY;
+        private Label LbChtInOffX;
+        private ComboBox ComBoxChtInAnchor;
+        private Label LbChtMsgOff;
+        private Label LbChtMsgRedG;
+        private Label LbChtMsgRedR;
+        private Label LbChtMsgRedA;
+        private TextBox TbxChtMsgRedG;
+        private TextBox TbxChtMsgRedR;
+        private TextBox TbxChtMsgRedA;
+        private Label LbChtMsgBlueG;
+        private Label LbChtMsgBlueR;
+        private Label LbChtMsgBlueA;
+        private TextBox TbxChtMsgBlueG;
+        private TextBox TbxChtMsgBlueR;
+        private TextBox TbxChtMsgBlueA;
+        private Label LbChtMsgBlueB;
+        private TextBox TbxChtMsgBlueB;
+        private Label LbChtMsgRedB;
+        private TextBox TbxChtMsgRedB;
+        private TextBox TbxChtMsgFfaB;
+        private Label LbChtMsgRed;
+        private Label LbChtMsgBlue;
+        private Label LbChtInColorB;
+        private Label LbChtInColorG;
+        private Label LbChtInColorR;
+        private Label LbChtInColorA;
+        private TextBox TbxChtInColorG;
+        private TextBox TbxChtInColorR;
+        private TextBox TbxChtInColorA;
+        private Label LbChtIn;
+        private Label LbChtInColor;
+        private Label LbChtMsgOffY;
+        private TextBox TbxChtMsgOffY;
+        private TextBox TbxChtMsgOffX;
+        private Label LbChtMsgFfaG;
+        private Label LbChtMsgFfaR;
+        private Label LbChtMsgFfaA;
+        private TextBox TbxChtMsgFfaR;
+        private TextBox TbxChtMsgFfaA;
     }
 }

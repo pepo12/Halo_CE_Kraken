@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\halo custom edition proyects\\Chimera editor\\Halo_CE_Kraken\\chimera_editor.csproj": {}
+    "E:\\halo custom edition proyects\\Chimera editor - copia\\Halo_CE_Kraken\\chimera_editor.csproj": {}
   },
   "projects": {
-    "E:\\halo custom edition proyects\\Chimera editor\\Halo_CE_Kraken\\chimera_editor.csproj": {
+    "E:\\halo custom edition proyects\\Chimera editor - copia\\Halo_CE_Kraken\\chimera_editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\halo custom edition proyects\\Chimera editor\\Halo_CE_Kraken\\chimera_editor.csproj",
+        "projectUniqueName": "E:\\halo custom edition proyects\\Chimera editor - copia\\Halo_CE_Kraken\\chimera_editor.csproj",
         "projectName": "chimera_editor",
-        "projectPath": "E:\\halo custom edition proyects\\Chimera editor\\Halo_CE_Kraken\\chimera_editor.csproj",
+        "projectPath": "E:\\halo custom edition proyects\\Chimera editor - copia\\Halo_CE_Kraken\\chimera_editor.csproj",
         "packagesPath": "C:\\Users\\Elaya\\.nuget\\packages\\",
-        "outputPath": "E:\\halo custom edition proyects\\Chimera editor\\Halo_CE_Kraken\\obj\\",
+        "outputPath": "E:\\halo custom edition proyects\\Chimera editor - copia\\Halo_CE_Kraken\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Elaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
