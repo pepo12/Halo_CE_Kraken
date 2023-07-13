@@ -320,6 +320,8 @@ namespace chimera_editor.Presentation
             LbChtMsgOff = new Label();
             LbChtMsgFfa = new Label();
             PnlChtMsg = new Panel();
+            LbChtMsgBlue = new Label();
+            LbChtMsgRed = new Label();
             LbChtMsgRedG = new Label();
             LbChtMsgRedR = new Label();
             LbChtMsgRedA = new Label();
@@ -340,8 +342,6 @@ namespace chimera_editor.Presentation
             TbxChtMsgRedB = new TextBox();
             LbChtMsgFfaB = new Label();
             TbxChtMsgFfaB = new TextBox();
-            LbChtMsgRed = new Label();
-            LbChtMsgBlue = new Label();
             LbChtInColorB = new Label();
             TbxChtInColorB = new TextBox();
             TbxChtInOffY = new TextBox();
@@ -378,6 +378,9 @@ namespace chimera_editor.Presentation
             LbChtInOffY = new Label();
             LbChtInOffX = new Label();
             ComBoxChtInAnchor = new ComboBox();
+            PnlHotkey = new Panel();
+            LbHotKeyDesc = new Label();
+            LbHotKey = new Label();
             PnlHalo.SuspendLayout();
             PnlErrorHand.SuspendLayout();
             PnlVideoMode.SuspendLayout();
@@ -390,6 +393,7 @@ namespace chimera_editor.Presentation
             PnlCustomC.SuspendLayout();
             PnlCustomChat.SuspendLayout();
             PnlChtMsg.SuspendLayout();
+            PnlHotkey.SuspendLayout();
             SuspendLayout();
             // 
             // PnlHalo
@@ -427,7 +431,7 @@ namespace chimera_editor.Presentation
             VSBEditor.Dock = DockStyle.Right;
             VSBEditor.Location = new Point(604, 0);
             VSBEditor.Name = "VSBEditor";
-            VSBEditor.Size = new Size(17, 4840);
+            VSBEditor.Size = new Size(17, 5669);
             VSBEditor.TabIndex = 1;
             // 
             // LbPath
@@ -874,7 +878,7 @@ namespace chimera_editor.Presentation
             // 
             panel2.BackColor = SystemColors.ControlLight;
             panel2.BorderStyle = BorderStyle.Fixed3D;
-            panel2.Location = new Point(36, 4777);
+            panel2.Location = new Point(36, 5606);
             panel2.Margin = new Padding(3, 38, 3, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(543, 63);
@@ -3095,9 +3099,9 @@ namespace chimera_editor.Presentation
             // 
             PnlChtMsg.BackColor = SystemColors.ControlLight;
             PnlChtMsg.BorderStyle = BorderStyle.Fixed3D;
-            PnlChtMsg.Controls.Add(this.LbChtMsgBlue);
-            PnlChtMsg.Controls.Add(this.LbChtMsgRed);
-            PnlChtMsg.Controls.Add(this.LbChtMsgOff);
+            PnlChtMsg.Controls.Add(LbChtMsgBlue);
+            PnlChtMsg.Controls.Add(LbChtMsgRed);
+            PnlChtMsg.Controls.Add(LbChtMsgOff);
             PnlChtMsg.Controls.Add(LbChtMsgDim);
             PnlChtMsg.Controls.Add(LbChtMsgOC);
             PnlChtMsg.Controls.Add(LbChtMsgAnchor);
@@ -3112,6 +3116,28 @@ namespace chimera_editor.Presentation
             PnlChtMsg.Name = "PnlChtMsg";
             PnlChtMsg.Size = new Size(139, 347);
             PnlChtMsg.TabIndex = 259;
+            // 
+            // LbChtMsgBlue
+            // 
+            LbChtMsgBlue.AutoSize = true;
+            LbChtMsgBlue.BackColor = SystemColors.ControlLight;
+            LbChtMsgBlue.Location = new Point(8, 55);
+            LbChtMsgBlue.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgBlue.Name = "LbChtMsgBlue";
+            LbChtMsgBlue.Size = new Size(90, 15);
+            LbChtMsgBlue.TabIndex = 311;
+            LbChtMsgBlue.Text = "color blue team";
+            // 
+            // LbChtMsgRed
+            // 
+            LbChtMsgRed.AutoSize = true;
+            LbChtMsgRed.BackColor = SystemColors.ControlLight;
+            LbChtMsgRed.Location = new Point(8, 28);
+            LbChtMsgRed.Margin = new Padding(8, 12, 8, 0);
+            LbChtMsgRed.Name = "LbChtMsgRed";
+            LbChtMsgRed.Size = new Size(84, 15);
+            LbChtMsgRed.TabIndex = 310;
+            LbChtMsgRed.Text = "color red team";
             // 
             // LbChtMsgRedG
             // 
@@ -3255,43 +3281,43 @@ namespace chimera_editor.Presentation
             // 
             // LbChtMsgBlueB
             // 
-            this.LbChtMsgBlueB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtMsgBlueB.AutoSize = true;
-            this.LbChtMsgBlueB.Location = new Point(457, 3921);
-            this.LbChtMsgBlueB.Margin = new Padding(0);
-            this.LbChtMsgBlueB.Name = "LbChtMsgBlueB";
-            this.LbChtMsgBlueB.Size = new Size(14, 15);
-            this.LbChtMsgBlueB.TabIndex = 309;
-            this.LbChtMsgBlueB.Text = "b";
-            this.LbChtMsgBlueB.TextAlign = ContentAlignment.MiddleRight;
+            LbChtMsgBlueB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgBlueB.AutoSize = true;
+            LbChtMsgBlueB.Location = new Point(457, 3921);
+            LbChtMsgBlueB.Margin = new Padding(0);
+            LbChtMsgBlueB.Name = "LbChtMsgBlueB";
+            LbChtMsgBlueB.Size = new Size(14, 15);
+            LbChtMsgBlueB.TabIndex = 309;
+            LbChtMsgBlueB.Text = "b";
+            LbChtMsgBlueB.TextAlign = ContentAlignment.MiddleRight;
             // 
             // TbxChtMsgBlueB
             // 
-            this.TbxChtMsgBlueB.Location = new Point(471, 3918);
-            this.TbxChtMsgBlueB.Margin = new Padding(0, 3, 0, 3);
-            this.TbxChtMsgBlueB.Name = "TbxChtMsgBlueB";
-            this.TbxChtMsgBlueB.Size = new Size(72, 23);
-            this.TbxChtMsgBlueB.TabIndex = 308;
+            TbxChtMsgBlueB.Location = new Point(471, 3918);
+            TbxChtMsgBlueB.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgBlueB.Name = "TbxChtMsgBlueB";
+            TbxChtMsgBlueB.Size = new Size(72, 23);
+            TbxChtMsgBlueB.TabIndex = 308;
             // 
             // LbChtMsgRedB
             // 
-            this.LbChtMsgRedB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtMsgRedB.AutoSize = true;
-            this.LbChtMsgRedB.Location = new Point(457, 3894);
-            this.LbChtMsgRedB.Margin = new Padding(0);
-            this.LbChtMsgRedB.Name = "LbChtMsgRedB";
-            this.LbChtMsgRedB.Size = new Size(14, 15);
-            this.LbChtMsgRedB.TabIndex = 307;
-            this.LbChtMsgRedB.Text = "b";
-            this.LbChtMsgRedB.TextAlign = ContentAlignment.MiddleRight;
+            LbChtMsgRedB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgRedB.AutoSize = true;
+            LbChtMsgRedB.Location = new Point(457, 3894);
+            LbChtMsgRedB.Margin = new Padding(0);
+            LbChtMsgRedB.Name = "LbChtMsgRedB";
+            LbChtMsgRedB.Size = new Size(14, 15);
+            LbChtMsgRedB.TabIndex = 307;
+            LbChtMsgRedB.Text = "b";
+            LbChtMsgRedB.TextAlign = ContentAlignment.MiddleRight;
             // 
             // TbxChtMsgRedB
             // 
-            this.TbxChtMsgRedB.Location = new Point(471, 3891);
-            this.TbxChtMsgRedB.Margin = new Padding(0, 3, 0, 3);
-            this.TbxChtMsgRedB.Name = "TbxChtMsgRedB";
-            this.TbxChtMsgRedB.Size = new Size(72, 23);
-            this.TbxChtMsgRedB.TabIndex = 306;
+            TbxChtMsgRedB.Location = new Point(471, 3891);
+            TbxChtMsgRedB.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgRedB.Name = "TbxChtMsgRedB";
+            TbxChtMsgRedB.Size = new Size(72, 23);
+            TbxChtMsgRedB.TabIndex = 306;
             // 
             // LbChtMsgFfaB
             // 
@@ -3307,45 +3333,23 @@ namespace chimera_editor.Presentation
             // 
             // TbxChtMsgFfaB
             // 
-            this.TbxChtMsgFfaB.Location = new Point(471, 3864);
-            this.TbxChtMsgFfaB.Margin = new Padding(0, 3, 0, 3);
-            this.TbxChtMsgFfaB.Name = "TbxChtMsgFfaB";
-            this.TbxChtMsgFfaB.Size = new Size(72, 23);
-            this.TbxChtMsgFfaB.TabIndex = 304;
-            // 
-            // LbChtMsgRed
-            // 
-            this.LbChtMsgRed.AutoSize = true;
-            this.LbChtMsgRed.BackColor = SystemColors.ControlLight;
-            this.LbChtMsgRed.Location = new Point(8, 28);
-            this.LbChtMsgRed.Margin = new Padding(8, 12, 8, 0);
-            this.LbChtMsgRed.Name = "LbChtMsgRed";
-            this.LbChtMsgRed.Size = new Size(84, 15);
-            this.LbChtMsgRed.TabIndex = 310;
-            this.LbChtMsgRed.Text = "color red team";
-            // 
-            // LbChtMsgBlue
-            // 
-            this.LbChtMsgBlue.AutoSize = true;
-            this.LbChtMsgBlue.BackColor = SystemColors.ControlLight;
-            this.LbChtMsgBlue.Location = new Point(8, 55);
-            this.LbChtMsgBlue.Margin = new Padding(8, 12, 8, 0);
-            this.LbChtMsgBlue.Name = "LbChtMsgBlue";
-            this.LbChtMsgBlue.Size = new Size(90, 15);
-            this.LbChtMsgBlue.TabIndex = 311;
-            this.LbChtMsgBlue.Text = "color blue team";
+            TbxChtMsgFfaB.Location = new Point(471, 3864);
+            TbxChtMsgFfaB.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgFfaB.Name = "TbxChtMsgFfaB";
+            TbxChtMsgFfaB.Size = new Size(72, 23);
+            TbxChtMsgFfaB.TabIndex = 304;
             // 
             // LbChtInColorB
             // 
-            this.LbChtInColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtInColorB.AutoSize = true;
-            this.LbChtInColorB.Location = new Point(457, 4253);
-            this.LbChtInColorB.Margin = new Padding(0);
-            this.LbChtInColorB.Name = "LbChtInColorB";
-            this.LbChtInColorB.Size = new Size(14, 15);
-            this.LbChtInColorB.TabIndex = 342;
-            this.LbChtInColorB.Text = "b";
-            this.LbChtInColorB.TextAlign = ContentAlignment.MiddleRight;
+            LbChtInColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtInColorB.AutoSize = true;
+            LbChtInColorB.Location = new Point(457, 4253);
+            LbChtInColorB.Margin = new Padding(0);
+            LbChtInColorB.Name = "LbChtInColorB";
+            LbChtInColorB.Size = new Size(14, 15);
+            LbChtInColorB.TabIndex = 342;
+            LbChtInColorB.Text = "b";
+            LbChtInColorB.TextAlign = ContentAlignment.MiddleRight;
             // 
             // TbxChtInColorB
             // 
@@ -3381,73 +3385,73 @@ namespace chimera_editor.Presentation
             // 
             // LbChtInColorG
             // 
-            this.LbChtInColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtInColorG.AutoSize = true;
-            this.LbChtInColorG.Location = new Point(367, 4253);
-            this.LbChtInColorG.Margin = new Padding(0);
-            this.LbChtInColorG.Name = "LbChtInColorG";
-            this.LbChtInColorG.Size = new Size(14, 15);
-            this.LbChtInColorG.TabIndex = 328;
-            this.LbChtInColorG.Text = "b";
-            this.LbChtInColorG.TextAlign = ContentAlignment.MiddleRight;
+            LbChtInColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtInColorG.AutoSize = true;
+            LbChtInColorG.Location = new Point(367, 4253);
+            LbChtInColorG.Margin = new Padding(0);
+            LbChtInColorG.Name = "LbChtInColorG";
+            LbChtInColorG.Size = new Size(14, 15);
+            LbChtInColorG.TabIndex = 328;
+            LbChtInColorG.Text = "g";
+            LbChtInColorG.TextAlign = ContentAlignment.MiddleRight;
             // 
             // LbChtInColorR
             // 
-            this.LbChtInColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtInColorR.AutoSize = true;
-            this.LbChtInColorR.Location = new Point(277, 4253);
-            this.LbChtInColorR.Margin = new Padding(0);
-            this.LbChtInColorR.Name = "LbChtInColorR";
-            this.LbChtInColorR.Size = new Size(14, 15);
-            this.LbChtInColorR.TabIndex = 327;
-            this.LbChtInColorR.Text = "g";
-            this.LbChtInColorR.TextAlign = ContentAlignment.MiddleRight;
+            LbChtInColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtInColorR.AutoSize = true;
+            LbChtInColorR.Location = new Point(280, 4253);
+            LbChtInColorR.Margin = new Padding(0);
+            LbChtInColorR.Name = "LbChtInColorR";
+            LbChtInColorR.Size = new Size(11, 15);
+            LbChtInColorR.TabIndex = 327;
+            LbChtInColorR.Text = "r";
+            LbChtInColorR.TextAlign = ContentAlignment.MiddleRight;
             // 
             // LbChtInColorA
             // 
-            this.LbChtInColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtInColorA.AutoSize = true;
-            this.LbChtInColorA.Location = new Point(190, 4253);
-            this.LbChtInColorA.Margin = new Padding(0);
-            this.LbChtInColorA.Name = "LbChtInColorA";
-            this.LbChtInColorA.Size = new Size(11, 15);
-            this.LbChtInColorA.TabIndex = 326;
-            this.LbChtInColorA.Text = "r";
-            this.LbChtInColorA.TextAlign = ContentAlignment.MiddleRight;
+            LbChtInColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtInColorA.AutoSize = true;
+            LbChtInColorA.Location = new Point(188, 4253);
+            LbChtInColorA.Margin = new Padding(0);
+            LbChtInColorA.Name = "LbChtInColorA";
+            LbChtInColorA.Size = new Size(13, 15);
+            LbChtInColorA.TabIndex = 326;
+            LbChtInColorA.Text = "a";
+            LbChtInColorA.TextAlign = ContentAlignment.MiddleRight;
             // 
             // TbxChtInColorG
             // 
-            this.TbxChtInColorG.Location = new Point(381, 4250);
-            this.TbxChtInColorG.Margin = new Padding(0, 3, 0, 3);
-            this.TbxChtInColorG.Name = "TbxChtInColorG";
-            this.TbxChtInColorG.Size = new Size(72, 23);
-            this.TbxChtInColorG.TabIndex = 325;
+            TbxChtInColorG.Location = new Point(381, 4250);
+            TbxChtInColorG.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInColorG.Name = "TbxChtInColorG";
+            TbxChtInColorG.Size = new Size(72, 23);
+            TbxChtInColorG.TabIndex = 325;
             // 
             // TbxChtInColorR
             // 
-            this.TbxChtInColorR.Location = new Point(291, 4250);
-            this.TbxChtInColorR.Margin = new Padding(0, 3, 0, 3);
-            this.TbxChtInColorR.Name = "TbxChtInColorR";
-            this.TbxChtInColorR.Size = new Size(72, 23);
-            this.TbxChtInColorR.TabIndex = 324;
+            TbxChtInColorR.Location = new Point(291, 4250);
+            TbxChtInColorR.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInColorR.Name = "TbxChtInColorR";
+            TbxChtInColorR.Size = new Size(72, 23);
+            TbxChtInColorR.TabIndex = 324;
             // 
             // TbxChtInColorA
             // 
-            this.TbxChtInColorA.Location = new Point(201, 4250);
-            this.TbxChtInColorA.Margin = new Padding(0, 3, 0, 3);
-            this.TbxChtInColorA.Name = "TbxChtInColorA";
-            this.TbxChtInColorA.Size = new Size(72, 23);
-            this.TbxChtInColorA.TabIndex = 323;
+            TbxChtInColorA.Location = new Point(201, 4250);
+            TbxChtInColorA.Margin = new Padding(0, 3, 0, 3);
+            TbxChtInColorA.Name = "TbxChtInColorA";
+            TbxChtInColorA.Size = new Size(72, 23);
+            TbxChtInColorA.TabIndex = 323;
             // 
             // LbChtIn
             // 
-            this.LbChtIn.AutoSize = true;
-            this.LbChtIn.Location = new Point(14, 4226);
-            this.LbChtIn.Margin = new Padding(8, 12, 8, 0);
-            this.LbChtIn.Name = "LbChtIn";
-            this.LbChtIn.Size = new Size(61, 15);
-            this.LbChtIn.TabIndex = 322;
-            this.LbChtIn.Text = "chat input";
+            LbChtIn.AutoSize = true;
+            LbChtIn.Location = new Point(14, 4226);
+            LbChtIn.Margin = new Padding(8, 12, 8, 0);
+            LbChtIn.Name = "LbChtIn";
+            LbChtIn.Size = new Size(61, 15);
+            LbChtIn.TabIndex = 322;
+            LbChtIn.Text = "chat input";
             // 
             // LbChtInFont
             // 
@@ -3495,14 +3499,14 @@ namespace chimera_editor.Presentation
             // 
             // LbChtInColor
             // 
-            this.LbChtInColor.AutoSize = true;
-            this.LbChtInColor.BackColor = SystemColors.ControlLight;
-            this.LbChtInColor.Location = new Point(34, 4253);
-            this.LbChtInColor.Margin = new Padding(8, 12, 8, 0);
-            this.LbChtInColor.Name = "LbChtInColor";
-            this.LbChtInColor.Size = new Size(34, 15);
-            this.LbChtInColor.TabIndex = 311;
-            this.LbChtInColor.Text = "color";
+            LbChtInColor.AutoSize = true;
+            LbChtInColor.BackColor = SystemColors.ControlLight;
+            LbChtInColor.Location = new Point(34, 4253);
+            LbChtInColor.Margin = new Padding(8, 12, 8, 0);
+            LbChtInColor.Name = "LbChtInColor";
+            LbChtInColor.Size = new Size(34, 15);
+            LbChtInColor.TabIndex = 311;
+            LbChtInColor.Text = "color";
             // 
             // PnlChtIn
             // 
@@ -3564,15 +3568,15 @@ namespace chimera_editor.Presentation
             // 
             // LbChtMsgOffY
             // 
-            this.LbChtMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            this.LbChtMsgOffY.AutoSize = true;
-            this.LbChtMsgOffY.Location = new Point(278, 3948);
-            this.LbChtMsgOffY.Margin = new Padding(0);
-            this.LbChtMsgOffY.Name = "LbChtMsgOffY";
-            this.LbChtMsgOffY.Size = new Size(13, 15);
-            this.LbChtMsgOffY.TabIndex = 348;
-            this.LbChtMsgOffY.Text = "y";
-            this.LbChtMsgOffY.TextAlign = ContentAlignment.MiddleRight;
+            LbChtMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            LbChtMsgOffY.AutoSize = true;
+            LbChtMsgOffY.Location = new Point(278, 3948);
+            LbChtMsgOffY.Margin = new Padding(0);
+            LbChtMsgOffY.Name = "LbChtMsgOffY";
+            LbChtMsgOffY.Size = new Size(13, 15);
+            LbChtMsgOffY.TabIndex = 348;
+            LbChtMsgOffY.Text = "y";
+            LbChtMsgOffY.TextAlign = ContentAlignment.MiddleRight;
             // 
             // LbChtMsgOffX
             // 
@@ -3718,6 +3722,37 @@ namespace chimera_editor.Presentation
             ComBoxChtInAnchor.Size = new Size(162, 23);
             ComBoxChtInAnchor.TabIndex = 360;
             // 
+            // PnlHotkey
+            // 
+            PnlHotkey.BackColor = SystemColors.ControlLight;
+            PnlHotkey.BorderStyle = BorderStyle.Fixed3D;
+            PnlHotkey.Controls.Add(LbHotKeyDesc);
+            PnlHotkey.Controls.Add(LbHotKey);
+            PnlHotkey.Location = new Point(8, 4414);
+            PnlHotkey.Margin = new Padding(3, 38, 3, 3);
+            PnlHotkey.Name = "PnlHotkey";
+            PnlHotkey.Size = new Size(543, 63);
+            PnlHotkey.TabIndex = 211;
+            // 
+            // LbHotKeyDesc
+            // 
+            LbHotKeyDesc.AutoSize = true;
+            LbHotKeyDesc.Location = new Point(4, 24);
+            LbHotKeyDesc.Name = "LbHotKeyDesc";
+            LbHotKeyDesc.Size = new Size(436, 30);
+            LbHotKeyDesc.TabIndex = 1;
+            LbHotKeyDesc.Text = "hotkey configuration.\r\nhotkeys can be configured to emit EITHER Halo scripts *OR* Chimera commands.";
+            // 
+            // LbHotKey
+            // 
+            LbHotKey.AutoSize = true;
+            LbHotKey.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            LbHotKey.Location = new Point(4, 5);
+            LbHotKey.Name = "LbHotKey";
+            LbHotKey.Size = new Size(51, 19);
+            LbHotKey.TabIndex = 0;
+            LbHotKey.Text = "hotkey";
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -3726,6 +3761,7 @@ namespace chimera_editor.Presentation
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(638, 619);
+            Controls.Add(PnlHotkey);
             Controls.Add(ComBoxChtInAnchor);
             Controls.Add(LbChtInOffY);
             Controls.Add(LbChtInOffX);
@@ -4068,6 +4104,8 @@ namespace chimera_editor.Presentation
             PnlCustomChat.PerformLayout();
             PnlChtMsg.ResumeLayout(false);
             PnlChtMsg.PerformLayout();
+            PnlHotkey.ResumeLayout(false);
+            PnlHotkey.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -4461,5 +4499,8 @@ namespace chimera_editor.Presentation
         private Label LbChtMsgFfaA;
         private TextBox TbxChtMsgFfaR;
         private TextBox TbxChtMsgFfaA;
+        private Panel PnlHotkey;
+        private Label LbHotKeyDesc;
+        private Label LbHotKey;
     }
 }
