@@ -31,6 +31,7 @@ namespace chimera_editor.Presentation
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             PnlHalo = new Panel();
             LbHaloDesc = new Label();
             LbHalo = new Label();
@@ -82,7 +83,7 @@ namespace chimera_editor.Presentation
             PnlVideoMode = new Panel();
             LbVideoModeDesc = new Label();
             LbVideoMode = new Label();
-            panel2 = new Panel();
+            PnlEnd = new Panel();
             CbEnblVideoMode = new CheckBox();
             LbEnblVideoMode = new Label();
             LbResHeight = new Label();
@@ -381,6 +382,206 @@ namespace chimera_editor.Presentation
             PnlHotkey = new Panel();
             LbHotKeyDesc = new Label();
             LbHotKey = new Label();
+            CbHotKeyEnabled = new CheckBox();
+            LbHotKeyEnabled = new Label();
+            TbxHKF3 = new TextBox();
+            LbHKF3 = new Label();
+            TbxHKF2 = new TextBox();
+            LbHKF2 = new Label();
+            TbxHKF1 = new TextBox();
+            LbHKF1 = new Label();
+            LbHotKeyFunction = new Label();
+            TbxHKF6 = new TextBox();
+            LbHKF6 = new Label();
+            TbxHKF5 = new TextBox();
+            LbHKF5 = new Label();
+            TbxHKF4 = new TextBox();
+            LbHKF4 = new Label();
+            TbxHKF9 = new TextBox();
+            LbHKF9 = new Label();
+            TbxHKF8 = new TextBox();
+            LbHKF8 = new Label();
+            TbxHKF7 = new TextBox();
+            LbHKF7 = new Label();
+            TbxHKF12 = new TextBox();
+            LbHKF12 = new Label();
+            TbxHKF11 = new TextBox();
+            LbHKF11 = new Label();
+            TbxHKF10 = new TextBox();
+            LbHKF10 = new Label();
+            LbHotKeyAltShift = new Label();
+            TbxHKAS0 = new TextBox();
+            LbHKAS0 = new Label();
+            TbxHKAS9 = new TextBox();
+            LbHKAS9 = new Label();
+            TbxHKAS8 = new TextBox();
+            LbHKAS8 = new Label();
+            TbxHKAS7 = new TextBox();
+            LbHKAS7 = new Label();
+            TbxHKAS6 = new TextBox();
+            LbHKAS6 = new Label();
+            TbxHKAS5 = new TextBox();
+            LbHKAS5 = new Label();
+            TbxHKAS4 = new TextBox();
+            LbHKAS4 = new Label();
+            TbxHKAS3 = new TextBox();
+            LbHKAS3 = new Label();
+            TbxHKAS2 = new TextBox();
+            LbHKAS2 = new Label();
+            TbxHKAS1 = new TextBox();
+            LbHKAS1 = new Label();
+            TbxHKASN0 = new TextBox();
+            LbHKASN0 = new Label();
+            TbxHKASN9 = new TextBox();
+            LbHKASN9 = new Label();
+            TbxHKASN8 = new TextBox();
+            LbHKASN8 = new Label();
+            TbxHKASN7 = new TextBox();
+            LbHKASN7 = new Label();
+            TbxHKASN6 = new TextBox();
+            LbHKASN6 = new Label();
+            TbxHKASN5 = new TextBox();
+            LbHKASN5 = new Label();
+            TbxHKASN4 = new TextBox();
+            LbHKASN4 = new Label();
+            TbxHKASN3 = new TextBox();
+            LbHKASN3 = new Label();
+            TbxHKASN2 = new TextBox();
+            LbHKASN2 = new Label();
+            TbxHKASN1 = new TextBox();
+            LbHKASN1 = new Label();
+            LbHotKeyAltShiftNum = new Label();
+            TbxHkA0 = new TextBox();
+            LbHkA0 = new Label();
+            TbxHkA9 = new TextBox();
+            LbHkA9 = new Label();
+            TbxHkA8 = new TextBox();
+            LbHkA8 = new Label();
+            TbxHkA7 = new TextBox();
+            LbHkA7 = new Label();
+            TbxHkA6 = new TextBox();
+            LbHkA6 = new Label();
+            TbxHkA5 = new TextBox();
+            LbHkA5 = new Label();
+            TbxHkA4 = new TextBox();
+            LbHkA4 = new Label();
+            TbxHkA3 = new TextBox();
+            LbHkA3 = new Label();
+            TbxHkA2 = new TextBox();
+            LbHkA2 = new Label();
+            TbxHkA1 = new TextBox();
+            LbHkA1 = new Label();
+            LbHotKeyAlt = new Label();
+            TbxHkC0 = new TextBox();
+            LbHkC0 = new Label();
+            TbxHkC9 = new TextBox();
+            LbHkC9 = new Label();
+            TbxHkC8 = new TextBox();
+            LbHkC8 = new Label();
+            TbxHkC7 = new TextBox();
+            LbHkC7 = new Label();
+            TbxHkC6 = new TextBox();
+            LbHkC6 = new Label();
+            TbxHkC5 = new TextBox();
+            LbHkC5 = new Label();
+            TbxHkC4 = new TextBox();
+            LbHkC4 = new Label();
+            TbxHkC3 = new TextBox();
+            LbHkC3 = new Label();
+            TbxHkC2 = new TextBox();
+            LbHkC2 = new Label();
+            TbxHkC1 = new TextBox();
+            LbHkC1 = new Label();
+            LbHotKeyCtrl = new Label();
+            TbxHKCN0 = new TextBox();
+            LbHkCN0 = new Label();
+            TbxHKCN9 = new TextBox();
+            LbHkCN9 = new Label();
+            TbxHKCN8 = new TextBox();
+            LbHkCN8 = new Label();
+            TbxHKCN7 = new TextBox();
+            LbHkCN = new Label();
+            TbxHKCN6 = new TextBox();
+            LbHkCN6 = new Label();
+            TbxHKCN5 = new TextBox();
+            LbHkCN5 = new Label();
+            TbxHKCN4 = new TextBox();
+            LbHkCN4 = new Label();
+            TbxHKCN3 = new TextBox();
+            LbHkCN3 = new Label();
+            TbxHKCN2 = new TextBox();
+            LbHkCN2 = new Label();
+            TbxHKCN1 = new TextBox();
+            LbHkCN1 = new Label();
+            LbHotKeyCtrlNum = new Label();
+            TbxHkCAS0 = new TextBox();
+            LbHkCAS0 = new Label();
+            TbxHkCAS9 = new TextBox();
+            LbHkCAS9 = new Label();
+            TbxHkCAS8 = new TextBox();
+            LbHkCAS8 = new Label();
+            TbxHkCAS7 = new TextBox();
+            LbHkCAS7 = new Label();
+            TbxHkCAS6 = new TextBox();
+            LbHkCAS6 = new Label();
+            TbxHkCAS5 = new TextBox();
+            LbHkCAS5 = new Label();
+            TbxHkCAS4 = new TextBox();
+            LbHkCAS4 = new Label();
+            TbxHkCAS3 = new TextBox();
+            LbHkCAS3 = new Label();
+            TbxHkCAS2 = new TextBox();
+            LbHkCAS2 = new Label();
+            TbxHkCAS1 = new TextBox();
+            LbHkCAS1 = new Label();
+            LbHotKeyCtrlAltShift = new Label();
+            TbxHkCASN0 = new TextBox();
+            LbHkCASN0 = new Label();
+            TbxHkCASN9 = new TextBox();
+            LbHkCASN9 = new Label();
+            TbxHkCASN8 = new TextBox();
+            LbHkCASN8 = new Label();
+            TbxHkCASN7 = new TextBox();
+            LbHkCASN7 = new Label();
+            TbxHkCASN6 = new TextBox();
+            LbHkCASN6 = new Label();
+            TbxHkCASN5 = new TextBox();
+            LbHkCASN5 = new Label();
+            TbxHkCASN4 = new TextBox();
+            LbHkCASN4 = new Label();
+            TbxHkCASN3 = new TextBox();
+            LbHkCASN3 = new Label();
+            TbxHkCASN2 = new TextBox();
+            LbHkCASN2 = new Label();
+            TbxHkCASN1 = new TextBox();
+            LbHkCASN1 = new Label();
+            LbHotKeyCtrlAltShiftNum = new Label();
+            TbxHkAN0 = new TextBox();
+            LbHkAN0 = new Label();
+            TbxHkAN9 = new TextBox();
+            LbHkAN9 = new Label();
+            TbxHkAN8 = new TextBox();
+            LbHkAN8 = new Label();
+            TbxHkAN7 = new TextBox();
+            LbHkAN7 = new Label();
+            TbxHkAN6 = new TextBox();
+            LbHkAN6 = new Label();
+            TbxHkAN5 = new TextBox();
+            LbHkAN5 = new Label();
+            TbxHkAN4 = new TextBox();
+            LbHkAN4 = new Label();
+            TbxHkAN3 = new TextBox();
+            LbHkAN3 = new Label();
+            TbxHkAN2 = new TextBox();
+            LbHkAN2 = new Label();
+            TbxHkAN1 = new TextBox();
+            LbHkAN1 = new Label();
+            LbHotKeyAltNum = new Label();
+            BtnCCColor = new Button();
+            BtnCMFfaColor = new Button();
+            BtnCMRedColor = new Button();
+            BtnCMBlueColor = new Button();
+            BtnCIColor = new Button();
             PnlHalo.SuspendLayout();
             PnlErrorHand.SuspendLayout();
             PnlVideoMode.SuspendLayout();
@@ -431,7 +632,7 @@ namespace chimera_editor.Presentation
             VSBEditor.Dock = DockStyle.Right;
             VSBEditor.Location = new Point(604, 0);
             VSBEditor.Name = "VSBEditor";
-            VSBEditor.Size = new Size(17, 5669);
+            VSBEditor.Size = new Size(17, 7334);
             VSBEditor.TabIndex = 1;
             // 
             // LbPath
@@ -874,15 +1075,15 @@ namespace chimera_editor.Presentation
             LbVideoMode.TabIndex = 0;
             LbVideoMode.Text = "video mode";
             // 
-            // panel2
+            // PnlEnd
             // 
-            panel2.BackColor = SystemColors.ControlLight;
-            panel2.BorderStyle = BorderStyle.Fixed3D;
-            panel2.Location = new Point(36, 5606);
-            panel2.Margin = new Padding(3, 38, 3, 3);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(543, 63);
-            panel2.TabIndex = 4;
+            PnlEnd.BackColor = SystemColors.ControlLight;
+            PnlEnd.BorderStyle = BorderStyle.Fixed3D;
+            PnlEnd.Location = new Point(36, 7271);
+            PnlEnd.Margin = new Padding(3, 38, 3, 3);
+            PnlEnd.Name = "PnlEnd";
+            PnlEnd.Size = new Size(543, 63);
+            PnlEnd.TabIndex = 4;
             // 
             // CbEnblVideoMode
             // 
@@ -2718,7 +2919,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorA.AutoSize = true;
-            LbSvMsgColorA.Location = new Point(188, 3535);
+            LbSvMsgColorA.Location = new Point(171, 3535);
             LbSvMsgColorA.Margin = new Padding(0);
             LbSvMsgColorA.Name = "LbSvMsgColorA";
             LbSvMsgColorA.Size = new Size(13, 15);
@@ -2730,7 +2931,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorR.AutoSize = true;
-            LbSvMsgColorR.Location = new Point(280, 3535);
+            LbSvMsgColorR.Location = new Point(263, 3535);
             LbSvMsgColorR.Margin = new Padding(0);
             LbSvMsgColorR.Name = "LbSvMsgColorR";
             LbSvMsgColorR.Size = new Size(11, 15);
@@ -2742,7 +2943,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorG.AutoSize = true;
-            LbSvMsgColorG.Location = new Point(367, 3535);
+            LbSvMsgColorG.Location = new Point(350, 3535);
             LbSvMsgColorG.Margin = new Padding(0);
             LbSvMsgColorG.Name = "LbSvMsgColorG";
             LbSvMsgColorG.Size = new Size(14, 15);
@@ -2908,7 +3109,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaG.AutoSize = true;
-            LbChtMsgFfaG.Location = new Point(367, 3867);
+            LbChtMsgFfaG.Location = new Point(350, 3867);
             LbChtMsgFfaG.Margin = new Padding(0);
             LbChtMsgFfaG.Name = "LbChtMsgFfaG";
             LbChtMsgFfaG.Size = new Size(14, 15);
@@ -2920,7 +3121,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaR.AutoSize = true;
-            LbChtMsgFfaR.Location = new Point(280, 3867);
+            LbChtMsgFfaR.Location = new Point(263, 3867);
             LbChtMsgFfaR.Margin = new Padding(0);
             LbChtMsgFfaR.Name = "LbChtMsgFfaR";
             LbChtMsgFfaR.Size = new Size(11, 15);
@@ -2932,7 +3133,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaA.AutoSize = true;
-            LbChtMsgFfaA.Location = new Point(188, 3867);
+            LbChtMsgFfaA.Location = new Point(171, 3867);
             LbChtMsgFfaA.Margin = new Padding(0);
             LbChtMsgFfaA.Name = "LbChtMsgFfaA";
             LbChtMsgFfaA.Size = new Size(13, 15);
@@ -3143,7 +3344,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedG.AutoSize = true;
-            LbChtMsgRedG.Location = new Point(367, 3894);
+            LbChtMsgRedG.Location = new Point(350, 3894);
             LbChtMsgRedG.Margin = new Padding(0);
             LbChtMsgRedG.Name = "LbChtMsgRedG";
             LbChtMsgRedG.Size = new Size(14, 15);
@@ -3155,7 +3356,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedR.AutoSize = true;
-            LbChtMsgRedR.Location = new Point(280, 3894);
+            LbChtMsgRedR.Location = new Point(263, 3894);
             LbChtMsgRedR.Margin = new Padding(0);
             LbChtMsgRedR.Name = "LbChtMsgRedR";
             LbChtMsgRedR.Size = new Size(11, 15);
@@ -3167,7 +3368,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedA.AutoSize = true;
-            LbChtMsgRedA.Location = new Point(188, 3894);
+            LbChtMsgRedA.Location = new Point(171, 3894);
             LbChtMsgRedA.Margin = new Padding(0);
             LbChtMsgRedA.Name = "LbChtMsgRedA";
             LbChtMsgRedA.Size = new Size(13, 15);
@@ -3203,7 +3404,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueG.AutoSize = true;
-            LbChtMsgBlueG.Location = new Point(367, 3921);
+            LbChtMsgBlueG.Location = new Point(350, 3921);
             LbChtMsgBlueG.Margin = new Padding(0);
             LbChtMsgBlueG.Name = "LbChtMsgBlueG";
             LbChtMsgBlueG.Size = new Size(14, 15);
@@ -3215,7 +3416,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueR.AutoSize = true;
-            LbChtMsgBlueR.Location = new Point(280, 3921);
+            LbChtMsgBlueR.Location = new Point(263, 3921);
             LbChtMsgBlueR.Margin = new Padding(0);
             LbChtMsgBlueR.Name = "LbChtMsgBlueR";
             LbChtMsgBlueR.Size = new Size(11, 15);
@@ -3227,7 +3428,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueA.AutoSize = true;
-            LbChtMsgBlueA.Location = new Point(188, 3921);
+            LbChtMsgBlueA.Location = new Point(171, 3921);
             LbChtMsgBlueA.Margin = new Padding(0);
             LbChtMsgBlueA.Name = "LbChtMsgBlueA";
             LbChtMsgBlueA.Size = new Size(13, 15);
@@ -3263,7 +3464,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorB.AutoSize = true;
-            LbSvMsgColorB.Location = new Point(457, 3535);
+            LbSvMsgColorB.Location = new Point(440, 3535);
             LbSvMsgColorB.Margin = new Padding(0);
             LbSvMsgColorB.Name = "LbSvMsgColorB";
             LbSvMsgColorB.Size = new Size(14, 15);
@@ -3283,7 +3484,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueB.AutoSize = true;
-            LbChtMsgBlueB.Location = new Point(457, 3921);
+            LbChtMsgBlueB.Location = new Point(440, 3921);
             LbChtMsgBlueB.Margin = new Padding(0);
             LbChtMsgBlueB.Name = "LbChtMsgBlueB";
             LbChtMsgBlueB.Size = new Size(14, 15);
@@ -3303,7 +3504,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedB.AutoSize = true;
-            LbChtMsgRedB.Location = new Point(457, 3894);
+            LbChtMsgRedB.Location = new Point(440, 3894);
             LbChtMsgRedB.Margin = new Padding(0);
             LbChtMsgRedB.Name = "LbChtMsgRedB";
             LbChtMsgRedB.Size = new Size(14, 15);
@@ -3323,7 +3524,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaB.AutoSize = true;
-            LbChtMsgFfaB.Location = new Point(457, 3867);
+            LbChtMsgFfaB.Location = new Point(440, 3867);
             LbChtMsgFfaB.Margin = new Padding(0);
             LbChtMsgFfaB.Name = "LbChtMsgFfaB";
             LbChtMsgFfaB.Size = new Size(14, 15);
@@ -3343,7 +3544,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorB.AutoSize = true;
-            LbChtInColorB.Location = new Point(457, 4253);
+            LbChtInColorB.Location = new Point(440, 4253);
             LbChtInColorB.Margin = new Padding(0);
             LbChtInColorB.Name = "LbChtInColorB";
             LbChtInColorB.Size = new Size(14, 15);
@@ -3387,7 +3588,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorG.AutoSize = true;
-            LbChtInColorG.Location = new Point(367, 4253);
+            LbChtInColorG.Location = new Point(350, 4253);
             LbChtInColorG.Margin = new Padding(0);
             LbChtInColorG.Name = "LbChtInColorG";
             LbChtInColorG.Size = new Size(14, 15);
@@ -3399,7 +3600,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorR.AutoSize = true;
-            LbChtInColorR.Location = new Point(280, 4253);
+            LbChtInColorR.Location = new Point(263, 4253);
             LbChtInColorR.Margin = new Padding(0);
             LbChtInColorR.Name = "LbChtInColorR";
             LbChtInColorR.Size = new Size(11, 15);
@@ -3411,7 +3612,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorA.AutoSize = true;
-            LbChtInColorA.Location = new Point(188, 4253);
+            LbChtInColorA.Location = new Point(171, 4253);
             LbChtInColorA.Margin = new Padding(0);
             LbChtInColorA.Name = "LbChtInColorA";
             LbChtInColorA.Size = new Size(13, 15);
@@ -3522,7 +3723,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgOffY.AutoSize = true;
-            LbSvMsgOffY.Location = new Point(278, 3562);
+            LbSvMsgOffY.Location = new Point(261, 3562);
             LbSvMsgOffY.Margin = new Padding(0);
             LbSvMsgOffY.Name = "LbSvMsgOffY";
             LbSvMsgOffY.Size = new Size(13, 15);
@@ -3534,7 +3735,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgOffX.AutoSize = true;
-            LbSvMsgOffX.Location = new Point(188, 3562);
+            LbSvMsgOffX.Location = new Point(171, 3562);
             LbSvMsgOffX.Margin = new Padding(0);
             LbSvMsgOffX.Name = "LbSvMsgOffX";
             LbSvMsgOffX.Size = new Size(13, 15);
@@ -3546,7 +3747,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgDimY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgDimY.AutoSize = true;
-            LbSvMsgDimY.Location = new Point(278, 3589);
+            LbSvMsgDimY.Location = new Point(261, 3589);
             LbSvMsgDimY.Margin = new Padding(0);
             LbSvMsgDimY.Name = "LbSvMsgDimY";
             LbSvMsgDimY.Size = new Size(13, 15);
@@ -3558,7 +3759,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgDimX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgDimX.AutoSize = true;
-            LbSvMsgDimX.Location = new Point(188, 3589);
+            LbSvMsgDimX.Location = new Point(171, 3589);
             LbSvMsgDimX.Margin = new Padding(0);
             LbSvMsgDimX.Name = "LbSvMsgDimX";
             LbSvMsgDimX.Size = new Size(13, 15);
@@ -3570,7 +3771,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgOffY.AutoSize = true;
-            LbChtMsgOffY.Location = new Point(278, 3948);
+            LbChtMsgOffY.Location = new Point(261, 3948);
             LbChtMsgOffY.Margin = new Padding(0);
             LbChtMsgOffY.Name = "LbChtMsgOffY";
             LbChtMsgOffY.Size = new Size(13, 15);
@@ -3582,7 +3783,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgOffX.AutoSize = true;
-            LbChtMsgOffX.Location = new Point(188, 3948);
+            LbChtMsgOffX.Location = new Point(171, 3948);
             LbChtMsgOffX.Margin = new Padding(0);
             LbChtMsgOffX.Name = "LbChtMsgOffX";
             LbChtMsgOffX.Size = new Size(13, 15);
@@ -3594,7 +3795,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgDimY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgDimY.AutoSize = true;
-            LbChtMsgDimY.Location = new Point(278, 3975);
+            LbChtMsgDimY.Location = new Point(261, 3975);
             LbChtMsgDimY.Margin = new Padding(0);
             LbChtMsgDimY.Name = "LbChtMsgDimY";
             LbChtMsgDimY.Size = new Size(13, 15);
@@ -3606,7 +3807,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgDimX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgDimX.AutoSize = true;
-            LbChtMsgDimX.Location = new Point(188, 3975);
+            LbChtMsgDimX.Location = new Point(171, 3975);
             LbChtMsgDimX.Margin = new Padding(0);
             LbChtMsgDimX.Name = "LbChtMsgDimX";
             LbChtMsgDimX.Size = new Size(13, 15);
@@ -3691,7 +3892,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInOffY.AutoSize = true;
-            LbChtInOffY.Location = new Point(278, 4280);
+            LbChtInOffY.Location = new Point(261, 4280);
             LbChtInOffY.Margin = new Padding(0);
             LbChtInOffY.Name = "LbChtInOffY";
             LbChtInOffY.Size = new Size(13, 15);
@@ -3703,7 +3904,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInOffX.AutoSize = true;
-            LbChtInOffX.Location = new Point(188, 4280);
+            LbChtInOffX.Location = new Point(171, 4280);
             LbChtInOffX.Margin = new Padding(0);
             LbChtInOffX.Name = "LbChtInOffX";
             LbChtInOffX.Size = new Size(13, 15);
@@ -3753,6 +3954,1821 @@ namespace chimera_editor.Presentation
             LbHotKey.TabIndex = 0;
             LbHotKey.Text = "hotkey";
             // 
+            // CbHotKeyEnabled
+            // 
+            CbHotKeyEnabled.AutoSize = true;
+            CbHotKeyEnabled.Location = new Point(180, 4490);
+            CbHotKeyEnabled.Name = "CbHotKeyEnabled";
+            CbHotKeyEnabled.Size = new Size(15, 14);
+            CbHotKeyEnabled.TabIndex = 362;
+            CbHotKeyEnabled.UseVisualStyleBackColor = true;
+            // 
+            // LbHotKeyEnabled
+            // 
+            LbHotKeyEnabled.AutoSize = true;
+            LbHotKeyEnabled.Location = new Point(14, 4488);
+            LbHotKeyEnabled.Margin = new Padding(8, 8, 8, 0);
+            LbHotKeyEnabled.Name = "LbHotKeyEnabled";
+            LbHotKeyEnabled.Size = new Size(49, 15);
+            LbHotKeyEnabled.TabIndex = 361;
+            LbHotKeyEnabled.Text = "enabled";
+            // 
+            // TbxHKF3
+            // 
+            TbxHKF3.Location = new Point(180, 4593);
+            TbxHKF3.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF3.Name = "TbxHKF3";
+            TbxHKF3.Size = new Size(371, 23);
+            TbxHKF3.TabIndex = 373;
+            // 
+            // LbHKF3
+            // 
+            LbHKF3.AutoSize = true;
+            LbHKF3.Location = new Point(14, 4596);
+            LbHKF3.Margin = new Padding(8, 12, 8, 0);
+            LbHKF3.Name = "LbHKF3";
+            LbHKF3.Size = new Size(17, 15);
+            LbHKF3.TabIndex = 372;
+            LbHKF3.Text = "f3";
+            // 
+            // TbxHKF2
+            // 
+            TbxHKF2.Location = new Point(180, 4566);
+            TbxHKF2.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF2.Name = "TbxHKF2";
+            TbxHKF2.Size = new Size(371, 23);
+            TbxHKF2.TabIndex = 370;
+            // 
+            // LbHKF2
+            // 
+            LbHKF2.AutoSize = true;
+            LbHKF2.Location = new Point(14, 4569);
+            LbHKF2.Margin = new Padding(8, 12, 8, 0);
+            LbHKF2.Name = "LbHKF2";
+            LbHKF2.Size = new Size(17, 15);
+            LbHKF2.TabIndex = 369;
+            LbHKF2.Text = "f2";
+            // 
+            // TbxHKF1
+            // 
+            TbxHKF1.Location = new Point(180, 4539);
+            TbxHKF1.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF1.Name = "TbxHKF1";
+            TbxHKF1.Size = new Size(371, 23);
+            TbxHKF1.TabIndex = 367;
+            // 
+            // LbHKF1
+            // 
+            LbHKF1.AutoSize = true;
+            LbHKF1.Location = new Point(14, 4542);
+            LbHKF1.Margin = new Padding(8, 12, 8, 0);
+            LbHKF1.Name = "LbHKF1";
+            LbHKF1.Size = new Size(17, 15);
+            LbHKF1.TabIndex = 366;
+            LbHKF1.Text = "f1";
+            // 
+            // LbHotKeyFunction
+            // 
+            LbHotKeyFunction.AutoSize = true;
+            LbHotKeyFunction.Location = new Point(14, 4515);
+            LbHotKeyFunction.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyFunction.Name = "LbHotKeyFunction";
+            LbHotKeyFunction.Size = new Size(117, 15);
+            LbHotKeyFunction.TabIndex = 363;
+            LbHotKeyFunction.Text = "function key hotkeys";
+            // 
+            // TbxHKF6
+            // 
+            TbxHKF6.Location = new Point(180, 4674);
+            TbxHKF6.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF6.Name = "TbxHKF6";
+            TbxHKF6.Size = new Size(371, 23);
+            TbxHKF6.TabIndex = 379;
+            // 
+            // LbHKF6
+            // 
+            LbHKF6.AutoSize = true;
+            LbHKF6.Location = new Point(14, 4677);
+            LbHKF6.Margin = new Padding(8, 12, 8, 0);
+            LbHKF6.Name = "LbHKF6";
+            LbHKF6.Size = new Size(17, 15);
+            LbHKF6.TabIndex = 378;
+            LbHKF6.Text = "f6";
+            // 
+            // TbxHKF5
+            // 
+            TbxHKF5.Location = new Point(180, 4647);
+            TbxHKF5.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF5.Name = "TbxHKF5";
+            TbxHKF5.Size = new Size(371, 23);
+            TbxHKF5.TabIndex = 377;
+            // 
+            // LbHKF5
+            // 
+            LbHKF5.AutoSize = true;
+            LbHKF5.Location = new Point(14, 4650);
+            LbHKF5.Margin = new Padding(8, 12, 8, 0);
+            LbHKF5.Name = "LbHKF5";
+            LbHKF5.Size = new Size(17, 15);
+            LbHKF5.TabIndex = 376;
+            LbHKF5.Text = "f5";
+            // 
+            // TbxHKF4
+            // 
+            TbxHKF4.Location = new Point(180, 4620);
+            TbxHKF4.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF4.Name = "TbxHKF4";
+            TbxHKF4.Size = new Size(371, 23);
+            TbxHKF4.TabIndex = 375;
+            // 
+            // LbHKF4
+            // 
+            LbHKF4.AutoSize = true;
+            LbHKF4.Location = new Point(14, 4623);
+            LbHKF4.Margin = new Padding(8, 12, 8, 0);
+            LbHKF4.Name = "LbHKF4";
+            LbHKF4.Size = new Size(17, 15);
+            LbHKF4.TabIndex = 374;
+            LbHKF4.Text = "f4";
+            // 
+            // TbxHKF9
+            // 
+            TbxHKF9.Location = new Point(180, 4755);
+            TbxHKF9.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF9.Name = "TbxHKF9";
+            TbxHKF9.Size = new Size(371, 23);
+            TbxHKF9.TabIndex = 385;
+            // 
+            // LbHKF9
+            // 
+            LbHKF9.AutoSize = true;
+            LbHKF9.Location = new Point(14, 4758);
+            LbHKF9.Margin = new Padding(8, 12, 8, 0);
+            LbHKF9.Name = "LbHKF9";
+            LbHKF9.Size = new Size(17, 15);
+            LbHKF9.TabIndex = 384;
+            LbHKF9.Text = "f9";
+            // 
+            // TbxHKF8
+            // 
+            TbxHKF8.Location = new Point(180, 4728);
+            TbxHKF8.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF8.Name = "TbxHKF8";
+            TbxHKF8.Size = new Size(371, 23);
+            TbxHKF8.TabIndex = 383;
+            // 
+            // LbHKF8
+            // 
+            LbHKF8.AutoSize = true;
+            LbHKF8.Location = new Point(14, 4731);
+            LbHKF8.Margin = new Padding(8, 12, 8, 0);
+            LbHKF8.Name = "LbHKF8";
+            LbHKF8.Size = new Size(17, 15);
+            LbHKF8.TabIndex = 382;
+            LbHKF8.Text = "f8";
+            // 
+            // TbxHKF7
+            // 
+            TbxHKF7.Location = new Point(180, 4701);
+            TbxHKF7.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF7.Name = "TbxHKF7";
+            TbxHKF7.Size = new Size(371, 23);
+            TbxHKF7.TabIndex = 381;
+            // 
+            // LbHKF7
+            // 
+            LbHKF7.AutoSize = true;
+            LbHKF7.Location = new Point(14, 4704);
+            LbHKF7.Margin = new Padding(8, 12, 8, 0);
+            LbHKF7.Name = "LbHKF7";
+            LbHKF7.Size = new Size(17, 15);
+            LbHKF7.TabIndex = 380;
+            LbHKF7.Text = "f7";
+            // 
+            // TbxHKF12
+            // 
+            TbxHKF12.Location = new Point(180, 4836);
+            TbxHKF12.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF12.Name = "TbxHKF12";
+            TbxHKF12.Size = new Size(371, 23);
+            TbxHKF12.TabIndex = 391;
+            // 
+            // LbHKF12
+            // 
+            LbHKF12.AutoSize = true;
+            LbHKF12.Location = new Point(14, 4839);
+            LbHKF12.Margin = new Padding(8, 12, 8, 0);
+            LbHKF12.Name = "LbHKF12";
+            LbHKF12.Size = new Size(23, 15);
+            LbHKF12.TabIndex = 390;
+            LbHKF12.Text = "f12";
+            // 
+            // TbxHKF11
+            // 
+            TbxHKF11.Location = new Point(180, 4809);
+            TbxHKF11.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF11.Name = "TbxHKF11";
+            TbxHKF11.Size = new Size(371, 23);
+            TbxHKF11.TabIndex = 389;
+            // 
+            // LbHKF11
+            // 
+            LbHKF11.AutoSize = true;
+            LbHKF11.Location = new Point(14, 4812);
+            LbHKF11.Margin = new Padding(8, 12, 8, 0);
+            LbHKF11.Name = "LbHKF11";
+            LbHKF11.Size = new Size(23, 15);
+            LbHKF11.TabIndex = 388;
+            LbHKF11.Text = "f11";
+            // 
+            // TbxHKF10
+            // 
+            TbxHKF10.Location = new Point(180, 4782);
+            TbxHKF10.Margin = new Padding(3, 3, 10, 3);
+            TbxHKF10.Name = "TbxHKF10";
+            TbxHKF10.Size = new Size(371, 23);
+            TbxHKF10.TabIndex = 387;
+            // 
+            // LbHKF10
+            // 
+            LbHKF10.AutoSize = true;
+            LbHKF10.Location = new Point(14, 4785);
+            LbHKF10.Margin = new Padding(8, 12, 8, 0);
+            LbHKF10.Name = "LbHKF10";
+            LbHKF10.Size = new Size(23, 15);
+            LbHKF10.TabIndex = 386;
+            LbHKF10.Text = "f10";
+            // 
+            // LbHotKeyAltShift
+            // 
+            LbHotKeyAltShift.AutoSize = true;
+            LbHotKeyAltShift.Location = new Point(14, 4866);
+            LbHotKeyAltShift.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyAltShift.Name = "LbHotKeyAltShift";
+            LbHotKeyAltShift.Size = new Size(110, 15);
+            LbHotKeyAltShift.TabIndex = 392;
+            LbHotKeyAltShift.Text = "alt+shift+# hotkeys";
+            // 
+            // TbxHKAS0
+            // 
+            TbxHKAS0.Location = new Point(180, 5133);
+            TbxHKAS0.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS0.Name = "TbxHKAS0";
+            TbxHKAS0.Size = new Size(371, 23);
+            TbxHKAS0.TabIndex = 412;
+            // 
+            // LbHKAS0
+            // 
+            LbHKAS0.AutoSize = true;
+            LbHKAS0.Location = new Point(14, 5136);
+            LbHKAS0.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS0.Name = "LbHKAS0";
+            LbHKAS0.Size = new Size(59, 15);
+            LbHKAS0.TabIndex = 411;
+            LbHKAS0.Text = "alt_shift_0";
+            // 
+            // TbxHKAS9
+            // 
+            TbxHKAS9.Location = new Point(180, 5106);
+            TbxHKAS9.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS9.Name = "TbxHKAS9";
+            TbxHKAS9.Size = new Size(371, 23);
+            TbxHKAS9.TabIndex = 410;
+            // 
+            // LbHKAS9
+            // 
+            LbHKAS9.AutoSize = true;
+            LbHKAS9.Location = new Point(14, 5109);
+            LbHKAS9.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS9.Name = "LbHKAS9";
+            LbHKAS9.Size = new Size(59, 15);
+            LbHKAS9.TabIndex = 409;
+            LbHKAS9.Text = "alt_shift_9";
+            // 
+            // TbxHKAS8
+            // 
+            TbxHKAS8.Location = new Point(180, 5079);
+            TbxHKAS8.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS8.Name = "TbxHKAS8";
+            TbxHKAS8.Size = new Size(371, 23);
+            TbxHKAS8.TabIndex = 408;
+            // 
+            // LbHKAS8
+            // 
+            LbHKAS8.AutoSize = true;
+            LbHKAS8.Location = new Point(14, 5082);
+            LbHKAS8.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS8.Name = "LbHKAS8";
+            LbHKAS8.Size = new Size(59, 15);
+            LbHKAS8.TabIndex = 407;
+            LbHKAS8.Text = "alt_shift_8";
+            // 
+            // TbxHKAS7
+            // 
+            TbxHKAS7.Location = new Point(180, 5052);
+            TbxHKAS7.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS7.Name = "TbxHKAS7";
+            TbxHKAS7.Size = new Size(371, 23);
+            TbxHKAS7.TabIndex = 406;
+            // 
+            // LbHKAS7
+            // 
+            LbHKAS7.AutoSize = true;
+            LbHKAS7.Location = new Point(14, 5055);
+            LbHKAS7.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS7.Name = "LbHKAS7";
+            LbHKAS7.Size = new Size(59, 15);
+            LbHKAS7.TabIndex = 405;
+            LbHKAS7.Text = "alt_shift_7";
+            // 
+            // TbxHKAS6
+            // 
+            TbxHKAS6.Location = new Point(180, 5025);
+            TbxHKAS6.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS6.Name = "TbxHKAS6";
+            TbxHKAS6.Size = new Size(371, 23);
+            TbxHKAS6.TabIndex = 404;
+            // 
+            // LbHKAS6
+            // 
+            LbHKAS6.AutoSize = true;
+            LbHKAS6.Location = new Point(14, 5028);
+            LbHKAS6.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS6.Name = "LbHKAS6";
+            LbHKAS6.Size = new Size(59, 15);
+            LbHKAS6.TabIndex = 403;
+            LbHKAS6.Text = "alt_shift_6";
+            // 
+            // TbxHKAS5
+            // 
+            TbxHKAS5.Location = new Point(180, 4998);
+            TbxHKAS5.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS5.Name = "TbxHKAS5";
+            TbxHKAS5.Size = new Size(371, 23);
+            TbxHKAS5.TabIndex = 402;
+            // 
+            // LbHKAS5
+            // 
+            LbHKAS5.AutoSize = true;
+            LbHKAS5.Location = new Point(14, 5001);
+            LbHKAS5.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS5.Name = "LbHKAS5";
+            LbHKAS5.Size = new Size(59, 15);
+            LbHKAS5.TabIndex = 401;
+            LbHKAS5.Text = "alt_shift_5";
+            // 
+            // TbxHKAS4
+            // 
+            TbxHKAS4.Location = new Point(180, 4971);
+            TbxHKAS4.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS4.Name = "TbxHKAS4";
+            TbxHKAS4.Size = new Size(371, 23);
+            TbxHKAS4.TabIndex = 400;
+            // 
+            // LbHKAS4
+            // 
+            LbHKAS4.AutoSize = true;
+            LbHKAS4.Location = new Point(14, 4974);
+            LbHKAS4.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS4.Name = "LbHKAS4";
+            LbHKAS4.Size = new Size(59, 15);
+            LbHKAS4.TabIndex = 399;
+            LbHKAS4.Text = "alt_shift_4";
+            // 
+            // TbxHKAS3
+            // 
+            TbxHKAS3.Location = new Point(180, 4944);
+            TbxHKAS3.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS3.Name = "TbxHKAS3";
+            TbxHKAS3.Size = new Size(371, 23);
+            TbxHKAS3.TabIndex = 398;
+            // 
+            // LbHKAS3
+            // 
+            LbHKAS3.AutoSize = true;
+            LbHKAS3.Location = new Point(14, 4947);
+            LbHKAS3.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS3.Name = "LbHKAS3";
+            LbHKAS3.Size = new Size(59, 15);
+            LbHKAS3.TabIndex = 397;
+            LbHKAS3.Text = "alt_shift_3";
+            // 
+            // TbxHKAS2
+            // 
+            TbxHKAS2.Location = new Point(180, 4917);
+            TbxHKAS2.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS2.Name = "TbxHKAS2";
+            TbxHKAS2.Size = new Size(371, 23);
+            TbxHKAS2.TabIndex = 396;
+            // 
+            // LbHKAS2
+            // 
+            LbHKAS2.AutoSize = true;
+            LbHKAS2.Location = new Point(14, 4920);
+            LbHKAS2.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS2.Name = "LbHKAS2";
+            LbHKAS2.Size = new Size(59, 15);
+            LbHKAS2.TabIndex = 395;
+            LbHKAS2.Text = "alt_shift_2";
+            // 
+            // TbxHKAS1
+            // 
+            TbxHKAS1.Location = new Point(180, 4890);
+            TbxHKAS1.Margin = new Padding(3, 3, 10, 3);
+            TbxHKAS1.Name = "TbxHKAS1";
+            TbxHKAS1.Size = new Size(371, 23);
+            TbxHKAS1.TabIndex = 394;
+            // 
+            // LbHKAS1
+            // 
+            LbHKAS1.AutoSize = true;
+            LbHKAS1.Location = new Point(14, 4893);
+            LbHKAS1.Margin = new Padding(8, 12, 8, 0);
+            LbHKAS1.Name = "LbHKAS1";
+            LbHKAS1.Size = new Size(59, 15);
+            LbHKAS1.TabIndex = 393;
+            LbHKAS1.Text = "alt_shift_1";
+            // 
+            // TbxHKASN0
+            // 
+            TbxHKASN0.Location = new Point(180, 5430);
+            TbxHKASN0.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN0.Name = "TbxHKASN0";
+            TbxHKASN0.Size = new Size(371, 23);
+            TbxHKASN0.TabIndex = 433;
+            // 
+            // LbHKASN0
+            // 
+            LbHKASN0.AutoSize = true;
+            LbHKASN0.Location = new Point(14, 5433);
+            LbHKASN0.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN0.Name = "LbHKASN0";
+            LbHKASN0.Size = new Size(89, 15);
+            LbHKASN0.TabIndex = 432;
+            LbHKASN0.Text = "alt_shift_num_0";
+            // 
+            // TbxHKASN9
+            // 
+            TbxHKASN9.Location = new Point(180, 5403);
+            TbxHKASN9.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN9.Name = "TbxHKASN9";
+            TbxHKASN9.Size = new Size(371, 23);
+            TbxHKASN9.TabIndex = 431;
+            // 
+            // LbHKASN9
+            // 
+            LbHKASN9.AutoSize = true;
+            LbHKASN9.Location = new Point(14, 5406);
+            LbHKASN9.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN9.Name = "LbHKASN9";
+            LbHKASN9.Size = new Size(89, 15);
+            LbHKASN9.TabIndex = 430;
+            LbHKASN9.Text = "alt_shift_num_9";
+            // 
+            // TbxHKASN8
+            // 
+            TbxHKASN8.Location = new Point(180, 5376);
+            TbxHKASN8.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN8.Name = "TbxHKASN8";
+            TbxHKASN8.Size = new Size(371, 23);
+            TbxHKASN8.TabIndex = 429;
+            // 
+            // LbHKASN8
+            // 
+            LbHKASN8.AutoSize = true;
+            LbHKASN8.Location = new Point(14, 5379);
+            LbHKASN8.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN8.Name = "LbHKASN8";
+            LbHKASN8.Size = new Size(89, 15);
+            LbHKASN8.TabIndex = 428;
+            LbHKASN8.Text = "alt_shift_num_8";
+            // 
+            // TbxHKASN7
+            // 
+            TbxHKASN7.Location = new Point(180, 5349);
+            TbxHKASN7.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN7.Name = "TbxHKASN7";
+            TbxHKASN7.Size = new Size(371, 23);
+            TbxHKASN7.TabIndex = 427;
+            // 
+            // LbHKASN7
+            // 
+            LbHKASN7.AutoSize = true;
+            LbHKASN7.Location = new Point(14, 5352);
+            LbHKASN7.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN7.Name = "LbHKASN7";
+            LbHKASN7.Size = new Size(89, 15);
+            LbHKASN7.TabIndex = 426;
+            LbHKASN7.Text = "alt_shift_num_7";
+            // 
+            // TbxHKASN6
+            // 
+            TbxHKASN6.Location = new Point(180, 5322);
+            TbxHKASN6.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN6.Name = "TbxHKASN6";
+            TbxHKASN6.Size = new Size(371, 23);
+            TbxHKASN6.TabIndex = 425;
+            // 
+            // LbHKASN6
+            // 
+            LbHKASN6.AutoSize = true;
+            LbHKASN6.Location = new Point(14, 5325);
+            LbHKASN6.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN6.Name = "LbHKASN6";
+            LbHKASN6.Size = new Size(89, 15);
+            LbHKASN6.TabIndex = 424;
+            LbHKASN6.Text = "alt_shift_num_6";
+            // 
+            // TbxHKASN5
+            // 
+            TbxHKASN5.Location = new Point(180, 5295);
+            TbxHKASN5.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN5.Name = "TbxHKASN5";
+            TbxHKASN5.Size = new Size(371, 23);
+            TbxHKASN5.TabIndex = 423;
+            // 
+            // LbHKASN5
+            // 
+            LbHKASN5.AutoSize = true;
+            LbHKASN5.Location = new Point(14, 5298);
+            LbHKASN5.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN5.Name = "LbHKASN5";
+            LbHKASN5.Size = new Size(89, 15);
+            LbHKASN5.TabIndex = 422;
+            LbHKASN5.Text = "alt_shift_num_5";
+            // 
+            // TbxHKASN4
+            // 
+            TbxHKASN4.Location = new Point(180, 5268);
+            TbxHKASN4.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN4.Name = "TbxHKASN4";
+            TbxHKASN4.Size = new Size(371, 23);
+            TbxHKASN4.TabIndex = 421;
+            // 
+            // LbHKASN4
+            // 
+            LbHKASN4.AutoSize = true;
+            LbHKASN4.Location = new Point(14, 5271);
+            LbHKASN4.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN4.Name = "LbHKASN4";
+            LbHKASN4.Size = new Size(89, 15);
+            LbHKASN4.TabIndex = 420;
+            LbHKASN4.Text = "alt_shift_num_4";
+            // 
+            // TbxHKASN3
+            // 
+            TbxHKASN3.Location = new Point(180, 5241);
+            TbxHKASN3.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN3.Name = "TbxHKASN3";
+            TbxHKASN3.Size = new Size(371, 23);
+            TbxHKASN3.TabIndex = 419;
+            // 
+            // LbHKASN3
+            // 
+            LbHKASN3.AutoSize = true;
+            LbHKASN3.Location = new Point(14, 5244);
+            LbHKASN3.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN3.Name = "LbHKASN3";
+            LbHKASN3.Size = new Size(89, 15);
+            LbHKASN3.TabIndex = 418;
+            LbHKASN3.Text = "alt_shift_num_3";
+            // 
+            // TbxHKASN2
+            // 
+            TbxHKASN2.Location = new Point(180, 5214);
+            TbxHKASN2.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN2.Name = "TbxHKASN2";
+            TbxHKASN2.Size = new Size(371, 23);
+            TbxHKASN2.TabIndex = 417;
+            // 
+            // LbHKASN2
+            // 
+            LbHKASN2.AutoSize = true;
+            LbHKASN2.Location = new Point(14, 5217);
+            LbHKASN2.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN2.Name = "LbHKASN2";
+            LbHKASN2.Size = new Size(89, 15);
+            LbHKASN2.TabIndex = 416;
+            LbHKASN2.Text = "alt_shift_num_2";
+            // 
+            // TbxHKASN1
+            // 
+            TbxHKASN1.Location = new Point(180, 5187);
+            TbxHKASN1.Margin = new Padding(3, 3, 10, 3);
+            TbxHKASN1.Name = "TbxHKASN1";
+            TbxHKASN1.Size = new Size(371, 23);
+            TbxHKASN1.TabIndex = 415;
+            // 
+            // LbHKASN1
+            // 
+            LbHKASN1.AutoSize = true;
+            LbHKASN1.Location = new Point(14, 5190);
+            LbHKASN1.Margin = new Padding(8, 12, 8, 0);
+            LbHKASN1.Name = "LbHKASN1";
+            LbHKASN1.Size = new Size(89, 15);
+            LbHKASN1.TabIndex = 414;
+            LbHKASN1.Text = "alt_shift_num_1";
+            // 
+            // LbHotKeyAltShiftNum
+            // 
+            LbHotKeyAltShiftNum.AutoSize = true;
+            LbHotKeyAltShiftNum.Location = new Point(14, 5163);
+            LbHotKeyAltShiftNum.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyAltShiftNum.Name = "LbHotKeyAltShiftNum";
+            LbHotKeyAltShiftNum.Size = new Size(148, 15);
+            LbHotKeyAltShiftNum.TabIndex = 413;
+            LbHotKeyAltShiftNum.Text = "alt+shift+numpad hotkeys";
+            // 
+            // TbxHkA0
+            // 
+            TbxHkA0.Location = new Point(180, 5727);
+            TbxHkA0.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA0.Name = "TbxHkA0";
+            TbxHkA0.Size = new Size(371, 23);
+            TbxHkA0.TabIndex = 454;
+            // 
+            // LbHkA0
+            // 
+            LbHkA0.AutoSize = true;
+            LbHkA0.Location = new Point(14, 5730);
+            LbHkA0.Margin = new Padding(8, 12, 8, 0);
+            LbHkA0.Name = "LbHkA0";
+            LbHkA0.Size = new Size(31, 15);
+            LbHkA0.TabIndex = 453;
+            LbHkA0.Text = "alt_0";
+            // 
+            // TbxHkA9
+            // 
+            TbxHkA9.Location = new Point(180, 5700);
+            TbxHkA9.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA9.Name = "TbxHkA9";
+            TbxHkA9.Size = new Size(371, 23);
+            TbxHkA9.TabIndex = 452;
+            // 
+            // LbHkA9
+            // 
+            LbHkA9.AutoSize = true;
+            LbHkA9.Location = new Point(14, 5703);
+            LbHkA9.Margin = new Padding(8, 12, 8, 0);
+            LbHkA9.Name = "LbHkA9";
+            LbHkA9.Size = new Size(31, 15);
+            LbHkA9.TabIndex = 451;
+            LbHkA9.Text = "alt_9";
+            // 
+            // TbxHkA8
+            // 
+            TbxHkA8.Location = new Point(180, 5673);
+            TbxHkA8.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA8.Name = "TbxHkA8";
+            TbxHkA8.Size = new Size(371, 23);
+            TbxHkA8.TabIndex = 450;
+            // 
+            // LbHkA8
+            // 
+            LbHkA8.AutoSize = true;
+            LbHkA8.Location = new Point(14, 5676);
+            LbHkA8.Margin = new Padding(8, 12, 8, 0);
+            LbHkA8.Name = "LbHkA8";
+            LbHkA8.Size = new Size(31, 15);
+            LbHkA8.TabIndex = 449;
+            LbHkA8.Text = "alt_8";
+            // 
+            // TbxHkA7
+            // 
+            TbxHkA7.Location = new Point(180, 5646);
+            TbxHkA7.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA7.Name = "TbxHkA7";
+            TbxHkA7.Size = new Size(371, 23);
+            TbxHkA7.TabIndex = 448;
+            // 
+            // LbHkA7
+            // 
+            LbHkA7.AutoSize = true;
+            LbHkA7.Location = new Point(14, 5649);
+            LbHkA7.Margin = new Padding(8, 12, 8, 0);
+            LbHkA7.Name = "LbHkA7";
+            LbHkA7.Size = new Size(31, 15);
+            LbHkA7.TabIndex = 447;
+            LbHkA7.Text = "alt_7";
+            // 
+            // TbxHkA6
+            // 
+            TbxHkA6.Location = new Point(180, 5619);
+            TbxHkA6.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA6.Name = "TbxHkA6";
+            TbxHkA6.Size = new Size(371, 23);
+            TbxHkA6.TabIndex = 446;
+            // 
+            // LbHkA6
+            // 
+            LbHkA6.AutoSize = true;
+            LbHkA6.Location = new Point(14, 5622);
+            LbHkA6.Margin = new Padding(8, 12, 8, 0);
+            LbHkA6.Name = "LbHkA6";
+            LbHkA6.Size = new Size(31, 15);
+            LbHkA6.TabIndex = 445;
+            LbHkA6.Text = "alt_6";
+            // 
+            // TbxHkA5
+            // 
+            TbxHkA5.Location = new Point(180, 5592);
+            TbxHkA5.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA5.Name = "TbxHkA5";
+            TbxHkA5.Size = new Size(371, 23);
+            TbxHkA5.TabIndex = 444;
+            // 
+            // LbHkA5
+            // 
+            LbHkA5.AutoSize = true;
+            LbHkA5.Location = new Point(14, 5595);
+            LbHkA5.Margin = new Padding(8, 12, 8, 0);
+            LbHkA5.Name = "LbHkA5";
+            LbHkA5.Size = new Size(31, 15);
+            LbHkA5.TabIndex = 443;
+            LbHkA5.Text = "alt_5";
+            // 
+            // TbxHkA4
+            // 
+            TbxHkA4.Location = new Point(180, 5565);
+            TbxHkA4.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA4.Name = "TbxHkA4";
+            TbxHkA4.Size = new Size(371, 23);
+            TbxHkA4.TabIndex = 442;
+            // 
+            // LbHkA4
+            // 
+            LbHkA4.AutoSize = true;
+            LbHkA4.Location = new Point(14, 5568);
+            LbHkA4.Margin = new Padding(8, 12, 8, 0);
+            LbHkA4.Name = "LbHkA4";
+            LbHkA4.Size = new Size(31, 15);
+            LbHkA4.TabIndex = 441;
+            LbHkA4.Text = "alt_4";
+            // 
+            // TbxHkA3
+            // 
+            TbxHkA3.Location = new Point(180, 5538);
+            TbxHkA3.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA3.Name = "TbxHkA3";
+            TbxHkA3.Size = new Size(371, 23);
+            TbxHkA3.TabIndex = 440;
+            // 
+            // LbHkA3
+            // 
+            LbHkA3.AutoSize = true;
+            LbHkA3.Location = new Point(14, 5541);
+            LbHkA3.Margin = new Padding(8, 12, 8, 0);
+            LbHkA3.Name = "LbHkA3";
+            LbHkA3.Size = new Size(31, 15);
+            LbHkA3.TabIndex = 439;
+            LbHkA3.Text = "alt_3";
+            // 
+            // TbxHkA2
+            // 
+            TbxHkA2.Location = new Point(180, 5511);
+            TbxHkA2.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA2.Name = "TbxHkA2";
+            TbxHkA2.Size = new Size(371, 23);
+            TbxHkA2.TabIndex = 438;
+            // 
+            // LbHkA2
+            // 
+            LbHkA2.AutoSize = true;
+            LbHkA2.Location = new Point(14, 5514);
+            LbHkA2.Margin = new Padding(8, 12, 8, 0);
+            LbHkA2.Name = "LbHkA2";
+            LbHkA2.Size = new Size(31, 15);
+            LbHkA2.TabIndex = 437;
+            LbHkA2.Text = "alt_2";
+            // 
+            // TbxHkA1
+            // 
+            TbxHkA1.Location = new Point(180, 5484);
+            TbxHkA1.Margin = new Padding(3, 3, 10, 3);
+            TbxHkA1.Name = "TbxHkA1";
+            TbxHkA1.Size = new Size(371, 23);
+            TbxHkA1.TabIndex = 436;
+            // 
+            // LbHkA1
+            // 
+            LbHkA1.AutoSize = true;
+            LbHkA1.Location = new Point(14, 5487);
+            LbHkA1.Margin = new Padding(8, 12, 8, 0);
+            LbHkA1.Name = "LbHkA1";
+            LbHkA1.Size = new Size(31, 15);
+            LbHkA1.TabIndex = 435;
+            LbHkA1.Text = "alt_1";
+            // 
+            // LbHotKeyAlt
+            // 
+            LbHotKeyAlt.AutoSize = true;
+            LbHotKeyAlt.Location = new Point(14, 5460);
+            LbHotKeyAlt.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyAlt.Name = "LbHotKeyAlt";
+            LbHotKeyAlt.Size = new Size(79, 15);
+            LbHotKeyAlt.TabIndex = 434;
+            LbHotKeyAlt.Text = "alt+# hotkeys";
+            // 
+            // TbxHkC0
+            // 
+            TbxHkC0.Location = new Point(180, 6321);
+            TbxHkC0.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC0.Name = "TbxHkC0";
+            TbxHkC0.Size = new Size(371, 23);
+            TbxHkC0.TabIndex = 475;
+            // 
+            // LbHkC0
+            // 
+            LbHkC0.AutoSize = true;
+            LbHkC0.Location = new Point(14, 6324);
+            LbHkC0.Margin = new Padding(8, 12, 8, 0);
+            LbHkC0.Name = "LbHkC0";
+            LbHkC0.Size = new Size(35, 15);
+            LbHkC0.TabIndex = 474;
+            LbHkC0.Text = "ctrl_0";
+            // 
+            // TbxHkC9
+            // 
+            TbxHkC9.Location = new Point(180, 6294);
+            TbxHkC9.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC9.Name = "TbxHkC9";
+            TbxHkC9.Size = new Size(371, 23);
+            TbxHkC9.TabIndex = 473;
+            // 
+            // LbHkC9
+            // 
+            LbHkC9.AutoSize = true;
+            LbHkC9.Location = new Point(14, 6297);
+            LbHkC9.Margin = new Padding(8, 12, 8, 0);
+            LbHkC9.Name = "LbHkC9";
+            LbHkC9.Size = new Size(35, 15);
+            LbHkC9.TabIndex = 472;
+            LbHkC9.Text = "ctrl_9";
+            // 
+            // TbxHkC8
+            // 
+            TbxHkC8.Location = new Point(180, 6267);
+            TbxHkC8.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC8.Name = "TbxHkC8";
+            TbxHkC8.Size = new Size(371, 23);
+            TbxHkC8.TabIndex = 471;
+            // 
+            // LbHkC8
+            // 
+            LbHkC8.AutoSize = true;
+            LbHkC8.Location = new Point(14, 6270);
+            LbHkC8.Margin = new Padding(8, 12, 8, 0);
+            LbHkC8.Name = "LbHkC8";
+            LbHkC8.Size = new Size(35, 15);
+            LbHkC8.TabIndex = 470;
+            LbHkC8.Text = "ctrl_8";
+            // 
+            // TbxHkC7
+            // 
+            TbxHkC7.Location = new Point(180, 6240);
+            TbxHkC7.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC7.Name = "TbxHkC7";
+            TbxHkC7.Size = new Size(371, 23);
+            TbxHkC7.TabIndex = 469;
+            // 
+            // LbHkC7
+            // 
+            LbHkC7.AutoSize = true;
+            LbHkC7.Location = new Point(14, 6243);
+            LbHkC7.Margin = new Padding(8, 12, 8, 0);
+            LbHkC7.Name = "LbHkC7";
+            LbHkC7.Size = new Size(35, 15);
+            LbHkC7.TabIndex = 468;
+            LbHkC7.Text = "ctrl_7";
+            // 
+            // TbxHkC6
+            // 
+            TbxHkC6.Location = new Point(180, 6213);
+            TbxHkC6.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC6.Name = "TbxHkC6";
+            TbxHkC6.Size = new Size(371, 23);
+            TbxHkC6.TabIndex = 467;
+            // 
+            // LbHkC6
+            // 
+            LbHkC6.AutoSize = true;
+            LbHkC6.Location = new Point(14, 6216);
+            LbHkC6.Margin = new Padding(8, 12, 8, 0);
+            LbHkC6.Name = "LbHkC6";
+            LbHkC6.Size = new Size(35, 15);
+            LbHkC6.TabIndex = 466;
+            LbHkC6.Text = "ctrl_6";
+            // 
+            // TbxHkC5
+            // 
+            TbxHkC5.Location = new Point(180, 6186);
+            TbxHkC5.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC5.Name = "TbxHkC5";
+            TbxHkC5.Size = new Size(371, 23);
+            TbxHkC5.TabIndex = 465;
+            // 
+            // LbHkC5
+            // 
+            LbHkC5.AutoSize = true;
+            LbHkC5.Location = new Point(14, 6189);
+            LbHkC5.Margin = new Padding(8, 12, 8, 0);
+            LbHkC5.Name = "LbHkC5";
+            LbHkC5.Size = new Size(35, 15);
+            LbHkC5.TabIndex = 464;
+            LbHkC5.Text = "ctrl_5";
+            // 
+            // TbxHkC4
+            // 
+            TbxHkC4.Location = new Point(180, 6159);
+            TbxHkC4.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC4.Name = "TbxHkC4";
+            TbxHkC4.Size = new Size(371, 23);
+            TbxHkC4.TabIndex = 463;
+            // 
+            // LbHkC4
+            // 
+            LbHkC4.AutoSize = true;
+            LbHkC4.Location = new Point(14, 6162);
+            LbHkC4.Margin = new Padding(8, 12, 8, 0);
+            LbHkC4.Name = "LbHkC4";
+            LbHkC4.Size = new Size(35, 15);
+            LbHkC4.TabIndex = 462;
+            LbHkC4.Text = "ctrl_4";
+            // 
+            // TbxHkC3
+            // 
+            TbxHkC3.Location = new Point(180, 6132);
+            TbxHkC3.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC3.Name = "TbxHkC3";
+            TbxHkC3.Size = new Size(371, 23);
+            TbxHkC3.TabIndex = 461;
+            // 
+            // LbHkC3
+            // 
+            LbHkC3.AutoSize = true;
+            LbHkC3.Location = new Point(14, 6135);
+            LbHkC3.Margin = new Padding(8, 12, 8, 0);
+            LbHkC3.Name = "LbHkC3";
+            LbHkC3.Size = new Size(35, 15);
+            LbHkC3.TabIndex = 460;
+            LbHkC3.Text = "ctrl_3";
+            // 
+            // TbxHkC2
+            // 
+            TbxHkC2.Location = new Point(180, 6105);
+            TbxHkC2.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC2.Name = "TbxHkC2";
+            TbxHkC2.Size = new Size(371, 23);
+            TbxHkC2.TabIndex = 459;
+            // 
+            // LbHkC2
+            // 
+            LbHkC2.AutoSize = true;
+            LbHkC2.Location = new Point(14, 6108);
+            LbHkC2.Margin = new Padding(8, 12, 8, 0);
+            LbHkC2.Name = "LbHkC2";
+            LbHkC2.Size = new Size(35, 15);
+            LbHkC2.TabIndex = 458;
+            LbHkC2.Text = "ctrl_2";
+            // 
+            // TbxHkC1
+            // 
+            TbxHkC1.Location = new Point(180, 6078);
+            TbxHkC1.Margin = new Padding(3, 3, 10, 3);
+            TbxHkC1.Name = "TbxHkC1";
+            TbxHkC1.Size = new Size(371, 23);
+            TbxHkC1.TabIndex = 457;
+            // 
+            // LbHkC1
+            // 
+            LbHkC1.AutoSize = true;
+            LbHkC1.Location = new Point(14, 6081);
+            LbHkC1.Margin = new Padding(8, 12, 8, 0);
+            LbHkC1.Name = "LbHkC1";
+            LbHkC1.Size = new Size(35, 15);
+            LbHkC1.TabIndex = 456;
+            LbHkC1.Text = "ctrl_1";
+            // 
+            // LbHotKeyCtrl
+            // 
+            LbHotKeyCtrl.AutoSize = true;
+            LbHotKeyCtrl.Location = new Point(14, 6054);
+            LbHotKeyCtrl.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyCtrl.Name = "LbHotKeyCtrl";
+            LbHotKeyCtrl.Size = new Size(83, 15);
+            LbHotKeyCtrl.TabIndex = 455;
+            LbHotKeyCtrl.Text = "ctrl+# hotkeys";
+            // 
+            // TbxHKCN0
+            // 
+            TbxHKCN0.Location = new Point(180, 6618);
+            TbxHKCN0.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN0.Name = "TbxHKCN0";
+            TbxHKCN0.Size = new Size(371, 23);
+            TbxHKCN0.TabIndex = 496;
+            // 
+            // LbHkCN0
+            // 
+            LbHkCN0.AutoSize = true;
+            LbHkCN0.Location = new Point(14, 6621);
+            LbHkCN0.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN0.Name = "LbHkCN0";
+            LbHkCN0.Size = new Size(65, 15);
+            LbHkCN0.TabIndex = 495;
+            LbHkCN0.Text = "ctrl_num_0";
+            // 
+            // TbxHKCN9
+            // 
+            TbxHKCN9.Location = new Point(180, 6591);
+            TbxHKCN9.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN9.Name = "TbxHKCN9";
+            TbxHKCN9.Size = new Size(371, 23);
+            TbxHKCN9.TabIndex = 494;
+            // 
+            // LbHkCN9
+            // 
+            LbHkCN9.AutoSize = true;
+            LbHkCN9.Location = new Point(14, 6594);
+            LbHkCN9.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN9.Name = "LbHkCN9";
+            LbHkCN9.Size = new Size(65, 15);
+            LbHkCN9.TabIndex = 493;
+            LbHkCN9.Text = "ctrl_num_9";
+            // 
+            // TbxHKCN8
+            // 
+            TbxHKCN8.Location = new Point(180, 6564);
+            TbxHKCN8.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN8.Name = "TbxHKCN8";
+            TbxHKCN8.Size = new Size(371, 23);
+            TbxHKCN8.TabIndex = 492;
+            // 
+            // LbHkCN8
+            // 
+            LbHkCN8.AutoSize = true;
+            LbHkCN8.Location = new Point(14, 6567);
+            LbHkCN8.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN8.Name = "LbHkCN8";
+            LbHkCN8.Size = new Size(65, 15);
+            LbHkCN8.TabIndex = 491;
+            LbHkCN8.Text = "ctrl_num_8";
+            // 
+            // TbxHKCN7
+            // 
+            TbxHKCN7.Location = new Point(180, 6537);
+            TbxHKCN7.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN7.Name = "TbxHKCN7";
+            TbxHKCN7.Size = new Size(371, 23);
+            TbxHKCN7.TabIndex = 490;
+            // 
+            // LbHkCN
+            // 
+            LbHkCN.AutoSize = true;
+            LbHkCN.Location = new Point(14, 6540);
+            LbHkCN.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN.Name = "LbHkCN";
+            LbHkCN.Size = new Size(65, 15);
+            LbHkCN.TabIndex = 489;
+            LbHkCN.Text = "ctrl_num_7";
+            // 
+            // TbxHKCN6
+            // 
+            TbxHKCN6.Location = new Point(180, 6510);
+            TbxHKCN6.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN6.Name = "TbxHKCN6";
+            TbxHKCN6.Size = new Size(371, 23);
+            TbxHKCN6.TabIndex = 488;
+            // 
+            // LbHkCN6
+            // 
+            LbHkCN6.AutoSize = true;
+            LbHkCN6.Location = new Point(14, 6513);
+            LbHkCN6.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN6.Name = "LbHkCN6";
+            LbHkCN6.Size = new Size(65, 15);
+            LbHkCN6.TabIndex = 487;
+            LbHkCN6.Text = "ctrl_num_6";
+            // 
+            // TbxHKCN5
+            // 
+            TbxHKCN5.Location = new Point(180, 6483);
+            TbxHKCN5.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN5.Name = "TbxHKCN5";
+            TbxHKCN5.Size = new Size(371, 23);
+            TbxHKCN5.TabIndex = 486;
+            // 
+            // LbHkCN5
+            // 
+            LbHkCN5.AutoSize = true;
+            LbHkCN5.Location = new Point(14, 6486);
+            LbHkCN5.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN5.Name = "LbHkCN5";
+            LbHkCN5.Size = new Size(65, 15);
+            LbHkCN5.TabIndex = 485;
+            LbHkCN5.Text = "ctrl_num_5";
+            // 
+            // TbxHKCN4
+            // 
+            TbxHKCN4.Location = new Point(180, 6456);
+            TbxHKCN4.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN4.Name = "TbxHKCN4";
+            TbxHKCN4.Size = new Size(371, 23);
+            TbxHKCN4.TabIndex = 484;
+            // 
+            // LbHkCN4
+            // 
+            LbHkCN4.AutoSize = true;
+            LbHkCN4.Location = new Point(14, 6459);
+            LbHkCN4.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN4.Name = "LbHkCN4";
+            LbHkCN4.Size = new Size(65, 15);
+            LbHkCN4.TabIndex = 483;
+            LbHkCN4.Text = "ctrl_num_4";
+            // 
+            // TbxHKCN3
+            // 
+            TbxHKCN3.Location = new Point(180, 6429);
+            TbxHKCN3.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN3.Name = "TbxHKCN3";
+            TbxHKCN3.Size = new Size(371, 23);
+            TbxHKCN3.TabIndex = 482;
+            // 
+            // LbHkCN3
+            // 
+            LbHkCN3.AutoSize = true;
+            LbHkCN3.Location = new Point(14, 6432);
+            LbHkCN3.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN3.Name = "LbHkCN3";
+            LbHkCN3.Size = new Size(65, 15);
+            LbHkCN3.TabIndex = 481;
+            LbHkCN3.Text = "ctrl_num_3";
+            // 
+            // TbxHKCN2
+            // 
+            TbxHKCN2.Location = new Point(180, 6402);
+            TbxHKCN2.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN2.Name = "TbxHKCN2";
+            TbxHKCN2.Size = new Size(371, 23);
+            TbxHKCN2.TabIndex = 480;
+            // 
+            // LbHkCN2
+            // 
+            LbHkCN2.AutoSize = true;
+            LbHkCN2.Location = new Point(14, 6405);
+            LbHkCN2.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN2.Name = "LbHkCN2";
+            LbHkCN2.Size = new Size(65, 15);
+            LbHkCN2.TabIndex = 479;
+            LbHkCN2.Text = "ctrl_num_2";
+            // 
+            // TbxHKCN1
+            // 
+            TbxHKCN1.Location = new Point(180, 6375);
+            TbxHKCN1.Margin = new Padding(3, 3, 10, 3);
+            TbxHKCN1.Name = "TbxHKCN1";
+            TbxHKCN1.Size = new Size(371, 23);
+            TbxHKCN1.TabIndex = 478;
+            // 
+            // LbHkCN1
+            // 
+            LbHkCN1.AutoSize = true;
+            LbHkCN1.Location = new Point(14, 6378);
+            LbHkCN1.Margin = new Padding(8, 12, 8, 0);
+            LbHkCN1.Name = "LbHkCN1";
+            LbHkCN1.Size = new Size(65, 15);
+            LbHkCN1.TabIndex = 477;
+            LbHkCN1.Text = "ctrl_num_1";
+            // 
+            // LbHotKeyCtrlNum
+            // 
+            LbHotKeyCtrlNum.AutoSize = true;
+            LbHotKeyCtrlNum.Location = new Point(14, 6351);
+            LbHotKeyCtrlNum.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyCtrlNum.Name = "LbHotKeyCtrlNum";
+            LbHotKeyCtrlNum.Size = new Size(101, 15);
+            LbHotKeyCtrlNum.TabIndex = 476;
+            LbHotKeyCtrlNum.Text = "ctrl+num hotkeys";
+            // 
+            // TbxHkCAS0
+            // 
+            TbxHkCAS0.Location = new Point(180, 6915);
+            TbxHkCAS0.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS0.Name = "TbxHkCAS0";
+            TbxHkCAS0.Size = new Size(371, 23);
+            TbxHkCAS0.TabIndex = 517;
+            // 
+            // LbHkCAS0
+            // 
+            LbHkCAS0.AutoSize = true;
+            LbHkCAS0.Location = new Point(14, 6918);
+            LbHkCAS0.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS0.Name = "LbHkCAS0";
+            LbHkCAS0.Size = new Size(81, 15);
+            LbHkCAS0.TabIndex = 516;
+            LbHkCAS0.Text = "ctrl_alt_shift_0";
+            // 
+            // TbxHkCAS9
+            // 
+            TbxHkCAS9.Location = new Point(180, 6888);
+            TbxHkCAS9.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS9.Name = "TbxHkCAS9";
+            TbxHkCAS9.Size = new Size(371, 23);
+            TbxHkCAS9.TabIndex = 515;
+            // 
+            // LbHkCAS9
+            // 
+            LbHkCAS9.AutoSize = true;
+            LbHkCAS9.Location = new Point(14, 6891);
+            LbHkCAS9.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS9.Name = "LbHkCAS9";
+            LbHkCAS9.Size = new Size(81, 15);
+            LbHkCAS9.TabIndex = 514;
+            LbHkCAS9.Text = "ctrl_alt_shift_9";
+            // 
+            // TbxHkCAS8
+            // 
+            TbxHkCAS8.Location = new Point(180, 6861);
+            TbxHkCAS8.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS8.Name = "TbxHkCAS8";
+            TbxHkCAS8.Size = new Size(371, 23);
+            TbxHkCAS8.TabIndex = 513;
+            // 
+            // LbHkCAS8
+            // 
+            LbHkCAS8.AutoSize = true;
+            LbHkCAS8.Location = new Point(14, 6864);
+            LbHkCAS8.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS8.Name = "LbHkCAS8";
+            LbHkCAS8.Size = new Size(81, 15);
+            LbHkCAS8.TabIndex = 512;
+            LbHkCAS8.Text = "ctrl_alt_shift_8";
+            // 
+            // TbxHkCAS7
+            // 
+            TbxHkCAS7.Location = new Point(180, 6834);
+            TbxHkCAS7.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS7.Name = "TbxHkCAS7";
+            TbxHkCAS7.Size = new Size(371, 23);
+            TbxHkCAS7.TabIndex = 511;
+            // 
+            // LbHkCAS7
+            // 
+            LbHkCAS7.AutoSize = true;
+            LbHkCAS7.Location = new Point(14, 6837);
+            LbHkCAS7.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS7.Name = "LbHkCAS7";
+            LbHkCAS7.Size = new Size(81, 15);
+            LbHkCAS7.TabIndex = 510;
+            LbHkCAS7.Text = "ctrl_alt_shift_7";
+            // 
+            // TbxHkCAS6
+            // 
+            TbxHkCAS6.Location = new Point(180, 6807);
+            TbxHkCAS6.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS6.Name = "TbxHkCAS6";
+            TbxHkCAS6.Size = new Size(371, 23);
+            TbxHkCAS6.TabIndex = 509;
+            // 
+            // LbHkCAS6
+            // 
+            LbHkCAS6.AutoSize = true;
+            LbHkCAS6.Location = new Point(14, 6810);
+            LbHkCAS6.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS6.Name = "LbHkCAS6";
+            LbHkCAS6.Size = new Size(81, 15);
+            LbHkCAS6.TabIndex = 508;
+            LbHkCAS6.Text = "ctrl_alt_shift_6";
+            // 
+            // TbxHkCAS5
+            // 
+            TbxHkCAS5.Location = new Point(180, 6780);
+            TbxHkCAS5.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS5.Name = "TbxHkCAS5";
+            TbxHkCAS5.Size = new Size(371, 23);
+            TbxHkCAS5.TabIndex = 507;
+            // 
+            // LbHkCAS5
+            // 
+            LbHkCAS5.AutoSize = true;
+            LbHkCAS5.Location = new Point(14, 6783);
+            LbHkCAS5.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS5.Name = "LbHkCAS5";
+            LbHkCAS5.Size = new Size(81, 15);
+            LbHkCAS5.TabIndex = 506;
+            LbHkCAS5.Text = "ctrl_alt_shift_5";
+            // 
+            // TbxHkCAS4
+            // 
+            TbxHkCAS4.Location = new Point(180, 6753);
+            TbxHkCAS4.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS4.Name = "TbxHkCAS4";
+            TbxHkCAS4.Size = new Size(371, 23);
+            TbxHkCAS4.TabIndex = 505;
+            // 
+            // LbHkCAS4
+            // 
+            LbHkCAS4.AutoSize = true;
+            LbHkCAS4.Location = new Point(14, 6756);
+            LbHkCAS4.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS4.Name = "LbHkCAS4";
+            LbHkCAS4.Size = new Size(81, 15);
+            LbHkCAS4.TabIndex = 504;
+            LbHkCAS4.Text = "ctrl_alt_shift_4";
+            // 
+            // TbxHkCAS3
+            // 
+            TbxHkCAS3.Location = new Point(180, 6726);
+            TbxHkCAS3.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS3.Name = "TbxHkCAS3";
+            TbxHkCAS3.Size = new Size(371, 23);
+            TbxHkCAS3.TabIndex = 503;
+            // 
+            // LbHkCAS3
+            // 
+            LbHkCAS3.AutoSize = true;
+            LbHkCAS3.Location = new Point(14, 6729);
+            LbHkCAS3.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS3.Name = "LbHkCAS3";
+            LbHkCAS3.Size = new Size(81, 15);
+            LbHkCAS3.TabIndex = 502;
+            LbHkCAS3.Text = "ctrl_alt_shift_3";
+            // 
+            // TbxHkCAS2
+            // 
+            TbxHkCAS2.Location = new Point(180, 6699);
+            TbxHkCAS2.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS2.Name = "TbxHkCAS2";
+            TbxHkCAS2.Size = new Size(371, 23);
+            TbxHkCAS2.TabIndex = 501;
+            // 
+            // LbHkCAS2
+            // 
+            LbHkCAS2.AutoSize = true;
+            LbHkCAS2.Location = new Point(14, 6702);
+            LbHkCAS2.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS2.Name = "LbHkCAS2";
+            LbHkCAS2.Size = new Size(81, 15);
+            LbHkCAS2.TabIndex = 500;
+            LbHkCAS2.Text = "ctrl_alt_shift_2";
+            // 
+            // TbxHkCAS1
+            // 
+            TbxHkCAS1.Location = new Point(180, 6672);
+            TbxHkCAS1.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCAS1.Name = "TbxHkCAS1";
+            TbxHkCAS1.Size = new Size(371, 23);
+            TbxHkCAS1.TabIndex = 499;
+            // 
+            // LbHkCAS1
+            // 
+            LbHkCAS1.AutoSize = true;
+            LbHkCAS1.Location = new Point(14, 6675);
+            LbHkCAS1.Margin = new Padding(8, 12, 8, 0);
+            LbHkCAS1.Name = "LbHkCAS1";
+            LbHkCAS1.Size = new Size(81, 15);
+            LbHkCAS1.TabIndex = 498;
+            LbHkCAS1.Text = "ctrl_alt_shift_1";
+            // 
+            // LbHotKeyCtrlAltShift
+            // 
+            LbHotKeyCtrlAltShift.AutoSize = true;
+            LbHotKeyCtrlAltShift.Location = new Point(14, 6648);
+            LbHotKeyCtrlAltShift.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyCtrlAltShift.Name = "LbHotKeyCtrlAltShift";
+            LbHotKeyCtrlAltShift.Size = new Size(135, 15);
+            LbHotKeyCtrlAltShift.TabIndex = 497;
+            LbHotKeyCtrlAltShift.Text = "ctrl+alt+shift+# hotkeys";
+            // 
+            // TbxHkCASN0
+            // 
+            TbxHkCASN0.Location = new Point(180, 7212);
+            TbxHkCASN0.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN0.Name = "TbxHkCASN0";
+            TbxHkCASN0.Size = new Size(371, 23);
+            TbxHkCASN0.TabIndex = 538;
+            // 
+            // LbHkCASN0
+            // 
+            LbHkCASN0.AutoSize = true;
+            LbHkCASN0.Location = new Point(14, 7215);
+            LbHkCASN0.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN0.Name = "LbHkCASN0";
+            LbHkCASN0.Size = new Size(111, 15);
+            LbHkCASN0.TabIndex = 537;
+            LbHkCASN0.Text = "ctrl_alt_shift_num_0";
+            // 
+            // TbxHkCASN9
+            // 
+            TbxHkCASN9.Location = new Point(180, 7185);
+            TbxHkCASN9.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN9.Name = "TbxHkCASN9";
+            TbxHkCASN9.Size = new Size(371, 23);
+            TbxHkCASN9.TabIndex = 536;
+            // 
+            // LbHkCASN9
+            // 
+            LbHkCASN9.AutoSize = true;
+            LbHkCASN9.Location = new Point(14, 7188);
+            LbHkCASN9.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN9.Name = "LbHkCASN9";
+            LbHkCASN9.Size = new Size(111, 15);
+            LbHkCASN9.TabIndex = 535;
+            LbHkCASN9.Text = "ctrl_alt_shift_num_9";
+            // 
+            // TbxHkCASN8
+            // 
+            TbxHkCASN8.Location = new Point(180, 7158);
+            TbxHkCASN8.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN8.Name = "TbxHkCASN8";
+            TbxHkCASN8.Size = new Size(371, 23);
+            TbxHkCASN8.TabIndex = 534;
+            // 
+            // LbHkCASN8
+            // 
+            LbHkCASN8.AutoSize = true;
+            LbHkCASN8.Location = new Point(14, 7161);
+            LbHkCASN8.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN8.Name = "LbHkCASN8";
+            LbHkCASN8.Size = new Size(111, 15);
+            LbHkCASN8.TabIndex = 533;
+            LbHkCASN8.Text = "ctrl_alt_shift_num_8";
+            // 
+            // TbxHkCASN7
+            // 
+            TbxHkCASN7.Location = new Point(180, 7131);
+            TbxHkCASN7.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN7.Name = "TbxHkCASN7";
+            TbxHkCASN7.Size = new Size(371, 23);
+            TbxHkCASN7.TabIndex = 532;
+            // 
+            // LbHkCASN7
+            // 
+            LbHkCASN7.AutoSize = true;
+            LbHkCASN7.Location = new Point(14, 7134);
+            LbHkCASN7.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN7.Name = "LbHkCASN7";
+            LbHkCASN7.Size = new Size(111, 15);
+            LbHkCASN7.TabIndex = 531;
+            LbHkCASN7.Text = "ctrl_alt_shift_num_7";
+            // 
+            // TbxHkCASN6
+            // 
+            TbxHkCASN6.Location = new Point(180, 7104);
+            TbxHkCASN6.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN6.Name = "TbxHkCASN6";
+            TbxHkCASN6.Size = new Size(371, 23);
+            TbxHkCASN6.TabIndex = 530;
+            // 
+            // LbHkCASN6
+            // 
+            LbHkCASN6.AutoSize = true;
+            LbHkCASN6.Location = new Point(14, 7107);
+            LbHkCASN6.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN6.Name = "LbHkCASN6";
+            LbHkCASN6.Size = new Size(111, 15);
+            LbHkCASN6.TabIndex = 529;
+            LbHkCASN6.Text = "ctrl_alt_shift_num_6";
+            // 
+            // TbxHkCASN5
+            // 
+            TbxHkCASN5.Location = new Point(180, 7077);
+            TbxHkCASN5.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN5.Name = "TbxHkCASN5";
+            TbxHkCASN5.Size = new Size(371, 23);
+            TbxHkCASN5.TabIndex = 528;
+            // 
+            // LbHkCASN5
+            // 
+            LbHkCASN5.AutoSize = true;
+            LbHkCASN5.Location = new Point(14, 7080);
+            LbHkCASN5.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN5.Name = "LbHkCASN5";
+            LbHkCASN5.Size = new Size(111, 15);
+            LbHkCASN5.TabIndex = 527;
+            LbHkCASN5.Text = "ctrl_alt_shift_num_5";
+            // 
+            // TbxHkCASN4
+            // 
+            TbxHkCASN4.Location = new Point(180, 7050);
+            TbxHkCASN4.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN4.Name = "TbxHkCASN4";
+            TbxHkCASN4.Size = new Size(371, 23);
+            TbxHkCASN4.TabIndex = 526;
+            // 
+            // LbHkCASN4
+            // 
+            LbHkCASN4.AutoSize = true;
+            LbHkCASN4.Location = new Point(14, 7053);
+            LbHkCASN4.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN4.Name = "LbHkCASN4";
+            LbHkCASN4.Size = new Size(111, 15);
+            LbHkCASN4.TabIndex = 525;
+            LbHkCASN4.Text = "ctrl_alt_shift_num_4";
+            // 
+            // TbxHkCASN3
+            // 
+            TbxHkCASN3.Location = new Point(180, 7023);
+            TbxHkCASN3.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN3.Name = "TbxHkCASN3";
+            TbxHkCASN3.Size = new Size(371, 23);
+            TbxHkCASN3.TabIndex = 524;
+            // 
+            // LbHkCASN3
+            // 
+            LbHkCASN3.AutoSize = true;
+            LbHkCASN3.Location = new Point(14, 7026);
+            LbHkCASN3.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN3.Name = "LbHkCASN3";
+            LbHkCASN3.Size = new Size(111, 15);
+            LbHkCASN3.TabIndex = 523;
+            LbHkCASN3.Text = "ctrl_alt_shift_num_3";
+            // 
+            // TbxHkCASN2
+            // 
+            TbxHkCASN2.Location = new Point(180, 6996);
+            TbxHkCASN2.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN2.Name = "TbxHkCASN2";
+            TbxHkCASN2.Size = new Size(371, 23);
+            TbxHkCASN2.TabIndex = 522;
+            // 
+            // LbHkCASN2
+            // 
+            LbHkCASN2.AutoSize = true;
+            LbHkCASN2.Location = new Point(14, 6999);
+            LbHkCASN2.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN2.Name = "LbHkCASN2";
+            LbHkCASN2.Size = new Size(111, 15);
+            LbHkCASN2.TabIndex = 521;
+            LbHkCASN2.Text = "ctrl_alt_shift_num_2";
+            // 
+            // TbxHkCASN1
+            // 
+            TbxHkCASN1.Location = new Point(180, 6969);
+            TbxHkCASN1.Margin = new Padding(3, 3, 10, 3);
+            TbxHkCASN1.Name = "TbxHkCASN1";
+            TbxHkCASN1.Size = new Size(371, 23);
+            TbxHkCASN1.TabIndex = 520;
+            // 
+            // LbHkCASN1
+            // 
+            LbHkCASN1.AutoSize = true;
+            LbHkCASN1.Location = new Point(14, 6972);
+            LbHkCASN1.Margin = new Padding(8, 12, 8, 0);
+            LbHkCASN1.Name = "LbHkCASN1";
+            LbHkCASN1.Size = new Size(111, 15);
+            LbHkCASN1.TabIndex = 519;
+            LbHkCASN1.Text = "ctrl_alt_shift_num_1";
+            // 
+            // LbHotKeyCtrlAltShiftNum
+            // 
+            LbHotKeyCtrlAltShiftNum.AutoSize = true;
+            LbHotKeyCtrlAltShiftNum.Location = new Point(14, 6945);
+            LbHotKeyCtrlAltShiftNum.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyCtrlAltShiftNum.Name = "LbHotKeyCtrlAltShiftNum";
+            LbHotKeyCtrlAltShiftNum.Size = new Size(153, 15);
+            LbHotKeyCtrlAltShiftNum.TabIndex = 518;
+            LbHotKeyCtrlAltShiftNum.Text = "ctrl+alt+shift+num hotkeys";
+            // 
+            // TbxHkAN0
+            // 
+            TbxHkAN0.Location = new Point(180, 6024);
+            TbxHkAN0.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN0.Name = "TbxHkAN0";
+            TbxHkAN0.Size = new Size(371, 23);
+            TbxHkAN0.TabIndex = 559;
+            // 
+            // LbHkAN0
+            // 
+            LbHkAN0.AutoSize = true;
+            LbHkAN0.Location = new Point(14, 6027);
+            LbHkAN0.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN0.Name = "LbHkAN0";
+            LbHkAN0.Size = new Size(61, 15);
+            LbHkAN0.TabIndex = 558;
+            LbHkAN0.Text = "alt_num_0";
+            // 
+            // TbxHkAN9
+            // 
+            TbxHkAN9.Location = new Point(180, 5997);
+            TbxHkAN9.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN9.Name = "TbxHkAN9";
+            TbxHkAN9.Size = new Size(371, 23);
+            TbxHkAN9.TabIndex = 557;
+            // 
+            // LbHkAN9
+            // 
+            LbHkAN9.AutoSize = true;
+            LbHkAN9.Location = new Point(14, 6000);
+            LbHkAN9.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN9.Name = "LbHkAN9";
+            LbHkAN9.Size = new Size(61, 15);
+            LbHkAN9.TabIndex = 556;
+            LbHkAN9.Text = "alt_num_9";
+            // 
+            // TbxHkAN8
+            // 
+            TbxHkAN8.Location = new Point(180, 5970);
+            TbxHkAN8.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN8.Name = "TbxHkAN8";
+            TbxHkAN8.Size = new Size(371, 23);
+            TbxHkAN8.TabIndex = 555;
+            // 
+            // LbHkAN8
+            // 
+            LbHkAN8.AutoSize = true;
+            LbHkAN8.Location = new Point(14, 5973);
+            LbHkAN8.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN8.Name = "LbHkAN8";
+            LbHkAN8.Size = new Size(61, 15);
+            LbHkAN8.TabIndex = 554;
+            LbHkAN8.Text = "alt_num_8";
+            // 
+            // TbxHkAN7
+            // 
+            TbxHkAN7.Location = new Point(180, 5943);
+            TbxHkAN7.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN7.Name = "TbxHkAN7";
+            TbxHkAN7.Size = new Size(371, 23);
+            TbxHkAN7.TabIndex = 553;
+            // 
+            // LbHkAN7
+            // 
+            LbHkAN7.AutoSize = true;
+            LbHkAN7.Location = new Point(14, 5946);
+            LbHkAN7.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN7.Name = "LbHkAN7";
+            LbHkAN7.Size = new Size(61, 15);
+            LbHkAN7.TabIndex = 552;
+            LbHkAN7.Text = "alt_num_7";
+            // 
+            // TbxHkAN6
+            // 
+            TbxHkAN6.Location = new Point(180, 5916);
+            TbxHkAN6.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN6.Name = "TbxHkAN6";
+            TbxHkAN6.Size = new Size(371, 23);
+            TbxHkAN6.TabIndex = 551;
+            // 
+            // LbHkAN6
+            // 
+            LbHkAN6.AutoSize = true;
+            LbHkAN6.Location = new Point(14, 5919);
+            LbHkAN6.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN6.Name = "LbHkAN6";
+            LbHkAN6.Size = new Size(61, 15);
+            LbHkAN6.TabIndex = 550;
+            LbHkAN6.Text = "alt_num_6";
+            // 
+            // TbxHkAN5
+            // 
+            TbxHkAN5.Location = new Point(180, 5889);
+            TbxHkAN5.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN5.Name = "TbxHkAN5";
+            TbxHkAN5.Size = new Size(371, 23);
+            TbxHkAN5.TabIndex = 549;
+            // 
+            // LbHkAN5
+            // 
+            LbHkAN5.AutoSize = true;
+            LbHkAN5.Location = new Point(14, 5892);
+            LbHkAN5.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN5.Name = "LbHkAN5";
+            LbHkAN5.Size = new Size(61, 15);
+            LbHkAN5.TabIndex = 548;
+            LbHkAN5.Text = "alt_num_5";
+            // 
+            // TbxHkAN4
+            // 
+            TbxHkAN4.Location = new Point(180, 5862);
+            TbxHkAN4.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN4.Name = "TbxHkAN4";
+            TbxHkAN4.Size = new Size(371, 23);
+            TbxHkAN4.TabIndex = 547;
+            // 
+            // LbHkAN4
+            // 
+            LbHkAN4.AutoSize = true;
+            LbHkAN4.Location = new Point(14, 5865);
+            LbHkAN4.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN4.Name = "LbHkAN4";
+            LbHkAN4.Size = new Size(61, 15);
+            LbHkAN4.TabIndex = 546;
+            LbHkAN4.Text = "alt_num_4";
+            // 
+            // TbxHkAN3
+            // 
+            TbxHkAN3.Location = new Point(180, 5835);
+            TbxHkAN3.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN3.Name = "TbxHkAN3";
+            TbxHkAN3.Size = new Size(371, 23);
+            TbxHkAN3.TabIndex = 545;
+            // 
+            // LbHkAN3
+            // 
+            LbHkAN3.AutoSize = true;
+            LbHkAN3.Location = new Point(14, 5838);
+            LbHkAN3.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN3.Name = "LbHkAN3";
+            LbHkAN3.Size = new Size(61, 15);
+            LbHkAN3.TabIndex = 544;
+            LbHkAN3.Text = "alt_num_3";
+            // 
+            // TbxHkAN2
+            // 
+            TbxHkAN2.Location = new Point(180, 5808);
+            TbxHkAN2.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN2.Name = "TbxHkAN2";
+            TbxHkAN2.Size = new Size(371, 23);
+            TbxHkAN2.TabIndex = 543;
+            // 
+            // LbHkAN2
+            // 
+            LbHkAN2.AutoSize = true;
+            LbHkAN2.Location = new Point(14, 5811);
+            LbHkAN2.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN2.Name = "LbHkAN2";
+            LbHkAN2.Size = new Size(61, 15);
+            LbHkAN2.TabIndex = 542;
+            LbHkAN2.Text = "alt_num_2";
+            // 
+            // TbxHkAN1
+            // 
+            TbxHkAN1.Location = new Point(180, 5781);
+            TbxHkAN1.Margin = new Padding(3, 3, 10, 3);
+            TbxHkAN1.Name = "TbxHkAN1";
+            TbxHkAN1.Size = new Size(371, 23);
+            TbxHkAN1.TabIndex = 541;
+            // 
+            // LbHkAN1
+            // 
+            LbHkAN1.AutoSize = true;
+            LbHkAN1.Location = new Point(14, 5784);
+            LbHkAN1.Margin = new Padding(8, 12, 8, 0);
+            LbHkAN1.Name = "LbHkAN1";
+            LbHkAN1.Size = new Size(61, 15);
+            LbHkAN1.TabIndex = 540;
+            LbHkAN1.Text = "alt_num_1";
+            // 
+            // LbHotKeyAltNum
+            // 
+            LbHotKeyAltNum.AutoSize = true;
+            LbHotKeyAltNum.Location = new Point(14, 5757);
+            LbHotKeyAltNum.Margin = new Padding(8, 12, 8, 0);
+            LbHotKeyAltNum.Name = "LbHotKeyAltNum";
+            LbHotKeyAltNum.Size = new Size(97, 15);
+            LbHotKeyAltNum.TabIndex = 539;
+            LbHotKeyAltNum.Text = "alt+num hotkeys";
+            // 
+            // BtnCCColor
+            // 
+            BtnCCColor.FlatStyle = FlatStyle.Popup;
+            BtnCCColor.Location = new Point(558, 3532);
+            BtnCCColor.Margin = new Padding(15, 3, 3, 3);
+            BtnCCColor.Name = "BtnCCColor";
+            BtnCCColor.Size = new Size(24, 23);
+            BtnCCColor.TabIndex = 560;
+            BtnCCColor.UseVisualStyleBackColor = true;
+            // 
+            // BtnCMFfaColor
+            // 
+            BtnCMFfaColor.FlatStyle = FlatStyle.Popup;
+            BtnCMFfaColor.Location = new Point(558, 3864);
+            BtnCMFfaColor.Margin = new Padding(15, 3, 3, 3);
+            BtnCMFfaColor.Name = "BtnCMFfaColor";
+            BtnCMFfaColor.Size = new Size(24, 23);
+            BtnCMFfaColor.TabIndex = 561;
+            BtnCMFfaColor.UseVisualStyleBackColor = true;
+            // 
+            // BtnCMRedColor
+            // 
+            BtnCMRedColor.FlatStyle = FlatStyle.Popup;
+            BtnCMRedColor.Location = new Point(558, 3891);
+            BtnCMRedColor.Margin = new Padding(15, 3, 3, 3);
+            BtnCMRedColor.Name = "BtnCMRedColor";
+            BtnCMRedColor.Size = new Size(24, 23);
+            BtnCMRedColor.TabIndex = 562;
+            BtnCMRedColor.UseVisualStyleBackColor = true;
+            // 
+            // BtnCMBlueColor
+            // 
+            BtnCMBlueColor.FlatStyle = FlatStyle.Popup;
+            BtnCMBlueColor.Location = new Point(558, 3918);
+            BtnCMBlueColor.Margin = new Padding(15, 3, 3, 3);
+            BtnCMBlueColor.Name = "BtnCMBlueColor";
+            BtnCMBlueColor.Size = new Size(24, 23);
+            BtnCMBlueColor.TabIndex = 563;
+            BtnCMBlueColor.UseVisualStyleBackColor = true;
+            // 
+            // BtnCIColor
+            // 
+            BtnCIColor.FlatStyle = FlatStyle.Popup;
+            BtnCIColor.Location = new Point(558, 4250);
+            BtnCIColor.Margin = new Padding(15, 3, 3, 3);
+            BtnCIColor.Name = "BtnCIColor";
+            BtnCIColor.Size = new Size(24, 23);
+            BtnCIColor.TabIndex = 564;
+            BtnCIColor.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -3761,6 +5777,206 @@ namespace chimera_editor.Presentation
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(638, 619);
+            Controls.Add(BtnCIColor);
+            Controls.Add(BtnCMBlueColor);
+            Controls.Add(BtnCMRedColor);
+            Controls.Add(BtnCMFfaColor);
+            Controls.Add(BtnCCColor);
+            Controls.Add(TbxHkAN0);
+            Controls.Add(LbHkAN0);
+            Controls.Add(TbxHkAN9);
+            Controls.Add(LbHkAN9);
+            Controls.Add(TbxHkAN8);
+            Controls.Add(LbHkAN8);
+            Controls.Add(TbxHkAN7);
+            Controls.Add(LbHkAN7);
+            Controls.Add(TbxHkAN6);
+            Controls.Add(LbHkAN6);
+            Controls.Add(TbxHkAN5);
+            Controls.Add(LbHkAN5);
+            Controls.Add(TbxHkAN4);
+            Controls.Add(LbHkAN4);
+            Controls.Add(TbxHkAN3);
+            Controls.Add(LbHkAN3);
+            Controls.Add(TbxHkAN2);
+            Controls.Add(LbHkAN2);
+            Controls.Add(TbxHkAN1);
+            Controls.Add(LbHkAN1);
+            Controls.Add(LbHotKeyAltNum);
+            Controls.Add(TbxHkCASN0);
+            Controls.Add(LbHkCASN0);
+            Controls.Add(TbxHkCASN9);
+            Controls.Add(LbHkCASN9);
+            Controls.Add(TbxHkCASN8);
+            Controls.Add(LbHkCASN8);
+            Controls.Add(TbxHkCASN7);
+            Controls.Add(LbHkCASN7);
+            Controls.Add(TbxHkCASN6);
+            Controls.Add(LbHkCASN6);
+            Controls.Add(TbxHkCASN5);
+            Controls.Add(LbHkCASN5);
+            Controls.Add(TbxHkCASN4);
+            Controls.Add(LbHkCASN4);
+            Controls.Add(TbxHkCASN3);
+            Controls.Add(LbHkCASN3);
+            Controls.Add(TbxHkCASN2);
+            Controls.Add(LbHkCASN2);
+            Controls.Add(TbxHkCASN1);
+            Controls.Add(LbHkCASN1);
+            Controls.Add(LbHotKeyCtrlAltShiftNum);
+            Controls.Add(TbxHkCAS0);
+            Controls.Add(LbHkCAS0);
+            Controls.Add(TbxHkCAS9);
+            Controls.Add(LbHkCAS9);
+            Controls.Add(TbxHkCAS8);
+            Controls.Add(LbHkCAS8);
+            Controls.Add(TbxHkCAS7);
+            Controls.Add(LbHkCAS7);
+            Controls.Add(TbxHkCAS6);
+            Controls.Add(LbHkCAS6);
+            Controls.Add(TbxHkCAS5);
+            Controls.Add(LbHkCAS5);
+            Controls.Add(TbxHkCAS4);
+            Controls.Add(LbHkCAS4);
+            Controls.Add(TbxHkCAS3);
+            Controls.Add(LbHkCAS3);
+            Controls.Add(TbxHkCAS2);
+            Controls.Add(LbHkCAS2);
+            Controls.Add(TbxHkCAS1);
+            Controls.Add(LbHkCAS1);
+            Controls.Add(LbHotKeyCtrlAltShift);
+            Controls.Add(TbxHKCN0);
+            Controls.Add(LbHkCN0);
+            Controls.Add(TbxHKCN9);
+            Controls.Add(LbHkCN9);
+            Controls.Add(TbxHKCN8);
+            Controls.Add(LbHkCN8);
+            Controls.Add(TbxHKCN7);
+            Controls.Add(LbHkCN);
+            Controls.Add(TbxHKCN6);
+            Controls.Add(LbHkCN6);
+            Controls.Add(TbxHKCN5);
+            Controls.Add(LbHkCN5);
+            Controls.Add(TbxHKCN4);
+            Controls.Add(LbHkCN4);
+            Controls.Add(TbxHKCN3);
+            Controls.Add(LbHkCN3);
+            Controls.Add(TbxHKCN2);
+            Controls.Add(LbHkCN2);
+            Controls.Add(TbxHKCN1);
+            Controls.Add(LbHkCN1);
+            Controls.Add(LbHotKeyCtrlNum);
+            Controls.Add(TbxHkC0);
+            Controls.Add(LbHkC0);
+            Controls.Add(TbxHkC9);
+            Controls.Add(LbHkC9);
+            Controls.Add(TbxHkC8);
+            Controls.Add(LbHkC8);
+            Controls.Add(TbxHkC7);
+            Controls.Add(LbHkC7);
+            Controls.Add(TbxHkC6);
+            Controls.Add(LbHkC6);
+            Controls.Add(TbxHkC5);
+            Controls.Add(LbHkC5);
+            Controls.Add(TbxHkC4);
+            Controls.Add(LbHkC4);
+            Controls.Add(TbxHkC3);
+            Controls.Add(LbHkC3);
+            Controls.Add(TbxHkC2);
+            Controls.Add(LbHkC2);
+            Controls.Add(TbxHkC1);
+            Controls.Add(LbHkC1);
+            Controls.Add(LbHotKeyCtrl);
+            Controls.Add(TbxHkA0);
+            Controls.Add(LbHkA0);
+            Controls.Add(TbxHkA9);
+            Controls.Add(LbHkA9);
+            Controls.Add(TbxHkA8);
+            Controls.Add(LbHkA8);
+            Controls.Add(TbxHkA7);
+            Controls.Add(LbHkA7);
+            Controls.Add(TbxHkA6);
+            Controls.Add(LbHkA6);
+            Controls.Add(TbxHkA5);
+            Controls.Add(LbHkA5);
+            Controls.Add(TbxHkA4);
+            Controls.Add(LbHkA4);
+            Controls.Add(TbxHkA3);
+            Controls.Add(LbHkA3);
+            Controls.Add(TbxHkA2);
+            Controls.Add(LbHkA2);
+            Controls.Add(TbxHkA1);
+            Controls.Add(LbHkA1);
+            Controls.Add(LbHotKeyAlt);
+            Controls.Add(TbxHKASN0);
+            Controls.Add(LbHKASN0);
+            Controls.Add(TbxHKASN9);
+            Controls.Add(LbHKASN9);
+            Controls.Add(TbxHKASN8);
+            Controls.Add(LbHKASN8);
+            Controls.Add(TbxHKASN7);
+            Controls.Add(LbHKASN7);
+            Controls.Add(TbxHKASN6);
+            Controls.Add(LbHKASN6);
+            Controls.Add(TbxHKASN5);
+            Controls.Add(LbHKASN5);
+            Controls.Add(TbxHKASN4);
+            Controls.Add(LbHKASN4);
+            Controls.Add(TbxHKASN3);
+            Controls.Add(LbHKASN3);
+            Controls.Add(TbxHKASN2);
+            Controls.Add(LbHKASN2);
+            Controls.Add(TbxHKASN1);
+            Controls.Add(LbHKASN1);
+            Controls.Add(LbHotKeyAltShiftNum);
+            Controls.Add(TbxHKAS0);
+            Controls.Add(LbHKAS0);
+            Controls.Add(TbxHKAS9);
+            Controls.Add(LbHKAS9);
+            Controls.Add(TbxHKAS8);
+            Controls.Add(LbHKAS8);
+            Controls.Add(TbxHKAS7);
+            Controls.Add(LbHKAS7);
+            Controls.Add(TbxHKAS6);
+            Controls.Add(LbHKAS6);
+            Controls.Add(TbxHKAS5);
+            Controls.Add(LbHKAS5);
+            Controls.Add(TbxHKAS4);
+            Controls.Add(LbHKAS4);
+            Controls.Add(TbxHKAS3);
+            Controls.Add(LbHKAS3);
+            Controls.Add(TbxHKAS2);
+            Controls.Add(LbHKAS2);
+            Controls.Add(TbxHKAS1);
+            Controls.Add(LbHKAS1);
+            Controls.Add(LbHotKeyAltShift);
+            Controls.Add(TbxHKF12);
+            Controls.Add(LbHKF12);
+            Controls.Add(TbxHKF11);
+            Controls.Add(LbHKF11);
+            Controls.Add(TbxHKF10);
+            Controls.Add(LbHKF10);
+            Controls.Add(TbxHKF9);
+            Controls.Add(LbHKF9);
+            Controls.Add(TbxHKF8);
+            Controls.Add(LbHKF8);
+            Controls.Add(TbxHKF7);
+            Controls.Add(LbHKF7);
+            Controls.Add(TbxHKF6);
+            Controls.Add(LbHKF6);
+            Controls.Add(TbxHKF5);
+            Controls.Add(LbHKF5);
+            Controls.Add(TbxHKF4);
+            Controls.Add(LbHKF4);
+            Controls.Add(TbxHKF3);
+            Controls.Add(LbHKF3);
+            Controls.Add(TbxHKF2);
+            Controls.Add(LbHKF2);
+            Controls.Add(TbxHKF1);
+            Controls.Add(LbHKF1);
+            Controls.Add(LbHotKeyFunction);
+            Controls.Add(CbHotKeyEnabled);
+            Controls.Add(LbHotKeyEnabled);
             Controls.Add(PnlHotkey);
             Controls.Add(ComBoxChtInAnchor);
             Controls.Add(LbChtInOffY);
@@ -4028,7 +6244,7 @@ namespace chimera_editor.Presentation
             Controls.Add(LbResolution);
             Controls.Add(CbEnblVideoMode);
             Controls.Add(LbEnblVideoMode);
-            Controls.Add(panel2);
+            Controls.Add(PnlEnd);
             Controls.Add(PnlVideoMode);
             Controls.Add(CbShowSeg);
             Controls.Add(LbShowSeg);
@@ -4077,6 +6293,7 @@ namespace chimera_editor.Presentation
             Controls.Add(PnlSvMsg);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
             Text = "Form2";
             Load += Form2_Load;
@@ -4163,7 +6380,7 @@ namespace chimera_editor.Presentation
         private Panel PnlVideoMode;
         private Label LbVideoModeDesc;
         private Label LbVideoMode;
-        private Panel panel2;
+        private Panel PnlEnd;
         private CheckBox CbEnblVideoMode;
         private Label LbEnblVideoMode;
         private Label LbResHeight;
@@ -4374,21 +6591,21 @@ namespace chimera_editor.Presentation
         private TextBox TbxSvMsgOffY;
         private TextBox TbxSvMsgDimY;
         private TextBox TbxChtMsgDimY;
-        private TextBox textBox17;
+        private TextBox TbxHKAS6;
         private TextBox TbxChtMsgLineH;
         private TextBox TbxChtMsgFadeTime;
         private TextBox TbxChtMsgDisTime;
         private TextBox TbxChtMsgAniTime;
-        private TextBox textBox24;
+        private TextBox TbxHkCASN7;
         private TextBox TbxChtMsgOC;
         private TextBox TbxChtMsgDimX;
-        private TextBox textBox27;
-        private Label label20;
-        private Label label21;
-        private Label label22;
+        private TextBox TbxHkCASN4;
+        private Label LbHKAS7;
+        private Label LbHKAS6;
+        private Label LbHKAS5;
         private TextBox TbxChtMsgFfa;
-        private TextBox textBox29;
-        private TextBox textBox30;
+        private TextBox TbxHkCASN2;
+        private TextBox TbxHkCASN1;
         private Label LbChtMsg;
         private Label LbChtMsgLineH;
         private Label LbChtMsgFadeTime;
@@ -4399,32 +6616,32 @@ namespace chimera_editor.Presentation
         private Label LbChtMsgAnchor;
         private Label LbChtMsgOC;
         private Label LbChtMsgDim;
-        private Label label33;
+        private Label LbHkCASN1;
         private Label LbChtMsgFfa;
         private Panel PnlChtMsg;
-        private Label label36;
-        private Label label37;
-        private Label label38;
-        private TextBox textBox31;
-        private TextBox textBox32;
-        private TextBox textBox33;
-        private Label label39;
-        private Label label40;
-        private Label label41;
-        private TextBox textBox34;
-        private TextBox textBox35;
-        private TextBox textBox36;
+        private Label LbHkAN9;
+        private Label LbHkAN8;
+        private Label LbHkAN7;
+        private TextBox TbxHkAN0;
+        private TextBox TbxHkAN9;
+        private TextBox TbxHkAN8;
+        private Label LbHkAN6;
+        private Label LbHkAN5;
+        private Label LbHkAN4;
+        private TextBox TbxHkAN7;
+        private TextBox TbxHkAN6;
+        private TextBox TbxHkAN5;
         private Label LbSvMsgColorB;
         private TextBox TbxSvMsgColorB;
-        private Label label43;
-        private TextBox textBox38;
-        private Label label44;
-        private TextBox textBox39;
+        private Label LbHkAN2;
+        private TextBox TbxHkAN3;
+        private Label LbHkAN1;
+        private TextBox TbxHkAN2;
         private Label LbChtMsgFfaB;
-        private TextBox textBox40;
+        private TextBox TbxHkAN1;
         private Label label47;
         private Label label46;
-        private Label label35;
+        private Label LbHkAN0;
         private TextBox TbxChtInColorB;
         private TextBox textBox42;
         private TextBox TbxChtInOffY;
@@ -4448,7 +6665,7 @@ namespace chimera_editor.Presentation
         private Label LbSvMsgOffX;
         private Label LbSvMsgDimY;
         private Label LbSvMsgDimX;
-        private Label label3;
+        private Label LbHKF2;
         private Label LbChtMsgOffX;
         private Label LbChtMsgDimY;
         private Label LbChtMsgDimX;
@@ -4502,5 +6719,177 @@ namespace chimera_editor.Presentation
         private Panel PnlHotkey;
         private Label LbHotKeyDesc;
         private Label LbHotKey;
+        private CheckBox CbHotKeyEnabled;
+        private Label LbHotKeyEnabled;
+        private TextBox TbxHKF3;
+        private Label LbHKF3;
+        private TextBox TbxHKF2;
+        private TextBox TbxHKF1;
+        private Label LbHKF1;
+        private Label LbHotKeyFunction;
+        private TextBox TbxHKF6;
+        private Label LbHKF6;
+        private TextBox TbxHKF5;
+        private Label LbHKF5;
+        private TextBox TbxHKF4;
+        private Label LbHKF4;
+        private TextBox TbxHKF9;
+        private Label LbHKF9;
+        private TextBox TbxHKF8;
+        private Label LbHKF8;
+        private TextBox TbxHKF7;
+        private Label LbHKF7;
+        private TextBox TbxHKF12;
+        private Label LbHKF12;
+        private TextBox TbxHKF11;
+        private Label LbHKF11;
+        private TextBox TbxHKF10;
+        private Label LbHKF10;
+        private Label LbHotKeyAltShift;
+        private TextBox TbxHKAS0;
+        private Label LbHKAS0;
+        private TextBox TbxHKAS9;
+        private Label LbHKAS9;
+        private TextBox TbxHKAS8;
+        private Label LbHKAS8;
+        private TextBox TbxHKAS7;
+        private TextBox TbxHKAS5;
+        private TextBox TbxHKAS4;
+        private Label LbHKAS4;
+        private TextBox TbxHKAS3;
+        private Label LbHKAS3;
+        private TextBox TbxHKAS2;
+        private Label LbHKAS2;
+        private TextBox TbxHKAS1;
+        private Label LbHKAS1;
+        private TextBox TbxHKASN0;
+        private Label LbHKASN0;
+        private TextBox TbxHKASN9;
+        private Label LbHKASN9;
+        private TextBox TbxHKASN8;
+        private Label LbHKASN8;
+        private TextBox TbxHKASN7;
+        private Label LbHKASN7;
+        private TextBox TbxHKASN6;
+        private Label LbHKASN6;
+        private TextBox TbxHKASN5;
+        private Label LbHKASN5;
+        private TextBox TbxHKASN4;
+        private Label LbHKASN4;
+        private TextBox TbxHKASN3;
+        private Label LbHKASN3;
+        private TextBox TbxHKASN2;
+        private Label LbHKASN2;
+        private TextBox TbxHKASN1;
+        private Label LbHKASN1;
+        private Label LbHotKeyAltShiftNum;
+        private TextBox TbxHkA0;
+        private Label LbHkA0;
+        private TextBox TbxHkA9;
+        private Label LbHkA9;
+        private TextBox TbxHkA8;
+        private Label LbHkA8;
+        private TextBox TbxHkA7;
+        private Label LbHkA7;
+        private TextBox TbxHkA6;
+        private Label LbHkA6;
+        private TextBox TbxHkA5;
+        private Label LbHkA5;
+        private TextBox TbxHkA4;
+        private Label LbHkA4;
+        private TextBox TbxHkA3;
+        private Label LbHkA3;
+        private TextBox TbxHkA2;
+        private Label LbHkA2;
+        private TextBox TbxHkA1;
+        private Label LbHkA1;
+        private Label LbHotKeyAlt;
+        private TextBox TbxHkC0;
+        private Label LbHkC0;
+        private TextBox TbxHkC9;
+        private Label LbHkC9;
+        private TextBox TbxHkC8;
+        private Label LbHkC8;
+        private TextBox TbxHkC7;
+        private Label LbHkC7;
+        private TextBox TbxHkC6;
+        private Label LbHkC6;
+        private TextBox TbxHkC5;
+        private Label LbHkC5;
+        private TextBox TbxHkC4;
+        private Label LbHkC4;
+        private TextBox TbxHkC3;
+        private Label LbHkC3;
+        private TextBox TbxHkC2;
+        private Label LbHkC2;
+        private TextBox TbxHkC1;
+        private Label LbHkC1;
+        private Label LbHotKeyCtrl;
+        private TextBox TbxHKCN0;
+        private Label LbHkCN0;
+        private TextBox TbxHKCN9;
+        private Label LbHkCN9;
+        private TextBox TbxHKCN8;
+        private Label LbHkCN8;
+        private TextBox TbxHKCN7;
+        private Label LbHkCN;
+        private TextBox TbxHKCN6;
+        private Label LbHkCN6;
+        private TextBox TbxHKCN5;
+        private Label LbHkCN5;
+        private TextBox TbxHKCN4;
+        private Label LbHkCN4;
+        private TextBox TbxHKCN3;
+        private Label LbHkCN3;
+        private TextBox TbxHKCN2;
+        private Label LbHkCN2;
+        private TextBox TbxHKCN1;
+        private Label LbHkCN1;
+        private Label LbHotKeyCtrlNum;
+        private TextBox TbxHkCAS0;
+        private Label LbHkCAS0;
+        private TextBox TbxHkCAS9;
+        private Label LbHkCAS9;
+        private TextBox TbxHkCAS8;
+        private Label LbHkCAS8;
+        private TextBox TbxHkCAS7;
+        private Label LbHkCAS7;
+        private TextBox TbxHkCAS6;
+        private Label LbHkCAS6;
+        private TextBox TbxHkCAS5;
+        private Label LbHkCAS5;
+        private TextBox TbxHkCAS4;
+        private Label LbHkCAS4;
+        private TextBox TbxHkCAS3;
+        private Label LbHkCAS3;
+        private TextBox TbxHkCAS2;
+        private Label LbHkCAS2;
+        private TextBox TbxHkCAS1;
+        private Label LbHkCAS1;
+        private Label LbHotKeyCtrlAltShift;
+        private TextBox TbxHkCASN0;
+        private Label LbHkCASN0;
+        private TextBox TbxHkCASN9;
+        private Label LbHkCASN9;
+        private TextBox TbxHkCASN8;
+        private Label LbHkCASN8;
+        private Label LbHkCASN7;
+        private TextBox TbxHkCASN6;
+        private Label LbHkCASN6;
+        private TextBox TbxHkCASN5;
+        private Label LbHkCASN5;
+        private Label LbHkCASN4;
+        private TextBox TbxHkCASN3;
+        private Label LbHkCASN3;
+        private Label LbHkCASN2;
+        private Label LbHotKeyCtrlAltShiftNum;
+        private TextBox TbxHkAN4;
+        private Label LbHkAN3;
+        private Label LbHotKeyAltNum;
+        private Button BtnCCColor;
+        private Button BtnCMFfaColor;
+        private Button BtnCMRedColor;
+        private Button BtnCMBlueColor;
+        private Button BtnCIColor;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             TSMFile = new ToolStripMenuItem();
             STBFileNew = new ToolStripTextBox();
@@ -46,12 +47,12 @@
             STBEditPaste = new ToolStripTextBox();
             STBEditClear = new ToolStripTextBox();
             TSMWindow = new ToolStripMenuItem();
-            TSMHelp = new ToolStripMenuItem();
             STBWinCascade = new ToolStripTextBox();
             STBWinHor = new ToolStripTextBox();
             STBWinVer = new ToolStripTextBox();
             STBWinArrIcons = new ToolStripTextBox();
             TSSWindA = new ToolStripSeparator();
+            TSMHelp = new ToolStripMenuItem();
             STBHelpAbout = new ToolStripTextBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -93,7 +94,7 @@
             // TSSFileA
             // 
             TSSFileA.Name = "TSSFileA";
-            TSSFileA.Size = new Size(177, 6);
+            TSSFileA.Size = new Size(157, 6);
             // 
             // STBFileSave
             // 
@@ -110,7 +111,7 @@
             // TSSFileB
             // 
             TSSFileB.Name = "TSSFileB";
-            TSSFileB.Size = new Size(177, 6);
+            TSSFileB.Size = new Size(157, 6);
             // 
             // STBFileExit
             // 
@@ -134,7 +135,7 @@
             // TSSEditA
             // 
             TSSEditA.Name = "TSSEditA";
-            TSSEditA.Size = new Size(177, 6);
+            TSSEditA.Size = new Size(157, 6);
             // 
             // STBEditCut
             // 
@@ -167,13 +168,6 @@
             TSMWindow.Size = new Size(63, 20);
             TSMWindow.Text = "Window";
             // 
-            // TSMHelp
-            // 
-            TSMHelp.DropDownItems.AddRange(new ToolStripItem[] { STBHelpAbout });
-            TSMHelp.Name = "TSMHelp";
-            TSMHelp.Size = new Size(44, 20);
-            TSMHelp.Text = "Help";
-            // 
             // STBWinCascade
             // 
             STBWinCascade.Name = "STBWinCascade";
@@ -201,7 +195,14 @@
             // TSSWindA
             // 
             TSSWindA.Name = "TSSWindA";
-            TSSWindA.Size = new Size(177, 6);
+            TSSWindA.Size = new Size(157, 6);
+            // 
+            // TSMHelp
+            // 
+            TSMHelp.DropDownItems.AddRange(new ToolStripItem[] { STBHelpAbout });
+            TSMHelp.Name = "TSMHelp";
+            TSMHelp.Size = new Size(44, 20);
+            TSMHelp.Text = "Help";
             // 
             // STBHelpAbout
             // 
@@ -215,6 +216,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1228, 644);
             Controls.Add(menuStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";

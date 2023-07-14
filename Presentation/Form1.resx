@@ -120,4 +120,29 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
+        AAAHQBz/B0Ac/wdAHP8HQBz/B0Ac/wdAHP8HQBz/B0Ac/wdAHP8HQBz/B0Ac/wdAHP8HQBz/B0Ac/wdA
+        HP8HQBz/B0Ec/wdBHP8HQRz/B0Ec/wdBHP8HQRz/B0Ec/wdBHP8HQRz/B0Ec/wdBHP8HQRz/B0Ec/wdB
+        HP8HQRz/B0Ec/whDHv8IQx7/CEMe/whDHv8IQx7/CEMe/whDHv8IQx7/CEMe/whDHv8IQx7/CEMe/whD
+        Hv8IQx7/CEMe/whDHv8JRB7/CUQe/wlEHv8JRB7/CUQe/wlEHv8JRB7/CUQe/wlEHv8JRB7/CUQe/wlE
+        Hv8JRB7/CUQe/wlEHv8JRB7/CUYf/wlGH/8JRR//CUUf/wlGH/8JRR//CUUf/wlFH/8JRR//CUUf/wlF
+        H/8JRh//CUUf/wlFH/8JRh//CUYf/wpIIf8KRyD/FH5K/w1YLf8KRiD/FotU/wtLJP8Rbj7/D2I1/xFv
+        P/8QaTr/Ckch/xaJUv8PZDf/Ckcg/wpIIf8LSyL/C0kh/xqhZP8PZDb/C0gh/x61c/8MUCj/FohS/xJ0
+        Q/8WilP/FH9L/xSAS/8bpWf/C0sj/wtLIv8LSyL/DE4k/wxMI/8aoWT/F49X/xWATP8euXb/DVIp/xaJ
+        Uv8TdkT/F4tU/xiVW/8etHL/Dlov/wxNJP8MTiT/DE4k/w1QJv8NTiX/G6Jl/xeOVv8Vfkr/Hrl2/w5U
+        K/8XilP/E3dE/xeMVP8YlVz/HbNx/w9dMf8NUCb/DVAm/w1QJv8OUyf/DlEm/xuiZf8Sajr/DlAm/x62
+        dP8PVyz/F4tU/xR5Rf8XjVX/FoNN/xV8SP8cq2v/DlUq/w5TJ/8OUyf/D1Yp/w9UKP8WgUv/EWIz/w9U
+        KP8XjFT/D1cr/xNzQf8SaTn/FHZD/xNxP/8PUyj/F4dQ/xNzQf8PVSn/D1Yp/xBYKv8QWCr/EFgq/xBY
+        Kv8QWCr/EFgq/xBYKv8QWCr/EFgq/xBYKv8QWCr/EFgq/xBYKv8QWCr/EFgq/xBYKv8QWiv/EFor/xBa
+        K/8QWiv/EFor/xBaK/8QWiv/EFor/xBaK/8QWiv/EFor/xBaK/8QWiv/EFor/xBaK/8QWiv/EVss/xFb
+        LP8RWyz/EVss/xFbLP8RWyz/EVss/xFbLP8RWyz/EVss/xFbLP8RWyz/EVss/xFbLP8RWyz/EVss/xFc
+        Lf8RXC3/EVwt/xFcLf8RXC3/EVwt/xFcLf8RXC3/EVwt/xFcLf8RXC3/EVwt/xFcLf8RXC3/EVwt/xFc
+        Lf8SXi7/El4u/xJeLv8SXi7/El4u/xJeLv8SXi7/El4u/xJeLv8SXi7/El4u/xJeLv8SXi7/El4u/xJe
+        Lv8SXi7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
 </root>
