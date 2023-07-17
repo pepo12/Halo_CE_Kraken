@@ -80,26 +80,3 @@ class IniFile
         return null;
     }
 }
-
-class Program
-{
-    static void Main()
-    {
-        string filePath = "chimera.ini";
-        IniFile iniFile = new IniFile(filePath);
-
-        // Definir la opción y el valor que deseas modificar
-        string section = "CustomSection";
-        string key = "enabled";
-        string newValue = "0";
-
-        // Leer el valor actual
-        string currentValue = iniFile.GetValue(section, key);
-        Console.WriteLine($"Valor actual de [{section}] {key}: {currentValue}");
-
-        // Modificar el valor
-        iniFile.SetValue(section, key, newValue);
-        iniFile.SaveIniFile();
-        Console.WriteLine($"Valor modificado a [{section}] {key}: {newValue}");
-    }
-}
