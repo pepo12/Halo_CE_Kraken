@@ -31,29 +31,30 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             TSMFile = new ToolStripMenuItem();
-            STBFileNew = new ToolStripTextBox();
-            STBFileOpen = new ToolStripTextBox();
-            STBFileClose = new ToolStripTextBox();
+            STBFileNew = new ToolStripMenuItem();
+            STBFileOpen = new ToolStripMenuItem();
+            STBFileClose = new ToolStripMenuItem();
             TSSFileA = new ToolStripSeparator();
-            STBFileSave = new ToolStripTextBox();
-            STBFileSaveAs = new ToolStripTextBox();
+            STBFileSave = new ToolStripMenuItem();
+            STBFileSaveAs = new ToolStripMenuItem();
             TSSFileB = new ToolStripSeparator();
-            STBFileExit = new ToolStripTextBox();
+            STBFileExit = new ToolStripMenuItem();
             TSMEdit = new ToolStripMenuItem();
-            STBEditUndo = new ToolStripTextBox();
+            STBEditUndo = new ToolStripMenuItem();
             TSSEditA = new ToolStripSeparator();
-            STBEditCut = new ToolStripTextBox();
-            STBEditCopy = new ToolStripTextBox();
-            STBEditPaste = new ToolStripTextBox();
-            STBEditClear = new ToolStripTextBox();
+            STBEditCut = new ToolStripMenuItem();
+            STBEditCopy = new ToolStripMenuItem();
+            STBEditPaste = new ToolStripMenuItem();
+            STBEditClear = new ToolStripMenuItem();
             TSMWindow = new ToolStripMenuItem();
-            STBWinCascade = new ToolStripTextBox();
-            STBWinHor = new ToolStripTextBox();
-            STBWinVer = new ToolStripTextBox();
-            STBWinArrIcons = new ToolStripTextBox();
+            STBWinCascade = new ToolStripMenuItem();
+            STBWinHor = new ToolStripMenuItem();
+            STBWinVer = new ToolStripMenuItem();
+            STBWinArrIcons = new ToolStripMenuItem();
             TSSWindA = new ToolStripSeparator();
             TSMHelp = new ToolStripMenuItem();
-            STBHelpAbout = new ToolStripTextBox();
+            STBHelpAbout = new ToolStripMenuItem();
+            openFileDialog1 = new OpenFileDialog();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { TSMFile, TSMEdit, TSMWindow, TSMHelp });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1228, 24);
+            menuStrip1.Size = new Size(870, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -76,47 +77,49 @@
             // STBFileNew
             // 
             STBFileNew.Name = "STBFileNew";
-            STBFileNew.Size = new Size(100, 23);
+            STBFileNew.Size = new Size(180, 22);
             STBFileNew.Text = "New...";
+            STBFileNew.Click += STBFileNew_Click;
             // 
             // STBFileOpen
             // 
             STBFileOpen.Name = "STBFileOpen";
-            STBFileOpen.Size = new Size(100, 23);
+            STBFileOpen.Size = new Size(180, 22);
             STBFileOpen.Text = "Open...";
+            STBFileOpen.Click += STBFileOpen_Click;
             // 
             // STBFileClose
             // 
             STBFileClose.Name = "STBFileClose";
-            STBFileClose.Size = new Size(100, 23);
+            STBFileClose.Size = new Size(180, 22);
             STBFileClose.Text = "Close";
             // 
             // TSSFileA
             // 
             TSSFileA.Name = "TSSFileA";
-            TSSFileA.Size = new Size(157, 6);
+            TSSFileA.Size = new Size(177, 6);
             // 
             // STBFileSave
             // 
             STBFileSave.Name = "STBFileSave";
-            STBFileSave.Size = new Size(100, 23);
+            STBFileSave.Size = new Size(180, 22);
             STBFileSave.Text = "Save";
             // 
             // STBFileSaveAs
             // 
             STBFileSaveAs.Name = "STBFileSaveAs";
-            STBFileSaveAs.Size = new Size(100, 23);
+            STBFileSaveAs.Size = new Size(180, 22);
             STBFileSaveAs.Text = "Save As...";
             // 
             // TSSFileB
             // 
             TSSFileB.Name = "TSSFileB";
-            TSSFileB.Size = new Size(157, 6);
+            TSSFileB.Size = new Size(177, 6);
             // 
             // STBFileExit
             // 
             STBFileExit.Name = "STBFileExit";
-            STBFileExit.Size = new Size(100, 23);
+            STBFileExit.Size = new Size(180, 22);
             STBFileExit.Text = "Exit";
             // 
             // TSMEdit
@@ -129,36 +132,36 @@
             // STBEditUndo
             // 
             STBEditUndo.Name = "STBEditUndo";
-            STBEditUndo.Size = new Size(100, 23);
+            STBEditUndo.Size = new Size(103, 22);
             STBEditUndo.Text = "Undo";
             // 
             // TSSEditA
             // 
             TSSEditA.Name = "TSSEditA";
-            TSSEditA.Size = new Size(157, 6);
+            TSSEditA.Size = new Size(100, 6);
             // 
             // STBEditCut
             // 
             STBEditCut.Name = "STBEditCut";
-            STBEditCut.Size = new Size(100, 23);
+            STBEditCut.Size = new Size(103, 22);
             STBEditCut.Text = "Cut";
             // 
             // STBEditCopy
             // 
             STBEditCopy.Name = "STBEditCopy";
-            STBEditCopy.Size = new Size(100, 23);
+            STBEditCopy.Size = new Size(103, 22);
             STBEditCopy.Text = "Copy";
             // 
             // STBEditPaste
             // 
             STBEditPaste.Name = "STBEditPaste";
-            STBEditPaste.Size = new Size(100, 23);
+            STBEditPaste.Size = new Size(103, 22);
             STBEditPaste.Text = "Paste";
             // 
             // STBEditClear
             // 
             STBEditClear.Name = "STBEditClear";
-            STBEditClear.Size = new Size(100, 23);
+            STBEditClear.Size = new Size(103, 22);
             STBEditClear.Text = "Clear";
             // 
             // TSMWindow
@@ -171,31 +174,31 @@
             // STBWinCascade
             // 
             STBWinCascade.Name = "STBWinCascade";
-            STBWinCascade.Size = new Size(100, 23);
+            STBWinCascade.Size = new Size(159, 22);
             STBWinCascade.Text = "Cascade";
             // 
             // STBWinHor
             // 
             STBWinHor.Name = "STBWinHor";
-            STBWinHor.Size = new Size(100, 23);
+            STBWinHor.Size = new Size(159, 22);
             STBWinHor.Text = "Tile Horizontally";
             // 
             // STBWinVer
             // 
             STBWinVer.Name = "STBWinVer";
-            STBWinVer.Size = new Size(100, 23);
+            STBWinVer.Size = new Size(159, 22);
             STBWinVer.Text = "Tile Vertically";
             // 
             // STBWinArrIcons
             // 
             STBWinArrIcons.Name = "STBWinArrIcons";
-            STBWinArrIcons.Size = new Size(100, 23);
+            STBWinArrIcons.Size = new Size(159, 22);
             STBWinArrIcons.Text = "Arrange Icons";
             // 
             // TSSWindA
             // 
             TSSWindA.Name = "TSSWindA";
-            TSSWindA.Size = new Size(157, 6);
+            TSSWindA.Size = new Size(156, 6);
             // 
             // TSMHelp
             // 
@@ -207,19 +210,28 @@
             // STBHelpAbout
             // 
             STBHelpAbout.Name = "STBHelpAbout";
-            STBHelpAbout.Size = new Size(100, 23);
+            STBHelpAbout.Size = new Size(107, 22);
             STBHelpAbout.Text = "About";
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            openFileDialog1.Filter = "Chimera Ini (*.ini)|*.ini";
+            openFileDialog1.FileOk += openFileDialog1_FileOk;
             // 
             // Form1
             // 
+            AllowDrop = true;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1228, 644);
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            ClientSize = new Size(870, 644);
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Form1";
+            Text = "HCE Kraken";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -230,28 +242,29 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem TSMFile;
-        private ToolStripTextBox STBFileNew;
-        private ToolStripTextBox STBFileOpen;
-        private ToolStripTextBox STBFileClose;
         private ToolStripMenuItem TSMEdit;
         private ToolStripMenuItem TSMWindow;
         private ToolStripMenuItem TSMHelp;
         private ToolStripSeparator TSSFileA;
-        private ToolStripTextBox STBFileSave;
-        private ToolStripTextBox STBFileSaveAs;
         private ToolStripSeparator TSSFileB;
-        private ToolStripTextBox STBFileExit;
-        private ToolStripTextBox STBEditUndo;
         private ToolStripSeparator TSSEditA;
-        private ToolStripTextBox STBEditCut;
-        private ToolStripTextBox STBEditCopy;
-        private ToolStripTextBox STBEditPaste;
-        private ToolStripTextBox STBEditClear;
-        private ToolStripTextBox STBWinCascade;
-        private ToolStripTextBox STBWinHor;
-        private ToolStripTextBox STBWinVer;
-        private ToolStripTextBox STBWinArrIcons;
         private ToolStripSeparator TSSWindA;
-        private ToolStripTextBox STBHelpAbout;
+        private ToolStripMenuItem STBFileNew;
+        private ToolStripMenuItem STBFileOpen;
+        private ToolStripMenuItem STBFileClose;
+        private ToolStripMenuItem STBFileSave;
+        private ToolStripMenuItem STBFileSaveAs;
+        private ToolStripMenuItem STBFileExit;
+        private ToolStripMenuItem STBEditUndo;
+        private ToolStripMenuItem STBEditCut;
+        private ToolStripMenuItem STBEditCopy;
+        private ToolStripMenuItem STBEditPaste;
+        private ToolStripMenuItem STBEditClear;
+        private ToolStripMenuItem STBWinCascade;
+        private ToolStripMenuItem STBWinHor;
+        private ToolStripMenuItem STBWinVer;
+        private ToolStripMenuItem STBWinArrIcons;
+        private ToolStripMenuItem STBHelpAbout;
+        private OpenFileDialog openFileDialog1;
     }
 }
