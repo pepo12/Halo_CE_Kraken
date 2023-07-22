@@ -9,69 +9,75 @@ namespace chimera_editor.Logical
     internal class Chimera
     {
         //Definicion de atributos
-        private int PnlHalo;
-        private int Path;
+        private int Path; //directorio de los perfiles de jugadores
         private int CbPath;
+        private string TbxPath;
         private int CbDownPath;
-        private int DownPath;
+        private string TbxDownPath;
+        private int DownPath; //directorio donde se descargan los mapas
         private int CbMapsPath;
-        private int MapsPath;
+        private string TbxMapsPath;
+        private int MapsPath; //directorio de los mapas stock
         private int CbExec;
-        private int Exec;
+        private string TbxExec;
+        private int Exec; //archivo para ejecutar una serie de comandos al iniciar
         private int CbGamePorts;
+        private string TbxServerPort;
+        private string TbxClientPort;
         private int ServerPort;
         private int ClientPort;
-        private int CbIntroVideos;
+        private int CbIntroVideos; //omitir cinematicas
         private int CbConsole;
-        private int CbOptiDef;
+        private int CbOptiDef; //usar comandos para un juego optimo
         private int CbMenuMusic;
-        private int CbBackPlay;
+        private int CbBackPlay; //reproducir juego de fondo
         private int CbMultiInst;
         private int CbHash;
+        private string TbxHash;
         private int Hash;
-        private int PnlErrorHand;
-        private int CbShowSeg;
+        private int CbShowSeg; //mostrar segmentation fault
         private int CbSupFatal;
-        private int PnlVideoMode;
-        private int PnlEnd;
         private int CbEnblVideoMode;
         private int ResHeight;
         private int CbResolution;
         private int ResWidth;
-        private int CbRefRate;
+        private string TbxResWidth;
+        private string TbxResHeight;
+        private int CbRefRate; //tasa de refresh de video
+        private string TbxRefRate;
         private int RefRate;
         private int CbVsync;
+        private string TbxVsync;
         private int Vsync;
         private int CbWindowed;
         private int CbBorderless;
-        private int PnlScoreboard;
+        private string TbxScoreboardFade;
         private int CbAutoQuery;
         private int MstrSvList;
         private int ScoreboardFade;
         private int PnlNameSet;
         private int ComBoxScoreboardFont;
         private int ComBoxNameFont;
-        private int PnlServerList;
-        private int CbMstrSvList;
-        private int CbMstrSvKey;
+        private int CbMstrSvList; //url del servidor maestro
+        private int CbMstrSvKey; //clave del servidor maestro
         private int MstrSvKey;
-        private int CbMstrSvNatP;
+        private int CbMstrSvNatP; //nat primaria del servidor maestro
         private int MstrSvNatP;
-        private int CbMstrSvNatS;
+        private int CbMstrSvNatS; //nat secundaria del servidor maestro
         private int MstrSvNatS;
         private int PnlMemory;
-        private int CbMapSize;
+        private int CbMapSize; //cantidad de memoria para los mapas en ram
         private int MapSize;
         private int CbMapMmryBuffer;
         private int CbBenchmark;
         private int ComBoxDownloadFont;
-        private int DownloadUrl;
-        private int CbDownloadRetail;
+        private int DownloadUrl; //direccion del repositorio
+        private int CbDownloadRetail; //descargar mapas con cosas stock
         private int PnlFontOver;
         private int CbFontOverEnabled;
         private int SystemFW;
         private int CbSystemFO;
-        private int SystemFF;
+        private int SystemFF; //fuente de system
         private int SystemFS;
         private int SystemXO;
         private int SystemSX;
@@ -84,7 +90,7 @@ namespace chimera_editor.Logical
         private int LargeFS;
         private int LargeFW;
         private int CbLargeFO;
-        private int LargeFF;
+        private int LargeFF; //fuente de large
         private int SmallSY;
         private int SmallYO;
         private int SmallSX;
@@ -92,7 +98,7 @@ namespace chimera_editor.Logical
         private int SmallFS;
         private int SmallFW;
         private int CbSmallFO;
-        private int SmallFF;
+        private int SmallFF; //fuente de small
         private int SmallerSY;
         private int SmallerYO;
         private int SmallerSX;
@@ -100,7 +106,7 @@ namespace chimera_editor.Logical
         private int SmallerFS;
         private int SmallerFW;
         private int CbSmallerFO;
-        private int SmallerFF;
+        private int SmallerFF; //fuente de smaller
         private int TickerSY;
         private int TickerYO;
         private int TickerSX;
@@ -116,7 +122,7 @@ namespace chimera_editor.Logical
         private int ConsoleFS;
         private int ConsoleFW;
         private int CbConsoleFO;
-        private int ConsoleFF;
+        private int ConsoleFF; //fuente de console
         private int CbControllerEnabled;
         private int PnlController;
         private int CbCustomCEnabled;
