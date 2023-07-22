@@ -55,3 +55,25 @@ E:\halo custom edition proyects\visual kraken\obj\Debug\net6.0-windows\refint\ch
 E:\halo custom edition proyects\visual kraken\obj\Debug\net6.0-windows\chimera_editor.pdb
 E:\halo custom edition proyects\visual kraken\obj\Debug\net6.0-windows\chimera_editor.genruntimeconfig.cache
 E:\halo custom edition proyects\visual kraken\obj\Debug\net6.0-windows\ref\chimera_editor.dll
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\bin\Debug\net6.0-windows\chimera_editor.exe
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\bin\Debug\net6.0-windows\chimera_editor.deps.json
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\bin\Debug\net6.0-windows\chimera_editor.runtimeconfig.json
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\bin\Debug\net6.0-windows\chimera_editor.dll
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\bin\Debug\net6.0-windows\chimera_editor.pdb
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.csproj.AssemblyReference.cache
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.Form1.resources
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.Presentation.Form2.resources
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.Presentation.Form3.resources
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.Presentation.Form4.resources
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.Presentation.Form5.resources
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.Properties.Resources.resources
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.csproj.GenerateResource.cache
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.AssemblyInfoInputs.cache
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.AssemblyInfo.cs
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.dll
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\refint\chimera_editor.dll
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.pdb
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.genruntimeconfig.cache
+C:\Users\Arturo\Desktop\kraken\Halo_CE_Kraken\obj\Debug\net6.0-windows\ref\chimera_editor.dll

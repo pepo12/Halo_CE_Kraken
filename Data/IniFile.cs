@@ -7,6 +7,11 @@ class IniFile
     private string filePath;
     private Dictionary<string, Dictionary<string, string>> sections;
 
+    public IniFile()
+    {
+
+    }
+
     public IniFile(string filePath)
     {
         this.filePath = filePath;

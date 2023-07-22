@@ -1,5 +1,6 @@
 using chimera_editor.Presentation;
 
+
 namespace chimera_editor
 {
     public partial class Form1 : Form
@@ -15,6 +16,10 @@ namespace chimera_editor
             {
                 //aqui va el codigo para abrir y leer el archivo
                 STBFileOpen.Text = openFileDialog1.FileName;
+                IniFile fileManager = new IniFile(STBFileOpen.Text);
+                Form2 editor = new Form2();
+                editor.MdiParent = this;
+                editor.Show();
             }
 
         }
