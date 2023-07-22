@@ -35,5 +35,15 @@ namespace chimera_editor
         {
 
         }
+
+        private void STBFileSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void STBFileSaveAs_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

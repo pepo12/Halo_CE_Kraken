@@ -104,12 +104,14 @@
             STBFileSave.Name = "STBFileSave";
             STBFileSave.Size = new Size(180, 22);
             STBFileSave.Text = "Save";
+            STBFileSave.Click += STBFileSave_Click;
             // 
             // STBFileSaveAs
             // 
             STBFileSaveAs.Name = "STBFileSaveAs";
             STBFileSaveAs.Size = new Size(180, 22);
             STBFileSaveAs.Text = "Save As...";
+            STBFileSaveAs.Click += STBFileSaveAs_Click;
             // 
             // TSSFileB
             // 
