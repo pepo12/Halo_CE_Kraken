@@ -304,7 +304,7 @@ namespace chimera_editor.Presentation
             LbChtMsgFfaG = new Label();
             LbChtMsgFfaR = new Label();
             LbChtMsgFfaA = new Label();
-            TbxChtMsgFfa = new TextBox();
+            TbxChtMsgFfaG = new TextBox();
             TbxChtMsgFfaR = new TextBox();
             TbxChtMsgFfaA = new TextBox();
             LbChtMsg = new Label();
@@ -766,7 +766,7 @@ namespace chimera_editor.Presentation
             LbExec.Location = new Point(14, 186);
             LbExec.Margin = new Padding(8, 12, 8, 0);
             LbExec.Name = "LbExec";
-            LbExec.Size = new Size(31, 15);
+            LbExec.Size = new Size(30, 15);
             LbExec.TabIndex = 28;
             LbExec.Text = "exec";
             // 
@@ -1694,7 +1694,7 @@ namespace chimera_editor.Presentation
             LbFontOverDesc.AutoSize = true;
             LbFontOverDesc.Location = new Point(4, 24);
             LbFontOverDesc.Name = "LbFontOverDesc";
-            LbFontOverDesc.Size = new Size(298, 45);
+            LbFontOverDesc.Size = new Size(297, 45);
             LbFontOverDesc.TabIndex = 1;
             LbFontOverDesc.Text = "font override settings.\r\noverride the fonts used by Chimera with system fonts.\r\nenabling this will also force the widescreen fix to be on.";
             // 
@@ -1806,7 +1806,7 @@ namespace chimera_editor.Presentation
             LbSystemXY.Location = new Point(333, 1915);
             LbSystemXY.Margin = new Padding(4, 12, 8, 0);
             LbSystemXY.Name = "LbSystemXY";
-            LbSystemXY.Size = new Size(57, 15);
+            LbSystemXY.Size = new Size(56, 15);
             LbSystemXY.TabIndex = 130;
             LbSystemXY.Text = "xy offsets";
             // 
@@ -1892,7 +1892,7 @@ namespace chimera_editor.Presentation
             LbLargeXY.Location = new Point(333, 2050);
             LbLargeXY.Margin = new Padding(4, 12, 8, 0);
             LbLargeXY.Name = "LbLargeXY";
-            LbLargeXY.Size = new Size(57, 15);
+            LbLargeXY.Size = new Size(56, 15);
             LbLargeXY.TabIndex = 144;
             LbLargeXY.Text = "xy offsets";
             // 
@@ -2017,7 +2017,7 @@ namespace chimera_editor.Presentation
             label15.Location = new Point(333, 2185);
             label15.Margin = new Padding(4, 12, 8, 0);
             label15.Name = "label15";
-            label15.Size = new Size(57, 15);
+            label15.Size = new Size(56, 15);
             label15.TabIndex = 158;
             label15.Text = "xy offsets";
             // 
@@ -2142,7 +2142,7 @@ namespace chimera_editor.Presentation
             LbSmallerXY.Location = new Point(333, 2320);
             LbSmallerXY.Margin = new Padding(4, 12, 8, 0);
             LbSmallerXY.Name = "LbSmallerXY";
-            LbSmallerXY.Size = new Size(57, 15);
+            LbSmallerXY.Size = new Size(56, 15);
             LbSmallerXY.TabIndex = 172;
             LbSmallerXY.Text = "xy offsets";
             // 
@@ -2267,7 +2267,7 @@ namespace chimera_editor.Presentation
             LbTickerXY.Location = new Point(333, 2455);
             LbTickerXY.Margin = new Padding(4, 12, 8, 0);
             LbTickerXY.Name = "LbTickerXY";
-            LbTickerXY.Size = new Size(57, 15);
+            LbTickerXY.Size = new Size(56, 15);
             LbTickerXY.TabIndex = 186;
             LbTickerXY.Text = "xy offsets";
             // 
@@ -2392,7 +2392,7 @@ namespace chimera_editor.Presentation
             TbxConsoleXY.Location = new Point(333, 2590);
             TbxConsoleXY.Margin = new Padding(4, 12, 8, 0);
             TbxConsoleXY.Name = "TbxConsoleXY";
-            TbxConsoleXY.Size = new Size(57, 15);
+            TbxConsoleXY.Size = new Size(56, 15);
             TbxConsoleXY.TabIndex = 200;
             TbxConsoleXY.Text = "xy offsets";
             // 
@@ -2671,7 +2671,7 @@ namespace chimera_editor.Presentation
             LbXMargin.Location = new Point(14, 3300);
             LbXMargin.Margin = new Padding(8, 12, 8, 0);
             LbXMargin.Name = "LbXMargin";
-            LbXMargin.Size = new Size(54, 15);
+            LbXMargin.Size = new Size(53, 15);
             LbXMargin.TabIndex = 221;
             LbXMargin.Text = "x margin";
             // 
@@ -2910,7 +2910,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorA.AutoSize = true;
-            LbSvMsgColorA.Location = new Point(-33, 3535);
+            LbSvMsgColorA.Location = new Point(-50, 3535);
             LbSvMsgColorA.Margin = new Padding(0);
             LbSvMsgColorA.Name = "LbSvMsgColorA";
             LbSvMsgColorA.Size = new Size(13, 15);
@@ -2922,7 +2922,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorR.AutoSize = true;
-            LbSvMsgColorR.Location = new Point(59, 3535);
+            LbSvMsgColorR.Location = new Point(42, 3535);
             LbSvMsgColorR.Margin = new Padding(0);
             LbSvMsgColorR.Name = "LbSvMsgColorR";
             LbSvMsgColorR.Size = new Size(11, 15);
@@ -2934,7 +2934,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorG.AutoSize = true;
-            LbSvMsgColorG.Location = new Point(146, 3535);
+            LbSvMsgColorG.Location = new Point(129, 3535);
             LbSvMsgColorG.Margin = new Padding(0);
             LbSvMsgColorG.Name = "LbSvMsgColorG";
             LbSvMsgColorG.Size = new Size(14, 15);
@@ -3100,7 +3100,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaG.AutoSize = true;
-            LbChtMsgFfaG.Location = new Point(146, 3867);
+            LbChtMsgFfaG.Location = new Point(129, 3867);
             LbChtMsgFfaG.Margin = new Padding(0);
             LbChtMsgFfaG.Name = "LbChtMsgFfaG";
             LbChtMsgFfaG.Size = new Size(14, 15);
@@ -3112,7 +3112,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaR.AutoSize = true;
-            LbChtMsgFfaR.Location = new Point(59, 3867);
+            LbChtMsgFfaR.Location = new Point(42, 3867);
             LbChtMsgFfaR.Margin = new Padding(0);
             LbChtMsgFfaR.Name = "LbChtMsgFfaR";
             LbChtMsgFfaR.Size = new Size(11, 15);
@@ -3124,7 +3124,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaA.AutoSize = true;
-            LbChtMsgFfaA.Location = new Point(-33, 3867);
+            LbChtMsgFfaA.Location = new Point(-50, 3867);
             LbChtMsgFfaA.Margin = new Padding(0);
             LbChtMsgFfaA.Name = "LbChtMsgFfaA";
             LbChtMsgFfaA.Size = new Size(13, 15);
@@ -3132,13 +3132,13 @@ namespace chimera_editor.Presentation
             LbChtMsgFfaA.Text = "a";
             LbChtMsgFfaA.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // TbxChtMsgFfa
+            // TbxChtMsgFfaG
             // 
-            TbxChtMsgFfa.Location = new Point(381, 3864);
-            TbxChtMsgFfa.Margin = new Padding(0, 3, 0, 3);
-            TbxChtMsgFfa.Name = "TbxChtMsgFfa";
-            TbxChtMsgFfa.Size = new Size(72, 23);
-            TbxChtMsgFfa.TabIndex = 274;
+            TbxChtMsgFfaG.Location = new Point(381, 3864);
+            TbxChtMsgFfaG.Margin = new Padding(0, 3, 0, 3);
+            TbxChtMsgFfaG.Name = "TbxChtMsgFfaG";
+            TbxChtMsgFfaG.Size = new Size(72, 23);
+            TbxChtMsgFfaG.TabIndex = 274;
             // 
             // TbxChtMsgFfaR
             // 
@@ -3335,7 +3335,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedG.AutoSize = true;
-            LbChtMsgRedG.Location = new Point(146, 3894);
+            LbChtMsgRedG.Location = new Point(129, 3894);
             LbChtMsgRedG.Margin = new Padding(0);
             LbChtMsgRedG.Name = "LbChtMsgRedG";
             LbChtMsgRedG.Size = new Size(14, 15);
@@ -3347,7 +3347,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedR.AutoSize = true;
-            LbChtMsgRedR.Location = new Point(59, 3894);
+            LbChtMsgRedR.Location = new Point(42, 3894);
             LbChtMsgRedR.Margin = new Padding(0);
             LbChtMsgRedR.Name = "LbChtMsgRedR";
             LbChtMsgRedR.Size = new Size(11, 15);
@@ -3359,7 +3359,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedA.AutoSize = true;
-            LbChtMsgRedA.Location = new Point(-33, 3894);
+            LbChtMsgRedA.Location = new Point(-50, 3894);
             LbChtMsgRedA.Margin = new Padding(0);
             LbChtMsgRedA.Name = "LbChtMsgRedA";
             LbChtMsgRedA.Size = new Size(13, 15);
@@ -3395,7 +3395,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueG.AutoSize = true;
-            LbChtMsgBlueG.Location = new Point(146, 3921);
+            LbChtMsgBlueG.Location = new Point(129, 3921);
             LbChtMsgBlueG.Margin = new Padding(0);
             LbChtMsgBlueG.Name = "LbChtMsgBlueG";
             LbChtMsgBlueG.Size = new Size(14, 15);
@@ -3407,7 +3407,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueR.AutoSize = true;
-            LbChtMsgBlueR.Location = new Point(59, 3921);
+            LbChtMsgBlueR.Location = new Point(42, 3921);
             LbChtMsgBlueR.Margin = new Padding(0);
             LbChtMsgBlueR.Name = "LbChtMsgBlueR";
             LbChtMsgBlueR.Size = new Size(11, 15);
@@ -3419,7 +3419,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueA.AutoSize = true;
-            LbChtMsgBlueA.Location = new Point(-33, 3921);
+            LbChtMsgBlueA.Location = new Point(-50, 3921);
             LbChtMsgBlueA.Margin = new Padding(0);
             LbChtMsgBlueA.Name = "LbChtMsgBlueA";
             LbChtMsgBlueA.Size = new Size(13, 15);
@@ -3455,7 +3455,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgColorB.AutoSize = true;
-            LbSvMsgColorB.Location = new Point(236, 3535);
+            LbSvMsgColorB.Location = new Point(219, 3535);
             LbSvMsgColorB.Margin = new Padding(0);
             LbSvMsgColorB.Name = "LbSvMsgColorB";
             LbSvMsgColorB.Size = new Size(14, 15);
@@ -3475,7 +3475,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgBlueB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgBlueB.AutoSize = true;
-            LbChtMsgBlueB.Location = new Point(236, 3921);
+            LbChtMsgBlueB.Location = new Point(219, 3921);
             LbChtMsgBlueB.Margin = new Padding(0);
             LbChtMsgBlueB.Name = "LbChtMsgBlueB";
             LbChtMsgBlueB.Size = new Size(14, 15);
@@ -3495,7 +3495,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgRedB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgRedB.AutoSize = true;
-            LbChtMsgRedB.Location = new Point(236, 3894);
+            LbChtMsgRedB.Location = new Point(219, 3894);
             LbChtMsgRedB.Margin = new Padding(0);
             LbChtMsgRedB.Name = "LbChtMsgRedB";
             LbChtMsgRedB.Size = new Size(14, 15);
@@ -3515,7 +3515,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgFfaB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgFfaB.AutoSize = true;
-            LbChtMsgFfaB.Location = new Point(236, 3867);
+            LbChtMsgFfaB.Location = new Point(219, 3867);
             LbChtMsgFfaB.Margin = new Padding(0);
             LbChtMsgFfaB.Name = "LbChtMsgFfaB";
             LbChtMsgFfaB.Size = new Size(14, 15);
@@ -3535,7 +3535,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorB.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorB.AutoSize = true;
-            LbChtInColorB.Location = new Point(236, 4253);
+            LbChtInColorB.Location = new Point(219, 4253);
             LbChtInColorB.Margin = new Padding(0);
             LbChtInColorB.Name = "LbChtInColorB";
             LbChtInColorB.Size = new Size(14, 15);
@@ -3579,7 +3579,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorG.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorG.AutoSize = true;
-            LbChtInColorG.Location = new Point(146, 4253);
+            LbChtInColorG.Location = new Point(129, 4253);
             LbChtInColorG.Margin = new Padding(0);
             LbChtInColorG.Name = "LbChtInColorG";
             LbChtInColorG.Size = new Size(14, 15);
@@ -3591,7 +3591,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorR.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorR.AutoSize = true;
-            LbChtInColorR.Location = new Point(59, 4253);
+            LbChtInColorR.Location = new Point(42, 4253);
             LbChtInColorR.Margin = new Padding(0);
             LbChtInColorR.Name = "LbChtInColorR";
             LbChtInColorR.Size = new Size(11, 15);
@@ -3603,7 +3603,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInColorA.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInColorA.AutoSize = true;
-            LbChtInColorA.Location = new Point(-33, 4253);
+            LbChtInColorA.Location = new Point(-50, 4253);
             LbChtInColorA.Margin = new Padding(0);
             LbChtInColorA.Name = "LbChtInColorA";
             LbChtInColorA.Size = new Size(13, 15);
@@ -3714,7 +3714,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgOffY.AutoSize = true;
-            LbSvMsgOffY.Location = new Point(57, 3562);
+            LbSvMsgOffY.Location = new Point(40, 3562);
             LbSvMsgOffY.Margin = new Padding(0);
             LbSvMsgOffY.Name = "LbSvMsgOffY";
             LbSvMsgOffY.Size = new Size(13, 15);
@@ -3726,10 +3726,10 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgOffX.AutoSize = true;
-            LbSvMsgOffX.Location = new Point(-33, 3562);
+            LbSvMsgOffX.Location = new Point(-50, 3562);
             LbSvMsgOffX.Margin = new Padding(0);
             LbSvMsgOffX.Name = "LbSvMsgOffX";
-            LbSvMsgOffX.Size = new Size(13, 15);
+            LbSvMsgOffX.Size = new Size(12, 15);
             LbSvMsgOffX.TabIndex = 343;
             LbSvMsgOffX.Text = "x";
             LbSvMsgOffX.TextAlign = ContentAlignment.MiddleRight;
@@ -3738,7 +3738,7 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgDimY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgDimY.AutoSize = true;
-            LbSvMsgDimY.Location = new Point(57, 3589);
+            LbSvMsgDimY.Location = new Point(40, 3589);
             LbSvMsgDimY.Margin = new Padding(0);
             LbSvMsgDimY.Name = "LbSvMsgDimY";
             LbSvMsgDimY.Size = new Size(13, 15);
@@ -3750,10 +3750,10 @@ namespace chimera_editor.Presentation
             // 
             LbSvMsgDimX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbSvMsgDimX.AutoSize = true;
-            LbSvMsgDimX.Location = new Point(-33, 3589);
+            LbSvMsgDimX.Location = new Point(-50, 3589);
             LbSvMsgDimX.Margin = new Padding(0);
             LbSvMsgDimX.Name = "LbSvMsgDimX";
-            LbSvMsgDimX.Size = new Size(13, 15);
+            LbSvMsgDimX.Size = new Size(12, 15);
             LbSvMsgDimX.TabIndex = 345;
             LbSvMsgDimX.Text = "x";
             LbSvMsgDimX.TextAlign = ContentAlignment.MiddleRight;
@@ -3762,7 +3762,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgOffY.AutoSize = true;
-            LbChtMsgOffY.Location = new Point(57, 3948);
+            LbChtMsgOffY.Location = new Point(40, 3948);
             LbChtMsgOffY.Margin = new Padding(0);
             LbChtMsgOffY.Name = "LbChtMsgOffY";
             LbChtMsgOffY.Size = new Size(13, 15);
@@ -3774,10 +3774,10 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgOffX.AutoSize = true;
-            LbChtMsgOffX.Location = new Point(-33, 3948);
+            LbChtMsgOffX.Location = new Point(-50, 3948);
             LbChtMsgOffX.Margin = new Padding(0);
             LbChtMsgOffX.Name = "LbChtMsgOffX";
-            LbChtMsgOffX.Size = new Size(13, 15);
+            LbChtMsgOffX.Size = new Size(12, 15);
             LbChtMsgOffX.TabIndex = 347;
             LbChtMsgOffX.Text = "x";
             LbChtMsgOffX.TextAlign = ContentAlignment.MiddleRight;
@@ -3786,7 +3786,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgDimY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgDimY.AutoSize = true;
-            LbChtMsgDimY.Location = new Point(57, 3975);
+            LbChtMsgDimY.Location = new Point(40, 3975);
             LbChtMsgDimY.Margin = new Padding(0);
             LbChtMsgDimY.Name = "LbChtMsgDimY";
             LbChtMsgDimY.Size = new Size(13, 15);
@@ -3798,10 +3798,10 @@ namespace chimera_editor.Presentation
             // 
             LbChtMsgDimX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtMsgDimX.AutoSize = true;
-            LbChtMsgDimX.Location = new Point(-33, 3975);
+            LbChtMsgDimX.Location = new Point(-50, 3975);
             LbChtMsgDimX.Margin = new Padding(0);
             LbChtMsgDimX.Name = "LbChtMsgDimX";
-            LbChtMsgDimX.Size = new Size(13, 15);
+            LbChtMsgDimX.Size = new Size(12, 15);
             LbChtMsgDimX.TabIndex = 349;
             LbChtMsgDimX.Text = "x";
             LbChtMsgDimX.TextAlign = ContentAlignment.MiddleRight;
@@ -3883,7 +3883,7 @@ namespace chimera_editor.Presentation
             // 
             LbChtInOffY.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInOffY.AutoSize = true;
-            LbChtInOffY.Location = new Point(57, 4280);
+            LbChtInOffY.Location = new Point(40, 4280);
             LbChtInOffY.Margin = new Padding(0);
             LbChtInOffY.Name = "LbChtInOffY";
             LbChtInOffY.Size = new Size(13, 15);
@@ -3895,10 +3895,10 @@ namespace chimera_editor.Presentation
             // 
             LbChtInOffX.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             LbChtInOffX.AutoSize = true;
-            LbChtInOffX.Location = new Point(-33, 4280);
+            LbChtInOffX.Location = new Point(-50, 4280);
             LbChtInOffX.Margin = new Padding(0);
             LbChtInOffX.Name = "LbChtInOffX";
-            LbChtInOffX.Size = new Size(13, 15);
+            LbChtInOffX.Size = new Size(12, 15);
             LbChtInOffX.TabIndex = 358;
             LbChtInOffX.Text = "x";
             LbChtInOffX.TextAlign = ContentAlignment.MiddleRight;
@@ -3931,7 +3931,7 @@ namespace chimera_editor.Presentation
             LbHotKeyDesc.AutoSize = true;
             LbHotKeyDesc.Location = new Point(4, 24);
             LbHotKeyDesc.Name = "LbHotKeyDesc";
-            LbHotKeyDesc.Size = new Size(436, 30);
+            LbHotKeyDesc.Size = new Size(437, 30);
             LbHotKeyDesc.TabIndex = 1;
             LbHotKeyDesc.Text = "hotkey configuration.\r\nhotkeys can be configured to emit EITHER Halo scripts *OR* Chimera commands.";
             // 
@@ -5766,7 +5766,7 @@ namespace chimera_editor.Presentation
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(638, 1057);
+            ClientSize = new Size(638, 737);
             Controls.Add(BtnCIColor);
             Controls.Add(BtnCMBlueColor);
             Controls.Add(BtnCMRedColor);
@@ -6036,7 +6036,7 @@ namespace chimera_editor.Presentation
             Controls.Add(LbChtMsgFfaG);
             Controls.Add(LbChtMsgFfaR);
             Controls.Add(LbChtMsgFfaA);
-            Controls.Add(TbxChtMsgFfa);
+            Controls.Add(TbxChtMsgFfaG);
             Controls.Add(TbxChtMsgFfaR);
             Controls.Add(TbxChtMsgFfaA);
             Controls.Add(LbChtMsg);
@@ -6591,7 +6591,7 @@ namespace chimera_editor.Presentation
         private Label LbHKAS7;
         private Label LbHKAS6;
         private Label LbHKAS5;
-        private TextBox TbxChtMsgFfa;
+        private TextBox TbxChtMsgFfaG;
         private TextBox TbxHkCASN2;
         private TextBox TbxHkCASN1;
         private Label LbChtMsg;

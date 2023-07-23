@@ -17,7 +17,14 @@ namespace chimera_editor.Presentation
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        //Metodo para cargar un chimera.ini
+        public void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+        
+        //Metodo para crear un nuevo chimera.ini
+        public void Form2_New(object sender, EventArgs e)
         {
 
         }

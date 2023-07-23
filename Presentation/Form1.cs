@@ -20,6 +20,7 @@ namespace chimera_editor
                 Form2 editor = new Form2();
                 editor.MdiParent = this;
                 editor.Show();
+                editor.form2lo
             }
 
         }
