@@ -16,13 +16,24 @@ namespace chimera_editor.Presentation
         {
             InitializeComponent();
         }
-
-        //Metodo para cargar un chimera.ini?
+        //Metodo para cargar un chimera.ini
+        /// <summary>
+        /// Metodo para cargar un chimera.ini
+        /// </summary>
         public void Form2_Load(object sender, EventArgs e)
         {
             //TODO Cargar archivo .ini
         }
+
+
         //Metodo para crear un nuevo chimera.ini
+        /* Este metodo captura los datos desde el formulario y los envia
+         * a la clase chimera, la clase chimera se encargara de construir la
+         * cadena que se guardara en el respectivo Chimera.ini
+         */
+        /// <summary>
+        /// Metodo para crear un nuevo chimera.ini
+        /// </summary>
         public void Form2_New()
         {
 
@@ -83,7 +94,6 @@ namespace chimera_editor.Presentation
                 {
                     MessageBox.Show("The port must be a number", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-
             }
             else
             {
@@ -92,15 +102,78 @@ namespace chimera_editor.Presentation
                 int ClientPort = 0;
             }
             
+            //Intro Videos
+            if (CbIntroVideos.Checked)
+            {
+                int IntroVideos = 1;
+            }
+            else
+            {
+                int IntroVideos = 0;
+            }
 
-            int IntroVideos;
-            int Console;
-            int OptiDef;
-            int MenuMusic;
-            int BackPlay;
-            int MultiInst;
-            int BoolHash;
-            string Hash;
+            //Console
+            if (CbConsole.Checked)
+            {
+                int Console = 1;
+            } 
+            else
+            {
+                int Console = 0;
+            }
+            
+            //Optimal Defaults
+            if (CbOptiDef.Checked)
+            {
+                int OptiDef = 1;
+            }
+            else
+            {
+                int OptiDef = 0;
+            }
+
+            //Main Menu Music
+            if (CbMenuMusic.Checked)
+            {
+                int MenuMusic = 1;
+            }
+            else
+            {
+                int MenuMusic = 0;
+            }
+
+            //Background playback
+            if (CbBackPlay.Checked)
+            {
+                int BackPlay = 1;
+            }
+            else
+            {
+                int BackPlay = 0;
+            }
+            
+            //Multiple Instances
+            if (CbBackPlay.Checked)
+            {
+                int MultiInst = 1;
+            }
+            else
+            {
+                int MultiInst = 0;
+            }
+            
+            //hash
+            if (CbHash.Checked)
+            {
+                //int BoolHash;
+                string Hash = "hash = " + TbxHash.Text.ToString();
+            }
+            else
+            {
+                string Hash = " ";
+            }
+            
+            //
             int ShowSeg;
             int SupFatal;
             int EnblVideoMode;
