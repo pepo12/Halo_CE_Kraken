@@ -112,7 +112,7 @@ namespace chimera_editor.Logical
         private int CustomCEnabled;
         //Revisar el tipo de dato de ControllerConfig porque no supe que tipo era
         //Si no es int entonces corregir tambien su set y get
-        private int ControllerConfig;
+        private string ControllerConfig;
         private int Scrollback;
         private int ConsoleBuffer;
         private int ConsoleSoft;
@@ -368,7 +368,7 @@ namespace chimera_editor.Logical
         public string ConsoleFF1 { get => ConsoleFF; set => ConsoleFF = value; }
         public int ControllerEnabled1 { get => ControllerEnabled; set => ControllerEnabled = value; }
         public int CustomCEnabled1 { get => CustomCEnabled; set => CustomCEnabled = value; }
-        public int ControllerConfig1 { get => ControllerConfig; set => ControllerConfig = value; }
+        public string ControllerConfig1 { get => ControllerConfig; set => ControllerConfig = value; }
         public int Scrollback1 { get => Scrollback; set => Scrollback = value; }
         public int ConsoleBuffer1 { get => ConsoleBuffer; set => ConsoleBuffer = value; }
         public int ConsoleSoft1 { get => ConsoleSoft; set => ConsoleSoft = value; }
