@@ -20,7 +20,6 @@ namespace chimera_editor
                 Form2 editor = new Form2();
                 editor.MdiParent = this;
                 editor.Show();
-                editor.form2lo
             }
 
         }
@@ -30,6 +29,7 @@ namespace chimera_editor
             Form2 editor = new Form2();
             editor.MdiParent = this;
             editor.Show();
+            editor.Form2_New();
         }
 
         private void openFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
