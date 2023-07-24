@@ -80,11 +80,12 @@ namespace chimera_editor.Presentation
             {
                 string Exec = " ";
             }
-            
+
             //Game Ports
             if (CbGamePorts.Checked)
             {
                 //int BoolGamePorts;
+                //Validar que se reciva si o si un numero entero
                 try
                 {
                     int ServerPort = int.Parse(TbxServerPort.Text);
@@ -94,12 +95,17 @@ namespace chimera_editor.Presentation
                 {
                     MessageBox.Show("The port must be a number", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+
+                //Construir las cadenas con los tipos de datos ya validados
+                string ServerPortString = "server_port="+ TbxServerPort.Text.ToString();
+                string ClientPortString = "client_port="+ TbxClientPort.Text.ToString();
+
             }
             else
             {
                 //Default Ports
-                int ServerPort = 2302;
-                int ClientPort = 0;
+                string ServerPortString = " ";
+                string ClientPortString = " ";
             }
             
             //Intro Videos
@@ -155,18 +161,18 @@ namespace chimera_editor.Presentation
             //Multiple Instances
             if (CbBackPlay.Checked)
             {
-                int MultiInst = 1;
+                string MultiInst = "multiple_instances=1";
             }
             else
             {
-                int MultiInst = 0;
+                string MultiInst = "multiple_instances=0";
             }
             
             //hash
             if (CbHash.Checked)
             {
                 //int BoolHash;
-                string Hash = "hash = " + TbxHash.Text.ToString();
+                string Hash = "hash=" + TbxHash.Text.ToString();
             }
             else
             {
