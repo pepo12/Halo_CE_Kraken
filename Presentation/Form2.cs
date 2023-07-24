@@ -41,40 +41,40 @@ namespace chimera_editor.Presentation
             if (CbPath.Checked)
             {
                 //int BoolPath = 1;
-                string Path = TbxPath.Text;
+                string Path = "path="+TbxPath.Text;
             } 
             else 
             {
-                string Path = " ";
+                string Path = ";path=\\Users\\whatever\\you\\want\\to\\put\\here ";
             }
 
             //Download path
             if (CbDownPath.Checked)
             {
                 //int BoolDownPath;
-                string DownPath = TbxDownPath.Text;
+                string DownPath = "download_map_path="+TbxDownPath.Text; ;
             } 
             else 
             {
-                string DownPath = " ";
+                string DownPath = ";download_map_path=C:\\Users\\whatever\\you\\want\\to\\put\\here";
             }
 
             //Maps path
             if (CbMapsPath.Checked)
             {
                 //int BoolMapsPath;
-                string MapsPath = TbxMapsPath.Text;
+                string MapsPath = "map_path="+TbxMapsPath.Text;
             }
             else 
             {
-                string MapsPath = " ";
+                string MapsPath = ";map_path=maps";
             }
             
             //Exec
             if (CbExec.Checked)
             {
                 //int BoolExec;
-                string Exec = TbxExec.Text;
+                string Exec = "exec="+TbxExec.Text;
             }
             else 
             {
@@ -97,8 +97,8 @@ namespace chimera_editor.Presentation
                 }
 
                 //Construir las cadenas con los tipos de datos ya validados
-                string ServerPortString = "server_port="+ TbxServerPort.Text.ToString();
-                string ClientPortString = "client_port="+ TbxClientPort.Text.ToString();
+                string ServerPortString = "server_port="+ TbxServerPort.Text;
+                string ClientPortString = "client_port="+ TbxClientPort.Text;
 
             }
             else
@@ -172,7 +172,7 @@ namespace chimera_editor.Presentation
             if (CbHash.Checked)
             {
                 //int BoolHash;
-                string Hash = "hash=" + TbxHash.Text.ToString();
+                string Hash = "hash=" + TbxHash.Text;
             }
             else
             {
