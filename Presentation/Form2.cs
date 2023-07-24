@@ -40,8 +40,7 @@ namespace chimera_editor.Presentation
             //profiles path
             if (CbPath.Checked)
             {
-                //int BoolPath = 1;
-                string Path = "path="+TbxPath.Text;
+                string Path = "path=" + TbxPath.Text;
             } 
             else 
             {
@@ -51,8 +50,7 @@ namespace chimera_editor.Presentation
             //Download path
             if (CbDownPath.Checked)
             {
-                //int BoolDownPath;
-                string DownPath = "download_map_path="+TbxDownPath.Text; ;
+                string DownPath = "download_map_path=" + TbxDownPath.Text; ;
             } 
             else 
             {
@@ -62,8 +60,7 @@ namespace chimera_editor.Presentation
             //Maps path
             if (CbMapsPath.Checked)
             {
-                //int BoolMapsPath;
-                string MapsPath = "map_path="+TbxMapsPath.Text;
+                string MapsPath = "map_path=" + TbxMapsPath.Text;
             }
             else 
             {
@@ -73,18 +70,16 @@ namespace chimera_editor.Presentation
             //Exec
             if (CbExec.Checked)
             {
-                //int BoolExec;
-                string Exec = "exec="+TbxExec.Text;
+                string Exec = "exec=" + TbxExec.Text;
             }
             else 
             {
-                string Exec = " ";
+                string Exec = ";exec=C:\\Users\\path\\to\\init.txt";
             }
 
             //Game Ports
             if (CbGamePorts.Checked)
             {
-                //int BoolGamePorts;
                 //Validar que se reciva si o si un numero entero
                 try
                 {
@@ -97,65 +92,65 @@ namespace chimera_editor.Presentation
                 }
 
                 //Construir las cadenas con los tipos de datos ya validados
-                string ServerPortString = "server_port="+ TbxServerPort.Text;
-                string ClientPortString = "client_port="+ TbxClientPort.Text;
+                string ServerPortString = "server_port=" + TbxServerPort.Text;
+                string ClientPortString = "client_port=" + TbxClientPort.Text;
 
             }
             else
             {
                 //Default Ports
-                string ServerPortString = " ";
-                string ClientPortString = " ";
+                string ServerPortString = ";server_port=2302";
+                string ClientPortString = ";client_port=0";
             }
             
             //Intro Videos
             if (CbIntroVideos.Checked)
             {
-                int IntroVideos = 1;
+                string IntroVideos = "intro_videos=1";
             }
             else
             {
-                int IntroVideos = 0;
+                string IntroVideos = ";intro_videos=1";
             }
 
             //Console
             if (CbConsole.Checked)
             {
-                int Console = 1;
+                string Console = "console=1";
             } 
             else
             {
-                int Console = 0;
+                string Console = "console=0";
             }
             
             //Optimal Defaults
             if (CbOptiDef.Checked)
             {
-                int OptiDef = 1;
+                string OptiDef = "optimal_defaults=1";
             }
             else
             {
-                int OptiDef = 0;
+                string OptiDef = "optimal_defaults=0";
             }
 
             //Main Menu Music
             if (CbMenuMusic.Checked)
             {
-                int MenuMusic = 1;
+                string MenuMusic = "main_menu_music=1";
             }
             else
             {
-                int MenuMusic = 0;
+                string MenuMusic = "main_menu_music=0";
             }
 
             //Background playback
             if (CbBackPlay.Checked)
             {
-                int BackPlay = 1;
+                string BackPlay = "background_playback=1";
             }
             else
             {
-                int BackPlay = 0;
+                string BackPlay = "background_playback=0";
             }
             
             //Multiple Instances
@@ -171,21 +166,56 @@ namespace chimera_editor.Presentation
             //hash
             if (CbHash.Checked)
             {
-                //int BoolHash;
                 string Hash = "hash=" + TbxHash.Text;
             }
             else
             {
-                string Hash = " ";
+                string Hash = "hash=%";
             }
-            
-            //
-            int ShowSeg;
-            int SupFatal;
-            int EnblVideoMode;
-            int ResHeight;
-            int Resolution;
-            int ResWidth;
+
+            //Suppress Fatal Errors 
+            if (CbSupFatal.Checked)
+            {
+                string SupFatal = "suppress_fatal_errors=1";
+            }
+            else
+            {
+                string SupFatal = ";suppress_fatal_errors=1";
+            }
+
+            //Show Segmentation Fault 
+            if (CbShowSeg.Checked)
+            {
+                string ShowSeg = "show_segmentation_fault=1";
+            }
+            else
+            {
+                string ShowSeg = ";show_segmentation_fault=1";
+            }
+
+            //Enable the [video_mode] settings 
+            if (CbEnblVideoMode.Checked)
+            {
+                string EnblVideoMode = "enabled=1";
+            }
+            else
+            {
+                string EnblVideoMode = "enabled=0";
+            }
+
+            //Resolution to use
+            if (CbResolution.Checked)
+            {
+                string ResWidth = "width="+TbxResWidth.Text;
+                string ResHeight = "height="+TbxResHeight.Text;
+            }
+            else
+            {
+                string ResWidth = "width=auto";
+                string ResHeight = "height=auto";
+            }
+
+            // Refresh rate(Hz) refresh_rate=0
             int BoolRefRate;
             int RefRate;
             int BoolVsync;
@@ -303,17 +333,33 @@ namespace chimera_editor.Presentation
             double ChtMsgFfaG;
             double ChtMsgFfaR;
             double ChtMsgFfaA;
-            int HotKeyEnabled;
-            //Hotkeys (HK)
-            string HKF3;
-            string HKF2;
-            string HKF1;
-            string HKF6;
-            string HKF5;
+
+
+
+            //Hotkeys (HK) ;enabled=1
+            if (CbHotKeyEnabled.Checked)
+            {
+                string HotKeyEnabled = "enabled=1";
+            }
+            else
+            {
+                string HotKeyEnabled = ";enabled=1";
+            }
+
+            //Continuar con las estructura a partir de aqui, tambien
+            //ordenarlas porque hay algunas desordenadas.
+
+            // Function key hotkeys
+            string HKF1 = TbxHKF1.Text;
+            string HKF2 = TbxHKF2.Text;
+            string HKF3 = TbxHKF3.Text;
             string HKF4;
-            string HKF9;
-            string HKF8;
+            string HKF5;
+            string HKF6;
             string HKF7;
+            string HKF8;
+            string HKF9;
+            // Alt+Shift+# hotkeys
             string HKF12;
             string HKF11;
             string HKF10;
