@@ -216,20 +216,98 @@ namespace chimera_editor.Presentation
             }
 
             // Refresh rate(Hz) refresh_rate=0
-            int BoolRefRate;
-            int RefRate;
-            int BoolVsync;
-            int Vsync;
-            int Windowed;
-            int Borderless;
-            int AutoQuery;
-            string MstrSvList;
-            double ScoreboardFade;
-            string ScoreboardFont;
-            string NameFont;
-            int BoolMstrSvList;
-            int BoolMstrSvKey;
-            string MstrSvKey;
+            if (CbRefRate.Checked)
+            {
+                string RefRate = "refresh_rate=1";
+            }
+            else
+            {
+                string RefRate = "refresh_rate=0";
+            }
+
+            //Enable double buffer vSync
+            if (CbVsync.Checked)
+            {
+                string Vsync = "vsync=1";
+            }
+            else
+            {
+                string Vsync = "vsync=0";
+            }
+
+            //Play in a window 
+            if (CbWindowed.Checked)
+            {
+                string Windowed = "windowed=1";
+            }
+            else
+            {
+                string Windowed = "windowed=0";
+            }
+
+            //Play in borderless fullscreen
+            if (CbBorderless.Checked)
+            {
+                string Borderless = "borderless=1";
+            }
+            else
+            {
+                string Borderless = "borderless=0";
+            }
+
+            //Scoreboard settings
+            //Scoreboard font
+            string ScoreboardFont = ComBoxScoreboardFont.Text;
+
+            //Scoreboard fade time
+            //Validar que se reciva si o si un numero
+            try
+            {
+                double ScoreboardFade = double.Parse(TbxScoreboardFade.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("The ScoreBoard Fade must be a number", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            string StringScoreboardFade = "fade_time=" + TbxScoreboardFade.Text;
+
+            //Name settings
+            //Name Font
+            string NameFont = ComBoxNameFont.Text;
+
+            //Server list settings
+            //Auto Query
+            if (CbAutoQuery.Checked)
+            {
+                string AutoQuery = "auto_query=1";
+            }
+            else
+            {
+                string AutoQuery = "auto_query=0";
+            }
+
+            //master server list
+            if (CbMstrSvList.Checked)
+            {
+                string MstrSvList = "master_server_list=" + TbxMstrSvList.Text;
+            }
+            else
+            {
+                string MstrSvList = ";master_server_list=s1.master.hosthpc.com";
+            }
+            //master server key
+            if (CbMstrSvKey.Checked)
+            {
+                string MstrSvKey = "master_server_key=" + TbxMstrSvKey.Text;
+            }
+            else
+            {
+                string MstrSvKey = ";master_server_key = s1.ms01.hosthpc.com";
+            }
+            //master_server_nat_primary = natneg1.hosthpc.com
+            //master_server_nat_secondary = natneg2.hosthpc.com
+
+            
             int BoolMstrSvNatP;
             string MstrSvNatP;
             int BoolMstrSvNatS;
@@ -350,9 +428,9 @@ namespace chimera_editor.Presentation
             //ordenarlas porque hay algunas desordenadas.
 
             // Function key hotkeys
-            string HKF1 = TbxHKF1.Text;
-            string HKF2 = TbxHKF2.Text;
-            string HKF3 = TbxHKF3.Text;
+            string HKF1 = "f1=" + TbxHKF1.Text;
+            string HKF2 = "f2=" + TbxHKF2.Text;
+            string HKF3 = "f3=" + TbxHKF3.Text;
             string HKF4 = TbxHKF4.Text;
             string HKF5 = TbxHKF5.Text;
             string HKF6 = TbxHKF6.Text;
@@ -363,9 +441,9 @@ namespace chimera_editor.Presentation
             string HKF11 = TbxHKF11.Text;
             string HKF12 = TbxHKF12.Text;
             // Alt+Shift+# hotkeys 
-            string HKAS1 = TbxHKAS1.Text;
-            string HKAS2 = TbxHKAS2.Text;
-            string HKAS3 = TbxHKAS3.Text;
+            string HKAS1 = "alt_shift_1=" + TbxHKAS1.Text;
+            string HKAS2 = "alt_shift_2=" + TbxHKAS2.Text;
+            string HKAS3 = "alt_shift_3=" + TbxHKAS3.Text;
             string HKAS4 = TbxHKAS4.Text;
             string HKAS5 = TbxHKAS5.Text;
             string HKAS6 = TbxHKAS6.Text;

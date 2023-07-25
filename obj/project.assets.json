@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Elaya\\.nuget\\packages\\": {}
+    "C:\\Users\\Arturo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\halo custom edition proyects\\visual kraken\\chimera_editor.csproj",
+      "projectUniqueName": "C:\\Users\\Arturo\\Desktop\\kraken\\Kraken_V3\\Halo_CE_Kraken\\chimera_editor.csproj",
       "projectName": "chimera_editor",
-      "projectPath": "E:\\halo custom edition proyects\\visual kraken\\chimera_editor.csproj",
-      "packagesPath": "C:\\Users\\Elaya\\.nuget\\packages\\",
-      "outputPath": "E:\\halo custom edition proyects\\visual kraken\\obj\\",
+      "projectPath": "C:\\Users\\Arturo\\Desktop\\kraken\\Kraken_V3\\Halo_CE_Kraken\\chimera_editor.csproj",
+      "packagesPath": "C:\\Users\\Arturo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arturo\\Desktop\\kraken\\Kraken_V3\\Halo_CE_Kraken\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Elaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Arturo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
