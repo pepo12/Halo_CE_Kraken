@@ -41,8 +41,8 @@ namespace chimera_editor.Presentation
             if (CbPath.Checked)
             {
                 string Path = "path=" + TbxPath.Text;
-            } 
-            else 
+            }
+            else
             {
                 string Path = ";path=\\Users\\whatever\\you\\want\\to\\put\\here ";
             }
@@ -51,8 +51,8 @@ namespace chimera_editor.Presentation
             if (CbDownPath.Checked)
             {
                 string DownPath = "download_map_path=" + TbxDownPath.Text; ;
-            } 
-            else 
+            }
+            else
             {
                 string DownPath = ";download_map_path=C:\\Users\\whatever\\you\\want\\to\\put\\here";
             }
@@ -62,17 +62,17 @@ namespace chimera_editor.Presentation
             {
                 string MapsPath = "map_path=" + TbxMapsPath.Text;
             }
-            else 
+            else
             {
                 string MapsPath = ";map_path=maps";
             }
-            
+
             //Exec
             if (CbExec.Checked)
             {
                 string Exec = "exec=" + TbxExec.Text;
             }
-            else 
+            else
             {
                 string Exec = ";exec=C:\\Users\\path\\to\\init.txt";
             }
@@ -102,7 +102,7 @@ namespace chimera_editor.Presentation
                 string ServerPortString = ";server_port=2302";
                 string ClientPortString = ";client_port=0";
             }
-            
+
             //Intro Videos
             if (CbIntroVideos.Checked)
             {
@@ -117,12 +117,12 @@ namespace chimera_editor.Presentation
             if (CbConsole.Checked)
             {
                 string Console = "console=1";
-            } 
+            }
             else
             {
                 string Console = "console=0";
             }
-            
+
             //Optimal Defaults
             if (CbOptiDef.Checked)
             {
@@ -152,7 +152,7 @@ namespace chimera_editor.Presentation
             {
                 string BackPlay = "background_playback=0";
             }
-            
+
             //Multiple Instances
             if (CbBackPlay.Checked)
             {
@@ -162,7 +162,7 @@ namespace chimera_editor.Presentation
             {
                 string MultiInst = "multiple_instances=0";
             }
-            
+
             //hash
             if (CbHash.Checked)
             {
@@ -206,8 +206,8 @@ namespace chimera_editor.Presentation
             //Resolution to use
             if (CbResolution.Checked)
             {
-                string ResWidth = "width="+TbxResWidth.Text;
-                string ResHeight = "height="+TbxResHeight.Text;
+                string ResWidth = "width=" + TbxResWidth.Text;
+                string ResHeight = "height=" + TbxResHeight.Text;
             }
             else
             {
@@ -307,7 +307,7 @@ namespace chimera_editor.Presentation
             //master_server_nat_primary = natneg1.hosthpc.com
             //master_server_nat_secondary = natneg2.hosthpc.com
 
-            
+
             int BoolMstrSvNatP;
             string MstrSvNatP;
             int BoolMstrSvNatS;
@@ -431,103 +431,103 @@ namespace chimera_editor.Presentation
             string HKF1 = "f1=" + TbxHKF1.Text;
             string HKF2 = "f2=" + TbxHKF2.Text;
             string HKF3 = "f3=" + TbxHKF3.Text;
-            string HKF4 = TbxHKF4.Text;
-            string HKF5 = TbxHKF5.Text;
-            string HKF6 = TbxHKF6.Text;
-            string HKF7 = TbxHKF7.Text;
-            string HKF8 = TbxHKF8.Text;
-            string HKF9 = TbxHKF9.Text;
-            string HKF10 = TbxHKF10.Text;
-            string HKF11 = TbxHKF11.Text;
-            string HKF12 = TbxHKF12.Text;
+            string HKF4 = "f4=" + TbxHKF4.Text;
+            string HKF5 = "f5=" + TbxHKF5.Text;
+            string HKF6 = "f6=" + TbxHKF6.Text;
+            string HKF7 = "f7=" + TbxHKF7.Text;
+            string HKF8 = "f8=" + TbxHKF8.Text;
+            string HKF9 = "f9=" + TbxHKF9.Text;
+            string HKF10 = "f10=" + TbxHKF10.Text;
+            string HKF11 = "f11=" + TbxHKF11.Text;
+            string HKF12 = "f12=" + TbxHKF12.Text;
             // Alt+Shift+# hotkeys 
             string HKAS1 = "alt_shift_1=" + TbxHKAS1.Text;
             string HKAS2 = "alt_shift_2=" + TbxHKAS2.Text;
             string HKAS3 = "alt_shift_3=" + TbxHKAS3.Text;
-            string HKAS4 = TbxHKAS4.Text;
-            string HKAS5 = TbxHKAS5.Text;
-            string HKAS6 = TbxHKAS6.Text;
-            string HKAS7 = TbxHKAS7.Text;
-            string HKAS8 = TbxHKAS8.Text;
-            string HKAS9 = TbxHKAS9.Text;
-            string HKAS0 = TbxHKAS0.Text;
-            // Alt+NumPad hotkeys
-            string HkAN1 = TbxHkAN1.Text;
-            string HkAN2 = TbxHkAN2.Text;
-            string HkAN3 = TbxHkAN3.Text;
-            string HkAN4 = TbxHkAN4.Text;
-            string HkAN5 = TbxHkAN5.Text;
-            string HkAN6 = TbxHkAN6.Text;
-            string HkAN7 = TbxHkAN7.Text;
-            string HkAN8 = TbxHkAN8.Text;
-            string HkAN9 = TbxHkAN9.Text;
-            string HkAN0 = TbxHkAN0.Text;
+            string HKAS4 = "alt_shift_4=" + TbxHKAS4.Text;
+            string HKAS5 = "alt_shift_5=" + TbxHKAS5.Text;
+            string HKAS6 = "alt_shift_6=" + TbxHKAS6.Text;
+            string HKAS7 = "alt_shift_7=" + TbxHKAS7.Text;
+            string HKAS8 = "alt_shift_8=" + TbxHKAS8.Text;
+            string HKAS9 = "alt_shift_9=" + TbxHKAS9.Text;
+            string HKAS0 = "alt_shift_0=" + TbxHKAS0.Text;
             // Alt+Shift+Numpad hotkeys
-            string HKASN1 = TbxHKASN1.Text;
-            string HKASN2 = TbxHKASN2.Text;
-            string HKASN3 = TbxHKASN3.Text;
-            string HKASN4 = TbxHKASN4.Text;
-            string HKASN5 = TbxHKASN5.Text;
-            string HKASN6 = TbxHKASN6.Text;
-            string HKASN7 = TbxHKASN7.Text;
-            string HKASN8 = TbxHKASN8.Text;
-            string HKASN9 = TbxHKASN9.Text;
-            string HKASN0 = TbxHKASN0.Text;
+            string HKASN1 = "alt_shift_num_1=" + TbxHKASN1.Text;
+            string HKASN2 = "alt_shift_num_2=" + TbxHKASN2.Text;
+            string HKASN3 = "alt_shift_num_3=" + TbxHKASN3.Text;
+            string HKASN4 = "alt_shift_num_4=" + TbxHKASN4.Text;
+            string HKASN5 = "alt_shift_num_5=" + TbxHKASN5.Text;
+            string HKASN6 = "alt_shift_num_6=" + TbxHKASN6.Text;
+            string HKASN7 = "alt_shift_num_7=" + TbxHKASN7.Text;
+            string HKASN8 = "alt_shift_num_8=" + TbxHKASN8.Text;
+            string HKASN9 = "alt_shift_num_9=" + TbxHKASN9.Text;
+            string HKASN0 = "alt_shift_num_0=" + TbxHKASN0.Text;
             // Alt+# hotkeys
-            string HkA1 = TbxHkA1.Text;
-            string HkA2 = TbxHkA2.Text;
-            string HkA3 = TbxHkA3.Text;
-            string HkA4 = TbxHkA4.Text;
-            string HkA5 = TbxHkA5.Text;
-            string HkA6 = TbxHkA6.Text;
-            string HkA7 = TbxHkA7.Text;
-            string HkA8 = TbxHkA8.Text;
-            string HkA9 = TbxHkA9.Text;
-            string HkA0 = TbxHkA0.Text;
+            string HkA1 = "alt_1=" + TbxHkA1.Text;
+            string HkA2 = "alt_2=" + TbxHkA2.Text;
+            string HkA3 = "alt_3=" + TbxHkA3.Text;
+            string HkA4 = "alt_4=" + TbxHkA4.Text;
+            string HkA5 = "alt_5=" + TbxHkA5.Text;
+            string HkA6 = "alt_6=" + TbxHkA6.Text;
+            string HkA7 = "alt_7=" + TbxHkA7.Text;
+            string HkA8 = "alt_8=" + TbxHkA8.Text;
+            string HkA9 = "alt_9=" + TbxHkA9.Text;
+            string HkA0 = "alt_0=" + TbxHkA0.Text;
+            // Alt+NumPad hotkeys
+            string HkAN1 = "alt_num_1=" + TbxHkAN1.Text;
+            string HkAN2 = "alt_num_2=" + TbxHkAN2.Text;
+            string HkAN3 = "alt_num_3=" + TbxHkAN3.Text;
+            string HkAN4 = "alt_num_4=" + TbxHkAN4.Text;
+            string HkAN5 = "alt_num_5=" + TbxHkAN5.Text;
+            string HkAN6 = "alt_num_6=" + TbxHkAN6.Text;
+            string HkAN7 = "alt_num_7=" + TbxHkAN7.Text;
+            string HkAN8 = "alt_num_8=" + TbxHkAN8.Text;
+            string HkAN9 = "alt_num_9=" + TbxHkAN9.Text;
+            string HkAN0 = "alt_num_0=" + TbxHkAN0.Text;
             // Ctrl+# hotkeys
-            string HkC1 = TbxHkC1.Text;
-            string HkC2 = TbxHkC2.Text;
-            string HkC3 = TbxHkC3.Text;
-            string HkC4 = TbxHkC4.Text;
-            string HkC5 = TbxHkC5.Text;
-            string HkC6 = TbxHkC6.Text;
-            string HkC7 = TbxHkC7.Text;
-            string HkC8 = TbxHkC8.Text;
-            string HkC9 = TbxHkC9.Text;
-            string HkC0 = TbxHkC0.Text;
+            string HkC1 = "ctrl_1=" + TbxHkC1.Text;
+            string HkC2 = "ctrl_2=" + TbxHkC2.Text;
+            string HkC3 = "ctrl_3=" + TbxHkC3.Text;
+            string HkC4 = "ctrl_4=" + TbxHkC4.Text;
+            string HkC5 = "ctrl_5=" + TbxHkC5.Text;
+            string HkC6 = "ctrl_6=" + TbxHkC6.Text;
+            string HkC7 = "ctrl_7=" + TbxHkC7.Text;
+            string HkC8 = "ctrl_8=" + TbxHkC8.Text;
+            string HkC9 = "ctrl_9=" + TbxHkC9.Text;
+            string HkC0 = "ctrl_0=" + TbxHkC0.Text;
             // Ctrl+Numpad hotkeys
-            string HKCN1 = TbxHKCN1.Text;
-            string HKCN2 = TbxHKCN2.Text;
-            string HKCN3 = TbxHKCN3.Text;
-            string HKCN4 = TbxHKCN4.Text;
-            string HKCN5 = TbxHKCN5.Text;
-            string HKCN6 = TbxHKCN6.Text;
-            string HKCN7 = TbxHKCN7.Text;
-            string HKCN8 = TbxHKCN8.Text;
-            string HKCN9 = TbxHKCN9.Text;
-            string HAKCN0 = TbxHKCN0.Text;
+            string HKCN1 = "ctrl_num_1=" + TbxHKCN1.Text;
+            string HKCN2 = "ctrl_num_2=" + TbxHKCN2.Text;
+            string HKCN3 = "ctrl_num_3=" + TbxHKCN3.Text;
+            string HKCN4 = "ctrl_num_4=" + TbxHKCN4.Text;
+            string HKCN5 = "ctrl_num_5=" + TbxHKCN5.Text;
+            string HKCN6 = "ctrl_num_6=" + TbxHKCN6.Text;
+            string HKCN7 = "ctrl_num_7=" + TbxHKCN7.Text;
+            string HKCN8 = "ctrl_num_8=" + TbxHKCN8.Text;
+            string HKCN9 = "ctrl_num_9=" + TbxHKCN9.Text;
+            string HAKCN0 = "ctrl_num_0=" + TbxHKCN0.Text;
             // Ctrl+Alt+Shift+# hotkeys
-            string HkCAS1 = TbxHkCAS1.Text;
-            string HkCAS2 = TbxHkCAS2.Text;
-            string HkCAS3 = TbxHkCAS3.Text;
-            string HkCAS4 = TbxHkCAS4.Text;
-            string HkCAS5 = TbxHkCAS5.Text;
-            string HkCAS6 = TbxHkCAS6.Text;
-            string HkCAS7 = TbxHkCAS7.Text;
-            string HkCAS8 = TbxHkCAS8.Text;
-            string HkCAS9 = TbxHkCAS9.Text;
-            string HkCAS0 = TbxHkCAS0.Text;
+            string HkCAS1 = "ctrl_alt_shift_1=" + TbxHkCAS1.Text;
+            string HkCAS2 = "ctrl_alt_shift_2=" + TbxHkCAS2.Text;
+            string HkCAS3 = "ctrl_alt_shift_3=" + TbxHkCAS3.Text;
+            string HkCAS4 = "ctrl_alt_shift_4=" + TbxHkCAS4.Text;
+            string HkCAS5 = "ctrl_alt_shift_5=" + TbxHkCAS5.Text;
+            string HkCAS6 = "ctrl_alt_shift_6=" + TbxHkCAS6.Text;
+            string HkCAS7 = "ctrl_alt_shift_7=" + TbxHkCAS7.Text;
+            string HkCAS8 = "ctrl_alt_shift_8=" + TbxHkCAS8.Text;
+            string HkCAS9 = "ctrl_alt_shift_9=" + TbxHkCAS9.Text;
+            string HkCAS0 = "ctrl_alt_shift_0=" + TbxHkCAS0.Text;
             // Ctrl+Alt+Shift+Numpad hotkeys
-            string HkCASN1 = TbxHkCASN1.Text;
-            string HkCASN2 = TbxHkCASN2.Text;
-            string HkCASN3 = TbxHkCASN3.Text;
-            string HkCASN4 = TbxHkCASN4.Text;
-            string HkCASN5 = TbxHkCASN5.Text;
-            string HkCASN6 = TbxHkCASN6.Text;
-            string HkCASN7 = TbxHkCASN7.Text;
-            string HkCASN8 = TbxHkCASN8.Text;
-            string HkCASN9 = TbxHkCASN9.Text;
-            string HkCASN0 = TbxHkCASN0.Text;
+            string HkCASN1 = "ctrl_alt_shift_num_1=" + TbxHkCASN1.Text;
+            string HkCASN2 = "ctrl_alt_shift_num_2=" + TbxHkCASN2.Text;
+            string HkCASN3 = "ctrl_alt_shift_num_3=" + TbxHkCASN3.Text;
+            string HkCASN4 = "ctrl_alt_shift_num_4=" + TbxHkCASN4.Text;
+            string HkCASN5 = "ctrl_alt_shift_num_5=" + TbxHkCASN5.Text;
+            string HkCASN6 = "ctrl_alt_shift_num_6=" + TbxHkCASN6.Text;
+            string HkCASN7 = "ctrl_alt_shift_num_7=" + TbxHkCASN7.Text;
+            string HkCASN8 = "ctrl_alt_shift_num_8=" + TbxHkCASN8.Text;
+            string HkCASN9 = "ctrl_alt_shift_num_9=" + TbxHkCASN9.Text;
+            string HkCASN0 = "ctrl_alt_shift_num_0=" + TbxHkCASN0.Text;
 
         }
     }
