@@ -295,6 +295,7 @@ namespace chimera_editor.Presentation
             {
                 string MstrSvList = ";master_server_list=s1.master.hosthpc.com";
             }
+            
             //master server key
             if (CbMstrSvKey.Checked)
             {
@@ -304,9 +305,24 @@ namespace chimera_editor.Presentation
             {
                 string MstrSvKey = ";master_server_key = s1.ms01.hosthpc.com";
             }
-            //master_server_nat_primary = natneg1.hosthpc.com
-            //master_server_nat_secondary = natneg2.hosthpc.com
-
+            
+            //master server nat primary
+            if (MstrSvNatP = ceckMstrSvNatP.Checked) {
+                string MstrSvNatP = "master_server_nat_primary = natneg1.hosthpc.com";
+            }
+            else 
+            {
+                string MstrSvNatP = ""master_server_nat_primary=" + tbxMstrSvNatP.Text;
+            }
+            
+            //master server nat secondary
+            if (MstrSvNatS = ceckMstrSvNatS.Checked) {
+                string MstrSvNatS = "master_server_nat_primary = natneg1.hosthpc.com";
+            }
+            else 
+            {
+                string MstrSvNatS = ""master_server_nat_primary=" + tbxMstrSvNatS.Text;
+            }
 
             int BoolMstrSvNatP;
             string MstrSvNatP;
