@@ -54,6 +54,7 @@
             TSSWindA = new ToolStripSeparator();
             TSMHelp = new ToolStripMenuItem();
             STBHelpAbout = new ToolStripMenuItem();
+            STBHelpChimera = new ToolStripMenuItem();
             openFileDialog1 = new OpenFileDialog();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -77,51 +78,51 @@
             // STBFileNew
             // 
             STBFileNew.Name = "STBFileNew";
-            STBFileNew.Size = new Size(180, 22);
+            STBFileNew.Size = new Size(123, 22);
             STBFileNew.Text = "New...";
             STBFileNew.Click += STBFileNew_Click;
             // 
             // STBFileOpen
             // 
             STBFileOpen.Name = "STBFileOpen";
-            STBFileOpen.Size = new Size(180, 22);
+            STBFileOpen.Size = new Size(123, 22);
             STBFileOpen.Text = "Open...";
             STBFileOpen.Click += STBFileOpen_Click;
             // 
             // STBFileClose
             // 
             STBFileClose.Name = "STBFileClose";
-            STBFileClose.Size = new Size(180, 22);
+            STBFileClose.Size = new Size(123, 22);
             STBFileClose.Text = "Close";
             // 
             // TSSFileA
             // 
             TSSFileA.Name = "TSSFileA";
-            TSSFileA.Size = new Size(177, 6);
+            TSSFileA.Size = new Size(120, 6);
             // 
             // STBFileSave
             // 
             STBFileSave.Name = "STBFileSave";
-            STBFileSave.Size = new Size(180, 22);
+            STBFileSave.Size = new Size(123, 22);
             STBFileSave.Text = "Save";
             STBFileSave.Click += STBFileSave_Click;
             // 
             // STBFileSaveAs
             // 
             STBFileSaveAs.Name = "STBFileSaveAs";
-            STBFileSaveAs.Size = new Size(180, 22);
+            STBFileSaveAs.Size = new Size(123, 22);
             STBFileSaveAs.Text = "Save As...";
             STBFileSaveAs.Click += STBFileSaveAs_Click;
             // 
             // TSSFileB
             // 
             TSSFileB.Name = "TSSFileB";
-            TSSFileB.Size = new Size(177, 6);
+            TSSFileB.Size = new Size(120, 6);
             // 
             // STBFileExit
             // 
             STBFileExit.Name = "STBFileExit";
-            STBFileExit.Size = new Size(180, 22);
+            STBFileExit.Size = new Size(123, 22);
             STBFileExit.Text = "Exit";
             // 
             // TSMEdit
@@ -204,7 +205,7 @@
             // 
             // TSMHelp
             // 
-            TSMHelp.DropDownItems.AddRange(new ToolStripItem[] { STBHelpAbout });
+            TSMHelp.DropDownItems.AddRange(new ToolStripItem[] { STBHelpAbout, STBHelpChimera });
             TSMHelp.Name = "TSMHelp";
             TSMHelp.Size = new Size(44, 20);
             TSMHelp.Text = "Help";
@@ -212,8 +213,16 @@
             // STBHelpAbout
             // 
             STBHelpAbout.Name = "STBHelpAbout";
-            STBHelpAbout.Size = new Size(107, 22);
+            STBHelpAbout.Size = new Size(180, 22);
             STBHelpAbout.Text = "About";
+            STBHelpAbout.Click += STBHelpAbout_Click;
+            // 
+            // STBHelpChimera
+            // 
+            STBHelpChimera.Name = "STBHelpChimera";
+            STBHelpChimera.Size = new Size(180, 22);
+            STBHelpChimera.Text = "Chimera";
+            STBHelpChimera.Click += chimeraToolStripMenuItem_Click;
             // 
             // openFileDialog1
             // 
@@ -268,5 +277,6 @@
         private ToolStripMenuItem STBWinArrIcons;
         private ToolStripMenuItem STBHelpAbout;
         private OpenFileDialog openFileDialog1;
+        private ToolStripMenuItem STBHelpChimera;
     }
 }

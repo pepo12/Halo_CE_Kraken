@@ -307,27 +307,27 @@ namespace chimera_editor.Presentation
             }
             
             //master server nat primary
-            if (MstrSvNatP = ceckMstrSvNatP.Checked) {
-                string MstrSvNatP = "master_server_nat_primary = natneg1.hosthpc.com";
+            if (CbMstrSvNatP.Checked) 
+            {
+                string MstrSvNatP = "master_server_nat_primary=" + TbxMstrSvNatP.Text;
             }
             else 
             {
-                string MstrSvNatP = ""master_server_nat_primary=" + tbxMstrSvNatP.Text;
+                string MstrSvNatP = ";master_server_nat_primary = natneg1.hosthpc.com";
             }
             
             //master server nat secondary
-            if (MstrSvNatS = ceckMstrSvNatS.Checked) {
+            if (CbMstrSvNatS.Checked) 
+            {
                 string MstrSvNatS = "master_server_nat_primary = natneg1.hosthpc.com";
             }
             else 
             {
-                string MstrSvNatS = ""master_server_nat_primary=" + tbxMstrSvNatS.Text;
+                string MstrSvNatS = "master_server_nat_primary=" + TbxMstrSvNatS.Text;
             }
 
             int BoolMstrSvNatP;
-            string MstrSvNatP;
             int BoolMstrSvNatS;
-            string MstrSvNatS;
             int BoolMapSize;
             string MapSize;
             int MapMmryBuffer;

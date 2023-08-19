@@ -99,3 +99,5 @@ C:\Users\Arturo\Desktop\kraken\Kraken_V2\Halo_CE_Kraken\bin\Debug\net6.0-windows
 C:\Users\Arturo\Desktop\kraken\Kraken_V2\Halo_CE_Kraken\bin\Debug\net6.0-windows\chimera_editor.pdb
 C:\Users\Arturo\Desktop\kraken\Kraken_V2\Halo_CE_Kraken\obj\Debug\net6.0-windows\chimera_editor.genruntimeconfig.cache
 C:\Users\Arturo\Desktop\kraken\Kraken_V2\Halo_CE_Kraken\obj\Debug\net6.0-windows\ref\chimera_editor.dll
+E:\halo custom edition proyects\visual kraken\obj\Debug\net6.0-windows\chimera_editor.Presentation.Form4.resources
+E:\halo custom edition proyects\visual kraken\obj\Debug\net6.0-windows\chimera_editor.Presentation.Form5.resources

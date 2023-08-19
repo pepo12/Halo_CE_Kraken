@@ -46,5 +46,19 @@ namespace chimera_editor
         {
 
         }
+
+        private void STBHelpAbout_Click(object sender, EventArgs e)
+        {
+            Form3 helpabout = new Form3();
+            helpabout.MdiParent = this;
+            helpabout.Show();
+        }
+
+        private void chimeraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 chimeradll = new Form4();
+            chimeradll.MdiParent = this;
+            chimeradll.Show();
+        }
     }
 }
