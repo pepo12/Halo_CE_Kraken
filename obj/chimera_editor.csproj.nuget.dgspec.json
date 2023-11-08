@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\halo custom edition proyects\\visual kraken\\chimera_editor.csproj": {}
+    "C:\\Users\\tripo\\Documents\\HaloKrakenLocal\\chimera_editor.csproj": {}
   },
   "projects": {
-    "E:\\halo custom edition proyects\\visual kraken\\chimera_editor.csproj": {
+    "C:\\Users\\tripo\\Documents\\HaloKrakenLocal\\chimera_editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\halo custom edition proyects\\visual kraken\\chimera_editor.csproj",
+        "projectUniqueName": "C:\\Users\\tripo\\Documents\\HaloKrakenLocal\\chimera_editor.csproj",
         "projectName": "chimera_editor",
-        "projectPath": "E:\\halo custom edition proyects\\visual kraken\\chimera_editor.csproj",
-        "packagesPath": "C:\\Users\\Elaya\\.nuget\\packages\\",
-        "outputPath": "E:\\halo custom edition proyects\\visual kraken\\obj\\",
+        "projectPath": "C:\\Users\\tripo\\Documents\\HaloKrakenLocal\\chimera_editor.csproj",
+        "packagesPath": "C:\\Users\\tripo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tripo\\Documents\\HaloKrakenLocal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Elaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tripo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
