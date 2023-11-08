@@ -119,6 +119,7 @@
             TbxTestChtMsgFfaA.Name = "TbxTestChtMsgFfaA";
             TbxTestChtMsgFfaA.Size = new Size(72, 23);
             TbxTestChtMsgFfaA.TabIndex = 565;
+            TbxTestChtMsgFfaA.TextChanged += TbxTestChtMsgFfaA_TextChanged;
             // 
             // LbTestChtMsg
             // 

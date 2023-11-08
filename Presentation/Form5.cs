@@ -16,5 +16,10 @@ namespace chimera_editor.Presentation
         {
             InitializeComponent();
         }
+
+        private void TbxTestChtMsgFfaA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
